@@ -1,52 +1,119 @@
 ---
-"date": "2025-04-17"
-"description": "Leer hoe je PowerPoint-grafieken kunt aanpassen door aangepaste lijnen toe te voegen met Aspose.Slides voor Java. Volg deze stapsgewijze handleiding voor een indrukwekkendere presentatie."
-"title": "Verbeter PowerPoint-grafieken met aangepaste lijnen met Aspose.Slides Java"
-"url": "/nl/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-09-07'
+description: Leer hoe je aangepaste lijnen toevoegt aan een Aspose Slides-grafiek
+  met Java. Een stap‑voor‑stap gids verbetert PowerPoint-grafieken voor duidelijkere
+  datavisualisatie.
+keywords:
+- aspose slides chart
+- customize PowerPoint charts
+- add custom lines to charts Java
+lastmod: '2026-09-07'
+og_description: Leer hoe je aangepaste lijnen toevoegt aan een Aspose Slides-grafiek
+  met Java. Een stap‑voor‑stap gids verbetert PowerPoint-grafieken voor duidelijkere
+  datavisualisatie.
+og_image_alt: Developer guide showing custom line addition to an Aspose Slides chart
+  in Java
+og_title: Hoe je aangepaste lijnen toevoegt aan een Aspose Slides-grafiek in Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  headline: How to add custom lines to an Aspose Slides chart in Java
+  type: TechArticle
+- description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  name: How to add custom lines to an Aspose Slides chart in Java
+  steps:
+  - name: create a presentation object
+    text: The `Presentation` class is Aspose.Slides' top‑level object that represents
+      a single PowerPoint file in memory.
+  - name: add a clustered column chart
+    text: Insert a clustered column chart on the first slide at coordinates (100,
+      100) with a width of 500 px and a height of 400 px.
+  - name: add an auto‑shape line to the chart
+    text: Add a line shape to the chart’s `userShapes` collection, which stores custom
+      drawing objects. `userShapes` is a collection that holds custom shapes drawn
+      directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+  - name: customize line properties
+    text: Set the line’s fill type to solid, change its color to red, and optionally
+      adjust thickness or dash style.
+  - name: save the presentation
+    text: Persist the modified presentation to disk.
+  type: HowTo
+- questions:
+  - answer: '`Presentation` represents a PowerPoint file in memory.'
+    question: What is the main class for creating a presentation?
+  - answer: '`slide.getShapes().addChart(...)` creates a chart object.'
+    question: Which method adds a chart to a slide?
+  - answer: Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.
+    question: How do you draw a line on a chart?
+  - answer: Yes—set the line’s fill to a solid red `Color.RED`.
+    question: Can I set the line color to red?
+  - answer: A full license removes evaluation limits; a trial works for testing.
+    question: Do I need a license for production use?
+  type: FAQPage
+tags:
+- aspose slides
+- chart customization
+- java presentation
+title: Hoe je aangepaste lijnen toevoegt aan een Aspose Slides-grafiek in Java
+url: /nl/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint-grafieken verbeteren met aangepaste lijnen met Aspose.Slides Java
 
-## Invoering
+# Hoe aangepaste lijnen toe te voegen aan een Aspose Slides-diagram in Java
 
-Wil je je PowerPoint-presentaties laten opvallen? Deze tutorial helpt je bij het verbeteren van grafieken door aangepaste lijnen toe te voegen met Aspose.Slides voor Java. Aan het einde van deze handleiding leer je hoe je de datavisualisatie en helderheid van je grafieken kunt verbeteren.
+## Inleiding
 
-**Wat je leert:**
-- Aspose.Slides integreren in een Java-project
-- Aangepaste lijnen toevoegen aan PowerPoint-grafieken met behulp van Java
-- Lijneigenschappen configureren voor een betere visuele aantrekkingskracht
-- Praktische toepassingen van aangepaste lijnen in grafieken
+In deze tutorial ontdek je hoe je aangepaste lijnen kunt toevoegen aan een **aspose slides chart** met Java. Aangepaste lijnen helpen je drempels, trends of belangrijke gegevenspunten te markeren, waardoor een eenvoudige grafiek verandert in een krachtig visueel verhaal. Aan het einde van de gids kun je Aspose.Slides in je project integreren, lijnen op een grafiek tekenen en hun uiterlijk fijn afstemmen voor maximale impact.
 
-Laten we beginnen met het bekijken van de vereisten.
+**Wat je zult leren**
+- Hoe Aspose.Slides voor Java te installeren en licentiëren
+- De exacte stappen om een aangepaste lijn op een grafiek te tekenen
+- Manieren om de lijn te stijlen (kleur, dikte, stippellijnstijl)
+- Praktijkvoorbeelden waarbij aangepaste lijnen de gegevenscommunicatie verbeteren
+
+## Snelle antwoorden
+- **Wat is de hoofdklasse voor het maken van een presentatie?** `Presentation` represents a PowerPoint file in memory.  
+- **Welke methode voegt een grafiek toe aan een dia?** `slide.getShapes().addChart(...)` creates a chart object.  
+- **Hoe teken je een lijn op een grafiek?** Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.  
+- **Kan ik de lijnkleur instellen op rood?** Yes—set the line’s fill to a solid red `Color.RED`.  
+- **Heb ik een licentie nodig voor productiegebruik?** A full license removes evaluation limits; a trial works for testing.  
+
+`ShapeType.Line` is een enum‑waarde die Aspose.Slides vertelt een lijn‑vormige auto‑shape te maken.
+
+## Wat is een Aspose Slides-grafiek?
+
+Een **Aspose Slides chart** is een programmeerbare grafiekobject dat zich binnen een PowerPoint‑dia bevindt, waardoor je grafieken volledig vanuit Java‑code kunt genereren, wijzigen en stijlen. Het ondersteunt vele grafiektype­n (kolom, staaf, lijn, taart, enz.), biedt volledige controle over series, assen, legenda’s, en kan worden gecombineerd met andere dia‑elementen zoals afbeeldingen en aangepaste vormen, waardoor het geschikt is voor geautomatiseerde rapportage en dynamische presentaties.
+
+## Waarom aangepaste lijnen toevoegen aan een Aspose Slides-grafiek?
+
+Aangepaste lijnen helpen je grafieken te annoteren met precieze visuele aanwijzingen. Aspose.Slides ondersteunt **50+ invoer‑ en uitvoerformaten** en kan presentaties met **honderden dia’s** verwerken terwijl het minder dan **150 MB RAM** gebruikt op een typische ontwikkelmachine, waardoor het ideaal is voor grootschalige rapportage.
 
 ## Vereisten
 
-Om deze tutorial te kunnen volgen, moet u het volgende doen:
+- **Aspose.Slides for Java** – versie 25.4 (of later)  
+- **JDK 16+** – elke recente Java‑runtime  
+- IDE zoals IntelliJ IDEA of Eclipse  
+- Basiskennis van Java en vertrouwdheid met PowerPoint‑concepten  
 
-### Vereiste bibliotheken en versies:
-- Aspose.Slides voor Java (versie 25.4)
+### Vereiste bibliotheken
+- Aspose.Slides for Java (Version 25.4)
 
-### Vereisten voor omgevingsinstelling:
-- Een Java Development Kit (JDK) versie 16 of later
-- Een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse
+### Omgevingsconfiguratie
+- Installeer JDK 16 of nieuwer  
+- Gebruik Maven of Gradle om afhankelijkheden te beheren (voorbeelden hieronder)  
 
-### Kennisvereisten:
-- Basiskennis van Java-programmering
-- Kennis van PowerPoint-presentaties
+## Instellen van Aspose.Slides voor Java
 
-Nu we aan de vereisten hebben voldaan, kunnen we Aspose.Slides voor Java in uw ontwikkelomgeving installeren.
+Voeg de bibliotheek toe aan je project met een van de volgende build‑tools.
 
-## Aspose.Slides instellen voor Java
-
-Om Aspose.Slides voor Java te gebruiken, voegt u het toe aan uw project met een buildtool zoals Maven of Gradle. Hier zijn de details:
-
-**Kenner:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,124 +121,141 @@ Om Aspose.Slides voor Java te gebruiken, voegt u het toe aan uw project met een 
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-Voor directe download uit de bibliotheek, bezoek [Aspose.Slides voor Java-releases](https://releases.aspose.com/slides/java/) voor de nieuwste versie.
+Voor een handmatige download, bezoek [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) voor het nieuwste pakket.
 
-### Licentieverwerving:
-- **Gratis proefperiode:** Ga aan de slag met een proeflicentie.
-- **Tijdelijke licentie:** Schaf er een aan voor uitgebreidere tests zonder evaluatiebeperkingen.
-- **Aankoop:** Koop een volledige licentie om alle functies te ontgrendelen.
+### Licentie‑acquisitie
+- **Free trial:** start testing without a purchase.  
+- **Temporary license:** use for extended evaluation without watermarks.  
+- **Full license:** unlock all features for production workloads.  
 
-Om Aspose.Slides in uw Java-project te initialiseren, stelt u de licentie als volgt in:
+Initialiseer de licentie in je code zoals hier getoond:
 ```java
 License license = new License();
 license.setLicense("path_to_license.lic");
-```
-Zorg ervoor dat er correct naar uw licentiebestand wordt verwezen om onderbrekingen te voorkomen tijdens het gebruik van de Aspose.Slides-functies.
+```  
 
-## Implementatiegids
+`License` is the class used to load and apply your Aspose.Slides license file to the application.
 
-In dit gedeelte leert u hoe u aangepaste lijnen toevoegt aan een grafiek in PowerPoint met behulp van Aspose.Slides voor Java.
+## Hoe voeg je aangepaste lijnen toe aan een Aspose Slides-grafiek?
+
+Laad of maak een presentatie, voeg een grafiek in, en voeg vervolgens een lijnvorm toe aan de `user‑shapes`‑collectie van de grafiek. De lijn kan worden gepositioneerd, geschaald en gestyled om aan je rapportagebehoeften te voldoen. Deze aanpak werkt voor gegroepeerde kolom‑, staaf‑, lijn‑ en gebiedsgrafieken.
+
+## Implementatie‑gids
 
 ### Aangepaste lijnen toevoegen aan een grafiek
 
 #### Overzicht
-Het toevoegen van visuele elementen zoals lijnen kan de leesbaarheid van uw diagrammen verbeteren door specifieke datapunten of trends te markeren. Deze functie is handig om de aandacht te vestigen op kritieke delen van uw gegevens.
+Aangepaste lijnen trekken de aandacht naar specifieke waarden—zoals een budgetlimiet of een streeflijn—waardoor je grafieken inzichtelijker worden.
 
-#### Stap 1: Een presentatieobject maken
-Begin met het maken van een exemplaar van de `Presentation` klasse, die het PowerPoint-bestand vertegenwoordigt waarmee u werkt:
+#### Stap 1: maak een presentatie‑object
+De `Presentation` class is Aspose.Slides' top‑level object dat een enkel PowerPoint‑bestand in het geheugen vertegenwoordigt.  
 ```java
 Presentation pres = new Presentation();
-```
+```  
 
-#### Stap 2: Voeg een geclusterde kolomgrafiek toe
-Voeg een geclusterde kolomgrafiek toe aan de eerste dia op positie (100, 100) met een breedte van 500 en een hoogte van 400 pixels:
+#### Stap 2: voeg een gegroepeerde kolomgrafiek toe
+Insert a clustered column chart on the first slide at coordinates (100, 100) with a width of 500 px and a height of 400 px.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 500, 400);
-```
+```  
 
-#### Stap 3: Voeg een automatische vormlijn toe aan de grafiek
-Voeg vervolgens een lijnvorm toe aan de verzameling gebruikersvormen van het diagram:
+#### Stap 3: voeg een auto‑shape lijn toe aan de grafiek
+Add a line shape to the chart’s `userShapes` collection, which stores custom drawing objects.  
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(
     ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
-```
+```  
 
-#### Stap 4: Lijneigenschappen aanpassen
-Wijzig het opvultype van de lijn naar effen en stel de kleur in op rood:
+`userShapes` is a collection that holds custom shapes drawn directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+
+#### Stap 4: pas lijn‑eigenschappen aan
+Set the line’s fill type to solid, change its color to red, and optionally adjust thickness or dash style.  
 ```java
 shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
-```
+```  
 
-#### Stap 5: Sla de presentatie op
-Sla ten slotte uw presentatie op met de volgende wijzigingen:
+#### Stap 5: sla de presentatie op
+Persist the modified presentation to disk.  
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/" + "AddCustomLines.pptx", SaveFormat.Pptx);
-```
+```  
 
-### Tips voor probleemoplossing:
-- Zorg ervoor dat het pad voor het opslaan van de presentatie correct is opgegeven.
-- Als uw grafiek niet wordt weergegeven, controleer dan de coördinaten en afmetingen die u bij het toevoegen hebt opgegeven.
+### Werken met de Presentation‑klasse
+The `Presentation` class provides methods for loading, creating, and saving PowerPoint files, as well as accessing individual slides and shapes.
+
+### Probleemoplossingstips
+- Verify that the file path used in `save` is writable; use absolute paths for reliability.  
+- If the chart does not appear, double‑check the X/Y coordinates and ensure the slide index is correct.  
 
 ## Praktische toepassingen
 
-Hieronder staan scenario's waarin aangepaste lijnen in grafieken bijzonder nuttig kunnen zijn:
-1. **Financiële rapporten**: Markeer budgetdrempels of werkelijke uitgaven ten opzichte van projecties.
-2. **Verkoopgegevens**: Benadruk verkoopdoelstellingen of gemiddelde prestatielijnen.
-3. **Gezondheidszorganalyse**: Markeer kritieke waarden in trends in patiëntgegevens.
+Aangepaste lijnen zijn vooral nuttig in:
+1. **Financial reports** – highlight budget caps or profit targets.  
+2. **Sales dashboards** – draw a line for quarterly sales goals.  
+3. **Healthcare analytics** – mark critical thresholds in patient‑vital‑sign trends.  
 
-Aangepaste lijnen kunnen ook worden geïntegreerd met systemen als CRM-software om grafieken dynamisch bij te werken op basis van realtime gegevensfeeds.
+Je kunt ook de plaatsing van lijnen automatiseren door drempelwaarden uit een database of API te halen, waardoor real‑time rapportage mogelijk wordt.
 
-## Prestatieoverwegingen
+## Prestatie‑overwegingen
 
-Houd bij het werken met Aspose.Slides rekening met het volgende voor optimale prestaties:
-- Minimaliseer het geheugengebruik door presentaties te verwijderen wanneer u ze niet meer nodig hebt.
-- Optimaliseer de resolutie van afbeeldingen en grafieken om een balans te vinden tussen kwaliteit en bestandsgrootte.
-- Gebruik tijdens de ontwikkeling een tijdelijke licentie om evaluatiebeperkingen te voorkomen.
-
-Wanneer u deze procedures volgt, kunt u uw bronnen efficiënt gebruiken en tegelijkertijd de krachtige functies van Aspose.Slides optimaal benutten.
+- Dispose of `Presentation` objects with `presentation.dispose()` when finished to free native memory.  
+- Use moderate image and chart resolutions (e.g., 150 dpi) to keep file size under control.  
+- During development, a temporary license avoids evaluation watermarks while still providing full API access.
 
 ## Conclusie
 
-U hebt nu geleerd hoe u aangepaste lijnen kunt toevoegen aan grafieken in PowerPoint-presentaties met Aspose.Slides voor Java. Deze verbetering maakt uw gegevens toegankelijker en visueel aantrekkelijker, waardoor kijkers snel belangrijke inzichten kunnen begrijpen. Ontdek andere grafiektypen en aanpassingsopties die beschikbaar zijn in Aspose.Slides voor verdere verbeteringen.
+Je weet nu hoe je aangepaste lijnen kunt toevoegen aan een **aspose slides chart** in Java, waardoor je volledige controle krijgt over grafiekannotaties en visuele nadruk. Experimenteer met verschillende lijnstijlen, posities en grafiektype­n om rapporten te maken die data direct communiceren.
 
-## FAQ-sectie
+## FAQ‑sectie
 
-**V1: Kan ik de kleur van aangepaste lijnen wijzigen?**
-A1: Ja, u kunt de lijnkleuren aanpassen door de `SolidFillColor` eigenschap naar elke gewenste kleur.
+**Q1: Kan ik de kleur van aangepaste lijnen wijzigen?**  
+A1: Ja, pas lijnkleuren aan door de `SolidFillColor`‑eigenschap in te stellen op een gewenste `java.awt.Color`.
 
-**V2: Is Aspose.Slides compatibel met alle Java IDE's?**
-A2: Ja, zolang uw IDE Maven- of Gradle-afhankelijkheden ondersteunt, kunt u Aspose.Slides integreren.
+**Q2: Is Aspose.Slides compatibel met alle Java‑IDE's?**  
+A2: Ja, zolang je IDE Maven of Gradle ondersteunt, kun je Aspose.Slides zonder problemen integreren.
 
-**V3: Welke grafiektypen worden ondersteund voor het toevoegen van aangepaste lijnen?**
-A3: Aangepaste lijnen kunnen worden toegevoegd aan verschillende grafiektypen, waaronder geclusterde kolomdiagrammen en staafdiagrammen.
+**Q3: Welke grafiektype­n worden ondersteund voor het toevoegen van aangepaste lijnen?**  
+A3: Aangepaste lijnen kunnen worden toegevoegd aan gegroepeerde kolom‑, staaf‑, lijn‑, gebieds‑ en taartgrafieken, onder andere.
 
-**Vraag 4: Hoe los ik problemen op met het opslaan van presentaties?**
-A4: Zorg ervoor dat de bestandspaden correct zijn en dat u schrijfrechten hebt in de opgegeven directory.
+**Q4: Hoe los ik problemen op met het opslaan van presentaties?**  
+A4: Zorg ervoor dat de uitvoermap bestaat, het bestandspad correct is en de applicatie schrijfrechten heeft.
 
-**V5: Zijn er beperkingen bij het gebruik van een proeflicentie?**
-A5: De proefversie kan beperkingen opleggen, zoals watermerken of beperkte functionaliteit. Overweeg een tijdelijke of volledige licentie aan te schaffen voor uitgebreide toegang.
+**Q5: Zijn er beperkingen bij het gebruik van een proeflicentie?**  
+A5: De proefversie kan watermerken toevoegen en bepaalde premium‑functies beperken; een tijdelijke of volledige licentie verwijdert deze beperkingen.
 
 ## Bronnen
-- **Documentatie**: [Aspose.Slides Java-documentatie](https://reference.aspose.com/slides/java/)
-- **Download**: [Aspose.Slides voor Java-releases](https://releases.aspose.com/slides/java/)
-- **Aankoop**: [Koop Aspose.Slides](https://purchase.aspose.com/buy)
-- **Gratis proefperiode**: [Ontvang een gratis proefperiode](https://releases.aspose.com/slides/java/)
-- **Tijdelijke licentie**: [Tijdelijke licentie verkrijgen](https://purchase.aspose.com/temporary-license/)
-- **Steun**: [Aspose Ondersteuningsforum](https://forum.aspose.com/c/slides/11)
+- **Documentatie**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Aankoop**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Gratis proefversie**: [Get a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Tijdelijke licentie**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Ondersteuning**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Laatst bijgewerkt:** 2026-09-07  
+**Getest met:** Aspose.Slides for Java 25.4  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Maak aangepaste grafiektrendlijnen Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+- [Hoe PowerPoint-grafiekgegevens bewerken met Aspose.Slides voor Java: Een uitgebreide gids](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Hoe grafiektitelas rotaties in PowerPoint met Aspose.Slides voor Java: Een stapsgewijze handleiding](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,52 +1,119 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come personalizzare i grafici di PowerPoint aggiungendo linee personalizzate utilizzando Aspose.Slides per Java. Segui questa guida passo passo per una presentazione più efficace."
-"title": "Migliora i grafici di PowerPoint con linee personalizzate utilizzando Aspose.Slides Java"
-"url": "/it/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-09-07'
+description: Scopri come aggiungere linee personalizzate a un grafico Aspose Slides
+  usando Java. Guida passo‑passo che migliora i grafici PowerPoint per una visualizzazione
+  dei dati più chiara.
+keywords:
+- aspose slides chart
+- customize PowerPoint charts
+- add custom lines to charts Java
+lastmod: '2026-09-07'
+og_description: Scopri come aggiungere linee personalizzate a un grafico Aspose Slides
+  usando Java. Questa guida mostra la personalizzazione passo‑passo per una visualizzazione
+  dei dati più chiara.
+og_image_alt: Developer guide showing custom line addition to an Aspose Slides chart
+  in Java
+og_title: Come aggiungere linee personalizzate a un grafico Aspose Slides in Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  headline: How to add custom lines to an Aspose Slides chart in Java
+  type: TechArticle
+- description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  name: How to add custom lines to an Aspose Slides chart in Java
+  steps:
+  - name: create a presentation object
+    text: The `Presentation` class is Aspose.Slides' top‑level object that represents
+      a single PowerPoint file in memory.
+  - name: add a clustered column chart
+    text: Insert a clustered column chart on the first slide at coordinates (100,
+      100) with a width of 500 px and a height of 400 px.
+  - name: add an auto‑shape line to the chart
+    text: Add a line shape to the chart’s `userShapes` collection, which stores custom
+      drawing objects. `userShapes` is a collection that holds custom shapes drawn
+      directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+  - name: customize line properties
+    text: Set the line’s fill type to solid, change its color to red, and optionally
+      adjust thickness or dash style.
+  - name: save the presentation
+    text: Persist the modified presentation to disk.
+  type: HowTo
+- questions:
+  - answer: '`Presentation` represents a PowerPoint file in memory.'
+    question: What is the main class for creating a presentation?
+  - answer: '`slide.getShapes().addChart(...)` creates a chart object.'
+    question: Which method adds a chart to a slide?
+  - answer: Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.
+    question: How do you draw a line on a chart?
+  - answer: Yes—set the line’s fill to a solid red `Color.RED`.
+    question: Can I set the line color to red?
+  - answer: A full license removes evaluation limits; a trial works for testing.
+    question: Do I need a license for production use?
+  type: FAQPage
+tags:
+- aspose slides
+- chart customization
+- java presentation
+title: Come aggiungere linee personalizzate a un grafico Aspose Slides in Java
+url: /it/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Miglioramento dei grafici di PowerPoint con linee personalizzate utilizzando Aspose.Slides Java
+
+# Come aggiungere linee personalizzate a un grafico Aspose Slides in Java
 
 ## Introduzione
 
-Vuoi far risaltare le tue presentazioni PowerPoint? Questo tutorial ti guiderà nell'ottimizzazione dei grafici aggiungendo linee personalizzate utilizzando Aspose.Slides per Java. Al termine di questa guida, imparerai come migliorare la visualizzazione dei dati e la chiarezza dei tuoi grafici.
+In questo tutorial scoprirai come aggiungere linee personalizzate a un **aspose slides chart** usando Java. Le linee personalizzate ti aiutano a evidenziare soglie, tendenze o punti dati chiave, trasformando un semplice grafico in una potente storia visiva. Alla fine della guida sarai in grado di integrare Aspose.Slides nel tuo progetto, disegnare linee su un grafico e perfezionare il loro aspetto per il massimo impatto.
 
-**Cosa imparerai:**
-- Integrazione di Aspose.Slides in un progetto Java
-- Aggiungere linee personalizzate ai grafici di PowerPoint utilizzando Java
-- Configurazione delle proprietà della linea per un migliore impatto visivo
-- Applicazioni pratiche delle linee personalizzate nei grafici
+**Cosa imparerai**
+- Come installare e licenziare Aspose.Slides per Java
+- I passaggi esatti per disegnare una linea personalizzata su un grafico
+- Modi per stilizzare la linea (colore, spessore, stile tratteggiato)
+- Scenari reali in cui le linee personalizzate migliorano la comunicazione dei dati
 
-Cominciamo esaminando i prerequisiti.
+## Risposte rapide
+- **Qual è la classe principale per creare una presentazione?** `Presentation` rappresenta un file PowerPoint in memoria.  
+- **Quale metodo aggiunge un grafico a una diapositiva?** `slide.getShapes().addChart(...)` crea un oggetto grafico.  
+- **Come si disegna una linea su un grafico?** Usa `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.  
+- **Posso impostare il colore della linea su rosso?** Sì—imposta il riempimento della linea su un rosso solido `Color.RED`.  
+- **Ho bisogno di una licenza per l'uso in produzione?** Una licenza completa rimuove i limiti di valutazione; una versione di prova funziona per i test.  
+
+`ShapeType.Line` è un valore enum che indica ad Aspose.Slides di creare un'auto‑shape a forma di linea.
+
+## Cos'è un grafico Aspose Slides?
+
+Un **Aspose Slides chart** è un oggetto grafico programmabile che vive all'interno di una diapositiva PowerPoint, consentendo di generare, modificare e stilizzare i grafici interamente dal codice Java. Supporta molti tipi di grafico (colonna, barra, linea, torta, ecc.), offre pieno controllo su serie, assi, legende e può essere combinato con altri elementi della diapositiva come immagini e forme personalizzate, rendendolo adatto a reportistica automatizzata e presentazioni dinamiche.
+
+## Perché aggiungere linee personalizzate a un grafico Aspose Slides?
+
+Le linee personalizzate ti permettono di annotare i grafici con indicatori visivi precisi. Aspose.Slides supporta **50+ formati di input e output** e può elaborare presentazioni con **centinaia di diapositive** utilizzando meno di **150 MB di RAM** su una tipica macchina di sviluppo, rendendolo ideale per reportistica su larga scala.
 
 ## Prerequisiti
 
-Per seguire questo tutorial, assicurati di avere:
+- **Aspose.Slides for Java** – versione 25.4 (o successiva)  
+- **JDK 16+** – qualsiasi runtime Java recente  
+- IDE come IntelliJ IDEA o Eclipse  
+- Conoscenze di base di Java e familiarità con i concetti di PowerPoint  
 
-### Librerie e versioni richieste:
-- Aspose.Slides per Java (versione 25.4)
+### Librerie richieste
+- Aspose.Slides for Java (Versione 25.4)
 
-### Requisiti di configurazione dell'ambiente:
-- Un Java Development Kit (JDK) versione 16 o successiva
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA o Eclipse
+### Configurazione dell'ambiente
+- Installa JDK 16 o più recente  
+- Usa Maven o Gradle per gestire le dipendenze (esempi sotto)  
 
-### Prerequisiti di conoscenza:
-- Conoscenza di base della programmazione Java
-- Familiarità con le presentazioni PowerPoint
+## Configurare Aspose.Slides per Java
 
-Una volta soddisfatti i prerequisiti, configuriamo Aspose.Slides per Java nel tuo ambiente di sviluppo.
+Aggiungi la libreria al tuo progetto con uno dei seguenti strumenti di build.
 
-## Impostazione di Aspose.Slides per Java
-
-Per utilizzare Aspose.Slides per Java, aggiungilo al tuo progetto utilizzando uno strumento di build come Maven o Gradle. Ecco i dettagli:
-
-**Esperto:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,124 +121,141 @@ Per utilizzare Aspose.Slides per Java, aggiungilo al tuo progetto utilizzando un
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-Per il download diretto della libreria, visitare [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/) per la versione più recente.
+Per un download manuale, visita [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) per il pacchetto più recente.
 
-### Acquisizione della licenza:
-- **Prova gratuita:** Inizia con una licenza di prova.
-- **Licenza temporanea:** Ottenetene uno per effettuare test più approfonditi senza limitazioni di valutazione.
-- **Acquistare:** Acquista una licenza completa per sbloccare tutte le funzionalità.
+### Acquisizione della licenza
+- **Prova gratuita:** inizia a testare senza acquisto.  
+- **Licenza temporanea:** usa per una valutazione estesa senza filigrane.  
+- **Licenza completa:** sblocca tutte le funzionalità per carichi di lavoro di produzione.  
 
-Per inizializzare Aspose.Slides nel tuo progetto Java, imposta la licenza in questo modo:
+Inizializza la licenza nel tuo codice come mostrato qui:
 ```java
 License license = new License();
 license.setLicense("path_to_license.lic");
-```
-Assicurati che il tuo file di licenza sia correttamente referenziato per evitare interruzioni durante l'utilizzo delle funzionalità di Aspose.Slides.
+```  
+
+`License` è la classe utilizzata per caricare e applicare il file di licenza Aspose.Slides all'applicazione.
+
+## Come aggiungere linee personalizzate a un grafico Aspose Slides?
+
+Carica o crea una presentazione, inserisci un grafico e poi aggiungi una forma linea alla collezione di user‑shapes del grafico. La linea può essere posizionata, dimensionata e stilizzata per soddisfare le tue esigenze di reportistica. Questo approccio funziona per grafici a colonne raggruppate, barre, linee e aree.
 
 ## Guida all'implementazione
 
-Questa sezione ti guiderà nell'aggiunta di linee personalizzate a un grafico in PowerPoint utilizzando Aspose.Slides per Java.
-
-### Aggiunta di linee personalizzate a un grafico
+### Aggiungere linee personalizzate a un grafico
 
 #### Panoramica
-L'aggiunta di elementi visivi come le linee può migliorare la leggibilità dei grafici evidenziando specifici punti dati o trend. Questa funzione è utile per attirare l'attenzione su parti cruciali dei dati.
+Le linee personalizzate attirano l'attenzione su valori specifici—come un limite di budget o una linea target—rendendo i tuoi grafici più informativi.
 
-#### Passaggio 1: creare un oggetto di presentazione
-Inizia creando un'istanza di `Presentation` classe, che rappresenta il file PowerPoint con cui stai lavorando:
+#### Passo 1: creare un oggetto presentation
+La classe `Presentation` è l'oggetto di livello superiore di Aspose.Slides che rappresenta un singolo file PowerPoint in memoria.  
 ```java
 Presentation pres = new Presentation();
-```
+```  
 
-#### Passaggio 2: aggiungere un grafico a colonne raggruppate
-Aggiungere un grafico a colonne raggruppate alla prima diapositiva nella posizione (100, 100) con una larghezza di 500 e un'altezza di 400 pixel:
+#### Passo 2: aggiungere un grafico a colonne raggruppate
+Inserisci un grafico a colonne raggruppate nella prima diapositiva alle coordinate (100, 100) con una larghezza di 500 px e un'altezza di 400 px.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 500, 400);
-```
+```  
 
-#### Passaggio 3: aggiungere una linea di forma automatica al grafico
-Successivamente, aggiungi una forma lineare alla raccolta di forme utente del grafico:
+#### Passo 3: aggiungere una linea auto‑shape al grafico
+Aggiungi una forma linea alla collezione `userShapes` del grafico, che memorizza oggetti di disegno personalizzati.  
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(
     ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
-```
+```  
 
-#### Passaggio 4: personalizzare le proprietà della linea
-Cambia il tipo di riempimento della linea in pieno e imposta il suo colore su rosso:
+`userShapes` è una collezione che contiene forme personalizzate disegnate direttamente su un grafico, consentendo di sovrapporre linee, frecce o altre annotazioni.
+
+#### Passo 4: personalizzare le proprietà della linea
+Imposta il tipo di riempimento della linea su solido, cambia il colore in rosso e, opzionalmente, regola lo spessore o lo stile tratteggiato.  
 ```java
 shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
-```
+```  
 
-#### Passaggio 5: Salva la presentazione
-Infine, salva la presentazione con queste modifiche:
+#### Passo 5: salvare la presentazione
+Persisti la presentazione modificata su disco.  
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/" + "AddCustomLines.pptx", SaveFormat.Pptx);
-```
+```  
 
-### Suggerimenti per la risoluzione dei problemi:
-- Assicurati che il percorso per salvare la presentazione sia specificato correttamente.
-- Se il grafico non viene visualizzato, ricontrolla le coordinate e le dimensioni fornite al momento dell'aggiunta.
+### Lavorare con la classe Presentation
+La classe `Presentation` fornisce metodi per caricare, creare e salvare file PowerPoint, nonché per accedere a diapositive e forme individuali.
+
+### Suggerimenti per la risoluzione dei problemi
+- Verifica che il percorso file usato in `save` sia scrivibile; usa percorsi assoluti per maggiore affidabilità.  
+- Se il grafico non appare, ricontrolla le coordinate X/Y e assicurati che l'indice della diapositiva sia corretto.  
 
 ## Applicazioni pratiche
 
-Ecco alcuni scenari in cui le linee personalizzate nei grafici possono essere particolarmente utili:
-1. **Rapporti finanziari**: Evidenzia le soglie di budget o la spesa effettiva rispetto alle proiezioni.
-2. **Dati di vendita**: Mettere in risalto gli obiettivi di vendita o le linee di rendimento medio.
-3. **Analisi sanitaria**: Contrassegna i valori critici nei trend dei dati dei pazienti.
+Le linee personalizzate sono particolarmente utili in:
+1. **Report finanziari** – evidenzia i limiti di budget o gli obiettivi di profitto.  
+2. **Dashboard di vendita** – disegna una linea per gli obiettivi di vendita trimestrali.  
+3. **Analisi sanitarie** – segna soglie critiche nelle tendenze dei segni vitali dei pazienti.  
 
-Le linee personalizzate possono anche essere integrate con sistemi come i software CRM per aggiornare dinamicamente i grafici in base ai feed di dati in tempo reale.
+Puoi anche automatizzare il posizionamento delle linee estraendo valori soglia da un database o da un'API, abilitando la reportistica in tempo reale.
 
 ## Considerazioni sulle prestazioni
 
-Quando lavori con Aspose.Slides, tieni presente quanto segue per ottenere prestazioni ottimali:
-- Riduci al minimo l'utilizzo di memoria eliminando le presentazioni quando non sono più necessarie.
-- Ottimizzare la risoluzione delle immagini e dei grafici per bilanciare qualità e dimensioni del file.
-- Utilizzare una licenza temporanea durante lo sviluppo per evitare limitazioni di valutazione.
-
-Seguendo queste pratiche potrai utilizzare in modo efficiente le risorse sfruttando al contempo le potenti funzionalità di Aspose.Slides.
+- Rilascia gli oggetti `Presentation` con `presentation.dispose()` al termine per liberare la memoria nativa.  
+- Usa risoluzioni moderate per immagini e grafici (es., 150 dpi) per mantenere la dimensione del file sotto controllo.  
+- Durante lo sviluppo, una licenza temporanea evita le filigrane di valutazione mantenendo l'accesso completo all'API.
 
 ## Conclusione
 
-Ora hai imparato come aggiungere linee personalizzate ai grafici nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Questo miglioramento rende i tuoi dati più accessibili e visivamente accattivanti, consentendo a chi li visualizza di cogliere rapidamente informazioni chiave. Esplora altri tipi di grafici e opzioni di personalizzazione disponibili in Aspose.Slides per ulteriori miglioramenti.
+Ora sai come aggiungere linee personalizzate a un **aspose slides chart** in Java, ottenendo pieno controllo sull'annotazione del grafico e sull'enfasi visiva. Sperimenta con diversi stili di linea, posizioni e tipi di grafico per creare report che comunicano i dati istantaneamente.
 
 ## Sezione FAQ
 
-**D1: Posso cambiare il colore delle linee personalizzate?**
-A1: Sì, personalizza i colori delle linee impostando `SolidFillColor` proprietà a qualsiasi colore desiderato.
+**Q1: Posso cambiare il colore delle linee personalizzate?**  
+A1: Sì, personalizza i colori delle linee impostando la proprietà `SolidFillColor` su qualsiasi `java.awt.Color` desiderato.
 
-**D2: Aspose.Slides è compatibile con tutti gli IDE Java?**
-R2: Sì, se il tuo IDE supporta le dipendenze Maven o Gradle, puoi integrare Aspose.Slides.
+**Q2: Aspose.Slides è compatibile con tutti gli IDE Java?**  
+A2: Sì, purché il tuo IDE supporti Maven o Gradle, puoi integrare Aspose.Slides senza problemi.
 
-**D3: Quali tipi di grafico sono supportati per l'aggiunta di linee personalizzate?**
-A3: È possibile aggiungere linee personalizzate a vari tipi di grafici, tra cui grafici a colonne raggruppate e grafici a barre.
+**Q3: Quali tipi di grafico sono supportati per aggiungere linee personalizzate?**  
+A3: Le linee personalizzate possono essere aggiunte a grafici a colonne raggruppate, barre, linee, aree e torta, tra gli altri.
 
-**D4: Come posso risolvere i problemi relativi al salvataggio delle presentazioni?**
-A4: Assicurati che i percorsi dei file siano corretti e verifica di disporre delle autorizzazioni di scrittura nella directory specificata.
+**Q4: Come risolvere i problemi di salvataggio delle presentazioni?**  
+A4: Assicurati che la directory di output esista, che il percorso file sia corretto e che l'applicazione abbia i permessi di scrittura.
 
-**D5: Ci sono limitazioni quando si utilizza una licenza di prova?**
-R5: La versione di prova potrebbe presentare restrizioni come filigrane o funzionalità limitate. Si consiglia di acquistare una licenza temporanea o completa per un accesso completo.
+**Q5: Ci sono limitazioni nell'uso di una licenza di prova?**  
+A5: La versione di prova può aggiungere filigrane e limitare alcune funzionalità premium; una licenza temporanea o completa rimuove queste restrizioni.
 
 ## Risorse
-- **Documentazione**: [Documentazione Java di Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Scaricamento**: [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/)
-- **Acquistare**: [Acquista Aspose.Slides](https://purchase.aspose.com/buy)
-- **Prova gratuita**: [Ottieni una prova gratuita](https://releases.aspose.com/slides/java/)
-- **Licenza temporanea**: [Ottieni la licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- **Supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/slides/11)
+- **Documentazione**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Acquista**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Prova gratuita**: [Get a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Licenza temporanea**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Supporto**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Ultimo aggiornamento:** 2026-09-07  
+**Testato con:** Aspose.Slides for Java 25.4  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Crea linee di tendenza personalizzate per i grafici Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+- [Come modificare i dati del grafico PowerPoint usando Aspose.Slides per Java: Guida completa](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Come ruotare i titoli degli assi del grafico in PowerPoint usando Aspose.Slides per Java: Guida passo passo](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

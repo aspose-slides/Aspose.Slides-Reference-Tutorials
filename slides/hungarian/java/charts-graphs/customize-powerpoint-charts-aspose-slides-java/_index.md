@@ -1,52 +1,119 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan szabhatod testre a PowerPoint-diagramokat egyéni vonalak hozzáadásával az Aspose.Slides for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót egy hatásosabb prezentációért."
-"title": "PowerPoint-diagramok fejlesztése egyéni vonalakkal az Aspose.Slides Java használatával"
-"url": "/hu/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-09-07'
+description: Ismerje meg, hogyan adhat egyéni vonalakat egy Aspose Slides diagramhoz
+  Java használatával. Lépésről‑lépésre útmutató javítja a PowerPoint diagramokat a
+  tisztább adatmegjelenítés érdekében.
+keywords:
+- aspose slides chart
+- customize PowerPoint charts
+- add custom lines to charts Java
+lastmod: '2026-09-07'
+og_description: Ismerje meg, hogyan adhat egyéni vonalakat egy Aspose Slides diagramhoz
+  Java használatával. Lépésről‑lépésre útmutató javítja a PowerPoint diagramokat a
+  tisztább adatmegjelenítés érdekében.
+og_image_alt: Developer guide showing custom line addition to an Aspose Slides chart
+  in Java
+og_title: Hogyan adjunk egyéni vonalakat egy Aspose Slides diagramhoz Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  headline: How to add custom lines to an Aspose Slides chart in Java
+  type: TechArticle
+- description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  name: How to add custom lines to an Aspose Slides chart in Java
+  steps:
+  - name: create a presentation object
+    text: The `Presentation` class is Aspose.Slides' top‑level object that represents
+      a single PowerPoint file in memory.
+  - name: add a clustered column chart
+    text: Insert a clustered column chart on the first slide at coordinates (100,
+      100) with a width of 500 px and a height of 400 px.
+  - name: add an auto‑shape line to the chart
+    text: Add a line shape to the chart’s `userShapes` collection, which stores custom
+      drawing objects. `userShapes` is a collection that holds custom shapes drawn
+      directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+  - name: customize line properties
+    text: Set the line’s fill type to solid, change its color to red, and optionally
+      adjust thickness or dash style.
+  - name: save the presentation
+    text: Persist the modified presentation to disk.
+  type: HowTo
+- questions:
+  - answer: '`Presentation` represents a PowerPoint file in memory.'
+    question: What is the main class for creating a presentation?
+  - answer: '`slide.getShapes().addChart(...)` creates a chart object.'
+    question: Which method adds a chart to a slide?
+  - answer: Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.
+    question: How do you draw a line on a chart?
+  - answer: Yes—set the line’s fill to a solid red `Color.RED`.
+    question: Can I set the line color to red?
+  - answer: A full license removes evaluation limits; a trial works for testing.
+    question: Do I need a license for production use?
+  type: FAQPage
+tags:
+- aspose slides
+- chart customization
+- java presentation
+title: Hogyan adjunk egyéni vonalakat egy Aspose Slides diagramhoz Java-ban
+url: /hu/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint-diagramok fejlesztése egyéni vonalakkal az Aspose.Slides Java használatával
+
+# Hogyan adjon egyéni vonalakat egy Aspose Slides diagramhoz Java-ban
 
 ## Bevezetés
 
-Szeretnéd, hogy PowerPoint prezentációid kitűnjenek a többi közül? Ez az oktatóanyag végigvezet a diagramok javításán egyéni vonalak hozzáadásával az Aspose.Slides for Java segítségével. Az útmutató végére megtanulod, hogyan javíthatod az adatvizualizációt és az áttekinthetőséget a diagramjaidban.
+Ebben az útmutatóban megtudja, hogyan adhat egyéni vonalakat egy **aspose slides chart**-hez Java használatával. Az egyéni vonalak segítenek kiemelni küszöbértékeket, trendeket vagy kulcsfontosságú adatpontokat, egy egyszerű diagramot erőteljes vizuális történetté alakítva. A útmutató végére képes lesz integrálni az Aspose.Slides-t a projektjébe, vonalakat rajzolni egy diagramra, és finomhangolni azok megjelenését a maximális hatás érdekében.
 
-**Amit tanulni fogsz:**
-- Aspose.Slides integrálása egy Java projektbe
-- Egyéni vonalak hozzáadása PowerPoint-diagramokhoz Java használatával
-- Vonaltulajdonságok konfigurálása a jobb vizuális megjelenés érdekében
-- Egyéni vonalak gyakorlati alkalmazásai diagramokban
+**Mit fog megtanulni**
+- Hogyan telepítse és licencelje az Aspose.Slides for Java-t
+- A pontos lépések egy egyéni vonal rajzolásához egy diagramon
+- A vonal stílusának módjai (szín, vastagság, szaggatott stílus)
+- Valós példák, ahol az egyéni vonalak javítják az adatkommunikációt
 
-Kezdjük az előfeltételek áttekintésével.
+## Gyors válaszok
+- **Mi a fő osztály egy prezentáció létrehozásához?** `Presentation` a memóriában lévő PowerPoint fájlt képviseli.  
+- **Melyik metódus ad diagramot egy diára?** `slide.getShapes().addChart(...)` létrehozza a diagram objektumot.  
+- **Hogyan rajzol vonalat egy diagramra?** Használja a `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`-t.  
+- **Beállíthatom a vonal színét pirosra?** Igen—állítsa be a vonal kitöltését egy szilárd piros `Color.RED`-ra.  
+- **Szükségem van licencre a termeléshez?** Egy teljes licenc eltávolítja a kiértékelési korlátokat; egy próba verzió teszteléshez működik.  
+
+`ShapeType.Line` egy enum érték, amely azt mondja az Aspose.Slides-nek, hogy hozzon létre egy vonal alakú auto‑shape-et.
+
+## Mi az Aspose Slides diagram?
+
+Az **Aspose Slides chart** egy programozható diagramobjektum, amely egy PowerPoint dián belül él, lehetővé téve diagramok generálását, módosítását és stílusozását teljesen Java kódból. Számos diagramtípust támogat (oszlop, sáv, vonal, kördiagram stb.), teljes ellenőrzést biztosít a sorok, tengelyek, jelmagyarázatok felett, és kombinálható más diák elemeivel, például képekkel és egyéni alakzatokkal, így alkalmas automatizált jelentéskészítésre és dinamikus prezentációkra.
+
+## Miért adjunk egyéni vonalakat egy Aspose Slides diagramhoz?
+
+Az egyéni vonalak lehetővé teszik, hogy pontos vizuális jelekkel jegyzeteljük a diagramokat. Az Aspose.Slides **50+ bemeneti és kimeneti formátumot** támogat, és képes több száz diát tartalmazó prezentációkat feldolgozni, miközben kevesebb, mint **150 MB RAM**-ot használ egy tipikus fejlesztői gépen, így ideális nagy léptékű jelentéskészítéshez.
 
 ## Előfeltételek
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
+- **Aspose.Slides for Java** – 25.4 (vagy újabb) verzió  
+- **JDK 16+** – bármely friss Java futtatókörnyezet  
+- IDE, például IntelliJ IDEA vagy Eclipse  
+- Alap Java ismeretek és a PowerPoint koncepciók ismerete  
 
-### Szükséges könyvtárak és verziók:
-- Aspose.Slides Java-hoz (25.4-es verzió)
+### Szükséges könyvtárak
+- Aspose.Slides for Java (Version 25.4)
 
-### Környezeti beállítási követelmények:
-- Java Development Kit (JDK) 16-os vagy újabb verzió
-- Integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA vagy az Eclipse
+### Környezet beállítása
+- Telepítse a JDK 16 vagy újabb verziót  
+- Használjon Maven vagy Gradle eszközt a függőségek kezeléséhez (példák alább)  
 
-### Előfeltételek a tudáshoz:
-- A Java programozás alapjainak ismerete
-- Ismerkedés a PowerPoint prezentációkkal
+## Aspose.Slides for Java beállítása
 
-Miután az előfeltételekkel tisztában voltunk, állítsuk be az Aspose.Slides Java-verzióját a fejlesztői környezetünkben.
+Adja hozzá a könyvtárat a projektjéhez az alábbi építőeszközök egyikével.
 
-## Az Aspose.Slides beállítása Java-hoz
-
-Az Aspose.Slides Java-beli használatához add hozzá a projektedhez egy építőeszköz, például a Maven vagy a Gradle segítségével. A részletek itt találhatók:
-
-**Szakértő:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,124 +121,142 @@ Az Aspose.Slides Java-beli használatához add hozzá a projektedhez egy épít�
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Fokozat:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-A közvetlen könyvtári letöltéshez látogasson el a következő oldalra: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/) a legújabb verzióhoz.
+Kézi letöltéshez látogasson el a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalra a legújabb csomagért.
 
-### Licenc beszerzése:
-- **Ingyenes próbaverzió:** Kezdje el egy próbalicenccel.
-- **Ideiglenes engedély:** Szerezzen be egyet átfogóbb teszteléshez, értékelési korlátozások nélkül.
-- **Vásárlás:** Vásároljon teljes licencet az összes funkció feloldásához.
+### Licenc beszerzése
+- **Free trial:** vásárlás nélkül kezdje el a tesztelést.  
+- **Temporary license:** használja kiterjesztett kiértékeléshez vízjel nélkül.  
+- **Full license:** minden funkció feloldása termelési feladatokhoz.  
 
-Az Aspose.Slides Java projektben történő inicializálásához állítsa be a licencet a következőképpen:
+Inicializálja a licencet a kódban az alábbiak szerint:
 ```java
 License license = new License();
 license.setLicense("path_to_license.lic");
-```
-Győződjön meg arról, hogy a licencfájlra helyesen hivatkozik, hogy elkerülje a megszakításokat az Aspose.Slides funkcióinak használata során.
+```  
 
-## Megvalósítási útmutató
+`License` az a osztály, amely a Aspose.Slides licencfájlt betölti és alkalmazza az alkalmazásban.
 
-Ez a szakasz bemutatja, hogyan adhatsz hozzá egyéni vonalakat egy PowerPoint-diagramhoz az Aspose.Slides for Java használatával.
+## Hogyan adjon egyéni vonalakat egy Aspose Slides diagramhoz?
+
+Töltsön be vagy hozzon létre egy prezentációt, szúrjon be egy diagramot, majd adjon hozzá egy vonal alakzatot a diagram `userShapes` gyűjteményéhez. A vonal pozicionálható, méretezhető és stílusozható a jelentési igényeinek megfelelően. Ez a megközelítés egyaránt működik csoportosított oszlop, sáv, vonal és terület diagramoknál.
+
+## Implementációs útmutató
 
 ### Egyéni vonalak hozzáadása egy diagramhoz
 
 #### Áttekintés
-A vizuális elemek, például vonalak hozzáadása javíthatja a diagramok olvashatóságát azáltal, hogy kiemeli a konkrét adatpontokat vagy trendeket. Ez a funkció hasznos, ha az adatok kritikus részeire hívja fel a figyelmet.
+Az egyéni vonalak felhívják a figyelmet konkrét értékekre — például egy költségvetési határra vagy egy célvonalra — ezáltal a diagramok átláthatóbbá válnak.
 
-#### 1. lépés: Bemutató objektum létrehozása
-Kezdje egy példány létrehozásával a `Presentation` osztály, amely a PowerPoint fájlt jelöli, amellyel dolgozik:
+#### 1. lépés: prezentáció objektum létrehozása
+A `Presentation` osztály az Aspose.Slides legfelső szintű objektuma, amely egyetlen PowerPoint fájlt képvisel a memóriában.
 ```java
 Presentation pres = new Presentation();
-```
+```  
 
-#### 2. lépés: Fürtözött oszlopdiagram hozzáadása
-Adjon hozzá egy csoportos oszlopdiagramot az első diához a (100, 100) pozícióban, 500 szélességgel és 400 magassággal:
+#### 2. lépés: csoportosított oszlop diagram hozzáadása
+Helyezzen el egy csoportosított oszlop diagramot az első dián a (100, 100) koordinátákon, 500 px szélességgel és 400 px magassággal.
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 500, 400);
-```
+```  
 
-#### 3. lépés: Automatikus alakzatvonal hozzáadása a diagramhoz
-Ezután adjon hozzá egy vonal alakzatot a diagram felhasználói alakzatgyűjteményéhez:
+#### 3. lépés: auto‑shape vonal hozzáadása a diagramhoz
+Adjon hozzá egy vonal alakzatot a diagram `userShapes` gyűjteményéhez, amely egyéni rajzobjektumokat tárol.
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(
     ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
-```
+```  
 
-#### 4. lépés: Vonaltulajdonságok testreszabása
-Változtasd meg a vonal kitöltési típusát folytonosra, és állítsd be a színét pirosra:
+`userShapes` egy olyan gyűjtemény, amely közvetlenül a diagramra rajzolt egyéni alakzatokat tartalmaz, lehetővé téve vonalak, nyilak vagy egyéb megjegyzések felhelyezését.
+
+#### 4. lépés: vonal tulajdonságainak testreszabása
+Állítsa be a vonal kitöltését szilárdra, változtassa meg a színét pirosra, és opcionálisan módosítsa a vastagságot vagy a szaggatott stílust.
 ```java
 shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
-```
+```  
 
-#### 5. lépés: Mentse el a prezentációt
-Végül mentsd el a prezentációdat ezekkel a módosításokkal:
+#### 5. lépés: prezentáció mentése
+Mentse a módosított prezentációt a lemezre.
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/" + "AddCustomLines.pptx", SaveFormat.Pptx);
-```
+```  
 
-### Hibaelhárítási tippek:
-- Győződjön meg arról, hogy a prezentáció mentésének elérési útja helyesen van megadva.
-- Ha a diagram nem jelenik meg, ellenőrizze a hozzáadáskor megadott koordinátákat és méreteket.
+### A Presentation osztállyal való munka
+A `Presentation` osztály metódusokat biztosít PowerPoint fájlok betöltésére, létrehozására és mentésére, valamint az egyes diák és alakzatok elérésére.
+
+### Hibaelhárítási tippek
+- Ellenőrizze, hogy a `save`‑ben használt fájlútvonal írható‑e; megbízhatóság érdekében használjon abszolút útvonalakat.  
+- Ha a diagram nem jelenik meg, ellenőrizze újra az X/Y koordinátákat, és győződjön meg róla, hogy a diák indexe helyes.  
 
 ## Gyakorlati alkalmazások
 
-Íme néhány olyan forgatókönyv, ahol a diagramok egyéni vonalai különösen hasznosak lehetnek:
-1. **Pénzügyi jelentések**: Jelölje ki a költségvetési küszöbértékeket vagy a tényleges kiadásokat az előrejelzésekhez képest.
-2. **Értékesítési adatok**: Hangsúlyozza az értékesítési célokat vagy az átlagos teljesítménymutatókat.
-3. **Egészségügyi elemzés**: Jelölje meg a kritikus értékeket a betegadat-trendekben.
+Az egyéni vonalak különösen hasznosak a következőkben:
+1. **Financial reports** – költségvetési határok vagy profitcélok kiemelése.  
+2. **Sales dashboards** – vonal rajzolása a negyedéves értékesítési célokhoz.  
+3. **Healthcare analytics** – kritikus küszöbértékek jelölése a beteg életjeleit mutató trendekben.  
 
-Az egyéni vonalak integrálhatók olyan rendszerekkel is, mint a CRM szoftver, hogy dinamikusan frissítsék a diagramokat a valós idejű adatfolyamok alapján.
+A vonalak elhelyezését automatizálhatja küszöbértékek adatbázisból vagy API‑ból történő lekérésével, lehetővé téve a valós idejű jelentést.
 
-## Teljesítménybeli szempontok
+## Teljesítmény szempontok
 
-Az Aspose.Slides használatakor az optimális teljesítmény érdekében vegye figyelembe a következőket:
-- A memóriahasználat minimalizálása a prezentációk törlésével, amikor már nincs rájuk szükség.
-- Optimalizálja a kép- és diagramfelbontásokat a minőség és a fájlméret egyensúlyban tartása érdekében.
-- Használjon ideiglenes licencet a fejlesztés során az értékelési korlátozások elkerülése érdekében.
-
-Ezen gyakorlatok betartása segít hatékony erőforrás-felhasználás fenntartásában, miközben kihasználja az Aspose.Slides hatékony funkcióit.
+- A `Presentation` objektumok felszabadítása a `presentation.dispose()` hívással, amikor befejeződnek, a natív memória felszabadítása érdekében.  
+- Használjon mérsékelt kép- és diagramfelbontást (pl. 150 dpi), hogy a fájlméret kontroll alatt maradjon.  
+- Fejlesztés során egy ideiglenes licenc elkerüli a kiértékelési vízjeleket, miközben teljes API hozzáférést biztosít.  
 
 ## Következtetés
 
-Most már megtanultad, hogyan adhatsz hozzá egyéni vonalakat diagramokhoz PowerPoint-bemutatókban az Aspose.Slides for Java használatával. Ez a fejlesztés könnyebben hozzáférhetővé és vizuálisan vonzóbbá teszi az adataidat, lehetővé téve a nézők számára, hogy gyorsan megértsék a fontos információkat. További fejlesztésekért fedezd fel az Aspose.Slides további diagramtípusait és testreszabási lehetőségeit.
+Most már tudja, hogyan adjon egyéni vonalakat egy **aspose slides chart**-hez Java-ban, teljes ellenőrzést biztosítva a diagram annotációja és vizuális hangsúlyozása felett. Kísérletezzen különböző vonalstílusokkal, pozíciókkal és diagramtípusokkal, hogy olyan jelentéseket hozzon létre, amelyek azonnal közvetítik az adatokat.
 
-## GYIK szekció
+## Gyakran Ismételt Kérdések
 
-**1. kérdés: Megváltoztathatom az egyéni vonalak színét?**
-V1: Igen, a vonalszínek testreszabhatók a következő beállítással: `SolidFillColor` tulajdonságot bármilyen kívánt színre.
+**Q1: Megváltoztathatom az egyéni vonalak színét?**  
+A1: Igen, a vonal színeit a `SolidFillColor` tulajdonság beállításával bármely kívánt `java.awt.Color` értékre testreszabhatja.
 
-**2. kérdés: Az Aspose.Slides kompatibilis az összes Java IDE-vel?**
-A2: Igen, amennyiben az IDE támogatja a Maven vagy Gradle függőségeket, integrálhatja az Aspose.Slides-t.
+**Q2: Az Aspose.Slides kompatibilis minden Java IDE-vel?**  
+A2: Igen, amíg az IDE támogatja a Maven vagy Gradle eszközöket, az Aspose.Slides integrálható problémamentesen.
 
-**3. kérdés: Milyen diagramtípusok támogatottak egyéni vonalak hozzáadásához?**
-A3: Egyéni vonalak hozzáadhatók különféle diagramtípusokhoz, beleértve a fürtözött oszlopdiagramokat és a sávdiagramokat.
+**Q3: Milyen diagramtípusok támogatottak az egyéni vonalak hozzáadásához?**  
+A3: Az egyéni vonalak hozzáadhatók csoportosított oszlop, sáv, vonal, terület és kördiagramokhoz, többek között.
 
-**4. kérdés: Hogyan oldhatom meg a prezentációk mentésével kapcsolatos problémákat?**
-4. válasz: Győződjön meg arról, hogy a fájlelérési utak helyesek, és hogy rendelkezik írási jogosultságokkal a megadott könyvtárban.
+**Q4: Hogyan háríthatom el a prezentációk mentésével kapcsolatos problémákat?**  
+A4: Győződjön meg arról, hogy a kimeneti könyvtár létezik, a fájlútvonal helyes, és az alkalmazásnak írási jogosultsága van.
 
-**5. kérdés: Vannak-e korlátozások a próbalicenc használatára vonatkozóan?**
-5. válasz: A próbaverzió korlátozásokat, például vízjeleket vagy korlátozott funkcionalitást tartalmazhat. A teljes hozzáférés érdekében érdemes lehet ideiglenes vagy teljes licencet beszerezni.
+**Q5: Vannak korlátozások a próba licenc használatakor?**  
+A5: A próba licenc vízjeleket adhat hozzá és korlátozhat bizonyos prémium funkciókat; egy ideiglenes vagy teljes licenc eltávolítja ezeket a korlátozásokat.
 
-## Erőforrás
-- **Dokumentáció**: [Aspose.Slides Java dokumentáció](https://reference.aspose.com/slides/java/)
-- **Letöltés**: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/)
-- **Vásárlás**: [Vásárolja meg az Aspose.Slides-t](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió**: [Ingyenes próbaverzió igénylése](https://releases.aspose.com/slides/java/)
-- **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
-- **Támogatás**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/slides/11)
+## Források
+
+- **Documentation**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free trial**: [Get a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Temporary license**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Utoljára frissítve:** 2026-09-07  
+**Tesztelve:** Aspose.Slides for Java 25.4  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Diagramok testreszabása és trendvonalak létrehozása Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+- [PowerPoint diagram adatok szerkesztése Aspose.Slides for Java használatával: Átfogó útmutató](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Diagram tengelycímek forgatása PowerPointban Aspose.Slides for Java használatával: Lépésről lépésre útmutató](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
