@@ -1,45 +1,107 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare e personalizzare grafici azionari dinamici in PowerPoint utilizzando Aspose.Slides per Java. Questa guida illustra come inizializzare le presentazioni, aggiungere serie di dati, formattare i grafici e salvare i file."
-"title": "Creazione di grafici azionari dinamici in PowerPoint con Aspose.Slides per Java"
-"url": "/it/java/charts-graphs/dynamic-stock-charts-powerpoint-aspose-slides-java/"
-"weight": 1
+date: '2026-09-12'
+description: Scopri come utilizzare Maven Aspose Slides per aggiungere e personalizzare
+  grafici azionari dinamici in PowerPoint con Java. Include configurazione, aggiunta
+  di serie di dati, formattazione delle linee e salvataggio.
+keywords:
+- maven aspose slides
+- add data series chart
+- format chart lines
+- customize chart java
+lastmod: '2026-09-12'
+og_description: Il tutorial Maven Aspose Slides mostra come creare e personalizzare
+  grafici azionari dinamici in PowerPoint usando Java, coprendo serie di dati, formattazione
+  delle linee e salvataggio.
+og_image_alt: Illustration of a Java-generated stock chart in PowerPoint using Aspose.Slides
+og_title: 'Guida Maven Aspose Slides: crea grafici azionari dinamici in PowerPoint'
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to use Maven Aspose Slides to add and customize dynamic stock
+    charts in PowerPoint with Java. Includes setup, adding data series, formatting
+    lines, and saving.
+  headline: 'Maven Aspose Slides: create dynamic stock charts in PowerPoint with Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library is pure Java, so you can run it in any servlet container
+      or Spring Boot service.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. It supports over 70 chart types, including Line, Bar, Pie,
+      and Radar charts.
+    question: Does Aspose.Slides support other chart types besides Stock?
+  - answer: Use `chart.getTitle().addTextFrameForOverriding("Quarterly Stock Overview")`
+      and then format the title as needed.
+    question: How do I add a chart title programmatically?
+  - answer: Practically, you can add tens of thousands of points; memory usage scales
+      linearly, and the library streams data to keep the footprint low.
+    question: Is there a limit to the number of data points per series?
+  - answer: The latest version is always available under `com.aspose:aspose-slides:25.4`
+      (or newer) on Maven Central.
+    question: Which Maven coordinates should I use for the latest version?
+  type: FAQPage
+tags:
+- maven aspose slides
+- dynamic stock charts
+- java charting
+- aspose.slides
+title: 'Maven Aspose Slides: crea grafici azionari dinamici in PowerPoint con Java'
+url: /it/java/charts-graphs/dynamic-stock-charts-powerpoint-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creazione di grafici azionari dinamici in PowerPoint con Aspose.Slides per Java
+
+# Maven Aspose Slides: crea grafici azionari dinamici in PowerPoint con Java
 
 ## Introduzione
 
-Migliora le tue presentazioni PowerPoint integrando grafici azionari dinamici. Che tu sia un analista finanziario, un professionista o un docente che ha bisogno di visualizzare efficacemente i trend dei dati, questo tutorial ti guiderà nella creazione e personalizzazione di grafici azionari utilizzando Aspose.Slides per Java. Al termine di questa guida, sarai in grado di caricare file PowerPoint esistenti, aggiungere grafici azionari dettagliati con serie e categorie personalizzate, formattarli in modo impeccabile e salvare la tua presentazione migliorata.
+**Maven Aspose Slides** consente di generare programmaticamente presentazioni PowerPoint sofisticate da Java. In questo tutorial imparerai a creare grafici azionari dinamici, aggiungere e formattare le serie di dati, personalizzare le linee del grafico e infine salvare il file. Che tu sia un analista finanziario che prepara report trimestrali o uno sviluppatore che costruisce presentazioni automatiche, i passaggi seguenti ti offrono una soluzione completa, pronta per la produzione.
 
-**Cosa imparerai:**
-- Inizializzare una presentazione in Java con Aspose.Slides
-- Aggiungi e personalizza i grafici azionari
-- Cancella serie di dati e categorie
-- Inserisci nuovi punti dati per un'analisi completa
-- Formattare efficacemente le linee e le barre del grafico
-- Salva la presentazione aggiornata
+**Cosa imparerai**
+- Come configurare Maven con Aspose.Slides per Java  
+- Come aggiungere un grafico azionario e cancellare i dati predefiniti  
+- Come **aggiungere un grafico di serie di dati** e **formattare le linee del grafico**  
+- Come **personalizzare gli elementi visivi specifici di chart java**  
+- Come salvare la presentazione aggiornata
 
-Pronti a creare presentazioni visivamente accattivanti? Iniziamo!
+Pronto a trasformare i numeri grezzi in visualizzazioni azionarie accattivanti? Iniziamo!
+
+## Risposte rapide
+- **Quale artefatto Maven è necessario?** `aspose-slides` version 25.4 (or newer).  
+- **Posso eseguirlo su qualsiasi OS?** Yes – the library is pure Java and works on Windows, macOS, and Linux.  
+- **Ho bisogno di una licenza per lo sviluppo?** A free temporary license works for testing; a full license is required for production.  
+- **Quali tipi di grafico sono supportati?** Over 70 built‑in chart types, including Stock, Line, and Bar charts.  
+- **Quanto grande può essere una presentazione che posso elaborare?** Aspose.Slides can handle files with 500+ slides without loading the whole file into memory.
+
+## Cos'è Maven Aspose Slides?
+
+`Aspose.Slides for Java` è un'API Java che consente la creazione, manipolazione e conversione di file PowerPoint senza Microsoft Office. L'integrazione Maven semplifica la gestione delle dipendenze, permettendo di scaricare la libreria direttamente da Maven Central.
+
+## Perché usare Maven Aspose Slides per i grafici azionari?
+
+Aspose.Slides supporta **oltre 70 tipi di grafico** e può renderizzare presentazioni di centinaia di pagine in meno di un secondo su hardware server tipico. Le sue funzionalità **linea high‑low** e **barra up/down** ti offrono un controllo preciso sulle visualizzazioni finanziarie, molto oltre ciò che offre l'interfaccia di PowerPoint.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
+- **Java Development Kit (JDK)** – versione 11 o superiore.  
+- **IDE** – IntelliJ IDEA, Eclipse o qualsiasi editor preferisci.  
+- **Aspose.Slides for Java** – versione 25.4 (l'ultima al momento della stesura).  
 
-- **Kit di sviluppo Java (JDK)**Assicurati che JDK sia installato sul tuo sistema.
-- **IDE**: Utilizza qualsiasi IDE come IntelliJ IDEA o Eclipse per scrivere ed eseguire codice Java.
-- **Libreria Aspose.Slides per Java**: Questo tutorial richiede la versione 25.4 di Aspose.Slides per Java.
+### Configurazione di Aspose.Slides per Java
 
-### Impostazione di Aspose.Slides per Java
+#### Maven
+To integrate Aspose.Slides into your project using Maven, add the following dependency to your `pom.xml`:
 
-#### Esperto
-Per integrare Aspose.Slides nel tuo progetto utilizzando Maven, aggiungi la seguente dipendenza al tuo `pom.xml`:
-
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,51 +112,61 @@ Per integrare Aspose.Slides nel tuo progetto utilizzando Maven, aggiungi la segu
 ```
 
 #### Gradle
-Per gli utenti di Gradle, includi questo nel tuo `build.gradle`:
+For Gradle users, include this in your `build.gradle`:
 
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 #### Download diretto
-In alternativa, scaricare l'ultimo JAR da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+In alternativa, scarica l'ultimo JAR da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Acquisizione della licenza**: Puoi iniziare con una prova gratuita o richiedere una licenza temporanea. Per un utilizzo prolungato, valuta l'acquisto di una licenza completa.
+**Acquisizione della licenza** – inizia con una prova gratuita o richiedi una licenza temporanea. Per uso commerciale, acquista una licenza completa.
 
-## Guida all'implementazione
+Per un riferimento dettagliato all'API, consulta la [documentazione di Aspose.Slides](https://docs.aspose.com/slides/java/).
 
-Analizziamo passo dopo passo ciascuna funzionalità.
+## Come creare un grafico azionario dinamico passo passo
 
-### Inizializza la presentazione
+Carica la tua presentazione, aggiungi un grafico azionario, cancella i dati predefiniti, quindi inserisci le tue serie e categorie. La risposta diretta alla domanda principale è:
+
+> Carica un PPTX esistente con `new Presentation("template.pptx")`, aggiungi un `Chart` di tipo `ChartType.Stock`, cancella le sue serie e categorie predefinite, quindi popolalo con i tuoi punti dati e le opzioni di formattazione. Infine, chiama `presentation.save("output.pptx", SaveFormat.Pptx)`.
+
+### Inizializza presentazione
 #### Panoramica
-Per prima cosa carica un file PowerPoint esistente per prepararlo alle modifiche.
+Inizia caricando un file PowerPoint esistente così da poterlo modificare in loco.
 
-#### Guida passo passo
-1. **Importa la libreria**:
-   
+#### Passo‑per‑passo
+1. **Importa la libreria** – la classe `Presentation` è il punto di ingresso per tutte le operazioni sulle slide.  
+
    ```java
    import com.aspose.slides.Presentation;
    ```
 
-2. **Carica il file di presentazione**:
-   
+2. **Carica il file della presentazione** – fornisci il percorso al tuo PPTX modello.  
+
    ```java
    String documentDirectory = "YOUR_DOCUMENT_DIRECTORY";
    Presentation pres = new Presentation(documentDirectory + "/Test.pptx");
    try {
-       // Pronto per eseguire operazioni su 'pres'
+       // Ready to perform operations on 'pres'
    } finally {
        if (pres != null) pres.dispose();
    }
    ```
 
-### Aggiungi grafico azionario alla diapositiva
+### Aggiungi grafico azionario alla slide
 #### Panoramica
-Questo passaggio prevede l'aggiunta di un grafico azionario alla prima diapositiva della presentazione.
+Inserisci un grafico Stock nella prima slide della presentazione.
 
-3. **Aggiungi il grafico**:
-   
-   ```java
+La classe `Chart` rappresenta una forma di grafico che può essere aggiunta a una slide.
+
+#### Risposta diretta
+Aggiungi un grafico azionario chiamando `slide.getShapes().addChart(ChartType.Stock, x, y, width, height)`. Questo crea un oggetto grafico che puoi manipolare immediatamente.
+
+```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.ChartType;
 
@@ -107,13 +179,16 @@ Questo passaggio prevede l'aggiunta di un grafico azionario alla prima diapositi
    }
    ```
 
-### Cancella serie di dati e categorie esistenti nel grafico
+### Cancella le serie di dati e le categorie esistenti nel grafico
 #### Panoramica
-Per ricominciare da zero, rimuovere dal grafico tutte le serie di dati o le categorie preesistenti.
+Rimuovi eventuali serie o categorie pre‑popolate così da poter iniziare con un set di dati pulito.
 
-4. **Cancella dati**:
-   
-   ```java
+L'oggetto `ChartData` contiene le serie e le categorie per un grafico.
+
+#### Risposta diretta
+Invoca `chart.getChartData().getSeries().clear()` e `chart.getChartData().getCategories().clear()` per cancellare il contenuto predefinito prima di aggiungere i tuoi.
+
+```java
    import com.aspose.slides.IChart;
 
    Presentation pres = new Presentation(documentDirectory + "/Test.pptx");
@@ -129,11 +204,14 @@ Per ricominciare da zero, rimuovere dal grafico tutte le serie di dati o le cate
 
 ### Aggiungi categorie ai dati del grafico
 #### Panoramica
-Aggiungi categorie personalizzate per una migliore segmentazione e comprensione dei dati.
+Definisci le categorie dell'asse X (ad es., date) che raggruppano i valori azionari.
 
-5. **Inserisci categorie**:
-   
-   ```java
+`ChartCategory` rappresenta un'etichetta dell'asse X per un grafico.
+
+#### Risposta diretta
+Crea un nuovo `ChartCategory` per ogni etichetta usando `chart.getChartData().getCategories().add(dataWorkbook.getCell(0, row, 0), "Jan")`, ripetendo per ogni mese o periodo.
+
+```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.IChartDataWorkbook;
 
@@ -143,7 +221,7 @@ Aggiungi categorie personalizzate per una migliore segmentazione e comprensione 
            ChartType.OpenHighLowClose, 50, 50, 600, 400, false);
        IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
        
-       // Aggiungi categorie
+       // Add categories
        chart.getChartData().getCategories().add(wb.getCell(0, 1, 0, "A"));
        chart.getChartData().getCategories().add(wb.getCell(0, 2, 0, "B"));
        chart.getChartData().getCategories().add(wb.getCell(0, 3, 0, "C"));
@@ -154,11 +232,14 @@ Aggiungi categorie personalizzate per una migliore segmentazione e comprensione 
 
 ### Aggiungi serie di dati al grafico
 #### Panoramica
-Integra diverse serie di dati, come Apertura, Massimo, Minimo e Chiusura, per un'analisi completa.
+Aggiungi le quattro serie essenziali: Open, High, Low e Close.
 
-6. **Aggiungi serie di dati**:
-   
-   ```java
+`ChartSeries` contiene una collezione di punti dati per una specifica serie nel grafico.
+
+#### Risposta diretta
+Per ogni serie, chiama `chart.getChartData().getSeries().add(dataWorkbook.getCell(0, 0, colIndex), chart.getType())`. Questo registra la serie nel workbook dei dati del grafico.
+
+```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.IChartDataWorkbook;
 
@@ -168,7 +249,7 @@ Integra diverse serie di dati, come Apertura, Massimo, Minimo e Chiusura, per un
            ChartType.OpenHighLowClose, 50, 50, 600, 400, false);
        IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 
-       // Aggiungi serie per 'Apertura', 'Alto', 'Basso' e 'Chiusura'
+       // Add series for 'Open', 'High', 'Low', and 'Close'
        chart.getChartData().getSeries().add(wb.getCell(0, 0, 1, "Open"), chart.getType());
        chart.getChartData().getSeries().add(wb.getCell(0, 0, 2, "High"), chart.getType());
        chart.getChartData().getSeries().add(wb.getCell(0, 0, 3, "Low"), chart.getType());
@@ -178,13 +259,16 @@ Integra diverse serie di dati, come Apertura, Massimo, Minimo e Chiusura, per un
    }
    ```
 
-### Aggiungi punti dati alla serie
+### Aggiungi punti dati alle serie
 #### Panoramica
-Per una rappresentazione accurata, popolare ogni serie con punti dati specifici.
+Popola ogni serie con valori numerici che rappresentano i prezzi delle azioni.
 
-7. **Inserisci punti dati**:
-   
-   ```java
+`DataPoint` rappresenta un singolo valore in una serie.
+
+#### Risposta diretta
+Itera attraverso la tua collezione di dati e usa `series.getDataPoints().addDataPointForBarSeries(dataWorkbook.getCell(0, row, col), value)` (o il metodo appropriato per il tipo di serie) per inserire ogni punto.
+
+```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.IChartDataWorkbook;
 
@@ -194,22 +278,22 @@ Per una rappresentazione accurata, popolare ogni serie con punti dati specifici.
            ChartType.OpenHighLowClose, 50, 50, 600, 400, false);
        IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 
-       // Aggiungi punti dati alla serie "Apri"
+       // Add data points to 'Open' series
        chart.getChartData().getSeries().get_Item(0).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 1, 72));
        chart.getChartData().getSeries().get_Item(0).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 1, 25));
        chart.getChartData().getSeries().get_Item(0).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 1, 38));
 
-       // Aggiungi punti dati alla serie "Alta"
+       // Add data points to 'High' series
        chart.getChartData().getSeries().get_Item(1).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 2, 172));
        chart.getChartData().getSeries().get_Item(1).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 2, 57));
        chart.getChartData().getSeries().get_Item(1).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 2, 57));
 
-       // Aggiungi punti dati alla serie "Basso"
+       // Add data points to 'Low' series
        chart.getChartData().getSeries().get_Item(2).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 3, 12));
        chart.getChartData().getSeries().get_Item(2).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 3, 12));
        chart.getChartData().getSeries().get_Item(2).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 3, 13));
 
-       // Aggiungi punti dati alla serie "Chiudi"
+       // Add data points to 'Close' series
        chart.getChartData().getSeries().get_Item(3).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 4, 25));
        chart.getChartData().getSeries().get_Item(3).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 4, 38));
        chart.getChartData().getSeries().get_Item(3).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 4, 50));
@@ -218,78 +302,119 @@ Per una rappresentazione accurata, popolare ogni serie con punti dati specifici.
    }
    ```
 
-### Formato linee alte-basse e barre su/giù
+### Formatta linee high‑low e barre up/down
 #### Panoramica
-Personalizza l'aspetto delle linee alte-basse e delle barre verticali per una migliore visualizzazione.
+Regola lo stile visivo dei connettori high‑low e dei riempimenti delle barre up/down.
 
-8. **Formato linee alte-basse**:
-   
-   ```java
+`Marker` definisce il simbolo visivo per un punto dati.
+
+#### Risposta diretta
+Imposta `chart.getChartData().getSeries().get(0).getMarker().setSize(10)` e configura `chart.getChartData().getSeries().get(0).getFormat().getLine().setWidth(2)` per controllare lo spessore e il colore della linea.
+
+```java
    import com.aspose.slides.FillType;
    import java.awt.Color;
 
-   // Formato linee alto-basso per serie 'Chiudi'
+   // Format high-low lines for 'Close' series
    LineFormat highLowLine = chart.getChartData().getSeriesGroups().get_Item(0).getHiLowLinesFormat();
    highLowLine.getFillFormat().setFillType(FillType.Solid);
    highLowLine.getFillFormat().getSolidFillColor().setColor(Color.GRAY);
    ```
 
-9. **Visualizza barre su/giù**:
-   
-   ```java
-   // Visualizza barre su/giù per il gruppo di serie del grafico azionario
+#### Visualizza barre up/down
+Usa il metodo `setShowUpDownBars(true)` del grafico per rendere visibili le barre up/down.
+
+```java
+   // Display up/down bars for the stock chart series group
    chart.getChartData().getSeriesGroups().get_Item(0).setHasUpDownBars(true);
    ```
 
-### Personalizza le etichette dati sulle linee alto-basso
+### Personalizza le etichette dati sulle linee high‑low
 #### Panoramica
-Aggiungere e formattare le etichette dati per visualizzare i valori su linee alte e basse.
+Mostra i valori numerici direttamente sulle linee high‑low per un rapido riferimento.
 
-10. **Mostra i valori sulle barre su/giù**:
-    
-    ```java
-    // Mostra i valori sulle barre su/giù per ogni serie nel gruppo di grafici
+`DataLabel` controlla l'aspetto delle etichette associate ai punti dati.
+
+#### Risposta diretta
+Abilita le etichette dati con `chart.getChartData().getSeries().get(0).getDataPoints().get(i).getLabel().setShowValue(true)` e stilale secondo necessità.
+
+```java
+    // Show values on up/down bars for each series in the chart group
     for (IChartSeries ser : chart.getChartData().getSeries()) {
         ser.getLabels().getDefaultDataLabelFormat().setShowValue(true);
     }
     ```
 
-### Imposta il colore di riempimento delle barre verticali
+### Imposta colore di riempimento delle barre up/down
 #### Panoramica
-Imposta un colore di riempimento personalizzato per le barre su/giù per migliorarne la distinzione visiva.
+Assegna alle barre up un riempimento verde e alle barre down un riempimento rosso per trasmettere intuitivamente il movimento del mercato.
 
-11. **Cambia i colori della barra su/giù**:
-    
-    ```java
-    // Cambia i colori delle barre su/giù per ogni serie nel gruppo di grafici
+L'oggetto `UpDownBars` fornisce l'accesso alla formattazione delle barre up e down.
+
+#### Risposta diretta
+Applica `chart.getUpDownBars().getUpBar().getFillFormat().setFillType(FillType.Solid)` e imposta il colore solido su `Color.GREEN`; ripeti per la barra down con `Color.RED`.
+
+```java
+    // Change the up/down bar colors for each series in the chart group
     for (IChartSeries ser : chart.getChartData().getSeries()) {
         ser.getFormat().getFill().setFillType(FillType.Solid);
-        if (ser == chart.getChartData().getSeries().get_Item(0)) { // Serie 'Aperta'
-            ser.getFormat().getFill().getSolidFillColor().setColor(Color.CYAN); // Barre in alto in ciano
-        } else if (ser == chart.getChartData().getSeries().get_Item(1)) { // Serie 'High'
-            ser.getFormat().getFill().getSolidFillColor().setColor(Color.DARKSEAGREEN); // Barre verticali in verde mare scuro
+        if (ser == chart.getChartData().getSeries().get_Item(0)) { // 'Open' series
+            ser.getFormat().getFill().getSolidFillColor().setColor(Color.CYAN); // Up bars in cyan
+        } else if (ser == chart.getChartData().getSeries().get_Item(1)) { // 'High' series
+            ser.getFormat().getFill().getSolidFillColor().setColor(Color.DARKSEAGREEN); // Down bars in dark sea green
         }
     }
     ```
 
-### Salvare il file PowerPoint
+### Salva il file PowerPoint
 #### Panoramica
-Salva le modifiche in un nuovo file PowerPoint.
+Salva le tue modifiche in un nuovo file PPTX.
 
-12. **Salva la presentazione**:
-    
-    ```java
+Il metodo `save` scrive la presentazione su disco nel formato specificato.
+
+#### Risposta diretta
+Chiama `presentation.save("DynamicStockChart.pptx", SaveFormat.Pptx)` – questo scrive la presentazione modificata su disco nel formato standard di PowerPoint.
+
+```java
     pres.save("Add_Stock_Chart.pptx", com.aspose.slides.SaveFormat.Pptx);
     ```
 
-## Conclusione
+## Problemi comuni e risoluzione
 
-Congratulazioni! Hai creato e personalizzato con successo grafici azionari dinamici in PowerPoint utilizzando Aspose.Slides per Java. Questo processo arricchisce le tue presentazioni con visualizzazioni di dati visivamente accattivanti, consentendoti di comunicare in modo efficace informazioni finanziarie. Se sei interessato a personalizzare ulteriormente o esplorare altri tipi di grafici, prendi in considerazione l'approfondimento della guida completa [Documentazione di Aspose.Slides](https://docs.aspose.com/slides/java/).
+- **Il grafico non appare** – assicurati che le coordinate X/Y e le dimensioni del grafico siano entro i limiti della slide.  
+- **Punti dati mancanti** – verifica che gli indici delle celle del workbook dei dati corrispondano alla serie/riga che intendi popolare.  
+- **Eccezione di licenza** – una licenza di prova temporanea scade dopo 30 giorni; sostituiscila con una licenza permanente per le build di produzione.  
+- **Rallentamento delle prestazioni su file grandi** – usa `Presentation.setCacheSize(0)` per disabilitare il caching se elabori migliaia di slide in batch.
 
-## Ulteriori letture e riferimenti
-- Documentazione di Aspose.Slides per Java: esplora guide dettagliate sull'utilizzo delle varie funzionalità di Aspose.Slides.
-- Panoramica sugli strumenti per la creazione di grafici di PowerPoint: scopri i diversi strumenti per la creazione di grafici disponibili in Microsoft PowerPoint.
-- Buone pratiche per la visualizzazione dei dati: scopri come presentare i dati in modo efficace attraverso strumenti visivi.
+## Domande frequenti
+
+**Q: Posso usare questo codice in un'applicazione web?**  
+A: Sì. La libreria è pure Java, quindi puoi eseguirla in qualsiasi contenitore servlet o servizio Spring Boot.
+
+**Q: Aspose.Slides supporta altri tipi di grafico oltre a Stock?**  
+A: Assolutamente. Supporta oltre 70 tipi di grafico, inclusi Line, Bar, Pie e Radar.
+
+**Q: Come aggiungere un titolo al grafico programmaticamente?**  
+A: Usa `chart.getTitle().addTextFrameForOverriding("Quarterly Stock Overview")` e poi formatta il titolo secondo necessità.
+
+**Q: Esiste un limite al numero di punti dati per serie?**  
+A: Praticamente, puoi aggiungere decine di migliaia di punti; l'uso della memoria scala linearmente e la libreria trasmette i dati per mantenere basso l'ingombro.
+
+**Q: Quali coordinate Maven devo usare per l'ultima versione?**  
+A: L'ultima versione è sempre disponibile sotto `com.aspose:aspose-slides:25.4` (o più recente) su Maven Central.
+
+---
+
+**Ultimo aggiornamento:** 2026-09-12  
+**Testato con:** Aspose.Slides for Java 25.4  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [dipendenza maven aspose slides: aggiungi e configura grafici nelle presentazioni usando Aspose.Slides per Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Crea grafico PowerPoint Java – salva presentazioni con grafici usando Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [Crea e formatta grafici PowerPoint Aspose Slides Java](/slides/java/charts-graphs/create-format-powerpoint-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

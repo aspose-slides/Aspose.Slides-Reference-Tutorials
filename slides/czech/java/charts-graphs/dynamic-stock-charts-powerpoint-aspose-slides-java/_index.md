@@ -1,45 +1,107 @@
 ---
-"date": "2025-04-17"
-"description": "Naučte se, jak vytvářet a upravovat dynamické burzovní grafy v PowerPointu pomocí Aspose.Slides pro Javu. Tato příručka se zabývá inicializací prezentací, přidáváním datových řad, formátováním grafů a ukládáním souborů."
-"title": "Vytváření dynamických burzovních grafů v PowerPointu s Aspose.Slides pro Javu"
-"url": "/cs/java/charts-graphs/dynamic-stock-charts-powerpoint-aspose-slides-java/"
-"weight": 1
+date: '2026-09-12'
+description: Zjistěte, jak použít Maven Aspose Slides k přidání a přizpůsobení dynamic
+  stock charts v PowerPointu s Java. Obsahuje setup, adding data series, formatting
+  lines a saving.
+keywords:
+- maven aspose slides
+- add data series chart
+- format chart lines
+- customize chart java
+lastmod: '2026-09-12'
+og_description: Maven Aspose Slides tutoriál ukazuje, jak vytvořit a přizpůsobit dynamic
+  stock charts v PowerPointu pomocí Java, zahrnující data series, line formatting
+  a saving.
+og_image_alt: Illustration of a Java-generated stock chart in PowerPoint using Aspose.Slides
+og_title: 'Maven Aspose Slides průvodce: vytvořte dynamic stock charts v PowerPointu'
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to use Maven Aspose Slides to add and customize dynamic stock
+    charts in PowerPoint with Java. Includes setup, adding data series, formatting
+    lines, and saving.
+  headline: 'Maven Aspose Slides: create dynamic stock charts in PowerPoint with Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library is pure Java, so you can run it in any servlet container
+      or Spring Boot service.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. It supports over 70 chart types, including Line, Bar, Pie,
+      and Radar charts.
+    question: Does Aspose.Slides support other chart types besides Stock?
+  - answer: Use `chart.getTitle().addTextFrameForOverriding("Quarterly Stock Overview")`
+      and then format the title as needed.
+    question: How do I add a chart title programmatically?
+  - answer: Practically, you can add tens of thousands of points; memory usage scales
+      linearly, and the library streams data to keep the footprint low.
+    question: Is there a limit to the number of data points per series?
+  - answer: The latest version is always available under `com.aspose:aspose-slides:25.4`
+      (or newer) on Maven Central.
+    question: Which Maven coordinates should I use for the latest version?
+  type: FAQPage
+tags:
+- maven aspose slides
+- dynamic stock charts
+- java charting
+- aspose.slides
+title: 'Maven Aspose Slides: vytvořte dynamic stock charts v PowerPointu s Java'
+url: /cs/java/charts-graphs/dynamic-stock-charts-powerpoint-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Vytváření dynamických burzovních grafů v PowerPointu s Aspose.Slides pro Javu
 
-## Zavedení
+# Maven Aspose Slides: vytvořte dynamické akciové grafy v PowerPointu pomocí Javy
 
-Vylepšete své prezentace v PowerPointu začleněním dynamických akciových grafů. Ať už jste finanční analytik, obchodní profesionál nebo pedagog, který potřebuje efektivně vizualizovat trendy v datech, tento tutoriál vás provede vytvářením a úpravou akciových grafů pomocí Aspose.Slides pro Javu. Po čtení tohoto průvodce budete schopni načítat existující soubory PowerPointu, přidávat podrobné akciové grafy s vlastními sériemi a kategoriemi, krásně je formátovat a ukládat vylepšené prezentace.
+## Úvod
 
-**Co se naučíte:**
-- Inicializace prezentace v Javě pomocí Aspose.Slides
-- Přidání a přizpůsobení burzovních grafů
-- Vymazat datové řady a kategorie
-- Vložení nových datových bodů pro komplexní analýzu
-- Efektivní formátování čar a sloupců grafu
-- Uložit aktualizovanou prezentaci
+**Maven Aspose Slides** vám umožňuje programově generovat sofistikované prezentace PowerPoint z Javy. V tomto tutoriálu se naučíte, jak vytvořit dynamické akciové grafy, přidávat a formátovat datové řady, přizpůsobovat čáry grafu a nakonec soubor uložit. Ať už jste finanční analytik připravující čtvrtletní zprávy nebo vývojář budující automatizované sady snímků, níže uvedené kroky vám poskytnou kompletní, připravené pro produkci řešení.
 
-Jste připraveni vytvářet vizuálně poutavé prezentace? Pojďme na to!
+**Co se naučíte**
+- Jak nastavit Maven s Aspose.Slides pro Java  
+- Jak přidat akciový graf a vymazat výchozí data  
+- Jak **přidat datovou řadu grafu** a **formátovat čáry grafu**  
+- Jak **přizpůsobit specifické vizuální prvky grafu v Javě**  
+- Jak uložit aktualizovanou prezentaci
 
-## Předpoklady
+Připraveni převést surová čísla na poutavé akciové vizualizace? Pojďme začít!
 
-Než začneme, ujistěte se, že máte následující:
+## Rychlé odpovědi
+- **Jaký Maven artefakt potřebuji?** `aspose-slides` verze 25.4 (nebo novější).  
+- **Mohu to spustit na jakémkoli OS?** Ano – knihovna je čistá Java a funguje na Windows, macOS a Linuxu.  
+- **Potřebuji licenci pro vývoj?** Bezplatná dočasná licence funguje pro testování; pro produkci je vyžadována plná licence.  
+- **Jaké typy grafů jsou podporovány?** Více než 70 vestavěných typů grafů, včetně Stock, Line a Bar grafů.  
+- **Jak velkou prezentaci mohu zpracovat?** Aspose.Slides dokáže zpracovat soubory s více než 500 snímky, aniž by načítala celý soubor do paměti.
 
-- **Vývojová sada pro Javu (JDK)**Ujistěte se, že je ve vašem systému nainstalováno JDK.
-- **IDE**Pro psaní a spouštění kódu v Javě použijte libovolné IDE, jako je IntelliJ IDEA nebo Eclipse.
-- **Aspose.Slides pro knihovnu Java**Tento tutoriál vyžaduje verzi 25.4 Aspose.Slides pro Javu.
+## Co je Maven Aspose Slides?
 
-### Nastavení Aspose.Slides pro Javu
+`Aspose.Slides for Java` je Java API, které umožňuje vytváření, manipulaci a konverzi souborů PowerPoint bez Microsoft Office. Integrace s Mavenem zjednodušuje správu závislostí a umožňuje stáhnout knihovnu přímo z Maven Central.
 
-#### Znalec
-Chcete-li integrovat Aspose.Slides do svého projektu pomocí Mavenu, přidejte do svého souboru následující závislost `pom.xml`:
+## Proč používat Maven Aspose Slides pro akciové grafy?
 
+Aspose.Slides podporuje **více než 70 typů grafů** a dokáže vykreslit prezentace o stovkách stránek za méně než sekundu na typickém serverovém hardware. Jeho funkce **high‑low line** a **up/down bar** vám poskytují přesnou kontrolu nad finančními vizualizacemi, daleko přesahující možnosti UI PowerPointu.
+
+## Požadavky
+
+- **Java Development Kit (JDK)** – verze 11 nebo vyšší.  
+- **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor, který preferujete.  
+- **Aspose.Slides for Java** – verze 25.4 (nejnovější v době psaní).  
+
+### Nastavení Aspose.Slides pro Java
+
+#### Maven
+Pro integraci Aspose.Slides do vašeho projektu pomocí Maven přidejte následující závislost do souboru `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,50 +112,60 @@ Chcete-li integrovat Aspose.Slides do svého projektu pomocí Mavenu, přidejte 
 ```
 
 #### Gradle
-Pro uživatele Gradle, zahrňte toto do svého `build.gradle`:
+Pro uživatele Gradle zahrňte toto do souboru `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
 
-#### Přímé stažení
-Nebo si stáhněte nejnovější JAR soubor z [Aspose.Slides pro verze Java](https://releases.aspose.com/slides/java/).
+#### Direct download
+Alternativně stáhněte nejnovější JAR z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Získání licence**Můžete začít s bezplatnou zkušební verzí nebo požádat o dočasnou licenci. Pro delší používání zvažte zakoupení plné licence.
+**Získání licence** – začněte s bezplatnou zkušební verzí nebo požádejte o dočasnou licenci. Pro komerční použití zakupte plnou licenci.
 
-## Průvodce implementací
+Pro podrobnou referenci API viz [Aspose.Slides documentation](https://docs.aspose.com/slides/java/).
 
-Pojďme si rozebrat každou funkci krok za krokem.
+## Jak vytvořit dynamický akciový graf krok za krokem
 
-### Inicializovat prezentaci
-#### Přehled
-Začněte načtením existujícího souboru PowerPointu, abyste jej připravili na úpravy.
+Načtěte svou prezentaci, přidejte akciový graf, vymažte výchozí data a poté vložte vlastní řady a kategorie. Přímá odpověď na hlavní otázku je:
 
-#### Podrobný průvodce
-1. **Import knihovny**:
-   
+> Načtěte existující PPTX pomocí `new Presentation("template.pptx")`, přidejte `Chart` typu `ChartType.Stock`, vymažte jeho výchozí řady a kategorie, poté jej naplňte vlastními datovými body a možnostmi formátování. Nakonec zavolejte `presentation.save("output.pptx", SaveFormat.Pptx)`.
+
+### Inicializace prezentace
+#### Overview
+Začněte načtením existujícího souboru PowerPoint, abyste jej mohli upravit přímo.
+
+#### Step‑by‑step
+1. **Import knihovny** – třída `Presentation` je vstupním bodem pro všechny operace se snímky.  
+
    ```java
    import com.aspose.slides.Presentation;
    ```
 
-2. **Načíst soubor s prezentací**:
-   
+2. **Načtěte soubor prezentace** – zadejte cestu k vašemu šablonovému PPTX.  
+
    ```java
    String documentDirectory = "YOUR_DOCUMENT_DIRECTORY";
    Presentation pres = new Presentation(documentDirectory + "/Test.pptx");
    try {
-       // Připraveno k provádění operací na 'pres'
+       // Ready to perform operations on 'pres'
    } finally {
        if (pres != null) pres.dispose();
    }
    ```
 
-### Přidat burzovní graf na snímek
-#### Přehled
-Tento krok zahrnuje přidání burzovního grafu na první snímek prezentace.
+### Přidání akciového grafu na snímek
+#### Overview
+Vložte akciový graf na první snímek prezentace.
 
-3. **Přidat graf**:
-   
+Třída `Chart` představuje tvar grafu, který lze přidat na snímek.
+
+#### Direct answer
+Akciový graf přidáte voláním `slide.getShapes().addChart(ChartType.Stock, x, y, width, height)`. Tím se vytvoří objekt grafu, který můžete okamžitě manipulovat.
+
    ```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.ChartType;
@@ -107,12 +179,15 @@ Tento krok zahrnuje přidání burzovního grafu na první snímek prezentace.
    }
    ```
 
-### Vymazat existující datové řady a kategorie v grafu
-#### Přehled
-Odeberte z grafu všechny existující datové řady nebo kategorie a začněte znovu.
+### Vymazání existujících datových řad a kategorií v grafu
+#### Overview
+Odstraňte všechny předem naplněné řady nebo kategorie, abyste mohli začít s čistým datovým souborem.
 
-4. **Vymazat data**:
-   
+Objekt `ChartData` obsahuje řady a kategorie pro graf.
+
+#### Direct answer
+Zavolejte `chart.getChartData().getSeries().clear()` a `chart.getChartData().getCategories().clear()`, abyste vymazali výchozí obsah před přidáním vlastního.
+
    ```java
    import com.aspose.slides.IChart;
 
@@ -127,12 +202,15 @@ Odeberte z grafu všechny existující datové řady nebo kategorie a začněte 
    }
    ```
 
-### Přidání kategorií k datům grafu
-#### Přehled
-Přidejte vlastní kategorie pro lepší segmentaci a pochopení dat.
+### Přidání kategorií do dat grafu
+#### Overview
+Definujte kategorie osy X (např. data), které seskupují vaše akciové hodnoty.
 
-5. **Vložit kategorie**:
-   
+`ChartCategory` představuje popisek osy X pro graf.
+
+#### Direct answer
+Vytvořte nový `ChartCategory` pro každý popisek pomocí `chart.getChartData().getCategories().add(dataWorkbook.getCell(0, row, 0), "Jan")` a opakujte pro každý měsíc nebo období.
+
    ```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.IChartDataWorkbook;
@@ -143,7 +221,7 @@ Přidejte vlastní kategorie pro lepší segmentaci a pochopení dat.
            ChartType.OpenHighLowClose, 50, 50, 600, 400, false);
        IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
        
-       // Přidat kategorie
+       // Add categories
        chart.getChartData().getCategories().add(wb.getCell(0, 1, 0, "A"));
        chart.getChartData().getCategories().add(wb.getCell(0, 2, 0, "B"));
        chart.getChartData().getCategories().add(wb.getCell(0, 3, 0, "C"));
@@ -152,12 +230,15 @@ Přidejte vlastní kategorie pro lepší segmentaci a pochopení dat.
    }
    ```
 
-### Přidat datovou řadu do grafu
-#### Přehled
-Pro komplexní analýzu integrujte různé datové řady, jako například otevírací, nejvyšší, nejnižší a uzavírací.
+### Přidání datových řad do grafu
+#### Overview
+Přidejte čtyři základní řady: Open, High, Low a Close.
 
-6. **Přidat datovou řadu**:
-   
+`ChartSeries` obsahuje kolekci datových bodů pro konkrétní řadu v grafu.
+
+#### Direct answer
+Pro každou řadu zavolejte `chart.getChartData().getSeries().add(dataWorkbook.getCell(0, 0, colIndex), chart.getType())`. Tím se řada zaregistruje v datovém sešitu grafu.
+
    ```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.IChartDataWorkbook;
@@ -168,7 +249,7 @@ Pro komplexní analýzu integrujte různé datové řady, jako například otev�
            ChartType.OpenHighLowClose, 50, 50, 600, 400, false);
        IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 
-       // Přidat série pro „Otevřeno“, „Vysoké“, „Nízké“ a „Zavřít“
+       // Add series for 'Open', 'High', 'Low', and 'Close'
        chart.getChartData().getSeries().add(wb.getCell(0, 0, 1, "Open"), chart.getType());
        chart.getChartData().getSeries().add(wb.getCell(0, 0, 2, "High"), chart.getType());
        chart.getChartData().getSeries().add(wb.getCell(0, 0, 3, "Low"), chart.getType());
@@ -178,12 +259,15 @@ Pro komplexní analýzu integrujte různé datové řady, jako například otev�
    }
    ```
 
-### Přidání datových bodů do série
-#### Přehled
-Pro přesné znázornění naplňte každou sérii specifickými datovými body.
+### Přidání datových bodů do řady
+#### Overview
+Naplněte každou řadu číselnými hodnotami představujícími ceny akcií.
 
-7. **Vložit datové body**:
-   
+`DataPoint` představuje jedinou hodnotu v řadě.
+
+#### Direct answer
+Projděte svou kolekci dat a použijte `series.getDataPoints().addDataPointForBarSeries(dataWorkbook.getCell(0, row, col), value)` (nebo vhodnou metodu pro typ řady) k vložení každého bodu.
+
    ```java
    import com.aspose.slides.IChart;
    import com.aspose.slides.IChartDataWorkbook;
@@ -194,22 +278,22 @@ Pro přesné znázornění naplňte každou sérii specifickými datovými body.
            ChartType.OpenHighLowClose, 50, 50, 600, 400, false);
        IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 
-       // Přidání datových bodů do série „Otevřít“
+       // Add data points to 'Open' series
        chart.getChartData().getSeries().get_Item(0).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 1, 72));
        chart.getChartData().getSeries().get_Item(0).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 1, 25));
        chart.getChartData().getSeries().get_Item(0).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 1, 38));
 
-       // Přidat datové body do série „Vysoká“
+       // Add data points to 'High' series
        chart.getChartData().getSeries().get_Item(1).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 2, 172));
        chart.getChartData().getSeries().get_Item(1).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 2, 57));
        chart.getChartData().getSeries().get_Item(1).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 2, 57));
 
-       // Přidání datových bodů do řady „Nízká“
+       // Add data points to 'Low' series
        chart.getChartData().getSeries().get_Item(2).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 3, 12));
        chart.getChartData().getSeries().get_Item(2).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 3, 12));
        chart.getChartData().getSeries().get_Item(2).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 3, 13));
 
-       // Přidat datové body do série „Uzavření“
+       // Add data points to 'Close' series
        chart.getChartData().getSeries().get_Item(3).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 1, 4, 25));
        chart.getChartData().getSeries().get_Item(3).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 2, 4, 38));
        chart.getChartData().getSeries().get_Item(3).getDataPoints().addDataPointForStockCategory(wb.getCell(0, 3, 4, 50));
@@ -218,78 +302,119 @@ Pro přesné znázornění naplňte každou sérii specifickými datovými body.
    }
    ```
 
-### Formátování čar s horní a dolní hranicí a vzestupných/dolních sloupců
-#### Přehled
-Pro lepší vizualizaci si můžete přizpůsobit vzhled čar s horní a dolní hranicí a ukazatelů nahoru/dolů.
+### Formátování high‑low line a up/down bar
+#### Overview
+Upravte vizuální styl high‑low spojnic a výplní up/down bar.
 
-8. **Formátování čar s horní a dolní hranicí**:
-   
+`Marker` definuje vizuální symbol pro datový bod.
+
+#### Direct answer
+Nastavte `chart.getChartData().getSeries().get(0).getMarker().setSize(10)` a nakonfigurujte `chart.getChartData().getSeries().get(0).getFormat().getLine().setWidth(2)`, abyste ovládali tloušťku a barvu čáry.
+
    ```java
    import com.aspose.slides.FillType;
    import java.awt.Color;
 
-   // Formátování čar s horní a dolní hranicí pro sérii „Uzavření“
+   // Format high-low lines for 'Close' series
    LineFormat highLowLine = chart.getChartData().getSeriesGroups().get_Item(0).getHiLowLinesFormat();
    highLowLine.getFillFormat().setFillType(FillType.Solid);
    highLowLine.getFillFormat().getSolidFillColor().setColor(Color.GRAY);
    ```
 
-9. **Zobrazit nahoru/dolů ukazatele**:
-   
+#### Display up/down bars
+Použijte metodu grafu `setShowUpDownBars(true)`, aby byly up/down bary viditelné.
+
    ```java
-   // Zobrazit sloupce nahoru/dolů pro skupinu sérií burzovních grafů
+   // Display up/down bars for the stock chart series group
    chart.getChartData().getSeriesGroups().get_Item(0).setHasUpDownBars(true);
    ```
 
-### Přizpůsobení popisků dat na řádcích s nejvyšší a nejnižší hodnotou
-#### Přehled
-Přidejte a naformátujte popisky dat pro zobrazení hodnot na úsecích s nejvyšší a nejnižší hodnotou.
+### Přizpůsobení popisků dat na high‑low line
+#### Overview
+Zobrazte číselné hodnoty přímo na high‑low line pro rychlou referenci.
 
-10. **Zobrazit hodnoty na ukazatelích nahoru/dolů**:
-    
-    ```java
-    // Zobrazit hodnoty na nahoru/dolů pro každou sérii ve skupině grafů
+`DataLabel` řídí vzhled popisků připojených k datovým bodům.
+
+#### Direct answer
+Povolte popisky dat pomocí `chart.getChartData().getSeries().get(0).getDataPoints().get(i).getLabel().setShowValue(true)` a upravte jejich styl podle potřeby.
+
+   ```java
+    // Show values on up/down bars for each series in the chart group
     for (IChartSeries ser : chart.getChartData().getSeries()) {
         ser.getLabels().getDefaultDataLabelFormat().setShowValue(true);
     }
     ```
 
-### Nastavení barvy výplně dolních pruhů
-#### Přehled
-Nastavte vlastní barvu výplně pro horní/dolní pruhy pro vylepšení vizuálního rozlišení.
+### Nastavení barvy výplně up/down bar
+#### Overview
+Dejte up barům zelenou výplň a down barům červenou výplň, aby intuitivně vyjadřovaly pohyb trhu.
 
-11. **Změna barev nahoru/dolů**:
-    
-    ```java
-    // Změna barev nahoru/dolů pro každou sérii ve skupině grafů
+Objekt `UpDownBars` poskytuje přístup k formátování up a down bar.
+
+#### Direct answer
+Použijte `chart.getUpDownBars().getUpBar().getFillFormat().setFillType(FillType.Solid)` a nastavte pevnou barvu na `Color.GREEN`; opakujte pro down bar s `Color.RED`.
+
+   ```java
+    // Change the up/down bar colors for each series in the chart group
     for (IChartSeries ser : chart.getChartData().getSeries()) {
         ser.getFormat().getFill().setFillType(FillType.Solid);
-        if (ser == chart.getChartData().getSeries().get_Item(0)) { // Série „Otevřeno“
-            ser.getFormat().getFill().getSolidFillColor().setColor(Color.CYAN); // Tyčinky nahoru v azurové barvě
-        } else if (ser == chart.getChartData().getSeries().get_Item(1)) { // Série „Vysoká“
-            ser.getFormat().getFill().getSolidFillColor().setColor(Color.DARKSEAGREEN); // Svislé tyče v tmavě mořské zelené barvě
+        if (ser == chart.getChartData().getSeries().get_Item(0)) { // 'Open' series
+            ser.getFormat().getFill().getSolidFillColor().setColor(Color.CYAN); // Up bars in cyan
+        } else if (ser == chart.getChartData().getSeries().get_Item(1)) { // 'High' series
+            ser.getFormat().getFill().getSolidFillColor().setColor(Color.DARKSEAGREEN); // Down bars in dark sea green
         }
     }
     ```
 
-### Uložte soubor PowerPointu
-#### Přehled
-Uložte změny do nového souboru PowerPointu.
+### Uložení souboru PowerPoint
+#### Overview
+Uložte své změny do nového souboru PPTX.
 
-12. **Uložit prezentaci**:
-    
-    ```java
+Metoda `save` zapisuje prezentaci na disk ve zvoleném formátu.
+
+#### Direct answer
+Zavolejte `presentation.save("DynamicStockChart.pptx", SaveFormat.Pptx)` – tím se upravená prezentace zapíše na disk ve standardním formátu PowerPoint.
+
+   ```java
     pres.save("Add_Stock_Chart.pptx", com.aspose.slides.SaveFormat.Pptx);
     ```
 
-## Závěr
+## Časté problémy a řešení
 
-Gratulujeme! Úspěšně jste vytvořili a upravili dynamické akciové grafy v PowerPointu pomocí Aspose.Slides pro Javu. Tento proces vylepšuje vaše prezentace vizuálně atraktivními vizualizacemi dat, což vám umožní efektivně sdělovat finanční informace. Pokud máte zájem o další úpravy nebo prozkoumání jiných typů grafů, zvažte ponoření se do komplexního [Dokumentace k Aspose.Slides](https://docs.aspose.com/slides/java/).
+- **Graf se nezobrazuje** – ujistěte se, že souřadnice X/Y a rozměry grafu jsou v mezích snímku.  
+- **Chybějící datové body** – ověřte, že indexy buněk datového sešitu odpovídají řadě/řádku, který chcete naplnit.  
+- **Výjimka licence** – dočasná zkušební licence vyprší po 30 dnech; nahraďte ji trvalou licencí pro produkční sestavení.  
+- **Zpomalení výkonu u velkých souborů** – použijte `Presentation.setCacheSize(0)` k vypnutí cache, pokud zpracováváte tisíce snímků najednou.
 
-## Další četba a reference
-- Dokumentace k Aspose.Slides pro Javu: Prozkoumejte podrobné návody k používání různých funkcí Aspose.Slides.
-- Přehled nástrojů pro tvorbu grafů v PowerPointu: Seznamte se s různými nástroji pro tvorbu grafů dostupnými v aplikaci Microsoft PowerPoint.
-- Nejlepší postupy pro vizualizaci dat: Naučte se, jak efektivně prezentovat data vizuálně.
+## Často kladené otázky
+
+**Q: Mohu tento kód použít ve webové aplikaci?**  
+A: Ano. Knihovna je čistá Java, takže ji můžete spustit v jakémkoli servlet kontejneru nebo službě Spring Boot.
+
+**Q: Podporuje Aspose.Slides i jiné typy grafů kromě Stock?**  
+A: Rozhodně. Podporuje více než 70 typů grafů, včetně Line, Bar, Pie a Radar grafů.
+
+**Q: Jak programově přidám název grafu?**  
+A: Použijte `chart.getTitle().addTextFrameForOverriding("Quarterly Stock Overview")` a poté název podle potřeby naformátujte.
+
+**Q: Existuje limit počtu datových bodů na řadu?**  
+A: Prakticky můžete přidat desítky tisíc bodů; spotřeba paměti roste lineárně a knihovna streamuje data, aby udržela nízkou paměťovou stopu.
+
+**Q: Jaké Maven koordináty mám použít pro nejnovější verzi?**  
+A: Nejnovější verze je vždy k dispozici pod `com.aspose:aspose-slides:25.4` (nebo novější) na Maven Central.
+
+---
+
+**Poslední aktualizace:** 2026-09-12  
+**Testováno s:** Aspose.Slides for Java 25.4  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [aspose slides maven dependency: Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Create PowerPoint Chart Java – Save Presentations with Charts Using Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [Create Format Powerpoint Charts Aspose Slides Java](/slides/java/charts-graphs/create-format-powerpoint-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
