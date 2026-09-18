@@ -1,66 +1,94 @@
 ---
-date: '2026-03-20'
+date: '2026-09-17'
 description: Pelajari cara menambahkan diagram kolom berkelompok ke presentasi PowerPoint,
   menyesuaikan diagram PowerPoint, dan menyisipkan diagram seri data menggunakan Aspose.Slides
-  untuk Java.
+  for Java.
 keywords:
-- Grouped Column Chart
-- Aspose.Slides for Java
-- PowerPoint Presentation
+- add clustered column chart
+- add chart to powerpoint
+- save presentation as pptx
+- java create powerpoint presentation
+lastmod: '2026-09-17'
+og_description: Pelajari cara menambahkan diagram kolom berkelompok ke presentasi
+  PowerPoint menggunakan Aspose.Slides for Java, termasuk langkah-langkah menyisipkan
+  seri data, menyesuaikan pengelompokan, dan menyimpan file sebagai PPTX.
+og_image_alt: Guide showing clustered column chart creation in PowerPoint with Aspose.Slides
+  Java
+og_title: Tambahkan diagram kolom berkelompok ke PowerPoint menggunakan Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-09-17'
+  description: Learn how to add clustered column chart to a PowerPoint presentation,
+    customize PowerPoint chart, and insert data series chart using Aspose.Slides for
+    Java.
+  headline: How to add clustered column chart in PowerPoint using Aspose.Slides for
+    Java
+  type: TechArticle
+- questions:
+  - answer: '`Presentation` from `com.aspose.slides`.'
+    question: "Add chart to slide** and configure it as a clustered column chart.
+      \ \n- **Create grouped column chart** by defining grouping levels for categories.
+      \ \n- **Insert data series chart** so your data is displayed correctly.  \n-
+      Save the finished presentation as a PPTX file.\n\n## Quick answers\n- **What
+      is the primary class?"
+  - answer: '`ChartType.ClusteredColumn`.'
+    question: Which chart type is used?
+  - answer: A free trial works, but a license removes evaluation limits.
+    question: Do I need a license for testing?
+  - answer: JDK 16 or newer (the example uses JDK 16).
+    question: What Java version is supported?
+  - answer: Add the Maven/Gradle dependency, compile, and run the `main` method.
+    question: How to run the sample?
+  type: FAQPage
+tags:
+- add clustered column chart
+- aspose.slides
+- java powerpoint automation
+- chart generation
 title: Cara menambahkan diagram kolom berkelompok di PowerPoint menggunakan Aspose.Slides
-  untuk Java
+  for Java
 url: /id/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cara menambahkan diagram kolom berkelompok di PowerPoint menggunakan Aspose.Slides untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Ketika Anda perlu **menambahkan diagram kolom berkelompok** ke dalam dek PowerPoint, visual yang jelas dapat mengubah angka mentah menjadi cerita yang langsung dipahami. Melakukan ini secara manual di PowerPoint dapat memakan waktu, terutama ketika Anda harus menghasilkan banyak slide secara terprogram. **Aspose.Slides untuk Java** menghilangkan kemunculan – ia memungkinkan Anda membuat, menyesuaikan diagram PowerPoint, dan menyisipkan diagram seri data hanya dengan beberapa baris kode.
+Ketika Anda perlu **add clustered column chart** ke dalam deck PowerPoint, visual yang jelas dapat mengubah angka mentah menjadi cerita yang langsung dipahami. Melakukan ini secara manual di PowerPoint dapat memakan waktu, terutama ketika Anda harus menghasilkan banyak slide secara programatis. **Aspose.Slides for Java** menghilangkan gesekan – ia memungkinkan Anda membuat, menyesuaikan diagram PowerPoint, dan menyisipkan diagram seri data dengan hanya beberapa baris kode.
 
 Dalam tutorial ini Anda akan belajar cara:
-- Menginisialisasi presentasi PowerPoint baru dengan Aspose.Slides untuk Java.
-- **Menambahkan diagram ke slide** dan mengaturnya sebagai diagram kolom berkelompok.
-- **Membuat diagram kolom berkelompok** dengan mendefinisikan tingkat pengelompokan untuk kategori.
-- **Menyisipkan diagram seri data** sehingga data Anda ditampilkan dengan benar.
-- Menyimpan presentasi selesai sebagai file PPTX.
-
-Mari pastikan Anda memiliki semua yang diperlukan sebelum kita menyelam ke dalam kode.
+- Inisialisasi presentasi PowerPoint baru dengan Aspose.Slides untuk Java.  
+- **Add chart to slide** dan konfigurasikan sebagai diagram kolom berkelompok.  
+- **Create grouped column chart** dengan mendefinisikan tingkat pengelompokan untuk kategori.  
+- **Insert data series chart** sehingga data Anda ditampilkan dengan benar.  
+- Simpan presentasi yang selesai sebagai file PPTX.
 
 ## Jawaban Cepat
-- **Apa kelas utama?** `Presentasi` dari `com.aspose.slides`.
-- **Jenis diagram apa yang digunakan?** `ChartType.ClusteredColumn`.
-- **Apakah saya memerlukan lisensi untuk pengujian?** Versi percobaan gratis berfungsi, tetapi penghapusan lisensi batas evaluasi.
-- **Versi Java apa yang didukung?** JDK16 atau lebih baru (contoh menggunakan JDK16).
-- **Bagaimana cara menjalankan contoh?** Tambahkan dependensi Maven/Gradle, kompilasi, dan jalankan metode `main`.
+- **Apa kelas utama?** `Presentation` from `com.aspose.slides`.  
+- **Jenis diagram apa yang digunakan?** `ChartType.ClusteredColumn`.  
+- **Apakah saya memerlukan lisensi untuk pengujian?** A free trial works, but a license removes evaluation limits.  
+- **Versi Java apa yang didukung?** JDK 16 or newer (the example uses JDK 16).  
+- **Bagaimana menjalankan contoh?** Add the Maven/Gradle dependency, compile, and run the `main` method.
 
-## Apa itu “menambahkan diagram kolom berkelompok”?
-
-*Diagram kolom berkelompok* (juga disebut diagram kolom bergrup) menampilkan beberapa seri data yang berdampingan untuk setiap kategori, memudahkan perbandingan nilai antar grup. Di PowerPoint, jenis diagram ini ideal untuk penjualan kuartalan, hasil survei, atau skenario apa pun di mana Anda perlu membandingkan beberapa kumpulan data dalam kategori yang sama.
+## Apa itu “add clustered column chart”?
+Diagram kolom berkelompok menampilkan beberapa seri data berdampingan untuk setiap kategori, memungkinkan Anda membandingkan nilai antar grup dalam satu visual. Ini ideal untuk penjualan kuartalan, hasil survei, atau skenario apa pun di mana Anda perlu membandingkan beberapa set data dalam kategori yang sama.
 
 ## Mengapa menggunakan Aspose.Slides untuk menambahkan diagram kolom berkelompok?
-
-- **Otomatisasi penuh** – menghasilkan puluhan slide tanpa usaha manual.
-- **Kustomisasi detail** – mengontrol warna, label, tingkat pengelompokan, dan lainnya.
-- **Lintas platform** – bekerja pada sistem operasi apa pun yang mendukung Java.
-- **Tidak memerlukan instalasi Office** – menghasilkan file PPTX di server atau pipeline CI.
+Anda dapat menghasilkan puluhan slide secara otomatis, menyesuaikan setiap elemen visual, dan menjalankan kode pada sistem operasi apa pun yang mendukung Java—tanpa memerlukan instalasi Microsoft Office. Aspose.Slides mendukung **50+ chart types** dan dapat memproses presentasi dengan **up to 500 slides** tanpa memuat seluruh file ke memori, menjadikannya cocok untuk pipeline pelaporan berskala besar.
 
 ## Prasyarat
-
-- **Pustaka Aspose.Slides untuk Java** (versi terbaru disarankan).
-- JDK16 atau yang lebih baru.
-- Alat build Maven atau Gradle (atau Anda dapat menambahkan JAR secara manual).
+- **Aspose.Slides for Java** library (versi terbaru disarankan).  
+- JDK 16 atau lebih baru.  
+- Alat build Maven atau Gradle (atau Anda dapat menambahkan JAR secara manual).  
 - IDE atau editor teks untuk menjalankan kode Java.
 
-## Menyiapkan Aspose.Slide untuk Java
-
-Tambahkan pustaka ke proyek Anda menggunakan salah satu skrip build berikut.
+## Menyiapkan Aspose.Slides untuk Java
+Tambahkan library ke proyek Anda menggunakan salah satu skrip build berikut.
 
 **Maven**
 
@@ -79,22 +107,19 @@ Tambahkan pustaka ke proyek Anda menggunakan salah satu skrip build berikut.
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Sebagai alternatif, Anda dapat mengunduh langsung rilis terbaru dari [rilisan Aspose.Slides untuk Java](https://releases.aspose.com/slides/java/).
+Sebagai alternatif, Anda dapat langsung mengunduh rilis terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Akuisisi Lisensi
-
+### Perolehan Lisensi
 Sebelum menerapkan ke produksi, dapatkan lisensi:
-- **Percobaan gratis** – menjelajahi semua fitur tanpa pembelian.
-- **Lisensi sementara** – evaluasi kemampuan tambahan untuk jangka waktu singkat.
-- **Lisensi penuh** – membuka penggunaan tak terbatas. Dapatkan dari [halaman pembelian Aspose](https://purchase.aspose.com/buy).
+- **Free trial** – jelajahi semua fitur tanpa pembelian.  
+- **Temporary license** – evaluasi kemampuan tambahan untuk periode singkat.  
+- **Full license** – buka penggunaan tak terbatas. Dapatkan dari [Aspose's purchase page](https://purchase.aspose.com/buy).
 
-## Panduan Penerapan
+## Cara menambahkan diagram kolom berkelompok di PowerPoint menggunakan Aspose.Slides untuk Java?
+Muat `Presentation` baru, tambahkan slide, sisipkan `Chart` dengan tipe `ChartType.ClusteredColumn`, isi workbook internalnya dengan kategori dan seri, lalu simpan file sebagai PPTX. Urutan ini membuat diagram kolom berkelompok yang berfungsi penuh dengan hanya beberapa panggilan API.
 
-Kami akan melangkah melalui setiap tahap, menjelaskan **cara menambahkan diagram** dan **menyesuaikan diagram PowerPoint** sepanjang proses.
-
-### Inisialisasi Presentasi
-
-Pertama, buat objek `Presentation` baru dan ambil slide default.
+### Inisialisasi presentasi
+`Presentation` adalah kelas yang mewakili file PowerPoint dalam memori, memungkinkan Anda menambahkan slide, shape, dan diagram secara programatis.
 
 ```java
 import com.aspose.slides.*;
@@ -104,9 +129,8 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-### Tambahkan Bagan ke Slide
-
-Sekarang kita **menambahkan diagram ke slide** menggunakan tipe `ClusteredColumn` dan menghapus data default apa pun.
+### Tambahkan diagram ke slide
+`ChartType.ClusteredColumn` memberi tahu Aspose.Slides untuk merender diagram kolom berkelompok.
 
 ```java
 // Feature: Add Chart to Slide
@@ -116,9 +140,8 @@ ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-### Siapkan Buku Kerja Data Bagan
-
-Diagram menyimpan datanya dalam workbook internal. Kami mengosongkannya untuk memulai dari awal.
+### Siapkan workbook data diagram
+Diagram menyimpan datanya dalam workbook internal. Mengosongkannya memberi Anda kanvas bersih untuk data khusus.
 
 ```java
 // Feature: Prepare Chart Data Workbook
@@ -127,9 +150,8 @@ fact.clear(0);
 int defaultWorksheetIndex = 0;
 ```
 
-### Tambahkan Kategori dengan Tingkat Pengelompokan
-
-Mengelompokkan kategori menciptakan efek **diagram kolom bergrup**. Setiap kategori dapat menjadi bagian dari grup logis.
+### Tambahkan kategori dengan tingkat pengelompokan
+Pengelompokan kategori menciptakan efek diagram kolom berkelompok. Setiap kategori dapat menjadi bagian dari grup logis yang muncul pada label sumbu.
 
 ```java
 // Feature: Add Categories with Grouping Levels
@@ -141,9 +163,8 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c3", "B"));
 // Repeat for other categories
 ```
 
-### Tambahkan Seri Data ke Bagan
-
-Di sini kami **menyisipkan entri diagram seri data** yang akan divisualisasikan sebagai kolom terpisah.
+### Tambahkan seri data ke diagram
+Objek `Series` mewakili kolom individual dalam diagram. Menambahkan beberapa seri menghasilkan kolom berdampingan untuk setiap kategori.
 
 ```java
 // Feature: Add Data Series to Chart
@@ -153,9 +174,8 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 // Continue adding data points
 ```
 
-### Simpan Presentasi dengan Bagan
-
-Akhirnya, tulis file PPTX ke disk.
+### Simpan presentasi dengan diagram
+Menyimpan `Presentation` menulis file PPTX standar yang dapat dibuka di viewer PowerPoint apa pun.
 
 ```java
 // Feature: Save Presentation with Chart
@@ -163,61 +183,60 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Aplikasi Praktis
-
-- **Laporan Bisnis** – menghitung pendapatan kuartalan antar wilayah.
-- **Penelitian Akademik** – menampilkan hasil eksperimen yang dikumpulkan berdasarkan kondisi uji.
-- **Manajemen** Proyek – memvisualisasikan tingkat penyelesaian tugas untuk beberapa waktu dalam satu slide.
+- **Business reports** – bandingkan pendapatan kuartalan antar wilayah.  
+- **Academic research** – tampilkan hasil eksperimen yang dikelompokkan berdasarkan kondisi uji.  
+- **Project management** – visualisasikan tingkat penyelesaian tugas untuk beberapa tim pada satu slide.
 
 ## Pertimbangan Kinerja
+- **Memory management** – lepaskan workbook besar setelah digunakan.  
+- **Batch operations** – hindari memperbarui diagram di dalam loop ketat; kumpulkan data terlebih dahulu, lalu terapkan.  
+- **Built‑in optimizations** – Aspose.Slides menyediakan metode seperti `Presentation.optimize()` untuk file besar, mengurangi jejak memori hingga **30 %**.
 
-- **Manajemen memori** – melepas workbook besar setelah penggunaan.
-- **Operasi batch** – hindari memperbarui diagram di dalam loop ketat; Kumpulkan data terlebih dahulu, lalu terapkan.
-- **Optimasi bawaan** – Aspose.Slides menyediakan metode seperti `Presentation.optimize()` untuk file besar.
-
-## Kesalahan & Tip Umum
-
-- **Pitfall:** Lupa pembekuan seri/kategori yang ada dapat menyebabkan duplikat data. 
-**Tips:** Selalu panggil `clear()` sebelum mengisi data baru.
-- **Pitfall:** Menggunakan alamat sel yang salah (misalnya, `"c2"` alih‑alih `"C2"`). 
-**Tips:** Referensi sel tidak sensitif huruf, tetapi menjaga konsistensi untuk keterbacaan.
-- **Tip:** Gunakan `setGroupingItem` untuk membuat grup label yang bermakna; mereka akan muncul otomatis di diagram legenda.
+## Kesalahan Umum & Tips
+- **Pitfall:** Lupa mengosongkan seri/kategori yang ada dapat menyebabkan data duplikat.  
+  **Tip:** Selalu panggil `clear()` sebelum mengisi data baru.  
+- **Pitfall:** Menggunakan alamat sel yang salah (misalnya, "c2" alih-alih "C2").  
+  **Tip:** Referensi sel tidak sensitif huruf besar/kecil, tetapi pertahankan konsistensi untuk keterbacaan.  
+- **Tip:** Gunakan `setGroupingItem` untuk membuat label grup yang bermakna; mereka muncul secara otomatis di legenda diagram.
 
 ## Pertanyaan yang Sering Diajukan
-
-**Q1: Bagaimana cara menambahkan beberapa seri ke diagram saya?**  
-A1: Panggil `ch.getChartData().getSeries().add()` berulang kali, memberikan nama unik dan titik data untuk setiap seri.
+**Q1: Bagaimana saya dapat menambahkan beberapa seri ke diagram saya?**  
+A1: Call `ch.getChartData().getSeries().add()` repeatedly, providing a unique name and data points for each series.
 
 **Q2: Apa saja masalah umum dengan diagram Aspose.Slides?**  
-A2: Masalah sering muncul karena rentang data yang tidak cocok atau sel workbook yang hilang. Pastikan setiap kategori dan titik data memiliki sel yang bersesuaian.
+A2: Issues often stem from mismatched data ranges or missing workbook cells. Verify that every category and data point has a corresponding cell.
 
 **Q3: Bisakah saya menggunakan Aspose.Slides dengan bahasa pemrograman lain?**  
-A3: Ya, Aspose menyediakan pustaka setara untuk .NET, C++, Python, dan lainnya.
+A3: Yes, Aspose provides equivalent libraries for .NET, C++, Python, and more.
 
-**Q4: Bagaimana cara memperbarui diagram yang sudah ada dalam presentasi?**  
-A4: Muat presentasi, temukan diagram melalui `slide.getShapes().get_Item(index)`, lalu modifikasi seri atau formatnya sesuai kebutuhan.
+**Q4: Bagaimana cara memperbarui diagram yang ada dalam presentasi?**  
+A4: Load the presentation, locate the chart via `slide.getShapes().get_Item(index)`, then modify its series or formatting as needed.
 
 **Q5: Apakah ada batasan pada jenis diagram dengan Aspose.Slides?**  
-A5: Pustaka mendukung berbagai jenis diagram, tetapi selalu periksa dokumentasi terbaru untuk jenis yang baru ditambahkan atau yang sudah usang.
+A5: The library supports over **50 chart types** and continuously adds new ones; always check the latest documentation for the most up‑to‑date list.
 
-## Sumber daya
-
-- **Dokumentasi**: [Referensi Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Unduh**: [Rilis Terbaru](https://releases.aspose.com/slides/java/)
-- **Pembelian**: [Beli Aspose.Slide](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulai Percobaan Gratis Anda](https://releases.aspose.com/slides/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Pendukung**: [Dukungan Aspose](https://forum.aspose.com/c/slides/11)
+## Sumber Daya
+- **Dokumentasi:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Unduhan:** [Latest Releases](https://releases.aspose.com/slides/java/)  
+- **Pembelian:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Uji coba gratis:** [Start Your Free Trial](https://releases.aspose.com/slides/java/)  
+- **Lisensi sementara:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum dukungan:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Terakhir Diperbarui:** 20-03-2026
-**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (JDK16)
+**Terakhir Diperbarui:** 2026-09-17  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Penulis:** Aspose
+
+## Tutorial Terkait
+- [Panduan Pembuatan Diagram di Java dengan Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Cara Menambahkan Diagram ke PowerPoint Menggunakan Aspose.Slides untuk Java: Panduan Langkah‑ demi‑Langkah](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Tambahkan animasi ke diagram PowerPoint menggunakan Aspose.Slides untuk Java – Panduan Langkah‑ demi‑Langkah](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

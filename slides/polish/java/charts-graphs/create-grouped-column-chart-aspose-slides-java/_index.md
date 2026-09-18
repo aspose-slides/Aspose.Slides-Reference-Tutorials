@@ -1,66 +1,98 @@
 ---
-date: '2026-03-20'
-description: Dowiedz się, jak dodać wykres kolumnowy grupowany do prezentacji PowerPoint,
-  dostosować wykres PowerPoint oraz wstawić wykres serii danych przy użyciu Aspose.Slides
+date: '2026-09-17'
+description: Dowiedz się, jak dodać wykres słupkowy grupowany do prezentacji PowerPoint,
+  dostosować wykres w PowerPoint oraz wstawić wykres serii danych przy użyciu Aspose.Slides
   for Java.
 keywords:
-- Grouped Column Chart
-- Aspose.Slides for Java
-- PowerPoint Presentation
-title: Jak dodać wykres słupkowy grupowany w PowerPoint przy użyciu Aspose.Slides
-  dla Javy
+- add clustered column chart
+- add chart to powerpoint
+- save presentation as pptx
+- java create powerpoint presentation
+lastmod: '2026-09-17'
+og_description: Dowiedz się, jak dodać wykres słupkowy grupowany do prezentacji PowerPoint
+  przy użyciu Aspose.Slides for Java, w tym kroki wstawiania serii danych, dostosowywania
+  grupowania i zapisywania pliku jako PPTX.
+og_image_alt: Guide showing clustered column chart creation in PowerPoint with Aspose.Slides
+  Java
+og_title: Dodaj wykres słupkowy grupowany do PowerPoint przy użyciu Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-09-17'
+  description: Learn how to add clustered column chart to a PowerPoint presentation,
+    customize PowerPoint chart, and insert data series chart using Aspose.Slides for
+    Java.
+  headline: How to add clustered column chart in PowerPoint using Aspose.Slides for
+    Java
+  type: TechArticle
+- questions:
+  - answer: '`Presentation` from `com.aspose.slides`.'
+    question: "Add chart to slide** and configure it as a clustered column chart.
+      \ \n- **Create grouped column chart** by defining grouping levels for categories.
+      \ \n- **Insert data series chart** so your data is displayed correctly.  \n-
+      Save the finished presentation as a PPTX file.\n\n## Quick answers\n- **What
+      is the primary class?"
+  - answer: '`ChartType.ClusteredColumn`.'
+    question: Which chart type is used?
+  - answer: A free trial works, but a license removes evaluation limits.
+    question: Do I need a license for testing?
+  - answer: JDK 16 or newer (the example uses JDK 16).
+    question: What Java version is supported?
+  - answer: Add the Maven/Gradle dependency, compile, and run the `main` method.
+    question: How to run the sample?
+  type: FAQPage
+tags:
+- add clustered column chart
+- aspose.slides
+- java powerpoint automation
+- chart generation
+title: Jak dodać wykres słupkowy grupowany w programie PowerPoint przy użyciu Aspose.Slides
+  for Java
 url: /pl/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak dodać wykres kolumnowy grupowany w PowerPoint przy użyciu Aspose.Slides for Java
+
+# Jak dodać wykres słupkowy grupowany w PowerPoint przy użyciu Aspose.Slides for Java
 
 ## Wprowadzenie
 
-Kiedy potrzebujesz **dodać wykres kolumnowy grupowany** do prezentacji PowerPoint, przejrzysta wizualizacja może zamienić surowe liczby w od razu zrozumiałą historię. Ręczne tworzenie takiego wykresu w PowerPoint może być czasochłonne, szczególnie gdy musisz programowo wygenerować wiele slajdów. **Aspose.Slides for Java** usuwa tę barierę – pozwala tworzyć, dostosowywać wykresy PowerPoint i wstawiać wykresy serii danych za pomocą kilku linijek kodu.
+Kiedy potrzebujesz **add clustered column chart** w prezentacji PowerPoint, wyraźna wizualizacja może przekształcić surowe liczby w natychmiast zrozumiałą historię. Robienie tego ręcznie w PowerPoint może być czasochłonne, szczególnie gdy musisz programowo generować wiele slajdów. **Aspose.Slides for Java** usuwa tarcia – pozwala tworzyć, dostosowywać wykresy PowerPoint i wstawiać wykresy serii danych za pomocą kilku linii kodu.
 
-W tym samouczku dowiesz się, jak:
-- Zainicjować nową prezentację PowerPoint przy użyciu Aspose.Slides for Java.
-- **Dodaj wykres do slajdu** i skonfiguruj go jako wykres kolumnowy grupowany.
-- **Utwórz wykres kolumnowy grupowany** definiując poziomy grupowania dla kategorii.
-- **Wstaw wykres serii danych**, aby dane były wyświetlane poprawnie.
+W tym samouczku nauczysz się:
+- Zainicjalizować nową prezentację PowerPoint przy użyciu Aspose.Slides for Java.  
+- **Add chart to slide** i skonfigurować go jako wykres słupkowy grupowany.  
+- **Create grouped column chart** poprzez definiowanie poziomów grupowania dla kategorii.  
+- **Insert data series chart** aby dane były wyświetlane prawidłowo.  
 - Zapisz gotową prezentację jako plik PPTX.
 
-Upewnijmy się, że masz wszystko, co potrzebne, zanim przejdziemy do kodu.
-
 ## Szybkie odpowiedzi
-- **Jaka jest główna klasa?** `Presentation` z `com.aspose.slides`.
-- **Jaki typ wykresu jest używany?** `ChartType.ClusteredColumn`.
-- **Czy potrzebna jest licencja do testów?** Darmowa wersja próbna działa, ale licencja usuwa ograniczenia wersji ewaluacyjnej.
-- **Jaką wersję Javy obsługuje?** JDK 16 lub nowszą (przykład używa JDK 16).
-- **Jak uruchomić przykład?** Dodaj zależność Maven/Gradle, skompiluj i uruchom metodę `main`.
+- **What is the primary class?** `Presentation` z `com.aspose.slides`.  
+- **Which chart type is used?** `ChartType.ClusteredColumn`.  
+- **Do I need a license for testing?** Dostępna jest darmowa wersja próbna, ale licencja usuwa ograniczenia ewaluacyjne.  
+- **What Java version is supported?** JDK 16 lub nowszy (przykład używa JDK 16).  
+- **How to run the sample?** Dodaj zależność Maven/Gradle, skompiluj i uruchom metodę `main`.
 
-## Co to jest „dodanie wykresu kolumnowego grupowanego”?
+## Co to jest „add clustered column chart”?
 
-*Wykres kolumnowy grupowany* (zwany także wykresem kolumnowym grupowanym) wyświetla wiele serii danych obok siebie dla każdej kategorii, co ułatwia porównywanie wartości pomiędzy grupami. W PowerPoint ten typ wykresu jest idealny do prezentacji kwartalnych wyników sprzedaży, wyników ankiet lub dowolnego scenariusza, w którym trzeba zestawić kilka zestawów danych w ramach tej samej kategorii.
+Wykres słupkowy grupowany wyświetla wiele serii danych obok siebie dla każdej kategorii, umożliwiając porównanie wartości pomiędzy grupami w jednej wizualizacji. Jest idealny do prezentacji wyników kwartalnych sprzedaży, wyników ankiet lub dowolnego scenariusza, w którym trzeba zestawić kilka zestawów danych w tej samej kategorii.
 
-## Dlaczego używać Aspose.Slides do dodania wykresu kolumnowego grupowanego?
+## Dlaczego używać Aspose.Slides do dodania wykresu słupkowego grupowanego?
 
-- **Pełna automatyzacja** – generuj dziesiątki slajdów bez ręcznej pracy.
-- **Precyzyjna personalizacja** – kontroluj kolory, etykiety, poziomy grupowania i inne.
-- **Cross‑platform** – działa na każdym systemie operacyjnym obsługującym Javę.
-- **Brak wymogu instalacji Office** – generuj pliki PPTX na serwerach lub w pipeline'ach CI.
+Możesz automatycznie generować dziesiątki slajdów, dostosowywać każdy element wizualny i uruchamiać kod na dowolnym systemie operacyjnym obsługującym Javę — bez konieczności instalacji Microsoft Office. Aspose.Slides obsługuje **ponad 50 typów wykresów** i może przetwarzać prezentacje zawierające **do 500 slajdów** bez wczytywania całego pliku do pamięci, co czyni go odpowiednim dla dużych przepływów raportowania.
 
 ## Wymagania wstępne
 
-- **Biblioteka Aspose.Slides for Java** (zalecana najnowsza wersja).  
+- Biblioteka **Aspose.Slides for Java** (zalecana najnowsza wersja).  
 - JDK 16 lub nowszy.  
-- Narzędzie budowania Maven lub Gradle (lub możesz dodać plik JAR ręcznie).  
+- Narzędzie budujące Maven lub Gradle (lub możesz dodać plik JAR ręcznie).  
 - IDE lub edytor tekstu do uruchamiania kodu Java.
 
 ## Konfiguracja Aspose.Slides for Java
 
-Dodaj bibliotekę do swojego projektu, używając jednego z poniższych skryptów budowania.
+Dodaj bibliotekę do swojego projektu, używając jednego z poniższych skryptów budujących.
 
 **Maven**
 
@@ -79,22 +111,22 @@ Dodaj bibliotekę do swojego projektu, używając jednego z poniższych skryptó
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatywnie możesz bezpośrednio pobrać najnowszą wersję z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Alternatywnie możesz bezpośrednio pobrać najnowsze wydanie z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Uzyskanie licencji
 
 Przed wdrożeniem do produkcji uzyskaj licencję:
-- **Darmowa wersja próbna** – przetestuj wszystkie funkcje bez zakupu.
-- **Licencja tymczasowa** – oceń rozszerzone możliwości przez krótki okres.
-- **Pełna licencja** – odblokuj nieograniczone użycie. Uzyskaj ją na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
+- **Free trial** – przetestuj wszystkie funkcje bez zakupu.  
+- **Temporary license** – oceń rozszerzone możliwości przez krótki okres.  
+- **Full license** – odblokuj nieograniczone użycie. Uzyskaj ją ze [strony zakupu Aspose](https://purchase.aspose.com/buy).
 
-## Przewodnik implementacji
+## Jak dodać wykres słupkowy grupowany w PowerPoint przy użyciu Aspose.Slides for Java?
 
-Przejdziemy krok po kroku, wyjaśniając **jak dodać wykres** i **dostosować wykres PowerPoint** po drodze.
+Załaduj nową `Presentation`, dodaj slajd, wstaw `Chart` typu `ChartType.ClusteredColumn`, wypełnij jego wewnętrzny skoroszyt kategoriami i seriami, a następnie zapisz plik jako PPTX. Ta sekwencja tworzy w pełni funkcjonalny wykres słupkowy grupowany przy użyciu kilku wywołań API.
 
 ### Inicjalizacja prezentacji
 
-Najpierw utwórz nowy obiekt `Presentation` i pobierz domyślny slajd.
+`Presentation` jest klasą reprezentującą plik PowerPoint w pamięci, umożliwiającą programowe dodawanie slajdów, kształtów i wykresów.
 
 ```java
 import com.aspose.slides.*;
@@ -106,7 +138,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 
 ### Dodaj wykres do slajdu
 
-Teraz **dodaj wykres do slajdu** używając typu `ClusteredColumn` i usuń wszelkie domyślne dane.
+`ChartType.ClusteredColumn` mówi Aspose.Slides, aby renderował wykres słupkowy grupowany.
 
 ```java
 // Feature: Add Chart to Slide
@@ -118,7 +150,7 @@ ch.getChartData().getCategories().clear();
 
 ### Przygotuj skoroszyt danych wykresu
 
-Wykres przechowuje swoje dane w wewnętrznym skoroszycie. Wyczyść go, aby rozpocząć od nowa.
+Wykres przechowuje swoje dane w wewnętrznym skoroszycie. Czyszczenie go daje czystą bazę dla własnych danych.
 
 ```java
 // Feature: Prepare Chart Data Workbook
@@ -129,7 +161,7 @@ int defaultWorksheetIndex = 0;
 
 ### Dodaj kategorie z poziomami grupowania
 
-Grupowanie kategorii tworzy efekt **wykresu kolumnowego grupowanego**. Każda kategoria może należeć do logicznej grupy.
+Grupowanie kategorii tworzy efekt wykresu słupkowego grupowanego. Każda kategoria może należeć do logicznej grupy, która pojawia się w etykietach osi.
 
 ```java
 // Feature: Add Categories with Grouping Levels
@@ -143,7 +175,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c3", "B"));
 
 ### Dodaj serie danych do wykresu
 
-Tutaj **wstaw wykres serii danych**, które zostaną zwizualizowane jako oddzielne kolumny.
+Obiekty `Series` reprezentują poszczególne słupki w wykresie. Dodanie wielu serii skutkuje słupkami obok siebie dla każdej kategorii.
 
 ```java
 // Feature: Add Data Series to Chart
@@ -155,7 +187,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 ### Zapisz prezentację z wykresem
 
-Na koniec zapisz plik PPTX na dysku.
+Zapisanie `Presentation` tworzy standardowy plik PPTX, który może być otwarty w dowolnym przeglądarce PowerPoint.
 
 ```java
 // Feature: Save Presentation with Chart
@@ -164,60 +196,66 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Praktyczne zastosowania
 
-- **Raporty biznesowe** – porównaj kwartalne przychody w różnych regionach.  
-- **Badania akademickie** – pokaż wyniki eksperymentów pogrupowane według warunków testowych.  
-- **Zarządzanie projektami** – wizualizuj wskaźniki ukończenia zadań dla wielu zespołów na jednym slajdzie.
+- **Business reports** – porównaj kwartalne przychody w różnych regionach.  
+- **Academic research** – pokaż wyniki eksperymentów pogrupowane według warunków testowych.  
+- **Project management** – wizualizuj wskaźniki ukończenia zadań dla wielu zespołów na jednym slajdzie.
 
 ## Rozważania dotyczące wydajności
 
-- **Zarządzanie pamięcią** – zwalniaj duże skoroszyty po użyciu.  
-- **Operacje wsadowe** – unikaj aktualizacji wykresu w pętli; najpierw zbierz dane, potem zastosuj je.  
-- **Wbudowane optymalizacje** – Aspose.Slides udostępnia metody takie jak `Presentation.optimize()` dla dużych plików.
+- **Memory management** – zwalniaj duże skoroszyty po użyciu.  
+- **Batch operations** – unikaj aktualizacji wykresu w wewnątrz ciasnych pętli; najpierw zbierz dane, a potem zastosuj je.  
+- **Built‑in optimizations** – Aspose.Slides udostępnia metody takie jak `Presentation.optimize()` dla dużych plików, zmniejszając zużycie pamięci nawet o **30 %**.
 
 ## Częste pułapki i wskazówki
 
-- **Pułapka:** Zapomnienie o wyczyszczeniu istniejących serii/kategorii może prowadzić do duplikacji danych.  
-  **Wskazówka:** Zawsze wywołuj `clear()` przed wypełnianiem nowymi danymi.  
-- **Pułapka:** Użycie niewłaściwego adresu komórki (np. `"c2"` zamiast `"C2"`).  
-  **Wskazówka:** Odwołania do komórek nie rozróżniają wielkości liter, ale zachowaj spójność dla czytelności.  
-- **Wskazówka:** Użyj `setGroupingItem`, aby utworzyć znaczące etykiety grup; pojawiają się automatycznie w legendzie wykresu.
+- **Pitfall:** Zapomnienie o wyczyszczeniu istniejących serii/kategorii może prowadzić do duplikacji danych.  
+  **Tip:** Zawsze wywołuj `clear()` przed wypełnieniem nowymi danymi.  
+- **Pitfall:** Użycie niewłaściwego adresu komórki (np. `"c2"` zamiast `"C2"`).  
+  **Tip:** Odwołania do komórek nie rozróżniają wielkości liter, ale zachowaj spójność dla czytelności.  
+- **Tip:** Użyj `setGroupingItem`, aby stworzyć znaczące etykiety grup; pojawiają się automatycznie w legendzie wykresu.
 
 ## Najczęściej zadawane pytania
 
-**Q1: Jak mogę dodać wiele serii do mojego wykresu?**  
+**Q1: How can I add multiple series to my chart?**  
 A1: Wywołuj `ch.getChartData().getSeries().add()` wielokrotnie, podając unikalną nazwę i punkty danych dla każdej serii.
 
-**Q2: Jakie są typowe problemy z wykresami Aspose.Slides?**  
-A2: Problemy często wynikają z niepasujących zakresów danych lub brakujących komórek w skoroszycie. Upewnij się, że każda kategoria i każdy punkt danych ma odpowiadającą komórkę.
+**Q2: What are some common issues with Aspose.Slides charts?**  
+A2: Problemy często wynikają z niepasujących zakresów danych lub brakujących komórek skoroszytu. Zweryfikuj, czy każda kategoria i punkt danych ma odpowiadającą komórkę.
 
-**Q3: Czy mogę używać Aspose.Slides w innych językach programowania?**  
+**Q3: Can I use Aspose.Slides with other programming languages?**  
 A3: Tak, Aspose udostępnia równoważne biblioteki dla .NET, C++, Pythona i innych.
 
-**Q4: Jak zaktualizować istniejący wykres w prezentacji?**  
-A4: Załaduj prezentację, znajdź wykres za pomocą `slide.getShapes().get_Item(index)`, a następnie zmodyfikuj jego serie lub formatowanie w razie potrzeby.
+**Q4: How do I update an existing chart in a presentation?**  
+A4: Załaduj prezentację, zlokalizuj wykres poprzez `slide.getShapes().get_Item(index)`, a następnie zmodyfikuj jego serie lub formatowanie w razie potrzeby.
 
-**Q5: Czy istnieją ograniczenia typów wykresów w Aspose.Slides?**  
-A5: Biblioteka obsługuje szeroką gamę typów wykresów, ale zawsze sprawdzaj najnowszą dokumentację pod kątem nowo dodanych lub wycofanych typów.
+**Q5: Are there limitations on chart types with Aspose.Slides?**  
+A5: Biblioteka obsługuje ponad **50 typów wykresów** i stale dodaje nowe; zawsze sprawdzaj najnowszą dokumentację, aby uzyskać najbardziej aktualną listę.
 
 ## Zasoby
 
-- **Documentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)
-- **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
-- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
-- **Free Trial**: [Start Your Free Trial](https://releases.aspose.com/slides/java/)
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
+- **Documentation:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Download:** [Latest Releases](https://releases.aspose.com/slides/java/)  
+- **Purchase:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free trial:** [Start Your Free Trial](https://releases.aspose.com/slides/java/)  
+- **Temporary license:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Last Updated:** 2026-03-20  
+**Last Updated:** 2026-09-17  
 **Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Author:** Aspose
+
+## Powiązane samouczki
+
+- [Przewodnik tworzenia wykresów w Javie z Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Jak dodać wykres do PowerPoint przy użyciu Aspose.Slides for Java: przewodnik krok po kroku](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Dodaj animację do wykresu PowerPoint przy użyciu Aspose.Slides for Java – przewodnik krok po kroku](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

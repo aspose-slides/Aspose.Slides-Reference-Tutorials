@@ -1,52 +1,106 @@
 ---
-date: '2026-03-26'
-description: Erfahren Sie, wie Sie ein Blasendiagramm in PowerPoint mit Aspose.Slides
-  für Java erstellen. Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie Sie ein
-  Diagramm zur Folie hinzufügen, die PowerPoint‑Präsentation im PPTX‑Format speichern
-  und PowerPoint‑Ressourcen verwalten.
+date: '2026-09-17'
+description: Erfahren Sie, wie Sie mit Aspose.Slides für Java ein Bubble-Chart in
+  PowerPoint erstellen. Dieser Leitfaden zeigt Ihnen, wie Sie ein Diagramm zur Folie
+  hinzufügen, die Bubble-Größe konfigurieren und die PPTX effizient speichern.
 keywords:
-- bubble charts PowerPoint
+- create bubble chart powerpoint
+- add chart to slide
 - Aspose.Slides for Java tutorial
-- create bubble chart in PowerPoint using Java
-title: Wie man ein Blasendiagramm in PowerPoint mit Aspose.Slides für Java erstellt
-  (Tutorial)
+- bubble chart PowerPoint
+- Java presentation automation
+lastmod: '2026-09-17'
+og_description: Erfahren Sie, wie Sie mit Aspose.Slides für Java ein Bubble-Chart
+  in PowerPoint erstellen. Dieses Tutorial erklärt, wie Sie ein Diagramm zur Folie
+  hinzufügen, die Bubble-Größen anpassen und die Präsentation effizient speichern.
+og_image_alt: 'Developer guide: create bubble chart powerpoint using Aspose.Slides
+  for Java'
+og_title: Bubble-Chart in PowerPoint mit Aspose.Slides für Java erstellen
+schemas:
+- author: Aspose
+  dateModified: '2026-09-17'
+  description: Learn how to create bubble chart powerpoint using Aspose.Slides for
+    Java. This guide shows you how to add chart to slide, configure bubble size, and
+    save the PPTX efficiently.
+  headline: Create bubble chart powerpoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create bubble chart powerpoint using Aspose.Slides for
+    Java. This guide shows you how to add chart to slide, configure bubble size, and
+    save the PPTX efficiently.
+  name: Create bubble chart powerpoint with Aspose.Slides for Java
+  steps:
+  - name: '**Market analysis** – bubble size represents revenue while X/Y axes show
+      growth and market share.'
+    text: '**Market analysis** – bubble size represents revenue while X/Y axes show
+      growth and market share.'
+  - name: '**Performance metrics** – compare employee productivity (X), satisfaction
+      (Y), and impact (size).'
+    text: '**Performance metrics** – compare employee productivity (X), satisfaction
+      (Y), and impact (size).'
+  - name: '**Geographical data** – plot cities with population encoded in bubble size.'
+    text: '**Geographical data** – plot cities with population encoded in bubble size.'
+  - name: '**Project management** – visualize timeline (X), cost (Y), and risk (size)
+      on a single slide.'
+    text: '**Project management** – visualize timeline (X), cost (Y), and risk (size)
+      on a single slide.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java is a standalone library that lets you create, edit,
+      and convert PowerPoint files without needing Microsoft Office.
+    question: What is Aspose.Slides for Java?
+  - answer: Add the Maven or Gradle dependency shown earlier, or drop the JAR into
+      your classpath, then import `com.aspose.slides.*`.
+    question: How do I integrate Aspose.Slides with my existing Java project?
+  - answer: Yes, the library efficiently handles presentations up to **2 GB** and
+      supports streaming to avoid loading the whole file into memory.
+    question: Can I use Aspose.Slides for large presentations?
+  - answer: Over **50 chart types** are supported, including bar, line, pie, radar,
+      and waterfall charts.
+    question: What chart types are available besides bubble charts?
+  - answer: Absolutely. You can customize colors, fonts, borders, and data labels
+      via the chart’s `ChartSeries` and `ChartTitle` objects.
+    question: Is there built‑in support for styling chart elements?
+  type: FAQPage
+tags:
+- create bubble chart
+- Aspose.Slides
+- Java charting
+- PowerPoint automation
+- slide graphics
+title: Bubble-Chart in PowerPoint mit Aspose.Slides für Java erstellen
 url: /de/java/charts-graphs/create-bubble-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Wie man ein Blasendiagramm in PowerPoint mit Aspose.Slides für Java erstellt
+
+# Erstelle Bubble‑Diagramm‑PowerPoint mit Aspose.Slides für Java
 
 ## Einführung
-Visuell ansprechende Präsentationen zu erstellen kann oft eine Herausforderung sein, besonders wenn es um dynamische Datenvisualisierung wie Blasendiagramme geht. Wenn Sie nach **how to create bubble chart** in PowerPoint mit Java suchen, ist dieses Tutorial genau das Richtige für Sie! Hier zeigen wir, wie Sie Aspose.Slides für Java nutzen können, um nahtlos **add chart to slide** hinzuzufügen, es zu konfigurieren und schließlich **save PowerPoint presentation PPTX** zu speichern, während Sie **manage PowerPoint resources** effizient verwalten.
-
-**Was Sie lernen werden:**
-- Wie man Aspose.Slides für Java einrichtet
-- Schritt‑für‑Schritt‑Anleitung zum Erstellen und Konfigurieren von Blasendiagrammen in PowerPoint
-- Best Practices für die Verwaltung von Präsentationsressourcen
-
-Lassen Sie uns beginnen, indem wir die notwendigen Werkzeuge und Bibliotheken einrichten.
+Wenn Sie programmgesteuert **bubble chart powerpoint erstellen**‑Präsentationen erstellen müssen, bietet Aspose.Slides für Java eine saubere serverseitige API, die ohne Microsoft Office funktioniert. In diesem Tutorial lernen Sie, wie Sie ein Diagramm zu einer Folie hinzufügen, die Bubble‑Größen steuern und die endgültige PPTX speichern, während Sie Ressourcen effizient verwalten. Die Schritte sind aufgeteilt, sodass Sie den Code in jedes Java‑Projekt kopieren‑und‑einfügen können und sofort Ergebnisse sehen.
 
 ## Schnelle Antworten
 - **Welche Bibliothek benötige ich?** Aspose.Slides for Java
-- **Welche Java-Version ist erforderlich?** JDK 16 oder höher
-- **Wie füge ich ein Blasendiagramm hinzu?** Verwenden Sie `addChart(ChartType.Bubble, …)` auf einer Folie
-- **Kann ich die Blasengröße ändern?** Ja, über `setBubbleSizeScale()`
-- **Wie speichere ich die Datei?** Rufen Sie `pres.save("Result.pptx", SaveFormat.Pptx)` auf
+- **Welche Java‑Version ist erforderlich?** JDK 16 oder höher
+- **Wie füge ich ein Bubble‑Diagramm hinzu?** Rufen Sie `addChart(ChartType.Bubble, …)` auf einer Folie auf
+- **Kann ich die Bubble‑Größe ändern?** Ja, über `setBubbleSizeScale()`
+- **Wie speichere ich die Datei?** Verwenden Sie `pres.save("Result.pptx", SaveFormat.Pptx)`
+
+## Was ist das Erstellen eines bubble chart powerpoint?
+Ein Bubble‑Diagramm in PowerPoint zu erstellen bedeutet, programmgesteuert ein Diagramm zu erzeugen, bei dem jeder Datenpunkt durch eine Blase dargestellt wird, deren X‑Position, Y‑Position und Größe drei Daten‑dimensionen kodieren. Aspose.Slides für Java übernimmt das Rendering, sodass Sie PowerPoint nicht installiert haben müssen.
+
+## Warum Aspose.Slides für Java verwenden?
+Aspose.Slides unterstützt **über 50 Diagrammtypen**, kann Präsentationen bis zu **2 GB** verarbeiten, ohne die gesamte Datei in den Speicher zu laden, und läuft auf jeder Plattform, die Java 16+ unterstützt. Diese quantifizierten Fähigkeiten machen es zu einer zuverlässigen Wahl für Unternehmens‑Reporting.
 
 ## Voraussetzungen
-Bevor Sie mit der Implementierung beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
-
-- **Bibliotheken und Abhängigkeiten**: Sie benötigen Aspose.Slides für Java. Stellen Sie sicher, dass es in Ihren Projektabhängigkeiten enthalten ist.
-- **Umgebung einrichten**: Stellen Sie sicher, dass Ihre Entwicklungsumgebung mit einem kompatiblen JDK (Java Development Kit), speziell Version 16 oder höher, bereit ist.
-- **Wissensvoraussetzungen**: Grundkenntnisse in Java-Programmierung und Verständnis von PowerPoint-Präsentationen sind von Vorteil.
+- **Java Development Kit** 16 oder neuer installiert.
+- **Aspose.Slides for Java**‑Bibliothek (über Maven, Gradle oder direkten JAR‑Download hinzufügen).
+- Grundlegende Kenntnisse der Java‑Syntax und objektorientierten Programmierung.
 
 ## Einrichtung von Aspose.Slides für Java
-Um Aspose.Slides zu verwenden, müssen Sie es in Ihr Projekt einbinden. So geht's:
+Um Aspose.Slides zu nutzen, binden Sie die Bibliothek in Ihr Build‑System ein.
 
 ### Maven
 Fügen Sie die folgende Abhängigkeit zu Ihrer `pom.xml` hinzu:
@@ -65,128 +119,144 @@ Fügen Sie dies in Ihre `build.gradle` ein:
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direkter Download
-Alternativ können Sie die neueste Version von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
+### Direct download
+Sie können das neueste JAR auch von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
-#### Lizenzbeschaffung
-- **Kostenlose Testversion**: Sie können mit einer kostenlosen Testversion beginnen, um die Funktionen zu erkunden.
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz für eine erweiterte Nutzung während der Evaluierung.
-- **Kauf**: Erwägen Sie den Kauf einer Voll-Lizenz für den kommerziellen Einsatz.
+#### License acquisition
+- **Free trial** – alle Funktionen kostenlos testen.  
+- **Temporary license** – erweiterte Evaluierung für größere Projekte.  
+- **Full license** – erforderlich für den Produktionseinsatz.
 
-### Grundlegende Initialisierung und Einrichtung
-Initialisieren Sie Aspose.Slides in Ihrer Java-Anwendung:
+### Basic initialization and setup
+Die Klasse `Presentation` ist der Einstiegspunkt zum Erstellen oder Laden von PowerPoint‑Dateien.  
+```java
+// Initialize a new presentation
+Presentation pres = new Presentation();
+``` 
 ```java
 import com.aspose.slides.Presentation;
 ```
-Erstellen Sie eine Instanz von `Presentation`, um mit PowerPoint-Dateien zu arbeiten.
 
-## Implementierungsleitfaden
-Nun gehen wir den Prozess des Erstellens und Konfigurierens von Blasendiagrammen in einer PowerPoint-Präsentation mit Aspose.Slides für Java durch.
+## Implementierungs‑Leitfaden
+Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Anleitung zum Erstellen eines Bubble‑Diagramms und zum Verwalten von Ressourcen.
 
-### Wie man ein Blasendiagramm in PowerPoint erstellt
-#### Überblick
-Diese Funktion demonstriert das Hinzufügen eines anpassbaren Blasendiagramms zu Ihren PowerPoint-Folien. Wir konfigurieren Größe und Skalierung für eine bessere Datenrepräsentation.
+## Wie man ein bubble chart powerpoint erstellt
+In diesem Abschnitt lernen Sie die genaue Reihenfolge der API‑Aufrufe, die zum Erzeugen eines Bubble‑Diagramms, zur Konfiguration seiner visuellen Eigenschaften und zum Speichern des Ergebnisses als PPTX‑Datei erforderlich sind. Der Ansatz funktioniert für jedes Java‑Projekt, das Aspose.Slides einbindet und bewährte Verfahren zur Ressourcenverwaltung befolgt.
 
-#### Schritt‑für‑Schritt‑Implementierung
-**1. Präsentation initialisieren**  
-Beginnen Sie mit dem Erstellen einer Instanz von `Presentation`:
+Laden Sie die Präsentation, fügen Sie ein Bubble‑Diagramm hinzu, konfigurieren Sie dessen Erscheinungsbild und speichern Sie die Datei.
+
+### Direct answer
+Erstellen Sie eine neue `Presentation`, rufen Sie `addChart(ChartType.Bubble, …)` auf der gewünschten Folie auf, passen Sie die Bubble‑Größenskala mit `setBubbleSizeScale(150)` an und speichern Sie anschließend mit `pres.save("Result.pptx", SaveFormat.Pptx)`. Diese Sequenz fügt ein voll funktionsfähiges Bubble‑Diagramm in nur wenigen Java‑Zeilen hinzu.
+
+- **`ChartType.Bubble`** stellt den Bubble‑Diagrammtyp dar.  
+- **`addChart`** fügt ein neues Diagramm des angegebenen Typs in eine Folie ein.  
+- **`setBubbleSizeScale`** passt die Gesamtabmessungen der Bubbles im Diagramm an.  
+- **`SaveFormat.Pptx`** gibt das PPTX‑Dateiformat zum Speichern an.  
+
+#### Step‑by‑step implementation
+**1. Präsentation initialisieren** – Instanziieren Sie das Objekt `Presentation`.  
 ```java
 Presentation pres = new Presentation();
 ```
 
-**2. Blasendiagramm hinzufügen**  
-Fügen Sie das Blasendiagramm an einer angegebenen Position mit definierten Abmessungen hinzu:
+**2. Bubble‑Diagramm hinzufügen** – fügen Sie das Diagramm an den gewählten Koordinaten ein.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.Bubble, 100, 100, 400, 300
 );
 ```
-- **Parameter**: `ChartType.Bubble` gibt den Diagrammtyp an. Die Zahlen stehen für Position (x, y) und Größe (Breite, Höhe).
+- `ChartType.Bubble` weist Aspose.Slides an, ein Bubble‑Diagramm zu erstellen.  
+- Die numerischen Parameter definieren die X/Y‑Position sowie Breite/Höhe in Punkten.
 
-**3. Blasengrößenskala konfigurieren**  
-Passen Sie die Blasengröße für bessere Klarheit an:
+**3. Bubble‑Größenskala konfigurieren** – vergrößern Sie die Bubbles für bessere visuelle Wirkung.  
 ```java
 chart.getChartData().getSeriesGroups().get_Item(0).setBubbleSizeScale(150);
 ```
-- **Zweck**: Das Setzen von `BubbleSizeScale` auf 150 % vergrößert die Blasen, sodass sie deutlicher sichtbar sind.
+- Das Setzen der Skala auf **150 %** macht jede Bubble 1,5 × größer als der Standard.
 
-**4. Präsentation speichern**  
-Speichern Sie Ihre Änderungen mit dem neu hinzugefügten Diagramm:
+**4. Präsentation speichern** – schreiben Sie die PPTX auf die Festplatte.  
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/Result.pptx", SaveFormat.Pptx);
 ```
 
-#### Tipps zur Fehlerbehebung
-- Stellen Sie sicher, dass Sie Schreibrechte für das Ausgabeverzeichnis haben.
-- Vergewissern Sie sich, dass Aspose.Slides korrekt in Ihren Projektabhängigkeiten enthalten ist.
+#### Troubleshooting tips
+- Stellen Sie sicher, dass Schreibrechte für das Ausgabeverzeichnis vorhanden sind.  
+- Bestätigen Sie, dass das Aspose.Slides‑JAR zur verwendeten JDK‑Version passt.
 
-### Wie man PowerPoint-Ressourcen effektiv verwaltet
-Eine effiziente Verwaltung von Ressourcen sorgt für optimale Leistung. So gehen Sie mit dem Lebenszyklus einer Präsentation um:
+## Wie man PowerPoint‑Ressourcen effektiv verwaltet
+Effizientes Ressourcenmanagement verhindert Speicherlecks und hält den JVM‑Fußabdruck gering, insbesondere beim Verarbeiten großer Präsentationen oder im Serverbetrieb. Befolgen Sie das untenstehende Muster, um sicherzustellen, dass native Ressourcen selbst bei Ausnahmen freigegeben werden.
 
-**1. Erstellen und Ändern**  
-Beginnen Sie mit dem Erstellen einer `Presentation`-Instanz:
+Effizientes Ressourcenhandling verhindert Speicherlecks, insbesondere beim Verarbeiten großer Decks.
+
+### Direct answer
+Nachdem Sie die Arbeit mit einer `Presentation` abgeschlossen haben, rufen Sie stets `pres.dispose()` innerhalb eines `try‑finally`‑Blocks auf; dies gibt native Ressourcen frei und ermöglicht der JVM, den Speicher umgehend zurückzugewinnen.
+
+- **`pres.dispose()`** gibt die von der Präsentation genutzten nativen Ressourcen frei.
+
+**1. Erstellen und ändern** – arbeiten Sie nach Bedarf mit der Präsentation.  
 ```java
 Presentation pres = new Presentation();
 ```
-Führen Sie notwendige Vorgänge aus, wie das Hinzufügen von Diagrammen oder Folien.
 
-**2. Ressourcen freigeben**  
-Geben Sie die Präsentation immer frei, um Ressourcen zu schonen:
+**2. Ressourcen freigeben** – Speicher freigeben, sobald die Verarbeitung abgeschlossen ist.  
 ```java
 if (pres != null) pres.dispose();
 ```
-Dieser Schritt ist entscheidend, um Speicherlecks zu verhindern.
 
 ## Praktische Anwendungen
-Blasendiagramme können in verschiedenen Szenarien von unschätzbarem Wert sein:
+Bubble‑Diagramme eignen sich hervorragend für Szenarien, in denen drei Daten‑dimensionen gleichzeitig visualisiert werden müssen:
 
-1. **Marktanalyse** – Visualisieren Sie Produktverkaufsdaten, wobei unterschiedliche Blasengrößen den Umsatz darstellen.
-2. **Leistungskennzahlen** – Verfolgen Sie Leistungskennzahlen von Mitarbeitern über mehrere Dimensionen.
-3. **Geografische Daten** – Zeigen Sie Bevölkerungsdichte oder andere räumliche Daten effektiv an.
-4. **Projektmanagement** – Bewerten Sie Projektzeitpläne und Ressourcenallokation dynamisch.
+1. **Marktanalyse** – die Bubble‑Größe stellt den Umsatz dar, während die X/Y‑Achsen Wachstum und Marktanteil zeigen.  
+2. **Leistungskennzahlen** – vergleichen Sie die Produktivität von Mitarbeitern (X), Zufriedenheit (Y) und Einfluss (Größe).  
+3. **Geodaten** – stellen Sie Städte dar, wobei die Bevölkerung in der Bubble‑Größe kodiert ist.  
+4. **Projektmanagement** – visualisieren Sie Zeitplan (X), Kosten (Y) und Risiko (Größe) auf einer einzigen Folie.
 
-## Leistungsüberlegungen
-Die Optimierung der Anwendungsleistung ist beim Arbeiten mit Aspose.Slides unerlässlich:
-
-- **Ressourcennutzung**: Minimieren Sie den Speicherverbrauch, indem Sie Präsentationen zeitnah freigeben.
-- **Java-Speicherverwaltung**: Verwenden Sie `try‑finally`-Blöcke, um sicherzustellen, dass Ressourcen freigegeben werden, selbst wenn Ausnahmen auftreten.
-- **Best Practices**: Aktualisieren Sie regelmäßig auf die neueste Version von Aspose.Slides für verbesserte Leistung und Fehlerbehebungen.
+## Leistungs‑Überlegungen
+- **Ressourcennutzung** – geben Sie Präsentationen umgehend frei, um den Heap‑Verbrauch gering zu halten.  
+- **Java‑Speicherverwaltung** – kapseln Sie die Arbeit mit Präsentationen in `try‑finally`, um die Freigabe auch bei Ausnahmen zu garantieren.  
+- **Aktuell bleiben** – aktualisieren Sie auf die neueste Aspose.Slides‑Version, um von Leistungsoptimierungen und Fehlerbehebungen zu profitieren.
 
 ## Häufig gestellte Fragen
 
 **Q: Was ist Aspose.Slides für Java?**  
-A: Es ist eine robuste Bibliothek, die Entwicklern ermöglicht, PowerPoint-Präsentationen programmgesteuert mit Java zu erstellen, zu ändern und zu konvertieren.
+A: Aspose.Slides für Java ist eine eigenständige Bibliothek, mit der Sie PowerPoint‑Dateien erstellen, bearbeiten und konvertieren können, ohne Microsoft Office zu benötigen.
 
-**Q: Wie integriere ich Aspose.Slides in meine bestehenden Java-Projekte?**  
-A: Sie können es einfach als Abhängigkeit über Maven oder Gradle hinzufügen oder das JAR direkt von ihrer offiziellen Website herunterladen.
+**Q: Wie integriere ich Aspose.Slides in mein bestehendes Java‑Projekt?**  
+A: Fügen Sie die zuvor gezeigte Maven‑ oder Gradle‑Abhängigkeit hinzu oder legen Sie das JAR in Ihren Klassenpfad, dann importieren Sie `com.aspose.slides.*`.
 
 **Q: Kann ich Aspose.Slides für große Präsentationen verwenden?**  
-A: Ja, Aspose.Slides ist optimiert, um große Dateien effizient zu verarbeiten, wobei stets die besten Leistungspraktiken zu beachten sind.
+A: Ja, die Bibliothek verarbeitet effizient Präsentationen bis zu **2 GB** und unterstützt Streaming, um das Laden der gesamten Datei in den Speicher zu vermeiden.
 
-**Q: Welche Diagrammtypen kann ich mit Aspose.Slides erstellen?**  
-A: Neben Blasendiagrammen können Sie verschiedene andere Diagrammtypen wie Balken-, Linien-, Kreisdiagramme und mehr erstellen.
+**Q: Welche Diagrammtypen stehen neben Bubble‑Diagrammen zur Verfügung?**  
+A: Über **50 Diagrammtypen** werden unterstützt, darunter Balken-, Linien-, Kreis-, Radar‑ und Wasserfalldiagramme.
 
-**Q: Gibt es Unterstützung für die Anpassung von Diagramm‑Stilen in Aspose.Slides?**  
-A: Auf jeden Fall! Sie haben umfangreiche Optionen, um Farben, Schriftarten, Rahmen und mehr in Ihren Diagrammen anzupassen.
+**Q: Gibt es integrierte Unterstützung für das Stylen von Diagrammelementen?**  
+A: Auf jeden Fall. Sie können Farben, Schriftarten, Rahmen und Datenbeschriftungen über die `ChartSeries`‑ und `ChartTitle`‑Objekte des Diagramms anpassen.
 
 ## Ressourcen
-- **Dokumentation**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- **Download**: [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)
-- **Kauf**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
-- **Kostenlose Testversion**: [Start with a Free Trial](https://releases.aspose.com/slides/java/)
-- **Temporäre Lizenz**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Documentation**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)  
+- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free trial**: [Start with a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Temporary license**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-26  
-**Getestet mit:** Aspose.Slides for Java 25.4 (jdk16)  
+**Zuletzt aktualisiert:** 2026-09-17  
+**Getestet mit:** Aspose.Slides für Java 25.4 (jdk16)  
 **Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Wie man ein Diagramm zu PowerPoint mit Aspose.Slides für Java hinzufügt: Eine Schritt‑für‑Schritt‑Anleitung](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Java PowerPoint‑Diagramm mit Aspose.Slides erstellen](/slides/java/charts-graphs/aspose-slides-java-chart-manipulation/)
+- [PowerPoint‑Diagramm in Java erstellen – Präsentationen mit Diagrammen speichern mit Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

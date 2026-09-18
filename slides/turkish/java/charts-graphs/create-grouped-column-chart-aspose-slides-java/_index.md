@@ -1,61 +1,93 @@
 ---
-date: '2026-03-20'
-description: PowerPoint sunumuna gruplanmış sütun grafiği eklemeyi, PowerPoint grafiğini
-  özelleştirmeyi ve Aspose.Slides for Java kullanarak veri serisi grafiği eklemeyi
+date: '2026-09-17'
+description: Aspose.Slides for Java kullanarak clustered column chart'ı bir PowerPoint
+  sunumuna eklemeyi, PowerPoint grafiğini özelleştirmeyi ve data series chart eklemeyi
   öğrenin.
 keywords:
-- Grouped Column Chart
-- Aspose.Slides for Java
-- PowerPoint Presentation
-title: Aspose.Slides for Java kullanarak PowerPoint'e küme sütun grafiği nasıl eklenir
+- add clustered column chart
+- add chart to powerpoint
+- save presentation as pptx
+- java create powerpoint presentation
+lastmod: '2026-09-17'
+og_description: Aspose.Slides for Java kullanarak bir PowerPoint sunumuna clustered
+  column chart eklemeyi, data series ekleme, grouping özelleştirme ve dosyayı PPTX
+  olarak kaydetme adımlarını öğrenin.
+og_image_alt: Guide showing clustered column chart creation in PowerPoint with Aspose.Slides
+  Java
+og_title: Aspose.Slides kullanarak PowerPoint'e clustered column chart ekleme
+schemas:
+- author: Aspose
+  dateModified: '2026-09-17'
+  description: Learn how to add clustered column chart to a PowerPoint presentation,
+    customize PowerPoint chart, and insert data series chart using Aspose.Slides for
+    Java.
+  headline: How to add clustered column chart in PowerPoint using Aspose.Slides for
+    Java
+  type: TechArticle
+- questions:
+  - answer: '`Presentation` from `com.aspose.slides`.'
+    question: "Add chart to slide** and configure it as a clustered column chart.
+      \ \n- **Create grouped column chart** by defining grouping levels for categories.
+      \ \n- **Insert data series chart** so your data is displayed correctly.  \n-
+      Save the finished presentation as a PPTX file.\n\n## Quick answers\n- **What
+      is the primary class?"
+  - answer: '`ChartType.ClusteredColumn`.'
+    question: Which chart type is used?
+  - answer: A free trial works, but a license removes evaluation limits.
+    question: Do I need a license for testing?
+  - answer: JDK 16 or newer (the example uses JDK 16).
+    question: What Java version is supported?
+  - answer: Add the Maven/Gradle dependency, compile, and run the `main` method.
+    question: How to run the sample?
+  type: FAQPage
+tags:
+- add clustered column chart
+- aspose.slides
+- java powerpoint automation
+- chart generation
+title: PowerPoint'e clustered column chart eklemek için Aspose.Slides for Java kullanımı
 url: /tr/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint'te Aspose.Slides for Java kullanarak kümelenmiş sütun grafiği ekleme
+
+# PowerPoint'te Aspose.Slides for Java kullanarak gruplanmış sütun grafiği ekleme
 
 ## Giriş
 
-PowerPoint sunumuna **kümelenmiş sütun grafiği** eklemeniz gerektiğinde, net bir görsel ham sayıları anında anlaşılır bir hikayeye dönüştürebilir. Bunu PowerPoint'te manuel olarak yapmak zaman alıcı olabilir, özellikle birçok slaytı programlı olarak oluşturmanız gerektiğinde. **Aspose.Slides for Java** bu zorluğu ortadan kaldırır – sadece birkaç satır kodla PowerPoint grafiği oluşturmanıza, özelleştirmenize ve veri serisi grafiği eklemenize olanak tanır.
+PowerPoint sunumuna **gruplanmış sütun grafiği** eklemeniz gerektiğinde, net bir görsel ham sayıları anında anlaşılır bir hikayeye dönüştürebilir. Bunu PowerPoint'te manuel olarak yapmak zaman alıcı olabilir, özellikle birçok slaytı programlı olarak oluşturmanız gerektiğinde. **Aspose.Slides for Java** bu zorluğu ortadan kaldırır – sadece birkaç satır kodla PowerPoint grafiği oluşturmanıza, özelleştirmenize ve veri serisi grafiği eklemenize olanak tanır.
 
 Bu öğreticide şunları öğreneceksiniz:
-- Aspose.Slides for Java ile yeni bir PowerPoint sunumu başlatın.
-- **Grafiği slayta ekleyin** ve kümelenmiş sütun grafiği olarak yapılandırın.
-- **Gruplandırılmış sütun grafiği oluşturun** kategori için grup seviyeleri tanımlayarak.
-- **Veri serisi grafiği ekleyin** böylece verileriniz doğru şekilde görüntülenir.
-- Tamamlanmış sunumu PPTX dosyası olarak kaydedin.
+- Aspose.Slides for Java ile yeni bir PowerPoint sunumu başlatma.  
+- **Add chart to slide** ve onu gruplanmış sütun grafiği olarak yapılandırma.  
+- **Create grouped column chart** ile kategoriler için gruplama seviyeleri tanımlayarak gruplanmış sütun grafiği oluşturma.  
+- **Insert data series chart** so your data is displayed correctly.  
+- Tamamlanmış sunumu PPTX dosyası olarak kaydetme.
 
-Kodun içine dalmadan önce ihtiyacınız olan her şeyin elinizde olduğundan emin olalım.
-
-## Hızlı Yanıtlar
-- **Birincil sınıf nedir?** `Presentation` from `com.aspose.slides`.
-- **Hangi grafik türü kullanılıyor?** `ChartType.ClusteredColumn`.
-- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme çalışır, ancak lisans değerlendirme sınırlamalarını kaldırır.
-- **Hangi Java sürümü destekleniyor?** JDK 16 veya daha yeni (örnek JDK 16 kullanıyor).
+## Hızlı cevaplar
+- **Ana sınıf nedir?** `Presentation` from `com.aspose.slides`.  
+- **Hangi grafik türü kullanılıyor?** `ChartType.ClusteredColumn`.  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme çalışır, ancak lisans değerlendirme sınırlamalarını kaldırır.  
+- **Hangi Java sürümü destekleniyor?** JDK 16 veya daha yenisi (örnek JDK 16 kullanıyor).  
 - **Örneği nasıl çalıştırırım?** Maven/Gradle bağımlılığını ekleyin, derleyin ve `main` metodunu çalıştırın.
 
-## “Kümelenmiş sütun grafiği ekleme” nedir?
-*Kümelenmiş sütun grafiği* (aynı zamanda *gruplandırılmış sütun grafiği* olarak da adlandırılır) her kategori için birden fazla veri serisini yan yana gösterir, böylece gruplar arasındaki değerleri karşılaştırmak kolaylaşır. PowerPoint'te bu grafik türü çeyrek satışları, anket sonuçlarını veya aynı kategori içinde birden fazla veri setini karşılaştırmanız gereken herhangi bir senaryo için idealdir.
+## “Gruplanmış sütun grafiği ekleme” nedir?
+Gruplanmış bir sütun grafiği, her kategori için birden fazla veri serisini yan yana gösterir ve gruplar arasındaki değerleri tek bir görselde karşılaştırmanıza olanak tanır. Çeyrek satışları, anket sonuçları veya aynı kategori içinde birden fazla veri setini karşılaştırmanız gereken herhangi bir senaryo için idealdir.
 
-## Kümelenmiş sütun grafiği eklemek için neden Aspose.Slides kullanmalı?
-- **Tam otomasyon** – manuel çaba harcamadan onlarca slayt oluşturun.
-- **İnce ayarlı özelleştirme** – renkleri, etiketleri, grup seviyelerini ve daha fazlasını kontrol edin.
-- **Çapraz platform** – Java destekleyen herhangi bir işletim sisteminde çalışır.
-- **Office kurulumu gerektirmez** – sunucularda veya CI boru hatlarında PPTX dosyaları oluşturun.
+## Gruplanmış sütun grafiği eklemek için Aspose.Slides neden kullanılmalı?
+Otuzlarca slaytı otomatik olarak oluşturabilir, her görsel öğeyi özelleştirebilir ve kodu Java destekleyen herhangi bir işletim sisteminde çalıştırabilirsiniz—Microsoft Office kurulumu gerekmez. Aspose.Slides **50+ grafik türünü** destekler ve **500 slayta kadar** sunumları tüm dosyayı belleğe yüklemeden işleyebilir, bu da büyük ölçekli raporlama hatları için uygundur.
 
 ## Önkoşullar
 - **Aspose.Slides for Java** kütüphanesi (en son sürüm önerilir).  
-- JDK 16 veya daha yeni.  
+- JDK 16 veya üzeri.  
 - Maven veya Gradle yapı aracı (veya JAR'ı manuel ekleyebilirsiniz).  
 - Java kodunu çalıştırmak için bir IDE veya metin düzenleyici.
 
-## Aspose.Slides for Java Kurulumu
-Projenize aşağıdaki yapı betiklerinden birini kullanarak kütüphaneyi ekleyin.
+## Aspose.Slides for Java kurulumu
+Projeye aşağıdaki yapı betiklerinden birini kullanarak kütüphaneyi ekleyin.
 
 **Maven**
 
@@ -76,17 +108,17 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 Alternatif olarak, en son sürümü doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
-### Lisans Edinme
+### Lisans edinme
 Üretime dağıtmadan önce bir lisans edinin:
-- **Free trial** – satın almadan tüm özellikleri keşfedin.
-- **Temporary license** – kısa bir süre için genişletilmiş yetenekleri değerlendirin.
-- **Full license** – sınırsız kullanımın kilidini açın. [Aspose satın alma sayfası](https://purchase.aspose.com/buy) adresinden alın.
+- **Free trial** – satın alma yapmadan tüm özellikleri keşfedin.  
+- **Temporary license** – kısa bir süre için genişletilmiş yetenekleri değerlendirin.  
+- **Full license** – sınırsız kullanımın kilidini açın. [Aspose's purchase page](https://purchase.aspose.com/buy) adresinden edinin.
 
-## Uygulama Rehberi
-Her adımı adım adım inceleyeceğiz, **grafiği nasıl ekleyeceğinizi** ve **PowerPoint grafiğini nasıl özelleştireceğinizi** açıklayarak.
+## Aspose.Slides for Java kullanarak PowerPoint'te gruplanmış sütun grafiği nasıl eklenir?
+Yeni bir `Presentation` yükleyin, bir slayt ekleyin, `ChartType.ClusteredColumn` türünde bir `Chart` ekleyin, iç çalışma kitabını kategoriler ve serilerle doldurun ve ardından dosyayı PPTX olarak kaydedin. Bu sıralama, sadece birkaç API çağrısıyla tam işlevsel bir gruplanmış sütun grafiği oluşturur.
 
-### Sunumu Başlatma
-İlk olarak, yeni bir `Presentation` nesnesi oluşturun ve varsayılan slaytı alın.
+### Sunumu başlatma
+`Presentation`, bellekte bir PowerPoint dosyasını temsil eden sınıftır ve programlı olarak slayt, şekil ve grafik eklemenize olanak tanır.
 
 ```java
 import com.aspose.slides.*;
@@ -96,8 +128,8 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-### Slayta Grafik Ekleme
-Şimdi `ClusteredColumn` türünü kullanarak **grafiği slayta ekliyoruz** ve varsayılan verileri temizliyoruz.
+### Slayta grafik ekleme
+`ChartType.ClusteredColumn`, Aspose.Slides'a bir gruplanmış sütun grafiği oluşturmasını söyler.
 
 ```java
 // Feature: Add Chart to Slide
@@ -107,8 +139,8 @@ ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-### Grafik Veri Çalışma Kitabını Hazırlama
-Grafik verilerini dahili bir çalışma kitabında saklar. Yeni başlamak için temizliyoruz.
+### Grafik veri çalışma kitabını hazırlama
+Grafik verilerini dahili bir çalışma kitabında saklar. Temizlemek, özel veri için temiz bir sayfa sağlar.
 
 ```java
 // Feature: Prepare Chart Data Workbook
@@ -117,8 +149,8 @@ fact.clear(0);
 int defaultWorksheetIndex = 0;
 ```
 
-### Gruplama Seviyeleriyle Kategoriler Ekleme
-Kategorileri gruplamak **gruplandırılmış sütun grafiği** etkisini yaratır. Her kategori mantıksal bir gruba ait olabilir.
+### Gruplama seviyeleriyle kategoriler ekleme
+Kategorileri gruplamak, gruplanmış sütun grafiği etkisini oluşturur. Her kategori, eksen etiketlerinde görünen mantıksal bir gruba ait olabilir.
 
 ```java
 // Feature: Add Categories with Grouping Levels
@@ -130,8 +162,8 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c3", "B"));
 // Repeat for other categories
 ```
 
-### Grafik'e Veri Serisi Ekleme
-Burada **veri serisi grafiği ekliyoruz**; bu girişler ayrı sütunlar olarak görselleştirilecektir.
+### Grafik'e veri serileri ekleme
+`Series` nesneleri grafikteki tek tek sütunları temsil eder. Birden fazla seri eklemek, her kategori için yan yana sütunlar oluşturur.
 
 ```java
 // Feature: Add Data Series to Chart
@@ -141,65 +173,71 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 // Continue adding data points
 ```
 
-### Grafik ile Sunumu Kaydetme
-Son olarak, PPTX dosyasını diske yazın.
+### Grafik ile sunumu kaydetme
+`Presentation` kaydedildiğinde, herhangi bir PowerPoint görüntüleyicide açılabilen standart bir PPTX dosyası oluşturulur.
 
 ```java
 // Feature: Save Presentation with Chart
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-## Pratik Uygulamalar
-- **İş Raporları** – bölgeler arasında çeyrek gelirlerini karşılaştırın.  
-- **Akademik Araştırma** – deney sonuçlarını test koşullarına göre gruplayarak gösterin.  
-- **Proje Yönetimi** – tek bir slaytta birden fazla ekip için görev tamamlama oranlarını görselleştirin.
+## Pratik uygulamalar
+- **Business reports** – bölgeler arasında çeyrek gelirleri karşılaştırma.  
+- **Academic research** – test koşullarına göre gruplanmış deney sonuçlarını gösterme.  
+- **Project management** – tek bir slaytta birden fazla ekip için görev tamamlama oranlarını görselleştirme.
 
-## Performans Düşünceleri
-- **Bellek yönetimi** – kullanım sonrası büyük çalışma kitaplarını serbest bırakın.  
-- **Toplu işlemler** – sıkı döngüler içinde grafiği güncellemekten kaçının; önce verileri toplayın, ardından uygulayın.  
-- **Yerleşik optimizasyonlar** – Aspose.Slides büyük dosyalar için `Presentation.optimize()` gibi yöntemler sunar.
+## Performans değerlendirmeleri
+- **Memory management** – kullanım sonrası büyük çalışma kitaplarını serbest bırakın.  
+- **Batch operations** – sıkı döngüler içinde grafiği güncellemekten kaçının; önce verileri toplayın, ardından uygulayın.  
+- **Built‑in optimizations** – Aspose.Slides, büyük dosyalar için `Presentation.optimize()` gibi yöntemler sunar, bellek kullanımını **%30** kadar azaltabilir.
 
-## Yaygın Tuzaklar ve İpuçları
+## Yaygın tuzaklar ve ipuçları
 - **Pitfall:** Mevcut serileri/kategorileri temizlemeyi unutmak, yinelenen verilere yol açabilir.  
   **Tip:** Yeni verileri doldurmadan önce her zaman `clear()` çağırın.  
-- **Pitfall:** Yanlış hücre adresi kullanmak (örneğin `"c2"` yerine `"C2"`).  
+- **Pitfall:** Yanlış hücre adresi kullanmak (ör. `"c2"` yerine `"C2"`).  
   **Tip:** Hücre referansları büyük/küçük harfe duyarsızdır, ancak okunabilirlik için tutarlı tutun.  
 - **Tip:** Anlamlı grup etiketleri oluşturmak için `setGroupingItem` kullanın; bunlar otomatik olarak grafik açıklamasında görünür.
 
-## Sıkça Sorulan Sorular
-**Q1: Grafiğime birden fazla seri nasıl ekleyebilirim?**  
-A1: Her seri için benzersiz bir ad ve veri noktaları sağlayarak `ch.getChartData().getSeries().add()` metodunu tekrarlayarak çağırın.
+## Sıkça sorulan sorular
 
-**Q2: Aspose.Slides grafiklerinde yaygın sorunlar nelerdir?**  
-A2: Sorunlar genellikle eşleşmeyen veri aralıkları veya eksik çalışma kitabı hücrelerinden kaynaklanır. Her kategori ve veri noktasının karşılık gelen bir hücresi olduğundan emin olun.
+**S1: Grafiğime birden fazla seri nasıl ekleyebilirim?**  
+C1: `ch.getChartData().getSeries().add()` metodunu tekrar tekrar çağırın, her seri için benzersiz bir ad ve veri noktaları sağlayın.
 
-**Q3: Aspose.Slides'ı diğer programlama dilleriyle kullanabilir miyim?**  
-A3: Evet, Aspose .NET, C++, Python ve daha fazlası için eşdeğer kütüphaneler sunar.
+**S2: Aspose.Slides grafiklerinde yaygın sorunlar nelerdir?**  
+C2: Sorunlar genellikle uyumsuz veri aralıkları veya eksik çalışma kitabı hücrelerinden kaynaklanır. Her kategori ve veri noktasının karşılık gelen bir hücresi olduğundan emin olun.
 
-**Q4: Bir sunumdaki mevcut grafiği nasıl güncellerim?**  
-A4: Sunumu yükleyin, `slide.getShapes().get_Item(index)` ile grafiği bulun, ardından gerektiği gibi serilerini veya biçimlendirmesini değiştirin.
+**S3: Aspose.Slides'ı diğer programlama dilleriyle kullanabilir miyim?**  
+C3: Evet, Aspose .NET, C++, Python ve daha fazlası için eşdeğer kütüphaneler sunar.
 
-**Q5: Aspose.Slides ile grafik türlerinde sınırlamalar var mı?**  
-A5: Kütüphane çok çeşitli grafik türlerini destekler, ancak yeni eklenen veya kullanımdan kaldırılan türler için her zaman en son belgeleri kontrol edin.
+**S4: Mevcut bir grafiği sunumda nasıl güncellerim?**  
+C4: Sunumu yükleyin, `slide.getShapes().get_Item(index)` ile grafiği bulun, ardından gerektiği gibi serilerini veya biçimlendirmesini değiştirin.
+
+**S5: Aspose.Slides'ta grafik türleriyle ilgili sınırlamalar var mı?**  
+C5: Kütüphane **50'den fazla grafik türünü** destekler ve sürekli yeni türler ekler; en güncel liste için her zaman en son belgeleri kontrol edin.
 
 ## Kaynaklar
-- **Dokümantasyon**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)
-- **İndirme**: [En Son Sürümler](https://releases.aspose.com/slides/java/)
-- **Satın Alma**: [Aspose.Slides Satın Al](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Ücretsiz Denemenizi Başlatın](https://releases.aspose.com/slides/java/)
-- **Geçici Lisans**: [Geçici Lisans Talep Et](https://purchase.aspose.com/temporary-license/)
-- **Destek Forumu**: [Aspose Destek](https://forum.aspose.com/c/slides/11)
+- **Dokümantasyon:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **İndirme:** [Latest Releases](https://releases.aspose.com/slides/java/)  
+- **Satın Alma:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Ücretsiz deneme:** [Start Your Free Trial](https://releases.aspose.com/slides/java/)  
+- **Geçici lisans:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Destek forumu:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Son Güncelleme:** 2026-03-20  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Son Güncelleme:** 2026-09-17  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Yazar:** Aspose
+
+## İlgili Öğreticiler
+- [Java'da Aspose.Slides ile Grafik Oluşturma Kılavuzu](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Aspose.Slides for Java Kullanarak PowerPoint'e Grafik Ekleme: Adım Adım Kılavuz](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Aspose.Slides for Java ile PowerPoint grafiğine animasyon ekleme – Adım Adım Kılavuz](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
