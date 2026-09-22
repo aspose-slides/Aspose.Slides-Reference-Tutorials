@@ -1,62 +1,121 @@
 ---
-date: '2026-03-31'
-description: Aspose.Slides for Java kullanarak animasyonlu PowerPoint'i nasıl kaydedeceğinizi
-  öğrenin, uçuş animasyonu metni uygulayın ve animasyon tetikleyicisini yapılandırın.
+date: '2026-09-22'
+description: Aspose.Slides for Java kullanarak animasyonlu PowerPoint'in nasıl kaydedileceğini,
+  animasyonun nasıl ekleneceğini ve Aspose Slides Maven bağımlılığının nasıl yapılandırılacağını
+  öğrenin.
 keywords:
-- Fly animation PowerPoint
-- Aspose.Slides for Java
-- PowerPoint animations
-title: Animasyonlu PowerPoint'i Aspose.Slides for Java ile Kaydedin
+- how to save powerpoint
+- how to add animation
+- save powerpoint with animation
+- aspose slides maven dependency
+- java add slide animation
+lastmod: '2026-09-22'
+og_description: Aspose.Slides for Java kullanarak animasyonlu PowerPoint nasıl kaydedilir.
+  Bu kılavuz, animasyonun nasıl ekleneceğini, Maven bağımlılığının nasıl yapılandırılacağını
+  ve dinamik slaytların nasıl oluşturulacağını gösterir.
+og_image_alt: 'Developer guide: save PowerPoint with animation using Aspose.Slides
+  for Java'
+og_title: Aspose.Slides kullanarak animasyonlu PowerPoint nasıl kaydedilir
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to save PowerPoint with animation using Aspose.Slides for
+    Java, how to add animation, and how to configure the Aspose Slides Maven dependency.
+  headline: How to save PowerPoint with animation using Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to save PowerPoint with animation using Aspose.Slides for
+    Java, how to add animation, and how to configure the Aspose Slides Maven dependency.
+  name: How to save PowerPoint with animation using Aspose.Slides for Java
+  steps:
+  - name: initialize the presentation object
+    text: 'Create and initialize a `Presentation` object that points to your existing
+      PowerPoint file: Here, we’re opening an existing presentation named `Presentation1.pptx`.
+      The constructor automatically parses the file structure, making every slide
+      and shape available through the object model.'
+  - name: access the target slide and shape
+    text: 'Retrieve the first slide and its first auto‑shape (which contains the text
+      you want to animate): We assume the shape is an `AutoShape` with a text frame,
+      which is the most common container for paragraph‑level animations.'
+  - name: apply the fly animation effect
+    text: 'Add a **fly animation PowerPoint** effect to the first paragraph of the
+      shape. This example configures the animation to fly in from the left and trigger
+      on a mouse click: The `EffectTriggerType` enum determines when the animation
+      starts (e.g., `OnClick` or `AfterPrevious`). The `EffectSubtype` enum '
+  - name: save the presentation with animation
+    text: 'Persist the changes by saving the file. This step **saves the presentation
+      with animation** intact: Saving as `SaveFormat.Pptx` guarantees that all animation
+      data is written to the output file.'
+  type: HowTo
+- questions:
+  - answer: Modify the `EffectSubtype` parameter in the `addEffect()` call to `Right`,
+      `Top`, or `Bottom`.
+    question: How do I change the animation direction?
+  - answer: Yes. Loop through each paragraph in the shape’s text frame and call `addEffect`
+      for each one.
+    question: Can I apply the fly animation to multiple paragraphs at once?
+  - answer: Double‑check your Maven/Gradle configuration, ensure the correct classifier
+      (`jdk16`), and verify that the Aspose license is correctly loaded.
+    question: What should I do if I encounter errors during setup?
+  - answer: Visit the [temporary Aspose license page](https://purchase.aspose.com/temporary-license/)
+      and follow the request process.
+    question: How do I obtain a temporary Aspose license for testing?
+  - answer: Wrap file‑access and animation code in try‑catch blocks, and always close
+      the `Presentation` object in a finally block or use try‑with‑resources.
+    question: What is the best way to handle exceptions when working with presentations?
+  type: FAQPage
+tags:
+- save PowerPoint
+- Aspose.Slides
+- Java animation
+- fly animation
+- PowerPoint API
+title: Aspose.Slides for Java kullanarak animasyonlu PowerPoint nasıl kaydedilir
 url: /tr/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java Kullanarak Animasyonlu PowerPoint Kaydetme
+
+# PowerPoint'i animasyonlu olarak Aspose.Slides for Java kullanarak kaydetme
 
 ## Giriş
 
-PowerPoint sunumlarınızı etkileyici animasyonlarla zahmetsizce geliştirin. Bu öğreticide **PowerPoint'i animasyonlu olarak kaydetmeyi**, paragraflara **Aspose.Slides for Java** kullanarak bir uçuş efekti ekleyerek öğreneceksiniz. Bu yaklaşım slaytlarınızın profesyonelliğini ve etkileşimini artırırken kodunuzu temiz ve sürdürülebilir tutar. Ayrıca **animasyonlu sunumu kaydetme**, animasyon tetikleyicisini yapılandırma ve geliştirme sırasında **geçici bir Aspose lisansı** ile çalışma konularını da keşfedeceksiniz.
+Bu kılavuzda, gelişmiş animasyonları koruyarak **PowerPoint** dosyalarını nasıl kaydedeceğinizi keşfedeceksiniz. Bir paragrafına uçuş efekti eklemeyi, animasyon tetikleyicisini yapılandırmayı ve manuel olarak hazırlanmış bir slayt destesi gibi tam olarak aynı görünüme sahip bir `.pptx` oluşturmayı öğreneceksiniz. **Aspose.Slides for Java** kullanarak, Microsoft Office yüklü olmadan sunum oluşturmayı sunucuda otomatikleştirebilir, bu da toplu işleme, web hizmetleri ve CI boru hatları için idealdir.
 
-### Öğrenecekleriniz
-- Aspose.Slides for Java'ı kurma (**Maven** ve **Gradle** entegrasyonu dahil)  
-- Bir slayt içindeki paragrafa **fly animation PowerPoint** efekti ekleme  
-- Animasyonun yönünü ve tetikleyicisini yapılandırma  
-- Animasyonu koruyarak geliştirilmiş sunumu kaydetme  
+## Hızlı cevaplar
+- **PowerPoint'e uçuş animasyonu ekleyen kütüphane nedir?** Aspose.Slides for Java.  
+- **Hangi yapı aracını kullanabilirim?** Hem Maven (`aspose‑slides` Maven bağımlılığı) hem de Gradle desteklenir.  
+- **Animasyon tetikleyicisini nasıl ayarlarım?** `addEffect` çağrısında `EffectTriggerType.OnClick` veya `AfterPrevious` kullanın.  
+- **Ücretli lisans olmadan test edebilir miyim?** Evet—geliştirme sırasında ücretsiz deneme sürümünü veya **geçici bir Aspose lisansını** kullanın.  
+- **Animasyonları korumak için hangi formatta kaydetmeliyim?** `.pptx` olarak kaydedin; eski formatlar animasyon verilerini kaybeder.  
 
-## Hızlı Yanıtlar
-- **PowerPoint'e uçuş animasyonu ekleyen kütüphane nedir?** Aspose.Slides for Java  
-- **Hangi yapı aracını kullanabilirim?** Hem Maven (`maven aspose slides`) hem de Gradle desteklenir  
-- **Animasyon tetikleyicisini nasıl ayarlarım?** `addEffect` çağrısında `EffectTriggerType.OnClick` veya `AfterPrevious` kullanın  
-- **Ücretli lisans olmadan test edebilir miyim?** Evet—geliştirme için ücretsiz deneme sürümünü veya **geçici bir Aspose lisansı** kullanın  
-- **Hangi formatta kaydetmeliyim?** Tüm animasyon verilerini korumak için `.pptx` olarak kaydedin  
+## Aspose.Slides for Java neden kullanılmalı?
 
-## Neden Aspose.Slides for Java Kullanmalı?
-Aspose.Slides, **saf Java API** sağlayarak Microsoft Office yüklü olmadan çalışır; bu da sunucu‑tarafı otomasyon, toplu işleme ve web uygulamalarına entegrasyon için idealdir. Zengin animasyon desteği—**fly animation PowerPoint** efekti dahil—dinamik, sunuma hazır dosyaları programlı olarak oluşturmanızı sağlar.
+Sunumunuzu yükleyin, bir uçuş animasyonu uygulayın ve kaydedin—tüm bunlar iki kısa kod bloğunda. Aspose.Slides **50+ giriş ve çıkış formatını** destekler ve **500'den fazla slaytı** tüm dosyayı belleğe yüklemeden işleyebilir, bu da onu slayt otomasyonu için en ölçeklenebilir Java kütüphanelerinden biri yapar.
 
 ## Önkoşullar
-Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-### Gerekli Kütüphaneler
-- **Aspose.Slides for Java** – sürüm 25.4 veya daha yeni (en son sürüm önerilir).
+Başlamadan önce şunların kurulu olduğundan emin olun:
 
-### Ortam Kurulum Gereksinimleri
-- Java Development Kit (JDK) 16 veya üstü.  
-- IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.
+- **Java Development Kit (JDK) 16 ve üzeri** yüklü.  
+- IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.  
+- Java dosya I/O ve Maven veya Gradle yapı araçlarıyla temel aşinalık.  
 
-### Bilgi Önkoşulları
-- Temel Java programlama becerileri.  
-- Java'da dosya işlemleri konusunda aşinalık.
+### Gerekli kütüphaneler
+- **Aspose.Slides for Java** – sürüm 25.4 ve üzeri (en son sürüm önerilir).  
 
-## Aspose.Slides for Java Kurulumu
-Aspose.Slides for Java'ı kullanmaya başlamak için, kütüphaneyi projenizde aşağıdaki gibi kurun:
+### Bilgi önkoşulları
+- Java sınıf örneklemesi ve istisna yönetimi hakkında anlayış.  
+- Slaytlar, şekiller ve animasyon efektleri gibi PowerPoint kavramlarının farkında olmak.  
 
-### Maven Aspose Slides Bağımlılığı
-`pom.xml` dosyanıza bu bağımlılığı ekleyin:
+## Aspose.Slides for Java kurulumu
+
+Başlamak için, Aspose.Slides kütüphanesini projenize ekleyin.
+
+### Maven Aspose Slides bağımlılığı
+Bu bağımlılığı `pom.xml` dosyanıza ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -66,46 +125,49 @@ Aspose.Slides for Java'ı kullanmaya başlamak için, kütüphaneyi projenizde a
 </dependency>
 ```
 
-### Gradle Kurulumu
-`build.gradle` dosyanıza bunu ekleyin:
+### Gradle kurulumu
+`build.gradle` dosyanıza şunu ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Doğrudan İndirme
+### Doğrudan indirme
 En son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-#### Lisans Edinme Adımları
-- **Free Trial** – tüm özellikleri keşfetmek için deneme sürümüyle başlayın.  
-- **Temporary License** – geliştirme sırasında tam erişim için geçici bir lisans edinin.  
-- **Purchase** – üretim dağıtımları için tam lisansı düşünün.
+#### Lisans edinme adımları
+- **Ücretsiz deneme** – tüm özellikleri keşfetmek için deneme sürümüyle başlayın.  
+- **Geçici lisans** – geliştirme sırasında tam erişim için geçici bir lisans edinin.  
+- **Satın alma** – üretim dağıtımları için tam lisansı düşünün.
 
 Kurulum tamamlandığında, **fly animation PowerPoint** efektini uygulamaya geçelim.
 
-## Aspose.Slides for Java Kullanarak Animasyonlu PowerPoint Kaydetme
-Aşağıda, bir dosyayı yüklemekten animasyonlu sonucu kaydetmeye kadar tüm süreci adım adım anlatan bir rehber bulacaksınız.
+## Aspose.Slides for Java kullanarak animasyonlu PowerPoint kaydetme
 
-### Adım 1: Presentation Nesnesini Başlatma
+Aşağıda, bir dosyayı yüklemekten animasyonlu sonucu kalıcı hale getirmeye kadar tüm süreci adım adım anlatan bir rehber bulacaksınız.
+
+### Presentation sınıfı nedir?
+
+`Presentation` sınıfı, bellekte bir PowerPoint dosyasını temsil eder ve slaytlara, şekillere ve animasyonlara erişim sağlar. Kaynak dosyanızı yükleyin, değiştirin ve ardından geri kaydedin—son `save` çağrısına kadar dosya sistemine dokunmadan.
+
+### Adım 1: sunum nesnesini başlatma
+
 Mevcut PowerPoint dosyanıza işaret eden bir `Presentation` nesnesi oluşturun ve başlatın:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/Presentation1.pptx");
 ```
-Burada, `Presentation1.pptx` adlı mevcut bir sunumu açıyoruz.
 
-### Adım 2: Hedef Slayt ve Şekle Erişme
+### Adım 2: hedef slaytı ve şekli erişme
+
 İlk slaytı ve içinde animasyon eklemek istediğiniz metni barındıran ilk otomatik şekli alın:
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IAutoShape autoShape = (IAutoShape) slide.getShapes().get_Item(0);
 ```
-Şeklin bir `AutoShape` ve içinde bir metin çerçevesi olduğunu varsayıyoruz.
 
-Uçuş Animasyonu Metni Uygula
-Şekli elde ettiğimize göre, animasyon eklemek istediğiniz paragrafa **fly animation text** uygulayabiliriz.
+### Adım 3: uçuş animasyonu efektini uygulama
 
-#### Adım 3: Uçuş Animasyonu Efektini Uygulama
-Şeklin ilk paragrafına bir **fly animation PowerPoint** efekti ekleyin. Bu örnek animasyonu soldan gelerek ve fare tıklamasıyla tetiklenecek şekilde yapılandırır:
+Şeklin ilk paragrafına bir **fly animation PowerPoint** efekti ekleyin. Bu örnek animasyonu soldan uçacak şekilde ve fare tıklamasıyla tetiklenecek şekilde yapılandırır:
 ```java
 IParagraph paragraph = autoShape.getTextFrame().getParagraphs().get_Item(0);
 IEffect effect = slide.getTimeline().getMainSequence().addEffect(
@@ -115,75 +177,94 @@ IEffect effect = slide.getTimeline().getMainSequence().addEffect(
     EffectTriggerType.OnClick
 );
 ```
-`EffectSubtype` değerini `Right`, `Top` veya `Bottom` olarak değiştirerek yönü ayarlayabilir, otomatik bir başlangıç isterseniz `EffectTriggerType` değerini `AfterPrevious` olarak değiştirebilirsiniz.
 
-#### Animasyon Tetikleyicisini Yapılandırma
-`EffectTriggerType` parametresi, **animasyon tetikleyicisini yapılandırmanıza** olanak tanır. `OnClick` kullanıcı tıklamasını beklerken, `AfterPrevious` önceki animasyon bittiğinde otomatik olarak başlar.
+`EffectTriggerType` enum'ı animasyonun ne zaman başlayacağını belirler (ör. `OnClick` veya `AfterPrevious`).  
+`EffectSubtype` enum'ı uçuş animasyonunun yönünü belirtir (ör. `Left`, `Right`).  
+Yönü ayarlamak için `EffectSubtype`'ı `Right`, `Top` veya `Bottom` olarak değiştirebilir ve otomatik bir başlangıç istiyorsanız `EffectTriggerType`'ı `AfterPrevious` olarak değiştirebilirsiniz.
 
-### Adım 4: Animasyonlu Sunumu Kaydetme
+#### Animasyon tetikleyicisini yapılandır
+
+`EffectTriggerType` parametresi, **animasyon tetikleyicisini yapılandır**manıza olanak tanır. `OnClick` bir kullanıcı tıklamasını beklerken, `AfterPrevious` önceki animasyon bittiğinde otomatik olarak başlar.
+
+### Adım 4: animasyonlu sunumu kaydetme
+
 Değişiklikleri dosyayı kaydederek kalıcı hale getirin. Bu adım **animasyonlu sunumu olduğu gibi kaydeder**:
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveFormat.Pptx);
 ```
 
-## Pratik Uygulamalar
-Uçuş animasyonları çeşitli senaryolarda kullanılabilir:
-- **Educational Presentations** – ana noktaları vurgulamak veya yeni konular tanıtmak.  
-- **Corporate Meetings** – iş incelemeleri sırasında kritik verileri vurgulamak.  
-- **Marketing Campaigns** – dinamik ürün lansmanlarıyla izleyicileri etkilemek.  
+`SaveFormat.Pptx` olarak kaydetmek, tüm animasyon verilerinin çıktı dosyasına yazılmasını garanti eder.
 
-Bu animasyonlar, PPTX dosyalarını işleyen belge‑yönetim sistemleriyle de sorunsuz bir şekilde bütünleşir.
+## Pratik uygulamalar
 
-## Performans Düşünceleri
-Aspose.Slides güçlü olmasına rağmen, şu ipuçlarını aklınızda tutun:
-- **Optimize Memory Usage** – büyük sunumlar için yeterli yığın alanı ayırın.  
-- **Efficient Resource Handling** – `Presentation` nesnelerini bir `try‑finally` bloğunda serbest bırakın veya try‑with‑resources kullanın.  
-- **Best Practices** – gereksiz döngülerden kaçının; yalnızca ihtiyacınız olan slaytları/şekilleri değiştirin.
+Fly animasyonları birçok gerçek dünya senaryosunda kullanılabilir:
 
-## Yaygın Sorunlar ve Çözümler
-| Sorun | Çözüm |
+- **Eğitim sunumları** – temel kavramları vurgulamak veya madde işaretlerini tek tek ortaya çıkarmak.  
+- **Kurumsal toplantılar** – çeyrek sonuçlarını, grafiklerini veya stratejik girişimleri vurgulamak.  
+- **Pazarlama kampanyaları** – izleyicinin dikkatini çeken dinamik ürün lansmanı sunumları oluşturmak.
+
+Çıktı standart bir `.pptx` olduğundan, herhangi bir modern sunum görüntüleyici (PowerPoint, Google Slides, LibreOffice) animasyonları doğru şekilde render edecektir.
+
+## Performans değerlendirmeleri
+
+Aspose.Slides güçlü olsa da, optimal performansı korumak için şu ipuçlarını aklınızda tutun:
+
+- **Yeterli yığın alanı ayırın** – büyük desteler (yüzlerce slayt) `-Xmx2g` veya daha fazlasını gerektirebilir.  
+- **Kaynakları hızlıca serbest bırakın** – `Presentation` nesnesini kapatmak için try‑with‑resources veya bir `finally` bloğu kullanın.  
+- **Gereksiz döngülerden kaçının** – yalnızca ihtiyacınız olan slayt ve şekillerle çalışın; toplu işlemler bellek baskısını artırabilir.
+
+## Yaygın sorunlar ve çözümler
+
+| Issue | Solution |
 |-------|----------|
-| **OutOfMemoryError** büyük dosyalar işlenirken | JVM yığın alanını (`-Xmx`) artırın ve slaytları toplu olarak işleyin. |
-| **License not found** hatası | `Presentation` nesnesi oluşturulmadan önce geçici veya satın alınmış lisans dosyasının yüklendiğinden emin olun. |
-| **Animation not visible after saving** | `SaveFormat.Pptx` olarak kaydettiğinizi doğrulayın; eski formatlar animasyon verisini kaybedebilir. |
+| **OutOfMemoryError** büyük dosyalar işlenirken | JVM yığınını (`-Xmx`) artırın ve slaytları toplu olarak işleyin. |
+| **License not found** hatası | `Presentation` nesnesi oluşturulmadan önce geçici veya satın alınmış lisans dosyasını yükleyin. |
+| **Saving sonrası animasyon görünmüyor** | `SaveFormat.Pptx` olarak kaydettiğinizi doğrulayın; eski formatlar animasyon verilerini kaybeder. |
 
-## Sık Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: Animasyon yönünü nasıl değiştiririm?**  
 C: `addEffect()` çağrısındaki `EffectSubtype` parametresini `Right`, `Top` veya `Bottom` olarak değiştirin.
 
 **S: Uçuş animasyonunu birden fazla paragraf için aynı anda uygulayabilir miyim?**  
-C: Evet. Şeklin metin çerçevesindeki her paragrafı döngüyle işleyip her biri için `addEffect` çağırın.
+C: Evet. Şeklin metin çerçevesindeki her paragrafı döngüyle işleyip her biri için `addEffect` çağırabilirsiniz.
 
 **S: Kurulum sırasında hatalarla karşılaşırsam ne yapmalıyım?**  
-C: Maven/Gradle yapılandırmanızı tekrar kontrol edin, doğru sınıflandırıcının (`jdk16`) kullanıldığından emin olun ve Aspose lisansının doğru yüklendiğini doğrulayın.
+C: Maven/Gradle yapılandırmanızı iki kez kontrol edin, doğru sınıflandırıcıyı (`jdk16`) kullandığınızdan emin olun ve Aspose lisansının doğru yüklendiğini doğrulayın.
 
 **S: Test için geçici bir Aspose lisansı nasıl alabilirim?**  
 C: [geçici Aspose lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin ve talep sürecini izleyin.
 
 **S: Sunumlarla çalışırken istisnaları yönetmenin en iyi yolu nedir?**  
-C: Dosya erişimi ve animasyon kodunu try‑catch bloklarıyla sarın, `Presentation` nesnesini her zaman finally bloğunda kapatın veya try‑with‑resources kullanın.
+C: Dosya erişimi ve animasyon kodunu try‑catch bloklarıyla sarın ve `Presentation` nesnesini her zaman bir finally bloğunda kapatın veya try‑with‑resources kullanın.
 
 ## Kaynaklar
+
 - **Dokümantasyon**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
 - **İndirme**: [Latest Releases](https://releases.aspose.com/slides/java/)  
-- **Satın Alma**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
-- **Ücretsiz Deneme**: [Get a Free License](https://releases.aspose.com/slides/java/)  
-- **Geçici Lisans**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license/)  
+- **Satın alma**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Ücretsiz deneme**: [Get a Free License](https://releases.aspose.com/slides/java/)  
+- **Geçici lisans**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license/)  
 - **Destek**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
-Aspose.Slides for Java ile sunumlarınızı geliştirme yolunda bir sonraki adımı atın ve bugün daha etkileyici, dinamik slaytlar oluşturmaya başlayın!
+Bugün slayt destelerinizi otomatikleştirmeye başlayın ve programatik olarak gelişmiş animasyonlar eklemenin getirdiği verimlilik artışının tadını çıkarın.
 
 ---
 
-**Last Updated:** 2026-03-31  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose
+**Son Güncelleme:** 2026-09-22  
+**Test Edilen:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Dinamik Powerpoint Java Oluşturma – Aspose.Slides Animasyon Tipleri Rehberi](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [Animasyon Analiz Aracı Nasıl Oluşturulur - Aspose.Slides for Java Kullanarak PowerPoint Animasyon Efektlerini Almak](/slides/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/)
+- [Aspose.Slides for Java Kullanarak PowerPoint Slaytlarında Geçişleri Ayarlama](/slides/java/animations-transitions/master-slide-transitions-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

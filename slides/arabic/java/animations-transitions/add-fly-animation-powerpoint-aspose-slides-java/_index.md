@@ -1,59 +1,117 @@
 ---
-date: '2026-03-31'
-description: تعلم كيفية حفظ ملفات PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides
-  للغة Java، وتطبيق تأثير الطيران على النص، وتكوين مشغل الرسوم المتحركة.
+date: '2026-09-22'
+description: تعلم كيفية حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides for
+  Java، وكيفية إضافة الرسوم المتحركة، وكيفية تكوين تبعية Maven الخاصة بـ Aspose Slides.
 keywords:
-- Fly animation PowerPoint
-- Aspose.Slides for Java
-- PowerPoint animations
-title: حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides للـ Java
+- how to save powerpoint
+- how to add animation
+- save powerpoint with animation
+- aspose slides maven dependency
+- java add slide animation
+lastmod: '2026-09-22'
+og_description: كيفية حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides for
+  Java. يوضح هذا الدليل كيفية إضافة الرسوم المتحركة، وتكوين تبعية Maven، وإنشاء شرائح
+  ديناميكية.
+og_image_alt: 'Developer guide: save PowerPoint with animation using Aspose.Slides
+  for Java'
+og_title: كيفية حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to save PowerPoint with animation using Aspose.Slides for
+    Java, how to add animation, and how to configure the Aspose Slides Maven dependency.
+  headline: How to save PowerPoint with animation using Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to save PowerPoint with animation using Aspose.Slides for
+    Java, how to add animation, and how to configure the Aspose Slides Maven dependency.
+  name: How to save PowerPoint with animation using Aspose.Slides for Java
+  steps:
+  - name: initialize the presentation object
+    text: 'Create and initialize a `Presentation` object that points to your existing
+      PowerPoint file: Here, we’re opening an existing presentation named `Presentation1.pptx`.
+      The constructor automatically parses the file structure, making every slide
+      and shape available through the object model.'
+  - name: access the target slide and shape
+    text: 'Retrieve the first slide and its first auto‑shape (which contains the text
+      you want to animate): We assume the shape is an `AutoShape` with a text frame,
+      which is the most common container for paragraph‑level animations.'
+  - name: apply the fly animation effect
+    text: 'Add a **fly animation PowerPoint** effect to the first paragraph of the
+      shape. This example configures the animation to fly in from the left and trigger
+      on a mouse click: The `EffectTriggerType` enum determines when the animation
+      starts (e.g., `OnClick` or `AfterPrevious`). The `EffectSubtype` enum '
+  - name: save the presentation with animation
+    text: 'Persist the changes by saving the file. This step **saves the presentation
+      with animation** intact: Saving as `SaveFormat.Pptx` guarantees that all animation
+      data is written to the output file.'
+  type: HowTo
+- questions:
+  - answer: Modify the `EffectSubtype` parameter in the `addEffect()` call to `Right`,
+      `Top`, or `Bottom`.
+    question: How do I change the animation direction?
+  - answer: Yes. Loop through each paragraph in the shape’s text frame and call `addEffect`
+      for each one.
+    question: Can I apply the fly animation to multiple paragraphs at once?
+  - answer: Double‑check your Maven/Gradle configuration, ensure the correct classifier
+      (`jdk16`), and verify that the Aspose license is correctly loaded.
+    question: What should I do if I encounter errors during setup?
+  - answer: Visit the [temporary Aspose license page](https://purchase.aspose.com/temporary-license/)
+      and follow the request process.
+    question: How do I obtain a temporary Aspose license for testing?
+  - answer: Wrap file‑access and animation code in try‑catch blocks, and always close
+      the `Presentation` object in a finally block or use try‑with‑resources.
+    question: What is the best way to handle exceptions when working with presentations?
+  type: FAQPage
+tags:
+- save PowerPoint
+- Aspose.Slides
+- Java animation
+- fly animation
+- PowerPoint API
+title: كيفية حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides for Java
 url: /ar/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides for Java
+
+# كيفية حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides for Java
 
 ## مقدمة
 
-قم بتحسين عروض PowerPoint التقديمية الخاصة بك باستخدام رسوم متحركة جذابة بسهولة. في هذا البرنامج التعليمي ستتعلم **كيفية حفظ PowerPoint مع الرسوم المتحركة** عن طريق إضافة تأثير طيران إلى الفقرات باستخدام **Aspose.Slides for Java**. هذه الطريقة تعزز الاحترافية وتفاعل شرائحك مع الحفاظ على شفرة نظيفة وقابلة للصيانة. ستكتشف أيضًا كيفية **حفظ العرض التقديمي مع الرسوم المتحركة**، وتكوين مشغل الرسوم المتحركة، والعمل مع **رخصة Aspose مؤقتة** أثناء التطوير.
-
-### ما ستتعلمه
-- إعداد **Aspose.Slides for Java** (بما في ذلك دمج Maven و Gradle)  
-- إضافة تأثير **fly animation PowerPoint** إلى فقرة داخل شريحة  
-- تكوين اتجاه ومشغل الرسوم المتحركة  
-- حفظ العرض التقديمي المحسن مع الحفاظ على الرسوم المتحركة  
+في هذا الدليل ستكتشف **كيفية حفظ ملفات PowerPoint** مع الحفاظ على الرسوم المتحركة المتقدمة. ستتعلم إضافة تأثير طيران إلى فقرة، ضبط مشغل الرسوم المتحركة، وإنشاء ملف `.pptx` نهائي يبدو تمامًا كعرض شرائح تم إنشاؤه يدويًا. باستخدام **Aspose.Slides for Java**، يمكنك أتمتة إنشاء العروض على الخادم دون الحاجة إلى تثبيت Microsoft Office، وهو مثالي للمعالجة الدفعية، خدمات الويب، وخطوط أنابيب CI.
 
 ## إجابات سريعة
-- **ما المكتبة التي تضيف تأثير الطيران إلى PowerPoint؟** Aspose.Slides for Java  
-- **ما أداة البناء التي يمكنني استخدامها؟** كل من Maven (`maven aspose slides`) و Gradle مدعومان  
-- **كيف أضبط مشغل الرسوم المتحركة؟** استخدم `EffectTriggerType.OnClick` أو `AfterPrevious` في استدعاء `addEffect`  
-- **هل يمكنني الاختبار بدون رخصة مدفوعة؟** نعم—استخدم نسخة تجريبية مجانية أو **رخصة Aspose مؤقتة** للتطوير  
-- **ما الصيغة التي يجب أن أحفظ بها؟** احفظ كـ `.pptx` للاحتفاظ بجميع بيانات الرسوم المتحركة  
+- **ما المكتبة التي تضيف حركة الطيران إلى PowerPoint؟** Aspose.Slides for Java.  
+- **ما أداة البناء التي يمكنني استخدامها؟** كل من Maven (`aspose‑slides` Maven dependency) و Gradle مدعومان.  
+- **كيف أضبط مشغل الرسوم المتحركة؟** استخدم `EffectTriggerType.OnClick` أو `AfterPrevious` في استدعاء `addEffect`.  
+- **هل يمكنني الاختبار بدون ترخيص مدفوع؟** نعم — استخدم نسخة تجريبية مجانية أو **ترخيص Aspose مؤقت** أثناء التطوير.  
+- **ما الصيغة التي يجب حفظها للحفاظ على الرسوم المتحركة؟** احفظ كـ `.pptx`؛ الصيغ القديمة تحذف بيانات الرسوم المتحركة.  
 
-## لماذا تستخدم Aspose.Slides for Java؟
-توفر Aspose.Slides **واجهة برمجة تطبيقات Java صافية** تعمل دون الحاجة إلى تثبيت Microsoft Office، مما يجعلها مثالية لأتمتة الخوادم، ومعالجة الدُفعات، والتكامل مع تطبيقات الويب. يدعم Aspose.Slides مجموعة واسعة من الرسوم المتحركة—بما في ذلك تأثير **fly animation PowerPoint**—مما يتيح لك إنشاء ملفات ديناميكية جاهزة للعرض التقديمي برمجيًا.
+## لماذا استخدام Aspose.Slides for Java؟
+
+حمّل عرضك، أضف حركة طيران، واحفظه — كل ذلك في كودين مختصرين. يدعم Aspose.Slides **أكثر من 50 تنسيقًا للإدخال والإخراج** ويمكنه معالجة عروض تحتوي على **أكثر من 500 شريحة** دون تحميل الملف بالكامل في الذاكرة، مما يجعله أحد أكثر مكتبات Java قابلية للتوسع لأتمتة الشرائح.
 
 ## المتطلبات المسبقة
-قبل البدء، تأكد من أن لديك ما يلي:
+
+قبل البدء، تأكد من أنك تمتلك:
+
+- **Java Development Kit (JDK) 16 أو أعلى** مثبتًا.  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse أو NetBeans.  
+- إلمام أساسي بـ Java I/O وأدوات البناء Maven أو Gradle.  
 
 ### المكتبات المطلوبة
-- **Aspose.Slides for Java** – الإصدار 25.4 أو أحدث (يوصى بأحدث إصدار).
-
-### متطلبات إعداد البيئة
-- مجموعة تطوير جافا (JDK) 16 أو أعلى.  
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse أو NetBeans.
+- **Aspose.Slides for Java** – الإصدار 25.4 أو أحدث (يفضل أحدث إصدار).  
 
 ### المتطلبات المعرفية
-- مهارات برمجة Java الأساسية.  
-- الإلمام بمعالجة الملفات في Java.
+- فهم إنشاء كائنات Java ومعالجة الاستثناءات.  
+- معرفة مفاهيم PowerPoint مثل الشرائح، الأشكال، وتأثيرات الرسوم المتحركة.
 
 ## إعداد Aspose.Slides for Java
-لبدء استخدام Aspose.Slides for Java، قم بإعداد المكتبة في مشروعك كما يلي:
+
+لبدء العمل، أضف مكتبة Aspose.Slides إلى مشروعك.
 
 ### تبعية Maven لـ Aspose Slides
 أضف هذه التبعية إلى ملف `pom.xml` الخاص بك:
@@ -67,45 +125,50 @@ weight: 1
 ```
 
 ### إعداد Gradle
-قم بإدراج هذا في ملف `build.gradle` الخاص بك:
+أدرج هذا في ملف `build.gradle` الخاص بك:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### التحميل المباشر
-قم بتنزيل أحدث إصدار من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### تحميل مباشر
+حمّل أحدث إصدار من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### خطوات الحصول على الرخصة
+#### خطوات الحصول على الترخيص
 - **نسخة تجريبية مجانية** – ابدأ بنسخة تجريبية لاستكشاف جميع الميزات.  
-- **رخصة مؤقتة** – احصل على رخصة مؤقتة للوصول الكامل أثناء التطوير.  
-- **شراء** – فكر في رخصة كاملة للنشر في بيئات الإنتاج.
+- **ترخيص مؤقت** – احصل على ترخيص مؤقت للوصول الكامل أثناء التطوير.  
+- **شراء** – فكر في ترخيص كامل للنشر في بيئات الإنتاج.
 
-بمجرد اكتمال الإعداد، دعنا ننتقل إلى تنفيذ تأثير **fly animation PowerPoint**.
+بعد إكمال الإعداد، لننتقل إلى تنفيذ تأثير **الطيران في PowerPoint**.
 
 ## كيفية حفظ PowerPoint مع الرسوم المتحركة باستخدام Aspose.Slides for Java
-فيما يلي دليل خطوة بخطوة يشرح لك العملية بالكامل، من تحميل الملف إلى حفظ النتيجة المتحركة.
 
-### الخطوة 1: تهيئة كائن Presentation
-قم بإنشاء وتهيئة كائن `Presentation` الذي يشير إلى ملف PowerPoint الحالي الخاص بك:
+فيما يلي دليل خطوة بخطوة يرافقك عبر العملية بالكامل، من تحميل الملف إلى حفظ النتيجة المتحركة.
+
+### ما هي فئة Presentation؟
+
+فئة `Presentation` تمثل ملف PowerPoint في الذاكرة، وتوفر الوصول إلى الشرائح، الأشكال، والرسوم المتحركة. حمّل ملف المصدر، عدّله، ثم احفظه مرة أخرى — كل ذلك دون لمس نظام الملفات حتى استدعاء `save` النهائي.
+
+### الخطوة 1: تهيئة كائن العرض
+
+أنشئ وتهيئ كائن `Presentation` يشير إلى ملف PowerPoint الموجود لديك:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/Presentation1.pptx");
 ```
-هنا، نفتح عرضًا تقديميًا موجودًا اسمه `Presentation1.pptx`.
+هنا نفتح عرضًا موجودًا اسمه `Presentation1.pptx`. يقوم المُنشئ تلقائيًا بتحليل بنية الملف، مما يجعل كل شريحة وشكل متاحًا عبر نموذج الكائن.
 
 ### الخطوة 2: الوصول إلى الشريحة والشكلة المستهدفة
-استرجع الشريحة الأولى والـ auto‑shape الأول (الذي يحتوي على النص الذي تريد تحريكه):
+
+استرجع الشريحة الأولى وشكلها الأول من نوع auto‑shape (الذي يحتوي على النص الذي تريد تحريكه):
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IAutoShape autoShape = (IAutoShape) slide.getShapes().get_Item(0);
 ```
-نفترض أن الشكل هو `AutoShape` يحتوي على إطار نص.
+نفترض أن الشكل هو `AutoShape` يحتوي على إطار نص، وهو الحاوية الأكثر شيوعًا لتطبيق الرسوم المتحركة على مستوى الفقرة.
 
-تطبيق نص الرسوم المتحركة الطائر
-الآن بعد أن حصلنا على الشكل، يمكننا **تطبيق نص الرسوم المتحركة الطائر** على الفقرة التي تريد تحريكها.
+### الخطوة 3: تطبيق تأثير حركة الطيران
 
-#### الخطوة 3: تطبيق تأثير الرسوم المتحركة الطائر
-أضف تأثير **fly animation PowerPoint** إلى الفقرة الأولى من الشكل. يضبط هذا المثال الرسوم المتحركة لتظهر من اليسار وتُشغل عند النقر بالفأرة:
+أضف تأثير **الطيران في PowerPoint** إلى الفقرة الأولى من الشكل. يضبط هذا المثال الرسوم المتحركة لتطير من اليسار وتُشغل عند النقر بالفأرة:
 ```java
 IParagraph paragraph = autoShape.getTextFrame().getParagraphs().get_Item(0);
 IEffect effect = slide.getTimeline().getMainSequence().addEffect(
@@ -115,75 +178,90 @@ IEffect effect = slide.getTimeline().getMainSequence().addEffect(
     EffectTriggerType.OnClick
 );
 ```
-يمكنك تغيير `EffectSubtype` إلى `Right` أو `Top` أو `Bottom` لتعديل الاتجاه، وتعديل `EffectTriggerType` إلى `AfterPrevious` إذا كنت تفضل بدءًا تلقائيًا.
+تحدد قيمة التعداد `EffectTriggerType` متى يبدأ التحريك (مثل `OnClick` أو `AfterPrevious`).  
+تحدد قيمة التعداد `EffectSubtype` اتجاه حركة الطيران (مثل `Left` أو `Right`).  
+يمكنك تغيير `EffectSubtype` إلى `Right` أو `Top` أو `Bottom` لتعديل الاتجاه، وتعديل `EffectTriggerType` إلى `AfterPrevious` إذا كنت تفضّل بدءًا تلقائيًا.
 
 #### تكوين مشغل الرسوم المتحركة
-معامل `EffectTriggerType` يتيح لك **تكوين مشغل الرسوم المتحركة**. `OnClick` ينتظر نقرة المستخدم، بينما `AfterPrevious` يبدأ تلقائيًا بعد انتهاء الرسوم المتحركة السابقة.
 
-### الخطوة 4: حفظ العرض التقديمي مع الرسوم المتحركة
-احفظ التغييرات عن طريق حفظ الملف. هذه الخطوة **تحفظ العرض التقديمي مع الرسوم المتحركة** كما هو:
+معامل `EffectTriggerType` يتيح لك **تكوين سلوك مشغل الرسوم المتحركة**. `OnClick` ينتظر نقرة المستخدم، بينما `AfterPrevious` يبدأ تلقائيًا بعد انتهاء الرسوم المتحركة السابقة.
+
+### الخطوة 4: حفظ العرض مع الرسوم المتحركة
+
+احفظ التغييرات عن طريق حفظ الملف. هذه الخطوة **تحفظ العرض مع الرسوم المتحركة** كما هي:
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveFormat.Pptx);
 ```
+الحفظ كـ `SaveFormat.Pptx` يضمن كتابة جميع بيانات الرسوم المتحركة إلى ملف الإخراج.
 
 ## تطبيقات عملية
-- **العروض التعليمية** – إبراز النقاط الرئيسية أو تقديم مواضيع جديدة.  
-- **الاجتماعات المؤسسية** – تسليط الضوء على البيانات الحرجة خلال مراجعات الأعمال.  
-- **حملات التسويق** – جذب الجمهور بإطلاق منتجات ديناميكي.
 
-تندمج هذه الرسوم المتحركة أيضًا بسلاسة مع أنظمة إدارة المستندات التي تتعامل مع ملفات PPTX.
+يمكن استخدام حركات الطيران في العديد من السيناريوهات الواقعية:
+
+- **العروض التعليمية** – إبراز المفاهيم الرئيسية أو كشف النقاط النقطية واحدة تلو الأخرى.  
+- **الاجتماعات المؤسسية** – تسليط الضوء على النتائج الربعية، الرسوم البيانية، أو المبادرات الإستراتيجية.  
+- **الحملات التسويقية** – إنشاء عروض تقديمية ديناميكية لإطلاق المنتجات تجذب انتباه الجمهور.  
+
+نظرًا لأن الإخراج هو ملف `.pptx` قياسي، فإن أي عارض عروض حديث (PowerPoint، Google Slides، LibreOffice) سيعرض الرسوم المتحركة بشكل صحيح.
 
 ## اعتبارات الأداء
-على الرغم من أن Aspose.Slides قوية، احرص على مراعاة هذه النصائح:
 
-- **تحسين استخدام الذاكرة** – خصص مساحة كافية في الـ heap للعروض الكبيرة.  
-- **إدارة الموارد بكفاءة** – حرّر كائنات `Presentation` في كتلة `try‑finally` أو استخدم try‑with‑resources.  
-- **أفضل الممارسات** – تجنّب الحلقات غير الضرورية؛ عالج فقط الشرائح/الأشكال التي تحتاجها.
+على الرغم من قوة Aspose.Slides، احرص على مراعاة النصائح التالية للحفاظ على الأداء المثالي:
+
+- **تخصيص مساحة heap كافية** – العروض الكبيرة (مئات الشرائح) قد تحتاج إلى `-Xmx2g` أو أكثر.  
+- **تحرير الموارد فورًا** – استخدم try‑with‑resources أو كتلة `finally` لإغلاق كائن `Presentation`.  
+- **تجنب الحلقات غير الضرورية** – عالج فقط الشرائح والأشكال التي تحتاجها؛ العمليات الضخمة قد تزيد من ضغط الذاكرة.
 
 ## المشكلات الشائعة والحلول
+
 | المشكلة | الحل |
 |-------|----------|
-| **OutOfMemoryError** عند معالجة ملفات كبيرة | زيادة مساحة heap في JVM (`-Xmx`) ومعالجة الشرائح على دفعات. |
-| **خطأ License not found** | تأكد من تحميل ملف الرخصة المؤقتة أو المشتراة قبل إنشاء كائن `Presentation`. |
-| **الرسوم المتحركة غير مرئية بعد الحفظ** | تحقق من أنك حفظت كـ `SaveFormat.Pptx`؛ قد تفقد الصيغ القديمة بيانات الرسوم المتحركة. |
+| **OutOfMemoryError** عند معالجة ملفات كبيرة | زد حجم heap في JVM (`-Xmx`) وعالج الشرائح على دفعات. |
+| **License not found** error | حمّل ملف الترخيص المؤقت أو المدفوع قبل إنشاء كائن `Presentation`. |
+| **Animation not visible after saving** | تأكد من حفظك كـ `SaveFormat.Pptx`؛ الصيغ القديمة تحذف بيانات الرسوم المتحركة. |
 
 ## الأسئلة المتكررة
 
-**س: كيف أغيّر اتجاه الرسوم المتحركة؟**  
-غيّر معامل `EffectSubtype` في استدعاء `addEffect()` إلى `Right` أو `Top` أو `Bottom`.
+**س: كيف أغير اتجاه الرسوم المتحركة؟**  
+ج: عدّل معامل `EffectSubtype` في استدعاء `addEffect()` إلى `Right` أو `Top` أو `Bottom`.
 
-**س: هل يمكنني تطبيق الرسوم المتحركة الطائرة على فقرات متعددة في آن واحد؟**  
-نعم. قم بالتكرار عبر كل فقرة في إطار نص الشكل واستدعِ `addEffect` لكل واحدة.
+**س: هل يمكنني تطبيق حركة الطيران على فقرات متعددة في آنٍ واحد؟**  
+ج: نعم. قم بالتكرار عبر كل فقرة في إطار النص الخاص بالشكل واستدعِ `addEffect` لكل منها.
 
-**س: ماذا أفعل إذا واجهت أخطاء أثناء الإعداد؟**  
-تحقق مرة أخرى من إعدادات Maven/Gradle، تأكد من أن المصنف الصحيح (`jdk16`)، وتأكد من تحميل رخصة Aspose بشكل صحيح.
+**س: ماذا أفعل إذا واجهت أخطاءً أثناء الإعداد؟**  
+ج: تحقق من تكوين Maven/Gradle، تأكد من صحة المصنف (`jdk16`)، وتأكد من تحميل ترخيص Aspose بشكل صحيح.
 
-**س: كيف أحصل على رخصة Aspose مؤقتة للاختبار؟**  
-قم بزيارة [temporary Aspose license page](https://purchase.aspose.com/temporary-license/) واتبع عملية الطلب.
+**س: كيف أحصل على ترخيص Aspose مؤقت للاختبار؟**  
+ج: زر [temporary Aspose license page](https://purchase.aspose.com/temporary-license/) واتبع عملية الطلب.
 
-**س: ما هي أفضل طريقة للتعامل مع الاستثناءات عند العمل مع العروض التقديمية؟**  
-ضع كود الوصول إلى الملفات والرسوم المتحركة داخل كتل try‑catch، وتأكد دائمًا من إغلاق كائن `Presentation` في كتلة finally أو استخدم try‑with‑resources.
+**س: ما هي أفضل طريقة للتعامل مع الاستثناءات عند العمل مع العروض؟**  
+ج: احطّ كود الوصول إلى الملفات والرسوم المتحركة بكتل try‑catch، واغلق كائن `Presentation` دائمًا في كتلة finally أو استخدم try‑with‑resources.
 
 ## موارد
+
 - **الوثائق**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
 - **التنزيل**: [Latest Releases](https://releases.aspose.com/slides/java/)  
 - **الشراء**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
 - **نسخة تجريبية مجانية**: [Get a Free License](https://releases.aspose.com/slides/java/)  
-- **رخصة مؤقتة**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license/)  
+- **ترخيص مؤقت**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license/)  
 - **الدعم**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
-اتخذ الخطوة التالية في تحسين عروضك التقديمية باستخدام Aspose.Slides for Java وابدأ بإنشاء شرائح أكثر جاذبية وديناميكية اليوم!
+ابدأ بأتمتة عروض الشرائح اليوم وتمتع بزيادة الإنتاجية التي تأتي من إضافة الرسوم المتحركة المتقدمة برمجيًا.
 
----
-
-**آخر تحديث:** 2026-03-31  
-**تم الاختبار مع:** Aspose.Slides for Java 25.4 (مصنف jdk16)  
+**آخر تحديث:** 2026-09-22  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [Create Dynamic Powerpoint Java – Aspose.Slides Animation Types Guide](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [How to Create an Animation Analysis Tool - Retrieve PowerPoint Animation Effects Using Aspose.Slides for Java](/slides/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/)
+- [How to Set Transitions in PowerPoint Slides Using Aspose.Slides for Java](/slides/java/animations-transitions/master-slide-transitions-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
