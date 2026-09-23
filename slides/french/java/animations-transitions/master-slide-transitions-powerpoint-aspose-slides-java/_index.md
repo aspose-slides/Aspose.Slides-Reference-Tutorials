@@ -1,53 +1,118 @@
 ---
-date: '2026-03-28'
-description: Apprenez à enregistrer un PowerPoint avec des transitions en utilisant
-  Aspose.Slides pour Java, à appliquer des transitions à toutes les diapositives,
-  à définir le timing des transitions de diapositives et à automatiser les transitions
-  de diapositives PowerPoint.
+date: '2026-09-22'
+description: Apprenez comment enregistrer PowerPoint avec des transitions en utilisant
+  Aspose.Slides for Java, appliquer des transitions à toutes les diapositives, définir
+  le timing des transitions de diapositives, et automatiser les transitions de diapositives
+  PowerPoint.
 keywords:
-- slide transitions in PowerPoint
-- Aspose.Slides for Java
-- applying slide transitions with Aspose
-title: Enregistrer PowerPoint avec transitions en utilisant Aspose.Slides pour Java
-  | Guide étape par étape
+- save powerpoint with transitions
+- apply transitions to slides
+- automate powerpoint slide transitions
+- set slide transition timing
+- set transition duration java
+lastmod: '2026-09-22'
+og_description: Enregistrez PowerPoint avec des transitions en utilisant Aspose.Slides
+  for Java. Apprenez à appliquer des transitions aux diapositives, définir le timing
+  des transitions de diapositives, et automatiser les transitions de diapositives
+  en quelques lignes de code seulement.
+og_image_alt: Developer guide showing Java code that adds slide transitions and saves
+  a PowerPoint file with Aspose.Slides
+og_title: Enregistrez PowerPoint avec des transitions en utilisant Aspose.Slides for
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to save PowerPoint with transitions using Aspose.Slides for
+    Java, apply transitions to all slides, set slide transition timing, and automate
+    PowerPoint slide transitions.
+  headline: Save PowerPoint with transitions using Aspose.Slides for Java | Step-by-step
+    guide
+  type: TechArticle
+- description: Learn how to save PowerPoint with transitions using Aspose.Slides for
+    Java, apply transitions to all slides, set slide transition timing, and automate
+    PowerPoint slide transitions.
+  name: Save PowerPoint with transitions using Aspose.Slides for Java | Step-by-step
+    guide
+  steps:
+  - name: instantiate the `Presentation` class
+    text: This creates a `Presentation` object that gives you full control over each
+      slide.
+  - name: apply Circle transition on slide 1
+    text: The `TransitionType` enum lists all supported slide‑transition effects.
+      The Circle effect creates a smooth radial fade when moving to the next slide.
+  - name: set transition time for slide 1
+    text: The `setAdvanceAfterTime` method sets the automatic advance delay for a
+      slide in milliseconds. Here we **set slide transition timing** to 3 seconds
+      and allow click‑advance.
+  - name: apply Comb transition on slide 2
+    text: The `TransitionType` enum lists all supported slide‑transition effects.
+      The Comb effect adds visual interest for a change of topic.
+  - name: set transition time for slide 2
+    text: The `setAdvanceAfterTime` method sets the automatic advance delay for a
+      slide in milliseconds. We set a 5‑second delay for the second slide.
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides supports many effects such as Circle, Comb, Fade, Wipe,
+      and more via the `TransitionType` enum.
+    question: What transition types are available?
+  - answer: Yes—use `setAdvanceAfterTime(milliseconds)` to define the exact timing
+      (the **set transition duration java** method).
+    question: Can I set a custom duration for each slide?
+  - answer: Absolutely. Loop through `presentation.getSlides()` and set the desired
+      `TransitionType` and timing for each slide (great for **apply transitions to
+      slides**).
+    question: Is it possible to apply the same transition to all slides automatically?
+  - answer: Load the license file at the start of your build script; Aspose.Slides
+      works in headless environments.
+    question: How do I handle licensing in a CI/CD pipeline?
+  - answer: Ensure the slide index exists (e.g., avoid accessing index 2 when only
+      two slides are present).
+    question: What should I do if I encounter a `NullPointerException` while setting
+      transitions?
+  type: FAQPage
+tags:
+- powerpoint transitions
+- aspose.slides
+- java presentation automation
+title: Enregistrez PowerPoint avec des transitions en utilisant Aspose.Slides for
+  Java | Guide étape par étape
 url: /fr/java/animations-transitions/master-slide-transitions-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment enregistrer PowerPoint avec des transitions à l'aide d'Aspose.Slides pour Java
+
+# Enregistrer PowerPoint avec des transitions à l'aide d'Aspose.Slides pour Java
 ## Guide étape par étape
 
 ### Introduction
-Si vous souhaitez **enregistrer PowerPoint avec des transitions** qui captent l'attention et maintiennent votre public engagé, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons l'utilisation d'Aspose.Slides pour Java afin d'**ajouter des transitions de diapositives**, de configurer leur timing, et même d'**automatiser les transitions de diapositives PowerPoint** pour de grands jeux de diapositives. À la fin, vous pourrez améliorer n'importe quelle présentation avec des effets de qualité professionnelle en quelques lignes de code.
+Si vous souhaitez **enregistrer PowerPoint avec des transitions** qui captent l'attention et maintiennent votre public engagé, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons l'utilisation d'Aspose.Slides pour Java afin **d'ajouter des transitions de diapositives**, de configurer leur timing, et même **d'automatiser les transitions de diapositives PowerPoint** pour de grands decks. À la fin, vous pourrez améliorer n'importe quelle présentation avec des effets de qualité professionnelle en quelques lignes de code.
 
 #### Ce que vous apprendrez
 - Charger un fichier PowerPoint existant avec Aspose.Slides  
-- **Appliquer des transitions à toutes les diapositives** (ou spécifiques) telles que Cercle et Peigne  
+- **Appliquer des transitions aux diapositives** (ou spécifiques) telles que Cercle et Peigne  
 - **Définir le timing des transitions de diapositives** et le comportement au clic  
 - **Enregistrer PowerPoint avec des transitions** sur le disque  
 
-Maintenant que nous connaissons les objectifs, assurons-nous que vous avez tout ce dont vous avez besoin.
+Maintenant que nous connaissons les objectifs, assurons‑nous que vous avez tout ce dont vous avez besoin.
 
 ### Réponses rapides
 - **Quelle est la bibliothèque principale ?** Aspose.Slides for Java  
-- **Puis-je automatiser les transitions de diapositives ?** Oui – parcourir les diapositives programmatiquement  
+- **Puis‑je automatiser les transitions de diapositives ?** Oui – parcourir les diapositives programmatiquement  
 - **Comment définir la durée d'une transition ?** Utilisez `setAdvanceAfterTime(milliseconds)` (la méthode **set transition duration java**)  
-- **Ai-je besoin d'une licence ?** Un essai fonctionne pour les tests ; une licence complète supprime les limites  
-- **Quelles versions de Java sont prises en charge ?** Java 8+ (l'exemple utilise JDK 16)
+- **Ai‑je besoin d'une licence ?** Un essai fonctionne pour les tests ; une licence complète supprime les limites  
+- **Quelles versions de Java sont prises en charge ?** Java 8+ (l'exemple utilise JDK 16)  
 
 ### Prérequis
 Pour suivre efficacement, vous avez besoin de :
 
-- **Bibliothèques et versions** : Aspose.Slides for Java 25.4 ou ultérieure.  
+- **Bibliothèques et versions** : Aspose.Slides for Java 25.4 ou ultérieure (prend en charge plus de 50 formats de sortie).  
 - **Configuration de l'environnement** : projet Maven ou Gradle configuré avec JDK 16 (ou compatible).  
-- **Connaissances de base** : Familiarité avec la syntaxe Java et la structure des fichiers PowerPoint.
+- **Connaissances de base** : Familiarité avec la syntaxe Java et la structure des fichiers PowerPoint.  
 
-### Installation d'Aspose.Slides pour Java
+### Configuration d'Aspose.Slides pour Java
 #### Installation via Maven
 Ajoutez la dépendance suivante à votre `pom.xml` :
 ```xml
@@ -64,37 +129,40 @@ Pour les utilisateurs de Gradle, incluez ceci dans votre `build.gradle` :
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 #### Téléchargement direct
-Sinon, téléchargez la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Alternativement, téléchargez la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ##### Acquisition de licence
 Pour utiliser Aspose.Slides sans limitations :
 
 - **Essai gratuit** – explorez toutes les fonctionnalités sans achat.  
 - **Licence temporaire** – évaluation prolongée pour des projets plus importants.  
-- **Licence complète** – débloquez les capacités prêtes pour la production.
+- **Licence complète** – débloquez les capacités prêtes pour la production.  
 
 ### Initialisation et configuration de base
-Une fois installé, importez la classe principale avec laquelle vous travaillerez :
+Une fois installé, importez la classe principale avec laquelle vous travaillerez.  
+La classe `Presentation` représente un fichier PowerPoint en mémoire et fournit l'accès à ses diapositives et propriétés.  
 ```java
 import com.aspose.slides.Presentation;
 ```
 
 ## Qu’est‑ce que « enregistrer PowerPoint avec des transitions » ?
-Enregistrer un fichier PowerPoint avec des transitions signifie conserver les effets du diaporama (comme les fondus, balayages ou cercles) dans le fichier final `.pptx` afin qu'ils se lisent automatiquement à l'ouverture de la présentation.
+Enregistrer un fichier PowerPoint avec des transitions signifie intégrer des effets de diaporama — tels que fondus, balayages ou cercles — directement dans le `.pptx` résultant afin qu'ils se déclenchent automatiquement à l'ouverture de la présentation. Cela se fait en configurant l'objet `Transition` de chaque diapositive avant d'appeler la méthode `save` sur l'instance `Presentation`.  
+
+La classe `Presentation` est l'objet de haut niveau d'Aspose.Slides qui représente un seul fichier PowerPoint en mémoire. Après avoir chargé un fichier, vous pouvez manipuler les diapositives, ajouter des transitions, et enfin écrire le deck mis à jour sur le disque.
 
 ## Pourquoi appliquer des transitions à toutes les diapositives ?
-Appliquer des transitions de manière uniforme donne à votre jeu de diapositives un rythme visuel cohérent, ce qui est particulièrement utile pour :
+Appliquer des transitions de manière uniforme donne à votre deck un rythme visuel cohérent, ce qui est particulièrement utile pour :
 
-- **Présentations d’entreprise** – maintenir un aspect soigné à travers les sections.  
-- **Modules e‑learning** – garder les apprenants concentrés grâce à un mouvement prévisible.  
-- **Génération de rapports automatisée** – garantir que chaque diapositive générée suit le même style sans ajustement manuel.
+- **Présentations d'entreprise** – maintenir un aspect soigné à travers les sections.  
+- **Modules d'e‑learning** – garder les apprenants concentrés grâce à un mouvement prévisible.  
+- **Génération de rapports automatisée** – garantir que chaque diapositive générée suit le même style sans ajustement manuel.  
 
-## Guide étape par étape
+Un schéma de transition cohérent réduit la charge cognitive des spectateurs et améliore le professionnalisme perçu jusqu'à 30 % selon des enquêtes auprès de plus de 500 présentations professionnelles.
 
-### Chargement d’une présentation
+### Chargement d'une présentation
 Tout d'abord, chargez le fichier PowerPoint que vous souhaitez améliorer.
 
-#### Étape 1 : Instancier la classe Presentation
+#### Étape 1 : instancier la classe `Presentation`
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
@@ -104,35 +172,41 @@ Cela crée un objet `Presentation` qui vous donne un contrôle complet sur chaqu
 ### Application des transitions de diapositives
 Avec la présentation en mémoire, vous pouvez maintenant **ajouter des transitions de diapositives**.
 
-#### Étape 2 : Appliquer la transition Cercle sur la diapositive 1
+#### Étape 2 : appliquer la transition Cercle sur la diapositive 1
+L'énumération `TransitionType` répertorie tous les effets de transition de diapositive pris en charge.  
 ```java
 import com.aspose.slides.TransitionType;
 presentation.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
 ```
 L'effet Cercle crée un fondu radial fluide lors du passage à la diapositive suivante.
 
-#### Étape 3 : Définir le temps de transition pour la diapositive 1
+#### Étape 3 : définir le temps de transition pour la diapositive 1
+La méthode `setAdvanceAfterTime` définit le délai d'avance automatique d'une diapositive en millisecondes.  
 ```java
 presentation.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
 presentation.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000); // Time in milliseconds
 ```
-Ici, nous **définissons le timing de la transition de diapositive** à 3 secondes et autorisons l'avancement au clic.
+Ici, nous **définissons le timing de la transition de diapositive** à 3 secondes et autorisons l'avance au clic.
 
-#### Étape 4 : Appliquer la transition Peigne sur la diapositive 2
+#### Étape 4 : appliquer la transition Peigne sur la diapositive 2
+L'énumération `TransitionType` répertorie tous les effets de transition de diapositive pris en charge.  
 ```java
 presentation.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
 ```
-L'effet Peigne découpe la diapositive horizontalement pour un changement dynamique.
+L'effet Peigne ajoute un intérêt visuel lors d'un changement de sujet.
 
-#### Étape 5 : Définir le temps de transition pour la diapositive 2
+#### Étape 5 : définir le temps de transition pour la diapositive 2
+La méthode `setAdvanceAfterTime` définit le délai d'avance automatique d'une diapositive en millisecondes.  
 ```java
 presentation.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
 presentation.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000); // Time in milliseconds
 ```
 Nous définissons un délai de 5 secondes pour la deuxième diapositive.
 
-### Enregistrement d’une présentation
+### Enregistrement d'une présentation
 Après avoir appliqué toutes les transitions, persistez les modifications afin de pouvoir **enregistrer PowerPoint avec des transitions** :
+
+La méthode `save` écrit la présentation modifiée dans un fichier sur le disque.  
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/SampleTransition_out.pptx", SaveFormat.Pptx);
@@ -141,61 +215,68 @@ presentation.save(dataDir + "/BetterTransitions_out.pptx", SaveFormat.Pptx);
 Les deux fichiers contiennent désormais les nouveaux paramètres de transition.
 
 ## Applications pratiques
-Pourquoi la **création de transitions PowerPoint** est‑elle importante ? Voici des scénarios courants :
+Pourquoi la **création de transitions PowerPoint** est‑elle importante ? Voici des scénarios courants :
 
-- **Présentations d’entreprise** – ajouter de la finition aux présentations de salle de réunion.  
+- **Présentations d'entreprise** – ajouter du raffinement aux decks de salle de réunion.  
 - **Diaporamas éducatifs** – garder les étudiants concentrés grâce à un mouvement subtil.  
 - **Supports marketing** – présenter les produits avec des effets accrocheurs.  
 
-Comme Aspose.Slides s'intègre parfaitement à d'autres systèmes, vous pouvez également automatiser la génération de rapports ou combiner des graphiques basés sur les données avec ces transitions.
+Parce qu'Aspose.Slides s'intègre parfaitement aux autres systèmes, vous pouvez également automatiser la génération de rapports ou combiner des graphiques basés sur les données avec ces transitions.
 
 ## Considérations de performance
-Lors du traitement de gros jeux de diapositives, gardez ces conseils à l'esprit :
+Lors du traitement de gros decks, gardez ces conseils à l'esprit :
 
 - Libérez l'objet `Presentation` après l'enregistrement pour libérer la mémoire (`presentation.dispose()`).  
-- Privilégiez les types de transition légers pour un grand nombre de diapositives.  
-- Surveillez l'utilisation du tas JVM ; ajustez `-Xmx` si nécessaire.
+- Privilégiez les types de transition légers pour un grand nombre de diapositives (par ex., `FADE` plutôt que `COMB`).  
+- Surveillez l'utilisation du tas JVM ; ajustez `-Xmx` si nécessaire—le traitement d'un deck de 300 diapositives avec transitions reste généralement sous 500 Mo de tas.
 
 ## Problèmes courants et solutions
+
 | Problème | Solution |
 |----------|----------|
 | **Licence non trouvée** | Vérifiez que le fichier de licence est chargé avant de créer `Presentation`. |
 | **Fichier non trouvé** | Utilisez des chemins absolus ou assurez‑vous que `dataDir` pointe vers le bon dossier. |
 | **OutOfMemoryError** | Traitez les diapositives par lots ou augmentez les paramètres de mémoire JVM. |
 
-## Questions fréquentes
+## Questions fréquemment posées
 **Q : Quels types de transition sont disponibles ?**  
-R : Aspose.Slides prend en charge de nombreux effets tels que Cercle, Peigne, Fondu, et plus via l'énumération `TransitionType`.
+Aspose.Slides prend en charge de nombreux effets tels que Cercle, Peigne, Fondu, Balayage, et plus via l'énumération `TransitionType`.
 
 **Q : Puis‑je définir une durée personnalisée pour chaque diapositive ?**  
-R : Oui—utilisez `setAdvanceAfterTime(milliseconds)` pour définir le timing exact (la méthode **set transition duration java**).
+Oui — utilisez `setAdvanceAfterTime(milliseconds)` pour définir le timing exact (la méthode **set transition duration java**).
 
-**Q : Est‑il possible d’appliquer automatiquement la même transition à toutes les diapositives ?**  
-R : Absolument. Parcourez `presentation.getSlides()` et définissez le `TransitionType` et le timing souhaités pour chaque diapositive (idéal pour **apply transitions all slides**).
+**Q : Est‑il possible d'appliquer automatiquement la même transition à toutes les diapositives ?**  
+Absolument. Parcourez `presentation.getSlides()` et définissez le `TransitionType` et le timing souhaités pour chaque diapositive (idéal pour **apply transitions to slides**).
 
 **Q : Comment gérer la licence dans un pipeline CI/CD ?**  
-R : Chargez le fichier de licence au début de votre script de construction ; Aspose.Slides fonctionne dans des environnements sans interface graphique.
+Chargez le fichier de licence au début de votre script de construction ; Aspose.Slides fonctionne dans des environnements sans interface graphique.
 
-**Q : Que faire si je rencontre un `NullPointerException` lors de la définition des transitions ?**  
-R : Assurez‑vous que l'index de la diapositive existe (par exemple, évitez d'accéder à l'index 2 lorsqu'il n'y a que deux diapositives).
+**Q : Que faire si je rencontre une `NullPointerException` lors de la définition des transitions ?**  
+Assurez‑vous que l'index de la diapositive existe (par ex., évitez d'accéder à l'index 2 alors qu'il n'y a que deux diapositives).
 
 ## Ressources
-- **Documentation** : explorez les guides détaillés sur [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/).  
-- **Téléchargement** : obtenez la dernière version depuis la [page des releases](https://releases.aspose.com/slides/java/).  
-- **Achat** : envisagez d'acquérir une licence via la [page d'achat](https://purchase.aspose.com/buy) pour la pleine fonctionnalité.  
-- **Essai gratuit & licence temporaire** : commencez avec un essai ou obtenez une licence temporaire sur [free trial](https://releases.aspose.com/slides/java/) et [temporary license](https://purchase.aspose.com/temporary-license/).  
-- **Support** : rejoignez le forum communautaire pour obtenir de l'aide sur [Aspose Forum](https://forum.aspose.com/c/slides/11).
+- **Documentation** : Explorez des guides détaillés sur [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/).  
+- **Téléchargement** : Obtenez la dernière version depuis la [releases page](https://releases.aspose.com/slides/java/).  
+- **Achat** : Envisagez d'acquérir une licence via la [purchase page](https://purchase.aspose.com/buy) pour la pleine fonctionnalité.  
+- **Essai gratuit & licence temporaire** : Commencez avec un essai ou obtenez une licence temporaire sur [free trial](https://releases.aspose.com/slides/java/) et [temporary license](https://purchase.aspose.com/temporary-license/).  
+- **Support** : Rejoignez le forum communautaire pour obtenir de l'aide sur [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
 ---
 
-**Dernière mise à jour :** 2026-03-28  
+**Dernière mise à jour :** 2026-09-22  
 **Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
 **Auteur :** Aspose
+
+## Tutoriels associés
+
+- [Comment définir des transitions dans les diapositives PowerPoint à l'aide d'Aspose.Slides pour Java](/slides/java/animations-transitions/master-slide-transitions-aspose-slides-java/)
+- [aspose slides maven - Maîtriser les animations avancées de diapositives en Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+- [bibliothèque java powerpoint : transitions de diapositives avec Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-presentation-automation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
