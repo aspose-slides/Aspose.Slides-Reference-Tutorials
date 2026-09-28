@@ -1,58 +1,101 @@
 ---
-date: '2026-03-31'
-description: Μάθετε πώς να προσθέτετε κινούμενα σχέδια, να αλλάζετε μετά την κίνηση,
-  να κρύβετε με κλικ (Java), να κρύβετε μετά την κίνηση και να αποθηκεύετε παρουσίαση
-  pptx χρησιμοποιώντας το Aspose.Slides με Maven. Αυτός ο οδηγός Aspose Slides για
-  Maven καλύπτει προχωρημένα κινούμενα σχέδια διαφανειών.
+date: '2026-09-28'
+description: Μάθετε πώς να προσθέτετε slide animation, να αλλάζετε animation color,
+  να κρύβετε objects on click ή after animation, και να αποθηκεύετε PPTX χρησιμοποιώντας
+  Aspose.Slides Maven. Αυτός ο οδηγός καλύπτει προχωρημένες slide animations για προγραμματιστές
+  Java.
 keywords:
-- Aspose.Slides Java
-- slide animations Java
-- Java presentations
-title: aspose slides maven - Κατακτήστε τις Προηγμένες Κινούμενες Διαφάνειες σε Java
+- aspose slides maven
+- add slide animation
+- change animation color
+- generate powerpoint java
+- hide object after animation
+- hide object on click
+lastmod: '2026-09-28'
+og_description: aspose slides maven επιτρέπει στους προγραμματιστές Java να προσθέτουν
+  slide animation, να αλλάζουν animation color, να κρύβουν objects on click ή after
+  animation, και να εξάγουν PPTX. Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα για να δημιουργήσετε
+  δυναμικές παρουσιάσεις.
+og_image_alt: Guide showing how to add advanced slide animations using Aspose.Slides
+  Maven for Java
+og_title: Κατακτήστε τις προχωρημένες slide animations με aspose slides maven σε Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to add slide animation, change animation color, hide objects
+    on click or after animation, and save PPTX using Aspose.Slides Maven. This guide
+    covers advanced slide animations for Java developers.
+  headline: How to master advanced slide animations with aspose slides maven in Java
+  type: TechArticle
+- questions:
+  - answer: After adding the shape to the slide, create an `IEffect` via `slide.getTimeline().getMainSequence().addEffect(shape,
+      EffectType.Fade, EffectSubtype.None, 0);` and then set the desired `AfterAnimationType`.
+    question: How do I add animation to a newly created shape?
+  - answer: Absolutely – replace `Color.GREEN` with any `java.awt.Color` value, such
+      as `Color.RED` or `new Color(255, 165, 0)` for orange.
+    question: Can I change the after‑animation color to something other than green?
+  - answer: Yes, any `IShape` that has an associated `IEffect` can use `AfterAnimationType.HideOnNextMouseClick`.
+    question: Is “hide on click java” supported on all slide objects?
+  - answer: A single license covers all environments (development, testing, production)
+      as long as you comply with the licensing terms.
+    question: Do I need a separate license for each deployment environment?
+  - answer: The examples target Aspose.Slides 25.4 (jdk16) but earlier 24.x versions
+      also support the shown APIs.
+    question: What version of Aspose.Slides is required for these features?
+  type: FAQPage
+tags:
+- aspose slides
+- java animations
+- powerpoint generation
+- maven integration
+title: Πώς να κατακτήσετε τις προχωρημένες slide animations με aspose slides maven
+  σε Java
 url: /el/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# aspose slides maven: Κατακτήστε τις Προηγμένες Κινήσεις Διαφανειών σε Java
 
-Στον σημερινό ταχύτατο κόσμο των παρουσιάσεων, **aspose slides maven** σας δίνει τη δυνατότητα να δημιουργείτε εντυπωσιακές κινήσεις χωρίς να παλεύετε με χαμηλού επιπέδου API. Είτε δημιουργείτε εκπαιδευτική διάλεξη, demo προϊόντος ή παρουσίαση υψηλού κινδύνου σε επενδυτές, η σωστή κίνηση διαφάνειας μπορεί να κρατήσει το κοινό συγκεντρωμένο και να ενισχύσει τη διατήρηση του μηνύματος. Αυτός ο οδηγός σας καθοδηγεί στη χρήση του **Aspose.Slides** για Java με **Maven** για τη γρήγορη και αξιόπιστη δημιουργία, προσαρμογή και αποθήκευση προηγμένων κινήσεων διαφανειών.
+# aspose slides maven: κύριες προχωρημένες κινήσεις διαφανειών σε Java
 
-## Γρήγορες Απαντήσεις
-- **Ποιος είναι ο κύριος τρόπος προσθήκης του Aspose.Slides σε ένα έργο Java;** Χρησιμοποιήστε την εξάρτηση Maven `com.aspose:aspose-slides`.
-- **Πώς μπορώ να κρύψω ένα αντικείμενο μετά από κλικ του ποντικιού;** Ορίστε `AfterAnimationType.HideOnNextMouseClick` στο εφέ.
+Στον σημερινό ταχύτατο κόσμο των παρουσιάσεων, **aspose slides maven** σας δίνει τη δυνατότητα να δημιουργείτε εντυπωσιακές κινήσεις χωρίς να παλεύετε με χαμηλού επιπέδου APIs. Είτε δημιουργείτε μια εκπαιδευτική διάλεξη, μια παρουσίαση προϊόντος ή μια υψηλού κινδύνου παρουσίαση σε επενδυτές, η σωστή κίνηση διαφάνειας μπορεί να κρατήσει το κοινό σας συγκεντρωμένο και να ενισχύσει τη διατήρηση του μηνύματος. Αυτός ο οδηγός σας καθοδηγεί στη χρήση του **Aspose.Slides** για Java με **Maven** για να δημιουργήσετε, προσαρμόσετε και αποθηκεύσετε προχωρημένες κινήσεις διαφανειών γρήγορα και αξιόπιστα.
+
+## Γρήγορες απαντήσεις
+- **Ποιος είναι ο κύριος τρόπος για να προσθέσετε το Aspose.Slides σε ένα έργο Java;** Use the Maven dependency `com.aspose:aspose-slides`.
+- **Πώς μπορώ να κρύψω ένα αντικείμενο μετά από κλικ του ποντικιού;** Set `AfterAnimationType.HideOnNextMouseClick` on the effect.
 - **Ποια μέθοδος αποθηκεύει μια παρουσίαση ως PPTX;** `presentation.save(path, SaveFormat.Pptx)`.
-- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση· απαιτείται άδεια για παραγωγή.
-- **Μπορώ να αλλάξω το χρώμα μετά την κίνηση;** Ναι, ορίζοντας `AfterAnimationType.Color` και καθορίζοντας το χρώμα.
+- **Χρειάζομαι άδεια για ανάπτυξη;** A free trial works for evaluation; a license is required for production.
+- **Μπορώ να αλλάξω το χρώμα μετά την κίνηση;** Yes, by setting `AfterAnimationType.Color` and specifying the color.
 
-## aspose slides maven: Γιατί οι Προηγμένες Κινήσεις Είναι Σημαντικές
-Οι προηγμένες κινήσεις σας επιτρέπουν να ελέγχετε τη ροή του deck, να φωτίζετε κρίσιμα δεδομένα και να κρύβετε περισπασμούς τη σωστή στιγμή. Με **aspose slides maven**, έχετε προγραμματιστική πρόσβαση σε κάθε ιδιότητα κίνησης, επιτρέποντας δυναμική δημιουργία διαφανειών που θα ήταν αδύνατη μόνο με το UI του PowerPoint.
+## Τι είναι το aspose slides maven;
+Aspose.Slides Maven integration is a set of Java libraries delivered via Maven that lets you programmatically create, edit, and render PowerPoint files. It abstracts the PowerPoint file format so you can manipulate slides, shapes, and animations using plain Java code.
 
-## Τι Θα Μάθετε
-- **Φόρτωση Παρουσιάσεων** – Φορτώνετε αβίαστα υπάρχοντα αρχεία.  
-- **Διαχείριση Διαφανειών** – Κλωνοποιήστε διαφάνειες και προσθέστε τις ως νέες.  
-- **Προσαρμογή Κινήσεων** – Αλλάξτε εφέ κίνησης, κρύψτε με κλικ, αλλάξτε χρώματα και κρύψτε μετά την κίνηση.  
-- **Αποθήκευση Παρουσιάσεων** – Εξάγετε το επεξεργασμένο σε PPTX.
+## Γιατί οι προχωρημένες κινήσεις διαφανειών είναι σημαντικές
+Advanced animations let you control the visual flow of a deck, highlight key data, and hide distractions at the right moment. With aspose slides maven you gain programmatic access to every animation property, enabling dynamic slide generation that the PowerPoint UI cannot achieve. This results in more engaging and efficient presentations.
+
+## Τι θα μάθετε
+- **Φόρτωση παρουσιάσεων** – Seamlessly load existing files.  
+- **Διαχείριση διαφανειών** – Clone slides and add them as new ones.  
+- **Προσαρμογή κινήσεων** – Change animation effects, hide on click, change colors, and hide after animation.  
+- **Αποθήκευση παρουσιάσεων** – Export the edited deck as PPTX.
 
 ## Προαπαιτούμενα
 
-### Απαιτούμενες Βιβλιοθήκες και Εξαρτήσεις
+### Απαιτούμενες βιβλιοθήκες και εξαρτήσεις
 - Java Development Kit (JDK) 16 ή νεότερο  
-- **Aspose.Slides for Java** library (προστέθηκε μέσω Maven, Gradle ή άμεσης λήψης)
+- **Aspose.Slides for Java** βιβλιοθήκη (προστέθηκε μέσω Maven, Gradle ή άμεσης λήψης)
 
-### Απαιτήσεις Ρύθμισης Περιβάλλοντος
-Ρυθμίστε το Maven ή το Gradle για τη διαχείριση της εξάρτησης Aspose.Slides.
+### Απαιτήσεις ρύθμισης περιβάλλοντος
+Configure Maven or Gradle to manage the Aspose.Slides dependency.
 
-### Προαπαιτούμενες Γνώσεις
-Βασικές γνώσεις προγραμματισμού Java και έννοιες διαχείρισης αρχείων.
+### Προαπαιτούμενες γνώσεις
+Basic Java programming and file‑handling concepts.
 
 ## Ρύθμιση Aspose.Slides για Java
 
-Ακολουθούν οι τρεις υποστηριζόμενοι τρόποι για να ενσωματώσετε το Aspose.Slides στο έργο σας.
+Below are the three supported ways to bring Aspose.Slides into your project.
 
 **Maven:**  
 ```xml
@@ -69,13 +112,13 @@ weight: 1
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Άμεση Λήψη:**  
-Download the latest release from [Εκδόσεις Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+**Άμεση λήψη:**  
+Download the latest release from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Αδειοδότηση
-Ξεκινήστε με μια δωρεάν δοκιμή ή αποκτήστε προσωρινή άδεια για πλήρη πρόσβαση σε όλες τις λειτουργίες. Μια αγορασμένη άδεια αφαιρεί τους περιορισμούς αξιολόγησης.
+### Άδεια χρήσης
+Start with a free trial or obtain a temporary license for full feature access. A purchased license removes evaluation limitations.
 
-### Βασική Αρχικοποίηση και Ρύθμιση
+### Βασική αρχικοποίηση και ρύθμιση
 ```java
 import com.aspose.slides.*;
 
@@ -84,17 +127,19 @@ String presentationPath = "YOUR_DOCUMENT_DIRECTORY/AnimationAfterEffect.pptx";
 Presentation pres = new Presentation(presentationPath);
 ```
 
-## Πώς να χρησιμοποιήσετε aspose slides maven για Προηγμένες Κινήσεις Διαφανειών
+## Πώς να χρησιμοποιήσετε το aspose slides maven για προχωρημένες κινήσεις διαφανειών
+To apply advanced animations, first load a Presentation object, locate the target slide, and add an IEffect to its main sequence. Then set the desired AfterAnimationType—such as HideOnNextMouseClick, Color, or HideAfterAnimation—and optionally configure properties like fill color. Finally, save the presentation with SaveFormat.Pptx to preserve all effects.
 
-Παρακάτω περπατάμε βήμα‑βήμα κάθε δυνατότητα, παρέχοντας σαφείς εξηγήσεις πριν από κάθε απόσπασμα κώδικα.
-
-### Δυνατότητα 1: Φόρτωση Παρουσίασης
+### Χαρακτηριστικό 1: φόρτωση παρουσίασης
 
 #### Επισκόπηση
-Η φόρτωση μιας υπάρχουσας παρουσίασης είναι το πρώτο βήμα για οποιαδήποτε επεξεργασία.
+Loading an existing presentation is the first step for any manipulation.
 
-#### Υλοποίηση Βήμα‑Βήμα
-**Load Presentation**  
+#### Ορισμός
+`Presentation` is Aspose.Slides' core class that represents a PowerPoint file in memory, providing access to slides, shapes, and animation timelines.
+
+#### Υλοποίηση βήμα‑βήμα
+**Load presentation**  
 ```java
 import com.aspose.slides.*;
 
@@ -102,7 +147,7 @@ String presentationPath = "YOUR_DOCUMENT_DIRECTORY/AnimationAfterEffect.pptx";
 Presentation pres = new Presentation(presentationPath);
 ```
 
-#### Καθαρισμός Πόρων
+**Cleanup resources**  
 ```java
 void cleanup(Presentation pres) {
     if (pres != null) pres.dispose();
@@ -113,16 +158,19 @@ try {
 } finally {
     cleanup(pres);
 }
-```
-*Γιατί είναι σημαντικό αυτό;* Η σωστή διαχείριση πόρων αποτρέπει διαρροές μνήμης, ειδικά όταν επεξεργάζεστε μεγάλες παρουσιάσεις.
+```  
+*Γιατί είναι σημαντικό αυτό;* Proper resource management prevents memory leaks, especially when handling large decks.
 
-### Δυνατότητα 2: Προσθήκη Νέας Διαφάνειας και Κλωνοποίηση Υπάρχουσας (create new slide java)
+### Χαρακτηριστικό 2: προσθήκη νέας διαφάνειας και κλωνοποίηση υπάρχουσας (create new slide java)
 
 #### Επισκόπηση
-Η κλωνοποίηση διαφανειών σας επιτρέπει να επαναχρησιμοποιήσετε περιεχόμενο χωρίς να το ξαναχτίσετε από την αρχή, μια συχνή ανάγκη όταν θέλετε να **create new slide java** προγραμματιστικά.
+Cloning slides lets you reuse content without rebuilding it from scratch, a common need when you want to **create new slide java** programmatically.
 
-#### Υλοποίηση Βήμα‑Βήμα
-**Clone Slide**  
+#### Ορισμός
+`ISlide` represents a single slide within a `Presentation`; cloning it creates an exact copy of all shapes, animations, and layout settings.
+
+#### Υλοποίηση βήμα‑βήμα
+**Clone slide**  
 ```java
 import com.aspose.slides.*;
 
@@ -134,13 +182,16 @@ try {
 }
 ```
 
-### Δυνατότητα 3: Αλλαγή Τύπου Μετά την Κίνηση σε “Απόκρυψη στην Επόμενη Κλικ Ποντικιού” (hide on click java)
+### Χαρακτηριστικό 3: αλλαγή τύπου μετά‑κίνησης σε «απόκρυψη με το επόμενο κλικ του ποντικιού» (hide on click java)
 
 #### Επισκόπηση
-Αποκρύψτε ένα αντικείμενο μετά το επόμενο κλικ του ποντικιού για να διατηρήσετε την προσοχή του κοινού στο νέο περιεχόμενο.
+Hide an object after the next mouse click to keep the audience’s focus on new content.
 
-#### Υλοποίηση Βήμα‑Βήμα
-**Change Animation Effect**  
+#### Ορισμός
+`AfterAnimationType.HideOnNextMouseClick` instructs the slide engine to make the target shape invisible the moment the user clicks the next time.
+
+#### Υλοποίηση βήμα‑βήμα
+**Change animation effect**  
 ```java
 import com.aspose.slides.*;
 
@@ -157,13 +208,16 @@ try {
 }
 ```
 
-### Δυνατότητα 4: Αλλαγή Τύπου Μετά την Κίνηση σε “Χρώμα” και Ορισμός Ιδιότητας Χρώματος (change animation color java)
+### Χαρακτηριστικό 4: αλλαγή τύπου μετά‑κίνησης σε «χρώμα» και ορισμός ιδιότητας χρώματος (change animation color java)
 
 #### Επισκόπηση
-Εφαρμόστε αλλαγή χρώματος μετά το τέλος μιας κίνησης για να τραβήξετε την προσοχή.
+Apply a color change after an animation finishes to draw attention.
 
-#### Υλοποίηση Βήμα‑Βήμα
-**Set Animation Color**  
+#### Ορισμός
+`AfterAnimationType.Color` lets you specify a final fill color for a shape once its animation completes.
+
+#### Υλοποίηση βήμα‑βήμα
+**Set animation color**  
 ```java
 import com.aspose.slides.*;
 import java.awt.Color;
@@ -182,13 +236,16 @@ try {
 }
 ```
 
-### Δυνατότητα 5: Αλλαγή Τύπου Μετά την Κίνηση σε “Απόκρυψη Μετά την Κίνηση”
+### Χαρακτηριστικό 5: αλλαγή τύπου μετά‑κίνησης σε «απόκρυψη μετά την κίνηση»
 
 #### Επισκόπηση
-Αυτόματη απόκρυψη ενός αντικειμένου μόλις ολοκληρωθεί η κίνησή του για μια καθαρή μετάβαση.
+Automatically hide an object once its animation completes for a clean transition.
 
-#### Υλοποίηση Βήμα‑Βήμα
-**Implement Hide After Animation**  
+#### Ορισμός
+`AfterAnimationType.HideAfterAnimation` removes the shape from view immediately after the associated effect finishes playing.
+
+#### Υλοποίηση βήμα‑βήμα
+**Implement hide after animation**  
 ```java
 import com.aspose.slides.*;
 
@@ -205,13 +262,16 @@ try {
 }
 ```
 
-### Δυνατότητα 6: Αποθήκευση της Παρουσίασης
+### Χαρακτηριστικό 6: αποθήκευση της παρουσίασης
 
 #### Επισκόπηση
-Διατηρήστε όλες τις αλλαγές αποθηκεύοντας το αρχείο ως PPTX.
+Persist all changes by saving the file as a PPTX.
 
-#### Υλοποίηση Βήμα‑Βήμα
-**Save Presentation**  
+#### Ορισμός
+`presentation.save(path, SaveFormat.Pptx)` writes the in‑memory `Presentation` object to a PowerPoint file, using the PPTX format that retains all animations and media.
+
+#### Υλοποίηση βήμα‑βήμα
+**Save presentation**  
 ```java
 import com.aspose.slides.*;
 
@@ -225,43 +285,52 @@ try {
 }
 ```
 
-## Πρακτικές Εφαρμογές
-- **Εκπαιδευτικές Παρουσιάσεις** – Τονίστε βασικές έννοιες με κινήσεις αλλαγής χρώματος.  
-- **Επαγγελματικές Συναντήσεις** – Κρύψτε βοηθητικά γραφικά μετά από κλικ για να διατηρήσετε την προσοχή στον ομιλητή.  
-- **Κυκλοφορίες Προϊόντων** – Αποκαλύψτε δυναμικά χαρακτηριστικά χρησιμοποιώντας εφέ απόκρυψης μετά την κίνηση.
+## Πρακτικές εφαρμογές
+- **Παρουσιάσεις εκπαίδευσης** – Τονίστε βασικές έννοιες με κινήσεις αλλαγής χρώματος.  
+- **Επιχειρησιακές συναντήσεις** – Κρύψτε τα υποστηρικτικά γραφικά μετά από κλικ για να διατηρήσετε την προσοχή στον ομιλητή.  
+- **Κυκλοφορίες προϊόντων** – Αποκαλύψτε δυναμικά χαρακτηριστικά χρησιμοποιώντας εφέ απόκρυψης μετά την κίνηση.
 
-## Σκέψεις Απόδοσης
-- Αποδεσμεύστε άμεσα τα αντικείμενα `Presentation`.  
-- Χρησιμοποιήστε την πιο πρόσφατη έκδοση του Aspose.Slides για βελτιώσεις απόδοσης.  
-- Παρακολουθήστε τη χρήση heap της Java όταν επεξεργάζεστε μεγάλες παρουσιάσεις.
+## Σκέψεις για την απόδοση
+- Dispose of `Presentation` objects promptly.  
+- Use the latest Aspose.Slides version for performance improvements.  
+- Monitor Java heap usage when processing large decks; Aspose.Slides can stream multi‑hundred‑page files without full memory consumption.
 
-## Κοινά Προβλήματα και Λύσεις
+## Συχνά προβλήματα και λύσεις
 | Πρόβλημα | Λύση |
 |----------|------|
-| **Διαρροή μνήμης μετά από πολλές λειτουργίες διαφανειών** | Πάντα καλέστε `presentation.dispose()` σε ένα μπλοκ `finally` (όπως φαίνεται). |
-| **Ο τύπος κίνησης δεν εφαρμόζεται** | Βεβαιωθείτε ότι επαναλαμβάνετε τη σωστή `ISequence` (κύρια ακολουθία) και ότι το εφέ υπάρχει στη διαφάνεια. |
-| **Το αποθηκευμένο αρχείο είναι κατεστραμμένο** | Βεβαιωθείτε ότι ο φάκελος εξόδου υπάρχει και έχετε δικαιώματα εγγραφής. |
+| **Διαρροή μνήμης μετά από πολλές λειτουργίες διαφανειών** | Always call `presentation.dispose()` in a `finally` block (as shown). |
+| **Ο τύπος κίνησης δεν εφαρμόζεται** | Verify you are iterating over the correct `ISequence` (main sequence) and that the effect exists on the slide. |
+| **Το αποθηκευμένο αρχείο είναι κατεστραμμένο** | Ensure the output path directory exists and you have write permissions. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Π: Πώς προσθέτω κίνηση σε ένα νεοδημιουργημένο σχήμα;**  
-Αφού προσθέσετε το σχήμα στη διαφάνεια, δημιουργήστε ένα `IEffect` μέσω `slide.getTimeline().getMainSequence().addEffect(shape, EffectType.Fade, EffectSubtype.None, 0);` και στη συνέχεια ορίστε το επιθυμητό `AfterAnimationType`.
+**Q: Πώς προσθέτω κίνηση σε ένα νεοδημιουργημένο σχήμα;**  
+A: After adding the shape to the slide, create an `IEffect` via `slide.getTimeline().getMainSequence().addEffect(shape, EffectType.Fade, EffectSubtype.None, 0);` and then set the desired `AfterAnimationType`.
 
-**Π: Μπορώ να αλλάξω το χρώμα μετά την κίνηση σε κάτι διαφορετικό από το πράσινο;**  
-Απόλυτα – αντικαταστήστε το `Color.GREEN` με οποιαδήποτε τιμή `java.awt.Color`, όπως `Color.RED` ή `new Color(255, 165, 0)` για πορτοκαλί.
+**Q: Μπορώ να αλλάξω το χρώμα μετά την κίνηση σε κάτι διαφορετικό από το πράσινο;**  
+A: Absolutely – replace `Color.GREEN` with any `java.awt.Color` value, such as `Color.RED` or `new Color(255, 165, 0)` for orange.
 
-**Π: Υποστηρίζεται το “hide on click java” σε όλα τα αντικείμενα διαφάνειας;**  
-Ναι, οποιοδήποτε `IShape` που έχει συσχετισμένο `IEffect` μπορεί να χρησιμοποιήσει `AfterAnimationType.HideOnNextMouseClick`.
+**Q: Υποστηρίζεται το «hide on click java» σε όλα τα αντικείμενα διαφάνειας;**  
+A: Yes, any `IShape` that has an associated `IEffect` can use `AfterAnimationType.HideOnNextMouseClick`.
 
-**Π: Χρειάζομαι ξεχωριστή άδεια για κάθε περιβάλλον ανάπτυξης;**  
-Μία άδεια καλύπτει όλα τα περιβάλλοντα (ανάπτυξη, δοκιμή, παραγωγή) εφόσον τηρείτε τους όρους αδειοδότησης.
+**Q: Χρειάζομαι ξεχωριστή άδεια για κάθε περιβάλλον ανάπτυξης;**  
+A: A single license covers all environments (development, testing, production) as long as you comply with the licensing terms.
 
-**Π: Ποια έκδοση του Aspose.Slides απαιτείται για αυτές τις δυνατότητες;**  
-Τα παραδείγματα στοχεύουν στην Aspose.Slides 25.4 (jdk16), αλλά οι προηγούμενες εκδόσεις 24.x υποστηρίζουν επίσης τα εμφανιζόμενα API.
+**Q: Ποια έκδοση του Aspose.Slides απαιτείται για αυτές τις λειτουργίες;**  
+A: The examples target Aspose.Slides 25.4 (jdk16) but earlier 24.x versions also support the shown APIs.
 
-**Τελευταία Ενημέρωση:** 2026-03-31  
-**Δοκιμή Με:** Aspose.Slides 25.4 (jdk16)  
-**Συγγραφέας:** Aspose  
+---
+
+**Τελευταία ενημέρωση:** 2026-09-28  
+**Δοκιμή με:** Aspose.Slides 25.4 (jdk16)  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Προσθήκη κίνησης σε γράφημα PowerPoint χρησιμοποιώντας Aspose.Slides for Java – Οδηγός βήμα‑βήμα](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [Προσθήκη κίνησης Fly στο PowerPoint με Aspose Slides Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
+- [Δημιουργία δυναμικού Powerpoint Java – Οδηγός τύπων κίνησης Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

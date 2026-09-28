@@ -1,61 +1,103 @@
 ---
-date: '2026-03-31'
-description: Apprenez à ajouter des animations, à modifier après l'animation, à masquer
-  au clic en Java, à masquer après l'animation et à enregistrer une présentation pptx
-  à l'aide d'Aspose.Slides avec Maven. Ce guide Maven d'Aspose Slides couvre les animations
-  avancées des diapositives.
+date: '2026-09-28'
+description: Apprenez comment ajouter des slide animation, changer la animation color,
+  masquer des objets au clic ou après l'animation, et enregistrer le PPTX en utilisant
+  Aspose.Slides Maven. Ce guide couvre les slide animations avancées pour les développeurs
+  Java.
 keywords:
-- Aspose.Slides Java
-- slide animations Java
-- Java presentations
-title: aspose slides maven - Maîtrisez les animations de diapositives avancées en
+- aspose slides maven
+- add slide animation
+- change animation color
+- generate powerpoint java
+- hide object after animation
+- hide object on click
+lastmod: '2026-09-28'
+og_description: aspose slides maven permet aux développeurs Java d'ajouter des slide
+  animation, de changer la animation color, de masquer des objets au clic ou après
+  l'animation, et d'exporter le PPTX. Suivez ce guide step‑by‑step pour créer des
+  présentations dynamiques.
+og_image_alt: Guide showing how to add advanced slide animations using Aspose.Slides
+  Maven for Java
+og_title: Maîtrisez les slide animations avancées avec aspose slides maven en Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to add slide animation, change animation color, hide objects
+    on click or after animation, and save PPTX using Aspose.Slides Maven. This guide
+    covers advanced slide animations for Java developers.
+  headline: How to master advanced slide animations with aspose slides maven in Java
+  type: TechArticle
+- questions:
+  - answer: After adding the shape to the slide, create an `IEffect` via `slide.getTimeline().getMainSequence().addEffect(shape,
+      EffectType.Fade, EffectSubtype.None, 0);` and then set the desired `AfterAnimationType`.
+    question: How do I add animation to a newly created shape?
+  - answer: Absolutely – replace `Color.GREEN` with any `java.awt.Color` value, such
+      as `Color.RED` or `new Color(255, 165, 0)` for orange.
+    question: Can I change the after‑animation color to something other than green?
+  - answer: Yes, any `IShape` that has an associated `IEffect` can use `AfterAnimationType.HideOnNextMouseClick`.
+    question: Is “hide on click java” supported on all slide objects?
+  - answer: A single license covers all environments (development, testing, production)
+      as long as you comply with the licensing terms.
+    question: Do I need a separate license for each deployment environment?
+  - answer: The examples target Aspose.Slides 25.4 (jdk16) but earlier 24.x versions
+      also support the shown APIs.
+    question: What version of Aspose.Slides is required for these features?
+  type: FAQPage
+tags:
+- aspose slides
+- java animations
+- powerpoint generation
+- maven integration
+title: Comment maîtriser les slide animations avancées avec aspose slides maven en
   Java
 url: /fr/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# aspose slides maven : Maîtriser les animations de diapositives avancées en Java
 
-Dans le monde actuel des présentations en évolution rapide, **aspose slides maven** vous donne le pouvoir de créer des animations accrocheuses sans vous battre avec des API de bas niveau. Que vous réalisiez une conférence éducative, une démonstration de produit ou une présentation d'investisseurs à enjeux élevés, la bonne animation de diapositive peut garder votre public concentré et améliorer la rétention du message. Ce guide vous explique comment utiliser **Aspose.Slides** pour Java avec **Maven** pour créer, personnaliser et enregistrer des animations de diapositives avancées rapidement et de manière fiable.
+# aspose slides maven : animations avancées de diapositives en Java
+
+Dans le monde des présentations en évolution rapide d’aujourd’hui, **aspose slides maven** vous donne le pouvoir de créer des animations accrocheuses sans vous battre avec des API de bas niveau. Que vous construisiez une conférence éducative, une démonstration produit ou un pitch d’investisseur à enjeux élevés, la bonne animation de diapositive peut garder votre audience concentrée et améliorer la rétention du message. Ce guide vous accompagne dans l’utilisation de **Aspose.Slides** pour Java avec **Maven** afin de créer, personnaliser et enregistrer rapidement et de façon fiable des animations de diapositives avancées.
 
 ## Réponses rapides
-- **Quelle est la façon principale d’ajouter Aspose.Slides à un projet Java ?** Utilisez la dépendance Maven `com.aspose:aspose-slides`.
-- **Comment puis‑je masquer un objet après un clic de souris ?** Définissez `AfterAnimationType.HideOnNextMouseClick` sur l’effet.
+- **Quel est le moyen principal d'ajouter Aspose.Slides à un projet Java ?** Utilisez la dépendance Maven `com.aspose:aspose-slides`.
+- **Comment masquer un objet après un clic de souris ?** Définissez `AfterAnimationType.HideOnNextMouseClick` sur l'effet.
 - **Quelle méthode enregistre une présentation au format PPTX ?** `presentation.save(path, SaveFormat.Pptx)`.
-- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour l’évaluation ; une licence est requise pour la production.
-- **Puis‑je changer la couleur après l’animation ?** Oui, en définissant `AfterAnimationType.Color` et en spécifiant la couleur.
+- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour l’évaluation ; une licence est requise pour la production.
+- **Puis-je changer la couleur après l'animation ?** Oui, en définissant `AfterAnimationType.Color` et en spécifiant la couleur.
 
-## aspose slides maven : Pourquoi les animations avancées sont importantes
-Les animations avancées vous permettent de contrôler le flux visuel d’une présentation, de mettre en avant les données clés et de masquer les distractions au moment idéal. Avec **aspose slides maven**, vous avez un accès programmatique à chaque propriété d’animation, ce qui permet de générer des diapositives dynamiques qui seraient impossibles à réaliser uniquement avec l’interface PowerPoint.
+## Qu'est‑ce que aspose slides maven ?
+L'intégration Maven d'Aspose.Slides est un ensemble de bibliothèques Java distribuées via Maven qui vous permet de créer, modifier et rendre des fichiers PowerPoint de façon programmatique. Elle abstrait le format de fichier PowerPoint afin que vous puissiez manipuler diapositives, formes et animations avec du code Java simple.
+
+## Pourquoi les animations de diapositives avancées sont importantes
+Les animations avancées vous permettent de contrôler le flux visuel d’un deck, de mettre en avant des données clés et de masquer les distractions au bon moment. Avec aspose slides maven, vous obtenez un accès programmatique à chaque propriété d’animation, permettant une génération dynamique de diapositives que l’interface PowerPoint ne peut pas réaliser. Cela se traduit par des présentations plus engageantes et plus efficaces.
 
 ## Ce que vous apprendrez
-- **Chargement des présentations** – Charger sans effort les fichiers existants.  
-- **Manipulation des diapositives** – Cloner des diapositives et les ajouter comme nouvelles.  
+- **Chargement de présentations** – Charger sans effort des fichiers existants.  
+- **Manipulation de diapositives** – Cloner des diapositives et les ajouter comme nouvelles.  
 - **Personnalisation des animations** – Modifier les effets d’animation, masquer au clic, changer les couleurs et masquer après l’animation.  
-- **Enregistrement des présentations** – Exporter le diaporama modifié au format PPTX.
+- **Enregistrement de présentations** – Exporter le deck modifié au format PPTX.
 
 ## Prérequis
 
 ### Bibliothèques et dépendances requises
 - Java Development Kit (JDK) 16 ou supérieur  
-- Bibliothèque **Aspose.Slides for Java** (ajoutée via Maven, Gradle ou téléchargement direct)
+- **Aspose.Slides for Java** bibliothèque (ajoutée via Maven, Gradle ou téléchargement direct)
 
-### Exigences de configuration de l’environnement
+### Exigences de configuration de l'environnement
 Configurez Maven ou Gradle pour gérer la dépendance Aspose.Slides.
 
 ### Prérequis de connaissances
 Programmation Java de base et concepts de gestion de fichiers.
 
-## Configuration d’Aspose.Slides pour Java
+## Configuration d'Aspose.Slides pour Java
 
 Voici les trois méthodes prises en charge pour intégrer Aspose.Slides à votre projet.
 
-**Maven:**  
+**Maven :**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,13 +107,13 @@ Voici les trois méthodes prises en charge pour intégrer Aspose.Slides à votre
 </dependency>
 ```
 
-**Gradle:**  
+**Gradle :**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direct Download:**  
-Download the latest release from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direct download :**  
+Téléchargez la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Licence
 Commencez avec un essai gratuit ou obtenez une licence temporaire pour un accès complet aux fonctionnalités. Une licence achetée supprime les limitations d’évaluation.
@@ -85,17 +127,19 @@ String presentationPath = "YOUR_DOCUMENT_DIRECTORY/AnimationAfterEffect.pptx";
 Presentation pres = new Presentation(presentationPath);
 ```
 
-## Comment utiliser aspose slides maven pour les animations de diapositives avancées
+## Comment utiliser aspose slides maven pour des animations de diapositives avancées
+Pour appliquer des animations avancées, chargez d’abord un objet Presentation, localisez la diapositive cible et ajoutez un IEffect à sa séquence principale. Puis définissez le AfterAnimationType souhaité — tel que HideOnNextMouseClick, Color ou HideAfterAnimation — et configurez éventuellement des propriétés comme la couleur de remplissage. Enfin, enregistrez la présentation avec SaveFormat.Pptx pour conserver tous les effets.
 
-Ci‑dessous, nous parcourons chaque fonctionnalité étape par étape, en fournissant des explications claires avant chaque extrait de code.
+### Fonctionnalité 1 : charger une présentation
 
-### Fonctionnalité 1 : Chargement d’une présentation
+#### Vue d'ensemble
+Charger une présentation existante est la première étape pour toute manipulation.
 
-#### Vue d’ensemble
-Le chargement d’une présentation existante est la première étape de toute manipulation.
+#### Définition
+`Presentation` est la classe centrale d’Aspose.Slides qui représente un fichier PowerPoint en mémoire, offrant l’accès aux diapositives, formes et chronologies d’animation.
 
 #### Implémentation étape par étape
-**Load Presentation**  
+**Charger la présentation**  
 ```java
 import com.aspose.slides.*;
 
@@ -103,7 +147,7 @@ String presentationPath = "YOUR_DOCUMENT_DIRECTORY/AnimationAfterEffect.pptx";
 Presentation pres = new Presentation(presentationPath);
 ```
 
-**Nettoyage des ressources**  
+**Nettoyer les ressources**  
 ```java
 void cleanup(Presentation pres) {
     if (pres != null) pres.dispose();
@@ -114,13 +158,16 @@ try {
 } finally {
     cleanup(pres);
 }
-```
-*Pourquoi est‑ce important ?* Une gestion appropriée des ressources évite les fuites de mémoire, surtout lors du traitement de présentations volumineuses.
+```  
+*Pourquoi est‑ce important ?* La gestion appropriée des ressources empêche les fuites de mémoire, surtout lors du traitement de gros jeux de diapositives.
 
-### Fonctionnalité 2 : Ajout d’une nouvelle diapositive et clonage d’une existante (create new slide java)
+### Fonctionnalité 2 : ajouter une nouvelle diapositive et cloner une existante (create new slide java)
 
-#### Vue d’ensemble
-Le clonage de diapositives vous permet de réutiliser du contenu sans le reconstruire à partir de zéro, un besoin fréquent lorsque vous souhaitez **create new slide java** de manière programmatique.
+#### Vue d'ensemble
+Cloner des diapositives vous permet de réutiliser du contenu sans le reconstruire à partir de zéro, un besoin fréquent lorsque vous souhaitez **create new slide java** de façon programmatique.
+
+#### Définition
+`ISlide` représente une seule diapositive au sein d’une `Presentation` ; la cloner crée une copie exacte de toutes les formes, animations et paramètres de mise en page.
 
 #### Implémentation étape par étape
 **Cloner la diapositive**  
@@ -135,13 +182,16 @@ try {
 }
 ```
 
-### Fonctionnalité 3 : Changer le type d’animation après pour « Hide on Next Mouse Click » (hide on click java)
+### Fonctionnalité 3 : changer le type d'animation après en « masquer au prochain clic de souris » (hide on click java)
 
-#### Vue d’ensemble
-Masquez un objet après le prochain clic de souris pour garder l’attention du public sur le nouveau contenu.
+#### Vue d'ensemble
+Masquez un objet après le prochain clic de souris pour garder l’attention de l’audience sur le nouveau contenu.
+
+#### Définition
+`AfterAnimationType.HideOnNextMouseClick` indique au moteur de diapositive de rendre la forme cible invisible dès que l’utilisateur clique à nouveau.
 
 #### Implémentation étape par étape
-**Modifier l’effet d’animation**  
+**Modifier l'effet d'animation**  
 ```java
 import com.aspose.slides.*;
 
@@ -158,13 +208,16 @@ try {
 }
 ```
 
-### Fonctionnalité 4 : Changer le type d’animation après pour « Color » et définir la propriété de couleur (change animation color java)
+### Fonctionnalité 4 : changer le type d'animation après en « couleur » et définir la propriété couleur (change animation color java)
 
-#### Vue d’ensemble
+#### Vue d'ensemble
 Appliquez un changement de couleur après la fin d’une animation pour attirer l’attention.
 
+#### Définition
+`AfterAnimationType.Color` vous permet de spécifier une couleur de remplissage finale pour une forme une fois son animation terminée.
+
 #### Implémentation étape par étape
-**Définir la couleur de l’animation**  
+**Définir la couleur d'animation**  
 ```java
 import com.aspose.slides.*;
 import java.awt.Color;
@@ -183,13 +236,16 @@ try {
 }
 ```
 
-### Fonctionnalité 5 : Changer le type d’animation après pour « Hide After Animation »
+### Fonctionnalité 5 : changer le type d'animation après en « masquer après l'animation »
 
-#### Vue d’ensemble
+#### Vue d'ensemble
 Masquez automatiquement un objet dès que son animation se termine pour une transition fluide.
 
+#### Définition
+`AfterAnimationType.HideAfterAnimation` retire la forme de la vue immédiatement après la fin de l’effet associé.
+
 #### Implémentation étape par étape
-**Implémenter le masquage après l’animation**  
+**Implémenter le masquage après l'animation**  
 ```java
 import com.aspose.slides.*;
 
@@ -206,10 +262,13 @@ try {
 }
 ```
 
-### Fonctionnalité 6 : Enregistrement de la présentation
+### Fonctionnalité 6 : enregistrer la présentation
 
-#### Vue d’ensemble
+#### Vue d'ensemble
 Conservez toutes les modifications en enregistrant le fichier au format PPTX.
+
+#### Définition
+`presentation.save(path, SaveFormat.Pptx)` écrit l’objet `Presentation` en mémoire dans un fichier PowerPoint, en utilisant le format PPTX qui préserve toutes les animations et les médias.
 
 #### Implémentation étape par étape
 **Enregistrer la présentation**  
@@ -228,43 +287,51 @@ try {
 
 ## Applications pratiques
 - **Présentations éducatives** – Mettre en avant les concepts clés avec des animations de changement de couleur.  
-- **Réunions d’affaires** – Masquer les graphiques de soutien après un clic pour garder l’attention sur l’orateur.  
-- **Lancements de produits** – Révéler dynamiquement les fonctionnalités en utilisant des effets de masquage après animation.
+- **Réunions d'affaires** – Masquer les graphiques de soutien après un clic pour garder le focus sur l’orateur.  
+- **Lancements de produits** – Révéler dynamiquement les fonctionnalités à l’aide d’effets « masquer après l'animation ».
 
 ## Considérations de performance
 - Libérez rapidement les objets `Presentation`.  
-- Utilisez la dernière version d’Aspose.Slides pour des améliorations de performance.  
-- Surveillez l’utilisation du tas Java lors du traitement de présentations volumineuses.
+- Utilisez la version la plus récente d’Aspose.Slides pour des améliorations de performance.  
+- Surveillez l’utilisation du tas Java lors du traitement de gros decks ; Aspose.Slides peut diffuser des fichiers de plusieurs centaines de pages sans consommer toute la mémoire.
 
 ## Problèmes courants et solutions
+
 | Problème | Solution |
 |----------|----------|
-| **Fuite de mémoire après de nombreuses opérations de diapositive** | Appelez toujours `presentation.dispose()` dans un bloc `finally` (comme indiqué). |
-| **Le type d'animation n’est pas appliqué** | Vérifiez que vous parcourez la bonne `ISequence` (séquence principale) et que l’effet existe sur la diapositive. |
-| **Le fichier enregistré est corrompu** | Assurez‑vous que le répertoire du chemin de sortie existe et que vous avez les permissions d’écriture. |
+| **Fuite de mémoire après de nombreuses opérations sur les diapositives** | Appelez toujours `presentation.dispose()` dans un bloc `finally` (comme indiqué). |
+| **Le type d'animation n'est pas appliqué** | Vérifiez que vous itérez sur la bonne `ISequence` (séquence principale) et que l’effet existe bien sur la diapositive. |
+| **Le fichier enregistré est corrompu** | Assurez‑vous que le répertoire de destination existe et que vous disposez des droits d’écriture. |
 
-## Questions fréquentes
+## Questions fréquemment posées
 
 **Q : Comment ajouter une animation à une forme nouvellement créée ?**  
 R : Après avoir ajouté la forme à la diapositive, créez un `IEffect` via `slide.getTimeline().getMainSequence().addEffect(shape, EffectType.Fade, EffectSubtype.None, 0);` puis définissez le `AfterAnimationType` souhaité.
 
-**Q : Puis‑je changer la couleur après l’animation pour autre chose que le vert ?**  
+**Q : Puis‑je changer la couleur après l'animation pour autre chose que le vert ?**  
 R : Absolument – remplacez `Color.GREEN` par n’importe quelle valeur `java.awt.Color`, comme `Color.RED` ou `new Color(255, 165, 0)` pour l’orange.
 
-**Q : « hide on click java » est‑il pris en charge sur tous les objets de diapositive ?**  
-R : Oui, tout `IShape` disposant d’un `IEffect` associé peut utiliser `AfterAnimationType.HideOnNextMouseClick`.
+**Q : « hide on click java » est‑il pris en charge sur tous les objets de diapositive ?**  
+R : Oui, toute `IShape` disposant d’un `IEffect` associé peut utiliser `AfterAnimationType.HideOnNextMouseClick`.
 
-**Q : Ai‑je besoin d’une licence distincte pour chaque environnement de déploiement ?**  
+**Q : Ai‑je besoin d'une licence distincte pour chaque environnement de déploiement ?**  
 R : Une licence unique couvre tous les environnements (développement, test, production) tant que vous respectez les conditions de licence.
 
-**Q : Quelle version d’Aspose.Slides est requise pour ces fonctionnalités ?**  
+**Q : Quelle version d'Aspose.Slides est requise pour ces fonctionnalités ?**  
 R : Les exemples ciblent Aspose.Slides 25.4 (jdk16) mais les versions antérieures 24.x supportent également les API présentées.
 
 ---
 
-**Dernière mise à jour:** 2026-03-31  
-**Testé avec :** Aspose.Slides 25.4 (jdk16)  
-**Auteur :** Aspose  
+**Last updated:** 2026-09-28  
+**Tested with:** Aspose.Slides 25.4 (jdk16)  
+**Author:** Aspose
+
+## Tutoriels associés
+
+- [Ajouter une animation à un graphique PowerPoint avec Aspose.Slides pour Java – Guide étape par étape](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [Ajouter une animation de vol PowerPoint Aspose Slides Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
+- [Créer un PowerPoint dynamique Java – Guide des types d'animation Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
