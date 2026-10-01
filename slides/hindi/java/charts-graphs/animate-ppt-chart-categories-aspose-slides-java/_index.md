@@ -62,11 +62,13 @@ url: /hi/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 # PowerPoint में Aspose.Slides for Java का उपयोग करके चार्ट को एनीमेट कैसे करें
 
 ## परिचय
@@ -258,6 +260,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

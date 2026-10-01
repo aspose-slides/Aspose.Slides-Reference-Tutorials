@@ -72,11 +72,13 @@ url: /id/java/batch-processing/automate-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 # Hapus Pemotongan Gambar dari PowerPoint dengan Aspose.Slides untuk Java – Panduan Komprehensif untuk Pemrosesan Batch
 
 ## Pendahuluan
@@ -356,11 +358,9 @@ IShape shape = slide.getShapes().get_Item(0);
 - [Pemrosesan Batch PowerPoint Java - Tutorial untuk Aspose.Slides](/slides/java/batch-processing/)
 - [Otomatisasi Kloning Bentuk di PowerPoint dengan Aspose.Slides Java: Panduan Komprehensif](/slides/java/shapes-text-frames/automate-shape-cloning-aspose-slides-java/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

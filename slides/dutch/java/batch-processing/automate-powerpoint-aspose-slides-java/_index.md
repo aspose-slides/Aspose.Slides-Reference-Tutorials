@@ -72,11 +72,13 @@ url: /nl/java/batch-processing/automate-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 # Verwijder afbeelding bijsnijden uit PowerPoint met Aspose.Slides voor Java – Een uitgebreide gids voor batchverwerking
 
 ## Inleiding
@@ -356,11 +358,9 @@ IShape shape = slide.getShapes().get_Item(0);
 - [Batch Process PowerPoint Java - Tutorials for Aspose.Slides](/slides/java/batch-processing/)
 - [Automate Shape Cloning in PowerPoint with Aspose.Slides Java: A Comprehensive Guide](/slides/java/shapes-text-frames/automate-shape-cloning-aspose-slides-java/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

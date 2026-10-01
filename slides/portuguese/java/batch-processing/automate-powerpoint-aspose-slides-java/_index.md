@@ -72,11 +72,13 @@ url: /pt/java/batch-processing/automate-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 # Remover Recorte de Imagem do PowerPoint com Aspose.Slides para Java – Um Guia Abrangente de Processamento em Lote
 
 ## Introdução
@@ -356,11 +358,9 @@ IShape shape = slide.getShapes().get_Item(0);
 - [Processamento em Lote de PowerPoint Java - Tutoriais para Aspose.Slides](/slides/java/batch-processing/)
 - [Automatizar Clonagem de Formas no PowerPoint com Aspose.Slides Java: Um Guia Abrangente](/slides/java/shapes-text-frames/automate-shape-cloning-aspose-slides-java/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

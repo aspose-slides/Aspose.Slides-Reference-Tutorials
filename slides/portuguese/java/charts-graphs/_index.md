@@ -8,7 +8,7 @@ url: /pt/java/charts-graphs/
 weight: 6
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
