@@ -303,7 +303,6 @@ Fedezzen fel további forrásokat az alábbi linkeken keresztül:
 **Tesztelve:** Aspose.Slides 25.4 (JDK 16)  
 **Szerző:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Kapcsolódó oktatóanyagok
 

@@ -300,7 +300,6 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 **Tested With:** Aspose.Slides 25.4 (JDK 16)  
 **Author:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## 相关教程
 

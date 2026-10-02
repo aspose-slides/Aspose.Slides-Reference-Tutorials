@@ -303,7 +303,6 @@ A: はい。チャートデータワークブックを直接操作し、数式�
 **テスト環境:** Aspose.Slides 25.4 (JDK 16)  
 **作者:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## 関連チュートリアル
 

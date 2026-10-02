@@ -304,7 +304,6 @@ Explore más recursos a través de los enlaces a continuación:
 **Probado con:** Aspose.Slides 25.4 (JDK 16)  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Tutoriales relacionados
 

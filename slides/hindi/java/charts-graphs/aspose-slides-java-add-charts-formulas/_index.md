@@ -287,7 +287,6 @@ Explore more resources through the links provided below:
 **परीक्षण किया गया:** Aspose.Slides 25.4 (JDK 16)  
 **लेखक:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## संबंधित ट्यूटोरियल्स
 

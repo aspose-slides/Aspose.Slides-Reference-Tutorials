@@ -299,7 +299,6 @@ A: 可以——直接操作圖表資料工作簿並重新計算公式。
 **測試環境：** Aspose.Slides 25.4 (JDK 16)  
 **作者：** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## 相關教學
 

@@ -300,7 +300,6 @@ A: 예, 차트 데이터 워크북을 직접 조작하고 수식을 재계산하
 **테스트 환경:** Aspose.Slides 25.4 (JDK 16)  
 **작성자:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## 관련 튜토리얼
 
