@@ -37,9 +37,7 @@ schemas:
       you might need for scaling or annotations: - `getActualMaxValu'
   - name: Save Your Presentation
     text: '`save(String path, SaveFormat format)` writes the presentation to the specified
-      file in the given format. Finally, **how to save pptx** files with a single
-      call: '- `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Destination path and filename.'
-      - `SaveFormat.Pptx`: Ensures the file is saved in the moder'
+      file in the given format. Finally, how to save pptx files with a single call.'
 - type: FAQPage
   questions:
   - question: Can I create other chart types besides Area charts?
