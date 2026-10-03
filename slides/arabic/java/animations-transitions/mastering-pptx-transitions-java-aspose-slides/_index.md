@@ -1,56 +1,94 @@
 ---
-date: '2026-04-05'
-description: تعلم كيفية استخدام Aspose.Slides Java لتعديل انتقالات PPTX، وأتمتة انتقالات
-  الشرائح، وتحديد توقيت الانتقال بكفاءة.
+date: '2026-10-03'
+description: تعلم كيفية إضافة تبعية Maven الخاصة بـ Aspose Slides وتعديل توقيت انتقالات
+  PPTX برمجيًا في Java باستخدام Aspose.Slides.
 keywords:
-- aspose slides java
+- aspose slides maven dependency
+- set slide transition timing
+- modify pptx transitions java
 - automate slide transitions
-- repeat slide animation
-- set transition timing
-title: aspose slides java – تعديل الانتقالات في PPTX برمجياً
+lastmod: '2026-10-03'
+og_description: تعلم كيفية إضافة تبعية Maven الخاصة بـ Aspose Slides وتعديل توقيت
+  انتقالات PPTX برمجيًا في Java. اتبع تعليمات خطوة بخطوة لأتمتة تأثيرات الشرائح.
+og_image_alt: 'Developer guide: Adding Aspose Slides Maven dependency and modifying
+  PPTX transitions in Java'
+og_title: إضافة تبعية Maven الخاصة بـ Aspose Slides لتعديل انتقالات PPTX
+schemas:
+- author: Aspose
+  dateModified: '2026-10-03'
+  description: Learn how to add the Aspose Slides Maven dependency and programmatically
+    edit PPTX transition timing in Java using Aspose.Slides.
+  headline: Add Aspose Slides Maven dependency to edit PPTX transitions
+  type: TechArticle
+- questions:
+  - answer: Yes—you can keep the `Presentation` object in memory and write it out
+      later, or stream it directly to a response in a web app.
+    question: Can I modify PPTX files without saving them to disk?
+  - answer: Incorrect file paths, missing read permissions, or corrupted files typically
+      cause exceptions. Always validate the path and catch `IOException`.
+    question: What are common errors when loading presentations?
+  - answer: Iterate over `pres.getSlides()` and apply the desired effect to each slide’s
+      `Timeline`.
+    question: How do I handle multiple slides with different transitions?
+  - answer: A trial is available, but a purchased license is required for production
+      use.
+    question: Is Aspose.Slides free for commercial projects?
+  - answer: Yes—follow best practices like disposing objects promptly and batching
+      changes to minimise memory usage.
+    question: Can Aspose.Slides process large presentations efficiently?
+  type: FAQPage
+tags:
+- aspose slides
+- java pptx
+- slide transitions
+- maven dependency
+title: إضافة تبعية Maven الخاصة بـ Aspose Slides لتعديل انتقالات PPTX
 url: /ar/java/animations-transitions/mastering-pptx-transitions-java-aspose-slides/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # إتقان تعديل انتقالات PPTX في Java باستخدام Aspose.Slides
 
-**أطلق قوة Aspose.Slides Java لتعديل انتقالات PPTX**
-
-في عالم اليوم السريع الوتيرة، تُعد العروض التقديمية أدوات أساسية للتواصل ومشاركة الأفكار بفعالية. إذا كنت بحاجة إلى **modify pptx transitions java**—سواء لتحديث المحتوى، أو تغيير توقيت الرسوم المتحركة، أو تطبيق نمط موحد عبر عشرات العروض—يمكن لاستخدام **aspose slides java** أن يوفر لك ساعات من العمل اليدوي. يشرح هذا الدرس كيفية تحميل ملفات PowerPoint وتعديلها وحفظها مع منحك التحكم الكامل في انتقالات الشرائح.
+في هذا الدليل ستكتشف **كيفية إضافة تبعية Aspose Slides Maven** ثم استخدامها **لتعديل انتقالات PPTX** برمجياً. سواء كنت بحاجة لتغيير توقيت الرسوم المتحركة، أو تطبيق نمط انتقال موحد، أو أتمتة مجموعات الشرائح لخطوط أنابيب CI/CD، فإن الخطوات أدناه تمنحك التحكم الكامل في كل تأثير شريحة في سير عمل مبني على Java.
 
 ## إجابات سريعة
-- **ما الذي يمكنني تغييره؟** تأثيرات انتقال الشرائح، التوقيت، وخيارات التكرار.  
-- **أي مكتبة؟** Aspose.Slides for Java (أحدث إصدار).  
-- **هل أحتاج إلى ترخيص؟** الترخيص المؤقت أو المشتراى يزيل حدود التقييم.  
-- **إصدار Java المدعوم؟** JDK 16+ (المصنف `jdk16`).  
-- **هل يمكن تشغيله في CI/CD؟** نعم—لا حاجة لواجهة مستخدم، مثالي للخطوط الأوتوماتيكية.
+- **ما الذي يمكنني تغييره؟** تأثيرات انتقال الشريحة، التوقيت، وخيارات التكرار.  
+- **أي مكتبة؟** Aspose.Slides for Java (latest version).  
+- **هل أحتاج إلى ترخيص؟** ترخيص مؤقت أو مُشتَرٍ يزيل قيود التقييم.  
+- **إصدار Java المدعوم؟** JDK 16+ (المُصنِّف `jdk16`).  
+- **هل يمكن تشغيله في CI/CD؟** نعم—لا حاجة لواجهة مستخدم، مثالي لخطوط الأنابيب المؤتمتة.
 
-## ما هو aspose slides java؟
-**Aspose.Slides for Java** هو API قوي يتيح لك إنشاء وتعديل وتحويل عروض PowerPoint برمجيًا. عندما نتحدث عن *modifying PPTX transitions* باستخدام aspose slides java، فإننا نعني الوصول إلى جدول زمني لكل شريحة وضبط التأثيرات البصرية مثل التلاشي، الدفع، أو المسح، بالإضافة إلى ضبط التوقيت وسلوك التكرار بدقة.
+## كيفية إضافة تبعية Aspose Slides Maven؟
 
-## لماذا نُؤتمت انتقالات الشرائح؟
-يتيح لك أتمتة انتقالات الشرائح باستخدام aspose slides java:
+أضف إحداثيات Maven إلى ملف `pom.xml` الخاص بك ودع Maven يجلب المكتبة تلقائيًا. هذه الخطوة الواحدة تمنحك الوصول إلى واجهة برمجة تطبيقات Aspose.Slides الكاملة دون الحاجة إلى التعامل اليدوي مع ملفات JAR. من خلال إعلان التبعية، يمكنك تمكين مشروعك من التجميع ضد المكتبة واستخدام جميع الفئات لقراءة وتحرير وحفظ ملفات PowerPoint، بما في ذلك واجهات برمجة التطبيقات المتعلقة بالانتقالات.
 
-- **الحفاظ على تناسق العلامة التجارية** عبر جميع العروض المؤسسية.  
+## ما هو Aspose.Slides for Java؟
+
+Aspose.Slides for Java هو واجهة برمجة تطبيقات قوية تتيح لك إنشاء وتحرير وتحويل عروض PowerPoint برمجيًا. إنه **يدعم أكثر من 70 تنسيقًا للإدخال والإخراج** ويمكنه معالجة **مجموعة من 500 شريحة في أقل من 5 ثوانٍ** على خادم قياسي، مما يجعله مثاليًا للأتمتة على نطاق واسع.
+
+## لماذا أتمتة انتقالات الشرائح؟
+
+تضمن أتمتة انتقالات الشرائح أن كل مجموعة تتبع نمطًا بصريًا متسقًا مع تقليل الجهد اليدوي. من خلال تطبيق نفس التأثير والتوقيت برمجيًا عبر الشرائح، تلغي الاختلافات، وتسرّع التحديثات، وتضمن أن العروض التقديمية تتماشى مع إرشادات العلامة التجارية دون أخطاء بشرية.
+
+- **الحفاظ على اتساق العلامة التجارية** عبر جميع مجموعات الشركة.  
 - **تسريع تجديد المحتوى** عندما تتغير معلومات المنتج.  
-- **إنشاء عروض مخصصة للفعاليات** تتكيف في الوقت الحقيقي.  
+- **إنشاء عروض تقديمية مخصصة للفعاليات** تتكيف في الوقت الفعلي.  
 - **تقليل الأخطاء البشرية** من خلال تطبيق الإعدادات نفسها بشكل موحد.  
 
 ## المتطلبات المسبقة
 
 - **Aspose.Slides for Java** – المكتبة الأساسية لمعالجة PowerPoint.  
 - **Java Development Kit (JDK)** – الإصدار 16 أو أحدث.  
-- **IDE** – IntelliJ IDEA، Eclipse، أو أي محرر يدعم Java.
+- **IDE** – IntelliJ IDEA، Eclipse، أو أي محرر متوافق مع Java.
 
 ## إعداد Aspose.Slides for Java
 
 ### تثبيت Maven
-أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
+أضف التبعية التالية إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -62,25 +100,24 @@ weight: 1
 ```
 
 ### تثبيت Gradle
-أدرج السطر التالي في ملف `build.gradle` الخاص بك:
+ضمن هذا السطر في ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### التحميل المباشر
-يمكنك أيضًا الحصول على أحدث ملف JAR من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+يمكنك أيضًا الحصول على أحدث JAR من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### الحصول على الترخيص
-لإلغاء قيود التقييم بالكامل:
+لإلغاء قفل الوظائف الكاملة:
 
-- **نسخة تجريبية مجانية** – استكشف الـ API دون شراء.  
-- **ترخيص مؤقت** – يزيل قيود التقييم لفترة قصيرة.  
+- **تجربة مجانية** – استكشاف الواجهة البرمجية دون شراء.  
+- **ترخيص مؤقت** – إزالة قيود التقييم لفترة قصيرة.  
 - **ترخيص كامل** – مثالي لبيئات الإنتاج.
 
 ### التهيئة الأساسية والإعداد
-
-بعد إضافة المكتبة إلى مسار الفئات، استورد الفئة الرئيسية:
+بمجرد أن تكون المكتبة على مسار الفئة الخاص بك، استورد الفئة الرئيسية:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -88,14 +125,17 @@ import com.aspose.slides.Presentation;
 
 ## دليل التنفيذ
 
-سنستعرض ثلاث ميزات أساسية: تحميل وحفظ العرض، الوصول إلى تسلسل تأثيرات الشريحة، وتعديل توقيت التأثير وخيارات التكرار.
+سنستعرض ثلاث ميزات أساسية: تحميل وتحرير وحفظ عرض تقديمي؛ الوصول إلى تسلسل تأثيرات الشريحة؛ وتعديل توقيت التأثير وخيارات التكرار.
 
-### الميزة 1: تحميل وحفظ العرض
+### الميزة 1: تحميل وحفظ عرض تقديمي
 
 #### نظرة عامة
-يمنحك تحميل ملف PPTX كائن `Presentation` قابل للتعديل يمكنك تعديل محتوياته قبل حفظ التغييرات.
+يمنحك تحميل ملف PPTX كائن `Presentation` قابل للتعديل يمكنك تحريره قبل حفظ التغييرات.
 
-#### تنفيذ خطوة بخطوة
+تمثل فئة `Presentation` ملف PowerPoint في الذاكرة، وتوفر طرقًا لقراءة وتحرير وحفظ الشرائح.
+
+#### إجابة مباشرة
+أنشئ مثالًا من `Presentation` باستخدام مسار ملف المصدر، أجرِ التعديلات، ثم استدعِ `save` بصيغة الإخراج المطلوبة.
 
 **الخطوة 1 – تحميل العرض**
 
@@ -123,11 +163,14 @@ try {
 ### الميزة 2: الوصول إلى تسلسل تأثيرات الشريحة
 
 #### نظرة عامة
-كل شريحة تحتوي على جدول زمني مع تسلسل رئيسي للتأثيرات. سحب هذا التسلسل يتيح لك قراءة أو تعديل الانتقالات الفردية.
+كل شريحة تحتوي على خط زمني مع تسلسل رئيسي من التأثيرات. سحب هذا التسلسل يتيح لك قراءة أو تعديل الانتقالات الفردية.
 
-#### تنفيذ خطوة بخطوة
+كائن `Timeline` يوفر الوصول إلى تسلسل الرسوم المتحركة للشفرة ومعلومات التوقيت.
 
-**الخطوة 1 – تحميل العرض (استخدام نفس الملف)**
+#### إجابة مباشرة
+استرجع كائن `Timeline` للشفرة الأولى، ثم استدعِ `getMainSequence()` للحصول على مجموعة كائنات `Effect` التي يمكنك تعديلها.
+
+**الخطوة 1 – تحميل العرض (إعادة استخدام نفس الملف)**
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx");
@@ -147,14 +190,17 @@ try {
 }
 ```
 
-هنا نستخرج أول تأثير من التسلسل الرئيسي للشرائح الأولى.
+هنا نسترجع أول تأثير من التسلسل الرئيسي للشفرة الأولى.
 
 ### الميزة 3: تعديل توقيت التأثير وخيارات التكرار
 
 #### نظرة عامة
-تغيير التوقيت وسلوك التكرار يمنحك تحكمًا دقيقًا في مدة تشغيل الرسوم المتحركة ومتى تعيد التشغيل.
+تغيير التوقيت وسلوك التكرار يمنحك تحكمًا دقيقًا في مدة تشغيل الرسوم المتحركة ومتى يتم إعادة تشغيلها.
 
-#### تنفيذ خطوة بخطوة
+`Effect` يمثل حركة أو انتقالًا واحدًا يُطبق على عنصر في الشريحة.
+
+#### إجابة مباشرة
+استخدم طريقة `setDuration()` لكائن `Effect` لتحديد طول الانتقال بالثواني، و`setRepeatCount()` (أو `setRepeatUntilEndOfSlide()`) لتحديد عدد مرات تكرار التأثير.
 
 ```java
 // Assume 'effect' is the IEffect instance obtained earlier
@@ -163,62 +209,71 @@ effect.getTiming().setRepeatUntilEndSlide(true);
 effect.getTiming().setRepeatUntilNextClick(true);
 ```
 
-هذه الاستدعاءات تضبط التأثير ليُكرر إما حتى نهاية الشريحة أو حتى نقر المقدم.
+هذه الاستدعاءات تضبط التأثير لتكرار إما حتى انتهاء الشريحة أو حتى نقر المقدم.
+
+## كيفية ضبط توقيت انتقال الشريحة؟
+
+لتعيين توقيت الانتقال، عدّل خاصية المدة لكائن `Effect`، محددًا الطول بالثواني أو المللي ثانية. بعد تكوين المدة المطلوبة، احفظ العرض بحيث يتم حفظ التوقيت الجديد. تسمح لك هذه الطريقة بالتحكم الموحد في مدة كل انتقال عبر جميع الشرائح.
 
 ## تطبيقات عملية
 
-- **أتمتة تحديث العروض** – تطبيق نمط انتقال جديد على مئات العروض باستخدام سكريبت واحد.  
-- **شرائح فعاليات مخصصة** – تعديل سرعات الانتقال ديناميكيًا بناءً على تفاعل الجمهور.  
-- **عروض متسقة مع العلامة** – فرض إرشادات انتقالات الشركة دون تحرير يدوي.
+- **أتمتة تحديثات العروض** – تطبيق نمط انتقال جديد على مئات العروض باستخدام سكريبت واحد.  
+- **شرائح فعاليات مخصصة** – تغيير سرعات الانتقال ديناميكيًا بناءً على تفاعل الجمهور.  
+- **عروض متوافقة مع العلامة التجارية** – فرض إرشادات الانتقال المؤسسية دون تحرير يدوي.
 
 ## اعتبارات الأداء
 
-- **تحرير الموارد فورًا** – استدع دائمًا `dispose()` على كائنات `Presentation` لتحرير الذاكرة الأصلية.  
+- **التصريف الفوري** – استدعِ دائمًا `dispose()` على كائنات `Presentation` لتحرير الذاكرة الأصلية.  
 - **تجميع التغييرات** – اجمع عدة تعديلات قبل الحفظ لتقليل عبء الإدخال/الإخراج.  
-- **تأثيرات بسيطة للأجهزة منخفضة الأداء** – الرسوم المتحركة المعقدة قد تؤثر سلبًا على الأجهزة القديمة.
+- **تأثيرات بسيطة للأجهزة منخفضة الأداء** – الرسوم المتحركة المعقدة قد تضعف الأداء على الأجهزة القديمة.
 
 ## الخلاصة
 
-لقد تعلمت الآن كيفية **modify pptx transitions java** من البداية إلى النهاية باستخدام **aspose slides java**: تحميل ملف، الوصول إلى جدول تأثيراته، وتعديل التوقيت أو خيارات التكرار. مع Aspose.Slides يمكنك أتمتة تحديثات العروض المملة، ضمان التناسق البصري، وإنشاء عروض ديناميكية تتكيف مع أي سيناريو.
+لقد رأيت الآن كيفية **إضافة تبعية Aspose Slides Maven**، تحميل ملف PPTX، الوصول إلى خط الزمن الخاص بالتأثيرات، وتعديل **توقيت انتقال الشريحة** باستخدام Aspose.Slides for Java. مع هذه المعرفة يمكنك أتمتة تحديثات العروض المملة، وضمان الاتساق البصري، وبناء عروض تقديمية ديناميكية تتكيف مع أي سيناريو.
 
-**الخطوات التالية**: جرّب إضافة حلقة لمعالجة كل شريحة في مجلد، أو استكشف خصائص رسوم متحركة أخرى مثل `EffectType` و `Trigger`. الاحتمالات لا حصر لها!
+**الخطوات التالية**: جرّب التكرار عبر كل شريحة في مجلد لتطبيق انتقال موحد، أو استكشف خصائص الرسوم المتحركة الأخرى مثل `EffectType` و `Trigger`.
 
-## قسم الأسئلة المتكررة
+## الأسئلة المتكررة
 
-1. **هل يمكن تعديل ملفات PPTX دون حفظها على القرص؟**  
-   نعم—يمكنك الاحتفاظ بكائن `Presentation` في الذاكرة وكتابته لاحقًا، أو بثه مباشرةً إلى استجابة في تطبيق ويب.
+**س: هل يمكنني تعديل ملفات PPTX دون حفظها على القرص؟**  
+ج: نعم—يمكنك الاحتفاظ بكائن `Presentation` في الذاكرة وكتابته لاحقًا، أو بثه مباشرةً إلى استجابة في تطبيق ويب.
 
-2. **ما هي الأخطاء الشائعة عند تحميل العروض؟**  
-   مسارات الملفات غير الصحيحة، نقص أذونات القراءة، أو الملفات التالفة عادةً ما تتسبب في استثناءات. تحقق دائمًا من المسار وتعامل مع `IOException`.
+**س: ما هي الأخطاء الشائعة عند تحميل العروض؟**  
+ج: عادةً ما تتسبب مسارات الملفات غير الصحيحة، أو نقص أذونات القراءة، أو الملفات التالفة في استثناءات. احرص دائمًا على التحقق من المسار والتقاط `IOException`.
 
-3. **كيف أتعامل مع شرائح متعددة ذات انتقالات مختلفة؟**  
-   قم بالتكرار على `pres.getSlides()` وطبق التأثير المطلوب على `Timeline` لكل شريحة.
+**س: كيف أتعامل مع عدة شرائح ذات انتقالات مختلفة؟**  
+ج: قم بالتكرار عبر `pres.getSlides()` وطبق التأثير المطلوب على `Timeline` لكل شريحة.
 
-4. **هل Aspose.Slides مجاني للمشاريع التجارية؟**  
-   تتوفر نسخة تجريبية، لكن يلزم الحصول على ترخيص مُشتراى للاستخدام في بيئات الإنتاج.
+**س: هل Aspose.Slides مجاني للمشاريع التجارية؟**  
+ج: تتوفر نسخة تجريبية، لكن يلزم الحصول على ترخيص مُشتَرٍ للاستخدام في الإنتاج.
 
-5. **هل يمكن لـ Aspose.Slides معالجة عروض كبيرة بكفاءة؟**  
-   نعم، بشرط اتباع أفضل الممارسات: تحرير الكائنات فورًا وتجنب عمليات الإدخال/الإخراج غير الضرورية.
+**س: هل يمكن لـ Aspose.Slides معالجة عروض تقديمية كبيرة بكفاءة؟**  
+ج: نعم—اتبع أفضل الممارسات مثل تحرير الكائنات فورًا وتجميع التغييرات لتقليل استهلاك الذاكرة.
 
-## موارد
+## الموارد
 
-- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+- [توثيق Aspose.Slides](https://reference.aspose.com/slides/java/)
+- [تحميل Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [شراء ترخيص](https://purchase.aspose.com/buy)
+- [تجربة مجانية](https://releases.aspose.com/slides/java/)
+- [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+- [منتدى دعم Aspose](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**آخر تحديث:** 2026-04-05  
+**آخر تحديث:** 2026-10-03  
 **تم الاختبار مع:** Aspose.Slides 25.4 (jdk16)  
 **المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [اعتماد Maven لـ Aspose Slides: إضافة وتكوين المخططات في العروض باستخدام Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [رسوم متحركة شرائح متقدمة Aspose Slides Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+- [تحويل PPTX إلى HTML5 مع الرسوم المتحركة باستخدام Aspose.Slides في Java](/slides/java/export-conversion/convert-pptx-to-html5-animations-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

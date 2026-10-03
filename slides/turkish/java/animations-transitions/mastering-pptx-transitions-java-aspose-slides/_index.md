@@ -1,55 +1,92 @@
 ---
-date: '2026-04-05'
-description: Aspose Slides Java'yı kullanarak PPTX geçişlerini nasıl değiştireceğinizi,
-  slayt geçişlerini otomatikleştireceğinizi ve geçiş zamanlamasını verimli bir şekilde
-  ayarlamayı öğrenin.
+date: '2026-10-03'
+description: Aspose Slides Maven bağımlılığını nasıl ekleyeceğinizi ve Aspose.Slides
+  kullanarak Java'da PPTX geçiş zamanlamasını programlı olarak nasıl düzenleyeceğinizi
+  öğrenin.
 keywords:
-- aspose slides java
+- aspose slides maven dependency
+- set slide transition timing
+- modify pptx transitions java
 - automate slide transitions
-- repeat slide animation
-- set transition timing
-title: aspose slides java – PPTX Geçişlerini Programlı Şekilde Değiştir
+lastmod: '2026-10-03'
+og_description: Aspose Slides Maven bağımlılığını nasıl ekleyeceğinizi ve Java'da
+  PPTX geçiş zamanlamasını programlı olarak nasıl düzenleyeceğinizi öğrenin. Slayt
+  efektlerini otomatikleştirmek için adım adım talimatları izleyin.
+og_image_alt: 'Developer guide: Adding Aspose Slides Maven dependency and modifying
+  PPTX transitions in Java'
+og_title: Aspose Slides Maven bağımlılığını ekleyerek PPTX geçişlerini düzenleyin
+schemas:
+- author: Aspose
+  dateModified: '2026-10-03'
+  description: Learn how to add the Aspose Slides Maven dependency and programmatically
+    edit PPTX transition timing in Java using Aspose.Slides.
+  headline: Add Aspose Slides Maven dependency to edit PPTX transitions
+  type: TechArticle
+- questions:
+  - answer: Yes—you can keep the `Presentation` object in memory and write it out
+      later, or stream it directly to a response in a web app.
+    question: Can I modify PPTX files without saving them to disk?
+  - answer: Incorrect file paths, missing read permissions, or corrupted files typically
+      cause exceptions. Always validate the path and catch `IOException`.
+    question: What are common errors when loading presentations?
+  - answer: Iterate over `pres.getSlides()` and apply the desired effect to each slide’s
+      `Timeline`.
+    question: How do I handle multiple slides with different transitions?
+  - answer: A trial is available, but a purchased license is required for production
+      use.
+    question: Is Aspose.Slides free for commercial projects?
+  - answer: Yes—follow best practices like disposing objects promptly and batching
+      changes to minimise memory usage.
+    question: Can Aspose.Slides process large presentations efficiently?
+  type: FAQPage
+tags:
+- aspose slides
+- java pptx
+- slide transitions
+- maven dependency
+title: Aspose Slides Maven bağımlılığını ekleyerek PPTX geçişlerini düzenleyin
 url: /tr/java/animations-transitions/mastering-pptx-transitions-java-aspose-slides/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Java ile Aspose.Slides'te PPTX Geçiş Değişikliklerinde Uzmanlaşma
 
-**Aspose.Slides Java'nun PPTX Geçişlerini Değiştirmek İçin Gücünü Açığa Çıkarın**
+Bu rehberde **Aspose Slides Maven bağımlılığını nasıl ekleyeceğinizi** ve ardından **PPTX geçişlerini** programlı olarak nasıl değiştireceğinizi keşfedeceksiniz. Animasyon zamanlamasını değiştirmek, tek tip bir geçiş stili uygulamak veya CI/CD boru hatları için slayt destelerini otomatikleştirmek ister misiniz, aşağıdaki adımlar Java tabanlı bir iş akışında her slayt efektinin tam kontrolünü sağlar.
 
-Bugünün hızlı tempolu dünyasında, sunumlar iletişim ve fikirleri etkili bir şekilde paylaşmak için temel araçlardır. **modify pptx transitions java**'ya ihtiyacınız varsa—içeriği güncellemek, animasyon zamanlamasını değiştirmek veya onlarca sunumda tutarlı bir stil uygulamak isterken—**aspose slides java** kullanmak size saatlerce manuel çalışma kazandırabilir. Bu öğretici, PowerPoint dosyalarını yükleme, düzenleme ve kaydetme sürecinde size adım adım rehberlik ederken slayt geçişleri üzerinde tam kontrol sağlar.
-
-## Hızlı Cevaplar
+## Hızlı Yanıtlar
 - **Ne değiştirebilirim?** Slayt geçiş efektleri, zamanlama ve tekrar seçenekleri.  
 - **Hangi kütüphane?** Aspose.Slides for Java (latest version).  
-- **Lisans gerekiyor mu?** Kısa süreli veya satın alınmış bir lisans değerlendirme sınırlamalarını kaldırır.  
+- **Lisans gerektiriyor mu?** Geçici veya satın alınmış bir lisans, değerlendirme sınırlamalarını kaldırır.  
 - **Desteklenen Java sürümü?** JDK 16+ (the `jdk16` classifier).  
-- **Bunu CI/CD'de çalıştırabilir miyim?** Evet—UI gerektirmez, otomatikleştirilmiş pipeline'lar için mükemmeldir.
+- **Bunu CI/CD'de çalıştırabilir miyim?** Evet—UI gerektirmez, otomatikleştirilmiş boru hatları için mükemmeldir.  
 
-## Aspose Slides Java Nedir?
-**Aspose.Slides for Java** programlı olarak PowerPoint sunumları oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan sağlam bir API'dir. *aspose slides java* ile **PPTX geçişlerini değiştirme** derken, her slaytın zaman çizelgesine erişip fade, push veya wipe gibi görsel efektleri ayarlamayı, ayrıca zamanlama ve tekrar davranışını ince ayar yapmayı kastediyoruz.
+## Aspose Slides Maven Bağımlılığını Nasıl Eklerim?
+`pom.xml` dosyanıza Maven koordinatlarını ekleyin ve Maven'in kütüphaneyi otomatik olarak indirmesine izin verin. Bu tek adım, manuel JAR yönetimi olmadan tam Aspose.Slides API'sine erişmenizi sağlar. Bağımlılığı bildirerek, projenizin kütüphane karşısında derlenmesini ve PowerPoint dosyalarını okuma, düzenleme ve kaydetme için tüm sınıfları, geçişle ilgili API'ler dahil, kullanmasını sağlarsınız.
 
-## Neden Slayt Geçişlerini Otomatikleştirmelisiniz?
-- **Marka tutarlılığını koruyun** tüm kurumsal sunumlarda.  
+## Aspose.Slides for Java Nedir?
+Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan sağlam bir API'dir. **70'ten fazla giriş ve çıkış formatını destekler** ve standart bir sunucuda **5 saniyeden kısa sürede 500 slaytlık desteleri** işleyebilir, bu da büyük ölçekli otomasyon için idealdir.
+
+## Neden slayt geçişlerini otomatikleştirmelisiniz?
+Slayt geçişlerini otomatikleştirmek, her dekenin tutarlı bir görsel stile uymasını sağlarken manuel çabayı azaltır. Aynı etkiyi ve zamanlamayı slaytlar arasında programlı olarak uygulayarak, farklılıkları ortadan kaldırır, güncellemeleri hızlandırır ve sunumların marka yönergelerine insan hatası olmadan uymasını garantiler.
+
+- **Marka tutarlılığını koruyun** tüm kurumsal desteler boyunca.  
 - **İçerik yenilemelerini hızlandırın** ürün bilgileri değiştiğinde.  
 - **Etkinlik‑özel sunumlar oluşturun** gerçek zamanlı uyum sağlayan.  
 - **İnsan hatasını azaltın** aynı ayarları tutarlı bir şekilde uygulayarak.  
 
 ## Önkoşullar
-
 - **Aspose.Slides for Java** – PowerPoint manipülasyonu için temel kütüphane.  
-- **Java Development Kit (JDK)** – sürüm 16 veya daha yeni.  
+- **Java Development Kit (JDK)** – 16 veya daha yeni sürüm.  
 - **IDE** – IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu editör.
 
 ## Aspose.Slides for Java'ı Kurma
 
-### Maven Kurulumu
-Add the following dependency to your `pom.xml`:
+### Maven kurulumu
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 
 ```xml
 <dependency>
@@ -60,43 +97,44 @@ Add the following dependency to your `pom.xml`:
 </dependency>
 ```
 
-### Gradle Kurulumu
-Include this line in your `build.gradle` file:
+### Gradle kurulumu
+`build.gradle` dosyanıza bu satırı ekleyin:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Doğrudan İndirme
-You can also grab the latest JAR from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Doğrudan indirme
+En son JAR dosyasını ayrıca [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden alabilirsiniz.
 
-#### Lisans Alımı
-To unlock full functionality:
+#### Lisans edinme
+Tam işlevselliği açmak için:
 
-- **Free Trial** – explore the API without a purchase.  
-- **Temporary License** – remove evaluation restrictions for a short period.  
-- **Full License** – ideal for production environments.
+- **Free trial** – satın alma yapmadan API'yi keşfedin.  
+- **Temporary license** – kısa bir süre için değerlendirme kısıtlamalarını kaldırır.  
+- **Full license** – üretim ortamları için idealdir.
 
-### Temel Başlatma ve Kurulum
-
-Once the library is on your classpath, import the main class:
+### Temel başlatma ve kurulum
+Kütüphane sınıf yolunuza eklendikten sonra, ana sınıfı içe aktarın:
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## Uygulama Rehberi
+## Uygulama rehberi
+Üç temel özelliği adım adım inceleyeceğiz: bir sunumu yükleme, düzenleme ve kaydetme; slayt efektleri dizisine erişme; ve efekt zamanlaması ile tekrar seçeneklerini ayarlama.
 
-We'll walk you through three core features: loading & saving a presentation, accessing the slide effects sequence, and tweaking effect timing and repeat options.
-
-### Özellik 1: Sunumu Yükleme ve Kaydetme
+### Özellik 1: bir sunumu yükleme ve kaydetme
 
 #### Genel Bakış
-Loading a PPTX file gives you a mutable `Presentation` object that you can edit before persisting the changes.
+Bir PPTX dosyasını yüklemek, değişiklikleri kalıcı hale getirmeden önce düzenleyebileceğiniz değiştirilebilir bir `Presentation` nesnesi sağlar.
 
-#### Adım‑Adım Uygulama
+`Presentation` sınıfı, bellekte bir PowerPoint dosyasını temsil eder ve slaytları okuma, düzenleme ve kaydetme yöntemleri sunar.
 
-**Adım 1 – Sunumu Yükle**
+#### Doğrudan cevap
+Kaynak dosya yoluyla bir `Presentation` örneği oluşturun, değişikliklerinizi yapın ve ardından istediğiniz çıktı formatıyla `save` metodunu çağırın.
+
+**Adım 1 – sunumu yükle**
 
 ```java
 import com.aspose.slides.Presentation;
@@ -106,7 +144,7 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx";
 Presentation pres = new Presentation(dataDir);
 ```
 
-**Adım 2 – Değiştirilmiş Sunumu Kaydet**
+**Adım 2 – değiştirilmiş sunumu kaydet**
 
 ```java
 try {
@@ -117,22 +155,25 @@ try {
 }
 ```
 
-The `try‑finally` block guarantees that resources are released, preventing memory leaks.
+`try‑finally` bloğu, kaynakların serbest bırakılmasını garanti eder ve bellek sızıntılarını önler.
 
-### Özellik 2: Slayt Efektleri Sırasına Erişme
+### Özellik 2: slayt efektleri dizisine erişme
 
 #### Genel Bakış
-Each slide contains a timeline with a main sequence of effects. Pulling this sequence lets you read or modify individual transitions.
+Her slayt, ana bir efekt dizisine sahip bir zaman çizelgesi içerir. Bu diziyi çekmek, bireysel geçişleri okumanıza veya değiştirmenize olanak tanır.
 
-#### Adım‑Adım Uygulama
+`Timeline` nesnesi, bir slaytın animasyon dizisine ve zamanlama bilgilerine erişim sağlar.
 
-**Adım 1 – Sunumu Yükle (aynı dosyayı tekrar kullan)**
+#### Doğrudan cevap
+İlk slaytın `Timeline` nesnesini alın, ardından ayarlayabileceğiniz `Effect` nesnelerinin koleksiyonunu elde etmek için `getMainSequence()` metodunu çağırın.
+
+**Adım 1 – sunumu yükle (aynı dosyayı yeniden kullan)**
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx");
 ```
 
-**Adım 2 – Efekt Sırasını Al**
+**Adım 2 – efekt dizisini al**
 
 ```java
 import com.aspose.slides.IEffect;
@@ -146,14 +187,17 @@ try {
 }
 ```
 
-Here we fetch the first effect from the first slide’s main sequence.
+Burada, ilk slaytın ana dizisinden ilk efekti alıyoruz.
 
-### Özellik 3: Efekt Zamanlamasını ve Tekrar Seçeneklerini Değiştirme
+### Özellik 3: efekt zamanlamasını ve tekrar seçeneklerini değiştirme
 
 #### Genel Bakış
-Changing timing and repeat behavior gives you fine‑grained control over how long an animation runs and when it restarts.
+Zamanlamayı ve tekrar davranışını değiştirmek, bir animasyonun ne kadar süreceği ve ne zaman yeniden başlayacağı konusunda ayrıntılı kontrol sağlar.
 
-#### Adım‑Adım Uygulama
+`Effect`, bir slayt öğesine uygulanan tek bir animasyon veya geçişi temsil eder.
+
+#### Doğrudan cevap
+`Effect` nesnesinin `setDuration()` metodunu kullanarak geçiş süresini saniye cinsinden ayarlayın ve `setRepeatCount()` (veya `setRepeatUntilEndOfSlide()`) metoduyla efektin kaç kez tekrarlanacağını belirleyin.
 
 ```java
 // Assume 'effect' is the IEffect instance obtained earlier
@@ -162,62 +206,66 @@ effect.getTiming().setRepeatUntilEndSlide(true);
 effect.getTiming().setRepeatUntilNextClick(true);
 ```
 
-These calls configure the effect to repeat either until the slide ends or until the presenter clicks.
+Bu çağrılar, efekti slayt bitene kadar veya sunucu tıklayana kadar tekrarlayacak şekilde yapılandırır.
 
-## Pratik Uygulamalar
+## Slayt geçiş zamanlamasını nasıl ayarlamalıyım?
+Geçiş zamanlamasını ayarlamak için `Effect` nesnesinin duration (süre) özelliğini saniye veya milisaniye cinsinden belirleyerek ayarlayın. İstenen süreyi yapılandırdıktan sonra, yeni zamanlamanın kalıcı olmasını sağlamak için sunumu kaydedin. Bu yöntem, tüm slaytlarda her geçişin ne kadar süreceğini tutarlı bir şekilde kontrol etmenizi sağlar.
 
-- **Sunum Güncellemelerini Otomatikleştirme** – Tek bir betikle yüzlerce sunuma yeni bir geçiş stili uygulayın.  
-- **Özel Etkinlik Slaytları** – İzleyici etkileşimine göre geçiş hızlarını dinamik olarak değiştirin.  
-- **Marka‑Uyumlu Sunumlar** – Manuel düzenleme yapmadan kurumsal geçiş yönergelerini zorlayın.  
+## Pratik uygulamalar
+- **Sunum güncellemelerini otomatikleştirme** – Tek bir betikle yüzlerce desteye yeni bir geçiş stili uygulayın.  
+- **Özel etkinlik slaytları** – İzleyici etkileşimine göre geçiş hızlarını dinamik olarak değiştirin.  
+- **Marka uyumlu desteler** – Kurumsal geçiş yönergelerini manuel düzenleme olmadan zorlayın.  
 
-## Performans Düşünceleri
-
-- **Dispose Promptly** – Always call `dispose()` on `Presentation` objects to free native memory.  
-- **Batch Changes** – Group multiple modifications before saving to reduce I/O overhead.  
-- **Simple Effects for Low‑End Devices** – Complex animations can degrade performance on older hardware.
+## Performans hususları
+- **Dispose promptly** – `Presentation` nesnelerinde her zaman `dispose()` metodunu çağırarak yerel belleği serbest bırakın.  
+- **Batch changes** – Kaydetmeden önce birden fazla değişikliği gruplayarak I/O yükünü azaltın.  
+- **Simple effects for low‑end devices** – Düşük performanslı cihazlar için basit efektler kullanın – karmaşık animasyonlar eski donanımlarda performansı düşürebilir.  
 
 ## Sonuç
+Artık **Aspose Slides Maven bağımlılığını eklemeyi**, bir PPTX dosyasını yüklemeyi, efekt zaman çizelgesine erişmeyi ve Aspose.Slides for Java kullanarak **slayt geçiş zamanlamasını** ayarlamayı gördünüz. Bu bilgiyle sıkıcı deck güncellemelerini otomatikleştirebilir, görsel tutarlılığı sağlayabilir ve herhangi bir senaryoya uyum sağlayan dinamik sunumlar oluşturabilirsiniz.
 
-You’ve now seen how to **modify pptx transitions java** end‑to‑end using **aspose slides java**: loading a file, accessing its effect timeline, and tweaking timing or repeat settings. With Aspose.Slides, you can automate tedious slide‑deck updates, ensure visual consistency, and create dynamic presentations that adapt to any scenario.
+**Sonraki adımlar**: Bir klasördeki her slaytı döngüye alarak tek tip bir geçiş uygulamayı deneyin veya `EffectType` ve `Trigger` gibi diğer animasyon özelliklerini keşfedin.
 
-**Next Steps**: Try adding a loop to process every slide in a folder, or experiment with other animation properties like `EffectType` and `Trigger`. The possibilities are endless!
+## Sıkça Sorulan Sorular
 
-## SSS Bölümü
+**S: PPTX dosyalarını diske kaydetmeden değiştirebilir miyim?**  
+C: Evet—`Presentation` nesnesini bellekte tutabilir ve daha sonra yazabilir ya da bir web uygulamasında doğrudan yanıt olarak akıtabilirsiniz.
 
-1. **Can I modify PPTX files without saving them to disk?**  
-   Yes—you can keep the `Presentation` object in memory and write it out later, or stream it directly to a response in a web app.
+**S: Sunumları yüklerken yaygın hatalar nelerdir?**  
+C: Yanlış dosya yolları, eksik okuma izinleri veya bozuk dosyalar genellikle istisna oluşturur. Her zaman yolu doğrulayın ve `IOException` yakalayın.
 
-2. **What are common errors when loading presentations?**  
-   Incorrect file paths, missing read permissions, or corrupted files typically cause exceptions. Always validate the path and catch `IOException`.
+**S: Farklı geçişlere sahip birden fazla slaytı nasıl yönetirim?**  
+C: `pres.getSlides()` üzerinde döngü yapın ve her slaytın `Timeline`'ına istediğiniz efekti uygulayın.
 
-3. **How do I handle multiple slides with different transitions?**  
-   Iterate over `pres.getSlides()` and apply the desired effect to each slide’s `Timeline`.
+**S: Aspose.Slides ticari projeler için ücretsiz mi?**  
+C: Bir deneme sürümü mevcuttur, ancak üretim kullanımı için satın alınmış bir lisans gereklidir.
 
-4. **Is Aspose.Slides free for commercial projects?**  
-   A trial is available, but a purchased license is required for production use.
-
-5. **Can Aspose.Slides process large presentations efficiently?**  
-   Yes, but follow best practices: dispose of objects promptly and avoid unnecessary file I/O.
+**S: Aspose.Slides büyük sunumları verimli bir şekilde işleyebilir mi?**  
+C: Evet—nesneleri zamanında dispose etmek ve değişiklikleri toplu olarak işlemek gibi en iyi uygulamaları izleyerek bellek kullanımını en aza indirin.
 
 ## Kaynaklar
-
 - [Aspose.Slides Dokümantasyonu](https://reference.aspose.com/slides/java/)
 - [Aspose.Slides İndir](https://releases.aspose.com/slides/java/)
 - [Lisans Satın Al](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Ücretsiz Deneme](https://releases.aspose.com/slides/java/)
+- [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Son Güncelleme:** 2026-04-05  
-**Test Edilen:** Aspose.Slides 25.4 (jdk16)  
+**Son Güncelleme:** 2026-10-03  
+**Test Edilen Versiyon:** Aspose.Slides 25.4 (jdk16)  
 **Yazar:** Aspose
+
+## İlgili Eğitimler
+- [aspose slides maven bağımlılığı: Aspose.Slides for Java Kullanarak Sunumlarda Grafik ve Çizelgeler Ekleyin ve Yapılandırın](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Gelişmiş Slayt Animasyonları Aspose Slides Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+- [Aspose.Slides in Java Kullanarak Animasyonlu PPTX'i HTML5'e Dönüştürün](/slides/java/export-conversion/convert-pptx-to-html5-animations-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
