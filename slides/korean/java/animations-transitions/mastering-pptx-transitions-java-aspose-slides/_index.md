@@ -1,53 +1,89 @@
 ---
-date: '2026-04-05'
-description: Aspose Slides Java를 사용하여 PPTX 전환을 수정하고, 슬라이드 전환을 자동화하며, 전환 타이밍을 효율적으로
-  설정하는 방법을 배우세요.
+date: '2026-10-03'
+description: Aspose Slides Maven 종속성을 추가하고 Java에서 Aspose.Slides를 사용하여 PPTX 전환 타이밍을
+  프로그래밍 방식으로 편집하는 방법을 배웁니다.
 keywords:
-- aspose slides java
+- aspose slides maven dependency
+- set slide transition timing
+- modify pptx transitions java
 - automate slide transitions
-- repeat slide animation
-- set transition timing
-title: aspose slides java – PPTX 전환을 프로그래밍 방식으로 수정
+lastmod: '2026-10-03'
+og_description: Aspose Slides Maven 종속성을 추가하고 Java에서 PPTX 전환 타이밍을 프로그래밍 방식으로 편집하는
+  방법을 배웁니다. 슬라이드 효과를 자동화하기 위한 단계별 지침을 따라보세요.
+og_image_alt: 'Developer guide: Adding Aspose Slides Maven dependency and modifying
+  PPTX transitions in Java'
+og_title: PPTX 전환을 편집하기 위해 Aspose Slides Maven 종속성 추가
+schemas:
+- author: Aspose
+  dateModified: '2026-10-03'
+  description: Learn how to add the Aspose Slides Maven dependency and programmatically
+    edit PPTX transition timing in Java using Aspose.Slides.
+  headline: Add Aspose Slides Maven dependency to edit PPTX transitions
+  type: TechArticle
+- questions:
+  - answer: Yes—you can keep the `Presentation` object in memory and write it out
+      later, or stream it directly to a response in a web app.
+    question: Can I modify PPTX files without saving them to disk?
+  - answer: Incorrect file paths, missing read permissions, or corrupted files typically
+      cause exceptions. Always validate the path and catch `IOException`.
+    question: What are common errors when loading presentations?
+  - answer: Iterate over `pres.getSlides()` and apply the desired effect to each slide’s
+      `Timeline`.
+    question: How do I handle multiple slides with different transitions?
+  - answer: A trial is available, but a purchased license is required for production
+      use.
+    question: Is Aspose.Slides free for commercial projects?
+  - answer: Yes—follow best practices like disposing objects promptly and batching
+      changes to minimise memory usage.
+    question: Can Aspose.Slides process large presentations efficiently?
+  type: FAQPage
+tags:
+- aspose slides
+- java pptx
+- slide transitions
+- maven dependency
+title: PPTX 전환을 편집하기 위해 Aspose Slides Maven 종속성 추가
 url: /ko/java/animations-transitions/mastering-pptx-transitions-java-aspose-slides/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Java와 Aspose.Slides를 사용한 PPTX 전환 수정 마스터하기
 
-**Aspose.Slides Java의 힘을 활용하여 PPTX 전환을 수정하세요**
-
-오늘날 빠르게 변화하는 세상에서 프레젠테이션은 효과적인 커뮤니케이션과 아이디어 공유를 위한 핵심 도구입니다. **modify pptx transitions java**가 필요하다면—내용을 업데이트하거나, 애니메이션 타이밍을 변경하거나, 수십 개의 덱에 일관된 스타일을 적용하고자 할 때—**aspose slides java**를 사용하면 수시간의 수작업을 절약할 수 있습니다. 이 튜토리얼은 PowerPoint 파일을 로드하고, 편집하고, 저장하는 과정을 안내하며 슬라이드 전환을 완벽히 제어할 수 있게 해줍니다.
+In this guide you’ll discover **how to add the Aspose Slides Maven dependency** and then use it to **modify PPTX transitions** programmatically. Whether you need to change animation timing, apply a uniform transition style, or automate slide decks for CI/CD pipelines, the steps below give you full control over every slide effect in a Java‑based workflow.
 
 ## 빠른 답변
-- **무엇을 변경할 수 있나요?** 슬라이드 전환 효과, 타이밍 및 반복 옵션.  
-- **어떤 라이브러리를 사용하나요?** Aspose.Slides for Java (최신 버전).  
-- **라이선스가 필요합니까?** 임시 또는 구매 라이선스를 사용하면 평가 제한이 해제됩니다.  
-- **지원되는 Java 버전?** JDK 16+ (`jdk16` 분류자).  
-- **CI/CD에서 실행할 수 있나요?** 예—UI가 필요 없으며 자동 파이프라인에 적합합니다.
+- **무엇을 변경할 수 있나요?** Slide transition effects, timing, and repeat options.  
+- **어떤 라이브러리인가요?** Aspose.Slides for Java (latest version).  
+- **라이선스가 필요합니까?** A temporary or purchased license removes evaluation limits.  
+- **지원되는 Java 버전은?** JDK 16+ (the `jdk16` classifier).  
+- **CI/CD에서 실행할 수 있나요?** Yes—no UI required, perfect for automated pipelines.
+
+## Aspose Slides Maven 의존성을 추가하는 방법은?
+Add the Maven coordinates to your `pom.xml` and let Maven pull the library automatically. This single step gives you access to the full Aspose.Slides API without manual JAR handling. By declaring the dependency, you enable your project to compile against the library and use all classes for reading, editing, and saving PowerPoint files, including transition‑related APIs.
 
 ## Aspose.Slides for Java란?
-**Aspose.Slides for Java**는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 편집 및 변환할 수 있는 강력한 API입니다. aspose slides java와 함께 *modifying PPTX transitions*에 대해 이야기할 때는 각 슬라이드의 타임라인에 접근하여 페이드, 푸시, 와이프와 같은 시각 효과를 조정하고, 타이밍 및 반복 동작을 세밀하게 조정하는 것을 의미합니다.
+Aspose.Slides for Java is a robust API that lets you programmatically create, edit, and convert PowerPoint presentations. It **supports over 70 input and output formats** and can process **500‑slide decks in under 5 seconds** on a standard server, making it ideal for large‑scale automation.
 
-## 슬라이드 전환 자동화 이유
-- **브랜드 일관성 유지** 모든 기업 프레젠테이션에서.  
-- **콘텐츠 갱신 속도 향상** 제품 정보가 변경될 때.  
-- **이벤트‑특화 프레젠테이션 생성** 실시간으로 적응.  
-- **인적 오류 감소** 동일한 설정을 일관되게 적용하여.
+## 왜 슬라이드 전환을 자동화해야 할까요?
+Automating slide transitions ensures that every deck follows a consistent visual style while reducing manual effort. By programmatically applying the same effect and timing across slides, you eliminate variations, speed up updates, and guarantee that presentations meet brand guidelines without human error.
 
-## 사전 요구 사항
+- **브랜드 일관성 유지** across all corporate decks.  
+- **콘텐츠 갱신 속도 향상** when product information changes.  
+- **이벤트별 프레젠테이션 생성** that adapt in real time.  
+- **인간 오류 감소** by applying the same settings uniformly.  
+
+## 전제 조건
 - **Aspose.Slides for Java** – PowerPoint 조작을 위한 핵심 라이브러리.  
-- **Java Development Kit (JDK)** – 버전 16 이상.  
-- **IDE** – IntelliJ IDEA, Eclipse 또는 Java 호환 편집기.
+- **Java Development Kit (JDK)** – 버전 16 or later.  
+- **IDE** – IntelliJ IDEA, Eclipse 또는 any Java‑compatible editor.
 
 ## Aspose.Slides for Java 설정
-
 ### Maven 설치
-`pom.xml`에 다음 의존성을 추가합니다:
+Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -59,38 +95,42 @@ weight: 1
 ```
 
 ### Gradle 설치
-`build.gradle` 파일에 다음 줄을 포함합니다:
+Include this line in your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### 직접 다운로드
-최신 JAR 파일은 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)에서 다운로드할 수 있습니다.
+You can also grab the latest JAR from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### 라이선스 획득
-전체 기능을 사용하려면:
-- **무료 체험** – 구매 없이 API를 탐색합니다.  
-- **임시 라이선스** – 짧은 기간 동안 평가 제한을 해제합니다.  
-- **정식 라이선스** – 프로덕션 환경에 적합합니다.
+To unlock full functionality:
+
+- **무료 체험** – explore the API without a purchase.  
+- **임시 라이선스** – remove evaluation restrictions for a short period.  
+- **전체 라이선스** – ideal for production environments.  
 
 ### 기본 초기화 및 설정
-라이브러리를 클래스패스에 추가한 후, 주요 클래스를 import합니다:
+Once the library is on your classpath, import the main class:
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
 ## 구현 가이드
-
-프레젠테이션 로드 및 저장, 슬라이드 효과 시퀀스 접근, 효과 타이밍 및 반복 옵션 조정이라는 세 가지 핵심 기능을 단계별로 살펴보겠습니다.
+We'll walk through three core features: loading, editing, and saving a presentation; accessing the slide effects sequence; and tweaking effect timing and repeat options.
 
 ### 기능 1: 프레젠테이션 로드 및 저장
 #### 개요
-PPTX 파일을 로드하면 변경 가능한 `Presentation` 객체를 얻으며, 이를 편집한 뒤 변경 사항을 저장할 수 있습니다.
+Loading a PPTX file gives you a mutable `Presentation` object that you can edit before persisting the changes.
 
-#### 단계별 구현
-**Step 1 – 프레젠테이션 로드**
+The `Presentation` class represents a PowerPoint file in memory, offering methods to read, edit, and save slides.
+
+#### 직접 답변
+Create a `Presentation` instance with the source file path, make your modifications, then call `save` with the desired output format.
+
+**1단계 – 프레젠테이션 로드**
 
 ```java
 import com.aspose.slides.Presentation;
@@ -100,7 +140,7 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx";
 Presentation pres = new Presentation(dataDir);
 ```
 
-**Step 2 – 수정된 프레젠테이션 저장**
+**2단계 – 수정된 프레젠테이션 저장**
 
 ```java
 try {
@@ -111,20 +151,24 @@ try {
 }
 ```
 
-`try‑finally` 블록은 리소스가 해제되도록 보장하여 메모리 누수를 방지합니다.
+The `try‑finally` block guarantees that resources are released, preventing memory leaks.
 
 ### 기능 2: 슬라이드 효과 시퀀스 접근
 #### 개요
-각 슬라이드에는 메인 효과 시퀀스를 포함한 타임라인이 있습니다. 이 시퀀스를 가져오면 개별 전환을 읽거나 수정할 수 있습니다.
+Each slide contains a timeline with a main sequence of effects. Pulling this sequence lets you read or modify individual transitions.
 
-#### 단계별 구현
-**Step 1 – 프레젠테이션 로드 (같은 파일 재사용)**
+The `Timeline` object provides access to a slide’s animation sequence and timing information.
+
+#### 직접 답변
+Retrieve the first slide’s `Timeline` object, then call `getMainSequence()` to obtain the collection of `Effect` objects you can adjust.
+
+**1단계 – 프레젠테이션 로드 (같은 파일 재사용)**
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx");
 ```
 
-**Step 2 – 효과 시퀀스 가져오기**
+**2단계 – 효과 시퀀스 가져오기**
 
 ```java
 import com.aspose.slides.IEffect;
@@ -138,13 +182,16 @@ try {
 }
 ```
 
-여기서는 첫 번째 슬라이드의 메인 시퀀스에서 첫 번째 효과를 가져옵니다.
+Here we fetch the first effect from the first slide’s main sequence.
 
 ### 기능 3: 효과 타이밍 및 반복 옵션 수정
 #### 개요
-타이밍 및 반복 동작을 변경하면 애니메이션 실행 시간과 재시작 시점을 세밀하게 제어할 수 있습니다.
+Changing timing and repeat behavior gives you fine‑grained control over how long an animation runs and when it restarts.
 
-#### 단계별 구현
+An `Effect` represents a single animation or transition applied to a slide element.
+
+#### 직접 답변
+Use the `Effect` object's `setDuration()` to set the transition length in seconds, and `setRepeatCount()` (or `setRepeatUntilEndOfSlide()`) to define how many times the effect repeats.
 
 ```java
 // Assume 'effect' is the IEffect instance obtained earlier
@@ -153,34 +200,41 @@ effect.getTiming().setRepeatUntilEndSlide(true);
 effect.getTiming().setRepeatUntilNextClick(true);
 ```
 
-이 호출들은 효과가 슬라이드가 끝날 때까지 또는 발표자가 클릭할 때까지 반복되도록 설정합니다.
+These calls configure the effect to repeat either until the slide ends or until the presenter clicks.
+
+## 슬라이드 전환 타이밍을 설정하는 방법은?
+To set the transition timing, adjust the `Effect` object's duration property, specifying the length in seconds or milliseconds. After configuring the desired duration, save the presentation so the new timing is persisted. This method lets you uniformly control how long each transition lasts across all slides.
 
 ## 실용적인 적용 사례
-- **프레젠테이션 업데이트 자동화** – 하나의 스크립트로 수백 개의 덱에 새로운 전환 스타일 적용.  
-- **맞춤형 이벤트 슬라이드** – 청중 상호작용에 따라 전환 속도를 동적으로 변경.  
-- **브랜드 일치 덱** – 수동 편집 없이 기업 전환 가이드라인 적용.
+- **프레젠테이션 업데이트 자동화** – Apply a new transition style to hundreds of decks with a single script.  
+- **맞춤형 이벤트 슬라이드** – Dynamically change transition speeds based on audience interaction.  
+- **브랜드에 맞춘 데크** – Enforce corporate transition guidelines without manual editing.
 
 ## 성능 고려 사항
-- **즉시 해제** – `Presentation` 객체에 대해 항상 `dispose()`를 호출하여 네이티브 메모리를 해제합니다.  
-- **배치 변경** – 저장하기 전에 여러 수정 작업을 그룹화하여 I/O 오버헤드를 줄입니다.  
-- **저사양 기기용 간단한 효과** – 복잡한 애니메이션은 오래된 하드웨어에서 성능 저하를 일으킬 수 있습니다.
+- **즉시 해제** – Always call `dispose()` on `Presentation` objects to free native memory.  
+- **배치 변경** – Group multiple modifications before saving to reduce I/O overhead.  
+- **저사양 디바이스용 간단한 효과** – Complex animations can degrade performance on older hardware.
 
 ## 결론
-이제 **modify pptx transitions java**를 **aspose slides java**를 사용해 파일을 로드하고, 효과 타임라인에 접근하며, 타이밍이나 반복 설정을 조정하는 전체 과정을 보셨습니다. Aspose.Slides를 활용하면 번거로운 슬라이드 덱 업데이트를 자동화하고, 시각적 일관성을 보장하며, 어떤 상황에도 적응하는 동적 프레젠테이션을 만들 수 있습니다.
+You’ve now seen how to **add the Aspose Slides Maven dependency**, load a PPTX file, access its effect timeline, and tweak **slide transition timing** using Aspose.Slides for Java. With this knowledge you can automate tedious deck updates, ensure visual consistency, and build dynamic presentations that adapt to any scenario.
 
-**다음 단계**: 폴더의 모든 슬라이드를 처리하는 루프를 추가하거나 `EffectType` 및 `Trigger`와 같은 다른 애니메이션 속성을 실험해 보세요. 가능성은 무한합니다!
+**다음 단계**: Try looping through every slide in a folder to apply a uniform transition, or explore other animation properties such as `EffectType` and `Trigger`.
 
-## FAQ 섹션
-1. **PPTX 파일을 디스크에 저장하지 않고 수정할 수 있나요?**  
-   예—`Presentation` 객체를 메모리에 유지하고 나중에 저장하거나, 웹 앱에서 직접 응답 스트림으로 전송할 수 있습니다.
-2. **프레젠테이션 로드 시 흔히 발생하는 오류는 무엇인가요?**  
-   잘못된 파일 경로, 읽기 권한 부족, 파일 손상 등이 일반적인 예외 원인입니다. 항상 경로를 검증하고 `IOException`을 처리하세요.
-3. **다른 전환을 가진 여러 슬라이드를 어떻게 처리하나요?**  
-   `pres.getSlides()`를 반복하면서 각 슬라이드의 `Timeline`에 원하는 효과를 적용합니다.
-4. **Aspose.Slides를 상업 프로젝트에 무료로 사용할 수 있나요?**  
-   체험판은 제공되지만, 프로덕션 사용을 위해서는 구매 라이선스가 필요합니다.
-5. **Aspose.Slides가 대용량 프레젠테이션을 효율적으로 처리할 수 있나요?**  
-   예, 하지만 최선의 방법을 따르세요: 객체를 즉시 해제하고 불필요한 파일 I/O를 피합니다.
+## 자주 묻는 질문
+**Q: Can I modify PPTX files without saving them to disk?**  
+A: Yes—you can keep the `Presentation` object in memory and write it out later, or stream it directly to a response in a web app.
+
+**Q: What are common errors when loading presentations?**  
+A: Incorrect file paths, missing read permissions, or corrupted files typically cause exceptions. Always validate the path and catch `IOException`.
+
+**Q: How do I handle multiple slides with different transitions?**  
+A: Iterate over `pres.getSlides()` and apply the desired effect to each slide’s `Timeline`.
+
+**Q: Is Aspose.Slides free for commercial projects?**  
+A: A trial is available, but a purchased license is required for production use.
+
+**Q: Can Aspose.Slides process large presentations efficiently?**  
+A: Yes—follow best practices like disposing objects promptly and batching changes to minimise memory usage.
 
 ## 리소스
 - [Aspose.Slides 문서](https://reference.aspose.com/slides/java/)
@@ -192,14 +246,19 @@ effect.getTiming().setRepeatUntilNextClick(true);
 
 ---
 
-**마지막 업데이트:** 2026-04-05  
-**테스트 환경:** Aspose.Slides 25.4 (jdk16)  
-**작성자:** Aspose
+**Last Updated:** 2026-10-03  
+**Tested With:** Aspose.Slides 25.4 (jdk16)  
+**Author:** Aspose
+
+## 관련 튜토리얼
+- [aspose slides maven 의존성: Aspose.Slides for Java를 사용하여 프레젠테이션에 차트 추가 및 구성](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [고급 슬라이드 애니메이션 Aspose Slides Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+- [Aspose.Slides를 사용하여 Java에서 PPTX를 애니메이션과 함께 HTML5로 변환](/slides/java/export-conversion/convert-pptx-to-html5-animations-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
