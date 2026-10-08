@@ -1,65 +1,113 @@
 ---
-date: '2026-04-12'
-description: Học cách thiết lập thu phóng slide trong PowerPoint bằng Aspose.Slides
-  cho Java, bao gồm phụ thuộc Maven Aspose Slides. Hướng dẫn này đề cập đến mức thu
-  phóng cho chế độ xem slide và ghi chú, giúp tạo các bài thuyết trình rõ ràng và
-  dễ điều hướng.
+date: '2026-10-08'
+description: Tìm hiểu cách thiết lập thu phóng cho các slide PowerPoint với Aspose.Slides
+  for Java, bao gồm phụ thuộc Maven, điều chỉnh mức thu phóng chế độ xem slide và
+  ghi chú, và lưu dưới dạng PPTX.
 keywords:
+- how to set zoom
 - slide zoom powerpoint
-- set zoom level
-- aspose slides java
 - maven aspose slides
 - save presentation pptx
-title: Thiết lập Zoom cho Slide PowerPoint bằng Aspose.Slides cho Java – Hướng dẫn
+- adjust slide zoom
+lastmod: '2026-10-08'
+og_description: Cách thiết lập thu phóng trong PowerPoint với Aspose.Slides for Java.
+  Thêm phụ thuộc Maven, điều chỉnh mức thu phóng chế độ xem slide và ghi chú, và lưu
+  PPTX một cách hiệu quả.
+og_image_alt: Guide showing how to set zoom for PowerPoint slides using Aspose.Slides
+  Java API
+og_title: Cách thiết lập thu phóng trong PowerPoint bằng Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: Learn how to set zoom for PowerPoint slides with Aspose.Slides for
+    Java, including Maven dependency, slide view and notes view adjustments, and saving
+    as PPTX.
+  headline: How to set zoom in PowerPoint using Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to set zoom for PowerPoint slides with Aspose.Slides for
+    Java, including Maven dependency, slide view and notes view adjustments, and saving
+    as PPTX.
+  name: How to set zoom in PowerPoint using Aspose.Slides for Java
+  steps:
+  - name: instantiate presentation
+    text: 'Create a new instance of `Presentation`:'
+  - name: adjust slide zoom level
+    text: '`setScale(int percent)` sets the zoom level for the slide view as a percentage
+      of the original size. *Why this step?* Setting the scale guarantees that all
+      slide elements fit within the visible area, eliminating the need for manual
+      adjustments during a live demo.'
+  - name: save the presentation
+    text: 'Write the changes back to a PPTX file: *Why save in PPTX?* PPTX retains
+      all view settings and is widely supported by modern presentation tools.'
+  type: HowTo
+- questions:
+  - answer: Yes, pass any integer percentage to `setScale()` to match your layout
+      requirements.
+    question: Can I set custom zoom levels other than 100 %?
+  - answer: Check directory write permissions and ensure the file isn’t locked by
+      another application.
+    question: What if my presentation doesn't save properly?
+  - answer: Process files in a secure environment, apply encryption if needed, and
+      comply with relevant data‑protection regulations.
+    question: How do I handle presentations with sensitive data using Aspose.Slides?
+  - answer: The `jdk16` classifier targets JDK 16, but Aspose provides classifiers
+      for JDK 8, 11, 17, and 21—choose the one that matches your runtime.
+    question: Does the Maven Aspose Slides dependency support other JDK versions?
+  - answer: Yes, place the code inside a loop that loads each presentation, sets the
+      scale, and saves the file.
+    question: Can I apply the same zoom settings to multiple presentations automatically?
+  type: FAQPage
+tags:
+- slide zoom
+- Aspose.Slides
+- Java presentation automation
+title: Cách thiết lập thu phóng trong PowerPoint bằng Aspose.Slides for Java
 url: /vi/java/animations-transitions/set-zoom-levels-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Đặt Thu Phóng Slide PowerPoint với Aspose.Slides cho Java – Hướng Dẫn
+
+# Đặt thu phóng slide PowerPoint với Aspose.Slides cho Java – hướng dẫn
 
 ## Giới thiệu
-Việc duyệt qua một bản trình chiếu PowerPoint chi tiết có thể gặp khó khăn. **Set slide zoom PowerPoint** sử dụng Aspose.Slides cho Java cung cấp cho bạn khả năng kiểm soát chính xác lượng nội dung hiển thị cùng một lúc, cải thiện độ rõ ràng và khả năng điều hướng cho cả người thuyết trình và khán giả. Trong hướng dẫn này, bạn sẽ khám phá lý do tại sao việc kiểm soát mức **slide zoom powerpoint** quan trọng, cách cấu hình nó với API Aspose.Slides Java, và cách lưu tệp đã cập nhật dưới dạng PPTX.
+Trong hướng dẫn này, bạn sẽ học **cách đặt thu phóng** cho các slide PowerPoint bằng cách sử dụng Aspose.Slides cho Java. Kiểm soát mức thu phóng slide PowerPoint cho phép bạn trình bày một giao diện nhất quán, dễ đọc bất kể khán giả đang sử dụng laptop hay máy chiếu màn hình lớn. Chúng tôi sẽ đề cập đến phụ thuộc Maven Aspose Slides cần thiết, cách đặt mức thu phóng cho cả chế độ xem slide và chế độ xem ghi chú ở 100 %, và cách lưu tệp đã cập nhật dưới dạng PPTX.
 
-Chúng tôi sẽ hướng dẫn qua:
-- Khởi tạo một bản trình chiếu PowerPoint với Aspose.Slides
-- Đặt mức thu phóng chế độ xem slide ở 100%
-- Điều chỉnh mức thu phóng chế độ xem ghi chú ở 100%
+Bạn sẽ thực hiện các bước sau:
+- Khởi tạo một bản trình bày PowerPoint bằng Aspose.Slides
+- Đặt mức thu phóng chế độ xem slide ở 100 %
+- Điều chỉnh mức thu phóng chế độ xem ghi chú ở 100 %
 - Lưu các thay đổi của bạn ở định dạng PPTX
 
-Hãy bắt đầu bằng cách xác nhận các điều kiện tiên quyết.
+Hãy xác nhận các điều kiện tiên quyết trước khi bắt đầu.
 
 ## Câu trả lời nhanh
-- **Công cụ “set slide zoom PowerPoint” làm gì?** Nó xác định tỷ lệ hiển thị của các slide hoặc ghi chú, đảm bảo mọi nội dung vừa vặn trong khung nhìn.  
-- **Phiên bản thư viện nào được yêu cầu?** Aspose.Slides for Java 25.4 (hoặc mới hơn).  
-- **Tôi có cần phụ thuộc Maven không?** Có – thêm phụ thuộc Maven Aspose Slides vào `pom.xml` của bạn.  
-- **Tôi có thể thay đổi mức thu phóng thành giá trị tùy chỉnh không?** Chắc chắn; thay thế `100` bằng bất kỳ phần trăm nguyên nào.  
-- **Có cần giấy phép cho môi trường sản xuất không?** Có, cần một giấy phép Aspose.Slides hợp lệ để sử dụng đầy đủ tính năng.
+- **‘Đặt thu phóng slide PowerPoint’ có nghĩa là gì?** Nó xác định tỷ lệ hiển thị của các slide hoặc ghi chú, đảm bảo mọi nội dung vừa vặn trong khung nhìn.  
+- **Phiên bản thư viện nào được yêu cầu?** Aspose.Slides cho Java 25.4 (hoặc mới hơn).  
+- **Tôi có cần phụ thuộc Maven không?** Có – thêm phụ thuộc Maven Aspose Slides vào tệp `pom.xml` của bạn.  
+- **Tôi có thể thay đổi thu phóng thành giá trị tùy chỉnh không?** Chắc chắn; thay thế `100` bằng bất kỳ phần trăm nguyên nào.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Có, cần một giấy phép Aspose.Slides hợp lệ để sử dụng đầy đủ các chức năng.
 
 ## Slide zoom PowerPoint là gì?
-Việc đặt thu phóng slide trong PowerPoint xác định tỷ lệ hiển thị của một slide hoặc ghi chú của nó. Bằng cách kiểm soát giá trị này một cách lập trình, bạn đảm bảo rằng mọi thành phần của bản trình chiếu đều được hiển thị đầy đủ, điều này đặc biệt hữu ích cho các kịch bản tạo slide tự động hoặc xử lý hàng loạt.
+Đặt thu phóng slide trong PowerPoint xác định tỷ lệ mà một slide hoặc ghi chú của nó được hiển thị. Bằng cách kiểm soát giá trị này một cách lập trình, bạn đảm bảo mọi yếu tố của bản trình bày được hiển thị đầy đủ, điều này đặc biệt hữu ích cho các kịch bản tạo slide tự động hoặc xử lý hàng loạt.
 
 ## Tại sao việc đặt slide zoom PowerPoint lại quan trọng?
-- **Trải nghiệm hình ảnh nhất quán** – Khán giả nhìn thấy chính xác những gì bạn mong muốn, bất kể kích thước màn hình.  
-- **Độ đọc dễ dàng hơn** – Nội dung quy mô lớn loại bỏ nhu cầu phóng to thủ công trong buổi demo trực tiếp.  
-- **Sẵn sàng tự động hoá** – Khi tạo bộ slide nhanh chóng, bạn có thể đảm bảo mỗi slide mở ở tỷ lệ tối ưu.
+Đặt slide zoom PowerPoint đảm bảo trải nghiệm hình ảnh nhất quán trên các thiết bị, cải thiện khả năng đọc bằng cách loại bỏ việc thu phóng thủ công, và cho phép tự động hoá đáng tin cậy khi tạo bộ slide nhanh chóng. Khi mức thu phóng được xác định trước, người thuyết trình không cần điều chỉnh chế độ xem trong buổi trình bày trực tiếp, giảm thiểu sự xao lạc. Nó cũng đảm bảo các sơ đồ, biểu đồ và văn bản giữ tỷ lệ mong muốn, làm cho bản trình bày trông chuyên nghiệp trên bất kỳ màn hình nào.
 
 ## Tại sao nên sử dụng Aspose.Slides cho Java?
-Aspose.Slides cung cấp một API thuần Java hoạt động mà không cần cài đặt Microsoft Office. Nó cho phép bạn thao tác các bản trình chiếu, điều chỉnh thuộc tính hiển thị và xuất ra nhiều định dạng — tất cả từ mã phía máy chủ. Thư viện cũng tích hợp mượt mà với các công cụ xây dựng như Maven, giúp quản lý phụ thuộc trở nên đơn giản.
+Aspose.Slides cho Java cung cấp một API thuần Java hoạt động mà không cần cài đặt Microsoft Office. Nó hỗ trợ **hơn 50 định dạng nhập và xuất**, xử lý các bản trình bày hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, và tích hợp liền mạch với Maven, giúp quản lý phụ thuộc trở nên đơn giản. Thư viện còn cung cấp khả năng render hiệu năng cao, cho phép bạn chuyển đổi slide sang hình ảnh hoặc PDF nhanh chóng, và hỗ trợ các tính năng nâng cao như hoạt ảnh, biểu đồ và SmartArt.
 
 ## Yêu cầu trước
-- **Thư viện yêu cầu**: Aspose.Slides cho Java phiên bản 25.4  
-- **Cài đặt môi trường**: Bộ công cụ phát triển Java (JDK) tương thích với JDK 16  
-- **Kiến thức**: Hiểu biết cơ bản về lập trình Java và quen thuộc với cấu trúc tệp PowerPoint.  
+- **Thư viện yêu cầu**: Aspose.Slides cho Java phiên bản 25.4 (hoặc mới hơn)  
+- **Môi trường**: JDK 16 trở lên  
+- **Kiến thức**: Lập trình Java cơ bản và quen thuộc với cấu trúc tệp PowerPoint  
 
-## Setting Up Aspose.Slides for Java
+## Cài đặt Aspose.Slides cho Java
 ### Thông tin cài đặt
 **Maven**  
-Add the following dependency to your `pom.xml`:
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -71,23 +119,23 @@ Add the following dependency to your `pom.xml`:
 ```
 
 **Gradle**  
-Include this in your `build.gradle`:
+Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 **Tải trực tiếp**  
-For those not using Maven or Gradle, download the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Đối với những người không sử dụng Maven hoặc Gradle, tải phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Cấp phép
-To fully utilize Aspose.Slides' capabilities:
-- **Dùng thử miễn phí**: Start with a temporary license to explore features.  
-- **Giấy phép tạm thời**: Obtain one by visiting [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/) for full access without limitations during your trial period.  
-- **Mua**: For long‑term use, purchase a license from the [Aspose website](https://purchase.aspose.com/buy).
+### Cách lấy giấy phép
+Để tận dụng đầy đủ các khả năng của Aspose.Slides:
+- **Dùng thử miễn phí** – bắt đầu với giấy phép tạm thời để khám phá các tính năng.  
+- **Giấy phép tạm thời** – nhận qua [trang Giấy phép Tạm thời của Aspose](https://purchase.aspose.com/temporary-license/) để sử dụng thử không giới hạn.  
+- **Mua** – mua giấy phép từ [trang web Aspose](https://purchase.aspose.com/buy) cho các triển khai sản xuất.
 
 ### Khởi tạo cơ bản
-To initialize Aspose.Slides in your Java application:
+Lớp `Presentation` đại diện cho một tệp PowerPoint trong bộ nhớ và cung cấp quyền truy cập vào các thuộc tính hiển thị, bộ sưu tập slide và nhiều hơn nữa. Để khởi tạo Aspose.Slides trong ứng dụng Java của bạn:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -95,15 +143,16 @@ import com.aspose.slides.Presentation;
 Presentation presentation = new Presentation();
 ```
 
-## Hướng dẫn triển khai
-This section walks you through setting zoom levels using Aspose.Slides.
+## Hướng dẫn thực hiện
+Phần này hướng dẫn bạn cách đặt mức thu phóng bằng Aspose.Slides.
 
-### Cách đặt slide zoom PowerPoint – Chế độ xem Slide
-Đảm bảo toàn bộ slide hiển thị bằng cách đặt mức thu phóng của nó ở 100%.
+### Cách đặt slide zoom PowerPoint – chế độ xem slide
+Tải bản trình bày, đặt thu phóng chế độ xem slide ở phần trăm mong muốn, và lưu.
 
-#### Thực hiện từng bước
-**1. Tạo đối tượng Presentation**  
-Create a new instance of `Presentation`:
+**Câu trả lời trực tiếp:** Gọi `presentation.getViewProperties().getSlideViewProperties().setScale(100)` trên đối tượng `Presentation`, sau đó lưu tệp bằng `presentation.save("output.pptx", SaveFormat.Pptx)`. Cách tiếp cận hai bước này đảm bảo chế độ xem slide mở ra ở mức thu phóng 100 %.
+
+#### Bước 1: khởi tạo bản trình bày
+Tạo một thể hiện mới của `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -115,18 +164,17 @@ public class SetZoomFeature {
         Presentation presentation = new Presentation();
 ```
 
-**2. Điều chỉnh mức thu phóng Slide**  
-Use the `setScale()` method to set the zoom level:
+#### Bước 2: điều chỉnh mức thu phóng slide
+`setScale(int percent)` đặt mức thu phóng cho chế độ xem slide dưới dạng phần trăm của kích thước gốc.
 
 ```java
 // Set slide view zoom to 100%
 presentation.getViewProperties().getSlideViewProperties().setScale(100);
-```
-*Why this step?* Setting the scale ensures all content fits within the visible area, enhancing clarity and focus.  
-*Tại sao bước này?* Đặt tỷ lệ đảm bảo mọi nội dung vừa vặn trong khu vực hiển thị, nâng cao độ rõ ràng và tập trung.
+```  
+*​Tại sao bước này?* Đặt tỷ lệ đảm bảo mọi thành phần slide vừa vặn trong khu vực hiển thị, loại bỏ nhu cầu điều chỉnh thủ công trong buổi demo trực tiếp.
 
-**3. Lưu bản trình chiếu**  
-Write changes back to a file:
+#### Bước 3: lưu bản trình bày
+Ghi các thay đổi trở lại tệp PPTX:
 
 ```java
 // Save with PPTX format
@@ -135,63 +183,55 @@ try {
 } finally {
     if (presentation != null) presentation.dispose();
 }
-```
-*Why save in PPTX?* This format retains all enhancements and is widely supported.  
-*Tại sao lưu dưới dạng PPTX?* Định dạng này giữ lại mọi cải tiến và được hỗ trợ rộng rãi.
+```  
+*​Tại sao lưu dưới dạng PPTX?* PPTX giữ lại mọi cài đặt chế độ xem và được hỗ trợ rộng rãi bởi các công cụ trình chiếu hiện đại.
 
-### Cách đặt slide zoom PowerPoint – Chế độ xem Ghi chú
-Tương tự, điều chỉnh chế độ xem ghi chú để đảm bảo hiển thị đầy đủ:
+### Cách đặt slide zoom PowerPoint – chế độ xem ghi chú
+Điều chỉnh chế độ xem ghi chú để các ghi chú của người thuyết trình cũng hiển thị ở tỷ lệ đúng.
 
-**1. Điều chỉnh mức thu phóng Ghi chú**
+**Câu trả lời trực tiếp:** Gọi `presentation.getViewProperties().getNotesViewProperties().setScale(100)` trước khi lưu; điều này đồng bộ thu phóng chế độ xem ghi chú với chế độ xem slide.
+
+#### Điều chỉnh mức thu phóng ghi chú
+`setScale(int percent)` đặt mức thu phóng cho chế độ xem ghi chú dưới dạng phần trăm của kích thước gốc.
 
 ```java
 // Set notes view zoom to 100%
 presentation.getViewProperties().getNotesViewProperties().setScale(100);
-```
-*Why this step?* A consistent zoom level across slides and notes provides a seamless presentation experience.  
-*Tại sao bước này?* Mức thu phóng nhất quán giữa slide và ghi chú mang lại trải nghiệm trình chiếu liền mạch.
+```  
+*​Tại sao bước này?* Thu phóng đồng nhất giữa slide và ghi chú mang lại trải nghiệm liền mạch cho người thuyết trình khi chuyển đổi giữa các chế độ.
 
-## Ứng dụng thực tiễn
-1. **Bài thuyết trình giáo dục** – Đảm bảo mọi sơ đồ hoặc điểm bullet đều hiển thị đầy đủ cho người học.  
-2. **Cuộc họp kinh doanh** – Giữ tập trung vào các chỉ số quan trọng mà không cần phóng to thủ công.  
-3. **Hội nghị làm việc từ xa** – Khả năng nhìn rõ giúp tăng cường hợp tác cho các đội ngũ phân tán.  
+## Ứng dụng thực tế
+Các kịch bản thực tế mà việc điều chỉnh thu phóng mang lại giá trị:
+1. **Bài thuyết trình giáo dục** – đảm bảo các sơ đồ và công thức được hiển thị đầy đủ cho người học.  
+2. **Cuộc họp kinh doanh** – giữ các chỉ số quan trọng dễ đọc mà không cần thu phóng thủ công.  
+3. **Hội nghị từ xa** – đảm bảo mọi người tham gia nhìn cùng một giao diện, giảm hiểu lầm.
 
-## Xem xét về hiệu năng
-To keep your Java application snappy when using Aspose.Slides:
-- **Quản lý bộ nhớ** – Giải phóng các đối tượng `Presentation` kịp thời để giải phóng tài nguyên.  
-- **Thu phóng hiệu quả** – Chỉ điều chỉnh mức thu phóng khi cần thiết để giảm thời gian xử lý.  
-- **Xử lý hàng loạt** – Khi xử lý nhiều bộ slide, thực hiện theo lô để giảm chi phí.
+## Các cân nhắc về hiệu năng
+- **Quản lý bộ nhớ** – gọi `presentation.dispose()` ngay khi hoàn thành để giải phóng tài nguyên.  
+- **Thu phóng hiệu quả** – chỉ thay đổi mức thu phóng khi cần; các lời gọi không cần thiết sẽ tăng tải.  
+- **Xử lý hàng loạt** – xử lý nhiều bộ slide trong các batch để giảm thời gian khởi động JVM.
 
-## Vấn đề thường gặp và giải pháp
-- **Bản trình chiếu không lưu được** – Kiểm tra quyền ghi cho thư mục đích và đảm bảo không có tiến trình nào khác khóa tệp.  
-- **Giá trị thu phóng bị bỏ qua** – Xác nhận bạn đang gọi `getViewProperties()` trên cùng một đối tượng `Presentation` trước khi lưu.  
-- **Lỗi hết bộ nhớ** – Sử dụng `presentation.dispose()` trong khối `finally` (như đã minh họa) và cân nhắc xử lý các bộ slide lớn thành các phần nhỏ hơn.  
+## Các vấn đề thường gặp và giải pháp
+- **Bản trình bày không lưu được** – kiểm tra quyền ghi cho thư mục đích và đảm bảo không có tiến trình nào khác khóa tệp.  
+- **Giá trị thu phóng bị bỏ qua** – xác nhận bạn đang truy cập `getViewProperties()` trên cùng một đối tượng `Presentation` trước khi gọi `save()`.  
+- **Lỗi hết bộ nhớ** – gọi `presentation.dispose()` trong khối `finally` và cân nhắc xử lý các bộ slide lớn thành các phần nhỏ hơn.
 
 ## Câu hỏi thường gặp
-**H: Tôi có thể đặt mức thu phóng tùy chỉnh khác 100% không?**  
-A: Yes, you can specify any integer value in the `setScale()` method to customize the zoom level according to your needs.  
-**Đ: Tôi có thể đặt mức thu phóng tùy chỉnh khác 100% không?**  
-A: Có, bạn có thể chỉ định bất kỳ giá trị nguyên nào trong phương thức `setScale()` để tùy chỉnh mức thu phóng theo nhu cầu của mình.
 
-**H: Nếu bản trình chiếu của tôi không lưu đúng cách thì sao?**  
-A: Ensure you have write permissions for the specified directory and that no file is locked by another process.  
-**Đ: Nếu bản trình chiếu của tôi không lưu đúng cách thì sao?**  
-A: Đảm bảo bạn có quyền ghi cho thư mục chỉ định và không có tệp nào bị khóa bởi tiến trình khác.
+**Q: Can I set custom zoom levels other than 100 %?**  
+A: Có, truyền bất kỳ phần trăm nguyên nào vào `setScale()` để phù hợp với yêu cầu bố cục của bạn.
 
-**H: Làm sao để xử lý các bản trình chiếu có dữ liệu nhạy cảm bằng Aspose.Slides?**  
-A: Always ensure compliance with data protection regulations when processing files, especially in shared environments.  
-**Đ: Làm sao để xử lý các bản trình chiếu có dữ liệu nhạy cảm bằng Aspose.Slides?**  
-A: Luôn đảm bảo tuân thủ các quy định bảo vệ dữ liệu khi xử lý tệp, đặc biệt trong môi trường chia sẻ.
+**Q: What if my presentation doesn't save properly?**  
+A: Kiểm tra quyền ghi cho thư mục và đảm bảo tệp không bị khóa bởi ứng dụng khác.
 
-**H: Phụ thuộc Maven Aspose Slides có hỗ trợ các phiên bản JDK khác không?**  
-A: The `jdk16` classifier targets JDK 16, but Aspose provides classifiers for other supported JDKs—choose the one matching your environment.  
-**Đ: Phụ thuộc Maven Aspose Slides có hỗ trợ các phiên bản JDK khác không?**  
-A: Bộ phân loại `jdk16` hướng tới JDK 16, nhưng Aspose cung cấp các bộ phân loại cho các JDK được hỗ trợ khác — chọn bộ phù hợp với môi trường của bạn.
+**Q: How do I handle presentations with sensitive data using Aspose.Slides?**  
+A: Xử lý tệp trong môi trường bảo mật, áp dụng mã hoá nếu cần, và tuân thủ các quy định bảo vệ dữ liệu liên quan.
 
-**H: Tôi có thể áp dụng cùng một cài đặt thu phóng cho nhiều bản trình chiếu một cách tự động không?**  
-A: Yes, wrap the code in a loop that loads each presentation, sets the scale, and saves the file.  
-**Đ: Tôi có thể áp dụng cùng một cài đặt thu phóng cho nhiều bản trình chiếu một cách tự động không?**  
-A: Có, bạn có thể đặt mã trong một vòng lặp để tải mỗi bản trình chiếu, đặt tỷ lệ và lưu tệp.
+**Q: Does the Maven Aspose Slides dependency support other JDK versions?**  
+A: Bộ phân loại `jdk16` hướng tới JDK 16, nhưng Aspose cũng cung cấp các bộ phân loại cho JDK 8, 11, 17 và 21 — chọn bộ phù hợp với môi trường chạy của bạn.
+
+**Q: Can I apply the same zoom settings to multiple presentations automatically?**  
+A: Có, đặt đoạn mã trong vòng lặp để tải mỗi bản trình bày, thiết lập tỷ lệ và lưu tệp.
 
 ## Tài nguyên
 - **Tài liệu**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
@@ -201,18 +241,23 @@ A: Có, bạn có thể đặt mã trong một vòng lặp để tải mỗi b�
 - **Giấy phép tạm thời**: [Apply Here](https://purchase.aspose.com/temporary-license/)  
 - **Diễn đàn hỗ trợ**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
 
-Explore these resources to deepen your understanding and enhance your PowerPoint presentations using Aspose.Slides for Java. Happy presenting!
+Khám phá các tài nguyên này để nâng cao hiểu biết và cải thiện các bản trình bày PowerPoint của bạn với Aspose.Slides cho Java. Chúc bạn thuyết trình vui vẻ!
 
 ---
 
-**Last Updated:** 2026-04-12  
+**Last Updated:** 2026-10-08  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Author:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [How to Change Slide Master View in PowerPoint Programmatically Using Aspose.Slides for Java](/slides/java/animations-transitions/set-presentation-view-type-aspose-slides-java/)
+- [Create PowerPoint Slide Notes Thumbnails Using Aspose.Slides for Java](/slides/java/headers-footers-notes/create-powerpoint-slide-notes-thumbnail-aspose-slides-java/)
+- [How to Convert a PowerPoint Slide to PDF with Notes Using Aspose.Slides for Java](/slides/java/presentation-operations/convert-powerpoint-slide-to-pdf-notes-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
