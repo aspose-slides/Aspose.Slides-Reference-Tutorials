@@ -1,63 +1,111 @@
 ---
-date: '2026-04-12'
-description: Aspose.Slides for Java kullanarak PowerPoint'te slayt yakınlaştırmasını
-  nasıl ayarlayacağınızı, Maven Aspose Slides bağımlılığı dahil, öğrenin. Bu rehber,
-  net ve gezinilebilir sunumlar için slayt ve notlar görünümü yakınlaştırma seviyelerini
-  kapsar.
+date: '2026-10-08'
+description: Aspose.Slides for Java ile PowerPoint slaytları için yakınlaştırmayı
+  nasıl ayarlayacağınızı öğrenin; Maven bağımlılığı, slide view ve notes view ayarlamaları
+  ve PPTX olarak kaydetme dahil.
 keywords:
+- how to set zoom
 - slide zoom powerpoint
-- set zoom level
-- aspose slides java
 - maven aspose slides
 - save presentation pptx
-title: Aspose.Slides for Java ile PowerPoint Slayt Yakınlaştırmasını Ayarlama – Rehber
+- adjust slide zoom
+lastmod: '2026-10-08'
+og_description: Aspose.Slides for Java ile PowerPoint'te yakınlaştırmayı nasıl ayarlarsınız.
+  Maven bağımlılığı ekleyin, slide ve notes view yakınlaştırma seviyelerini ayarlayın
+  ve PPTX'i verimli bir şekilde kaydedin.
+og_image_alt: Guide showing how to set zoom for PowerPoint slides using Aspose.Slides
+  Java API
+og_title: PowerPoint'te yakınlaştırmayı Aspose.Slides for Java ile nasıl ayarlarsınız
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: Learn how to set zoom for PowerPoint slides with Aspose.Slides for
+    Java, including Maven dependency, slide view and notes view adjustments, and saving
+    as PPTX.
+  headline: How to set zoom in PowerPoint using Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to set zoom for PowerPoint slides with Aspose.Slides for
+    Java, including Maven dependency, slide view and notes view adjustments, and saving
+    as PPTX.
+  name: How to set zoom in PowerPoint using Aspose.Slides for Java
+  steps:
+  - name: instantiate presentation
+    text: 'Create a new instance of `Presentation`:'
+  - name: adjust slide zoom level
+    text: '`setScale(int percent)` sets the zoom level for the slide view as a percentage
+      of the original size. *Why this step?* Setting the scale guarantees that all
+      slide elements fit within the visible area, eliminating the need for manual
+      adjustments during a live demo.'
+  - name: save the presentation
+    text: 'Write the changes back to a PPTX file: *Why save in PPTX?* PPTX retains
+      all view settings and is widely supported by modern presentation tools.'
+  type: HowTo
+- questions:
+  - answer: Yes, pass any integer percentage to `setScale()` to match your layout
+      requirements.
+    question: Can I set custom zoom levels other than 100 %?
+  - answer: Check directory write permissions and ensure the file isn’t locked by
+      another application.
+    question: What if my presentation doesn't save properly?
+  - answer: Process files in a secure environment, apply encryption if needed, and
+      comply with relevant data‑protection regulations.
+    question: How do I handle presentations with sensitive data using Aspose.Slides?
+  - answer: The `jdk16` classifier targets JDK 16, but Aspose provides classifiers
+      for JDK 8, 11, 17, and 21—choose the one that matches your runtime.
+    question: Does the Maven Aspose Slides dependency support other JDK versions?
+  - answer: Yes, place the code inside a loop that loads each presentation, sets the
+      scale, and saves the file.
+    question: Can I apply the same zoom settings to multiple presentations automatically?
+  type: FAQPage
+tags:
+- slide zoom
+- Aspose.Slides
+- Java presentation automation
+title: PowerPoint'te yakınlaştırmayı Aspose.Slides for Java ile nasıl ayarlarsınız
 url: /tr/java/animations-transitions/set-zoom-levels-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java ile PowerPoint Slayt Yakınlaştırmasını Ayarlama – Kılavuz
+
+# PowerPoint'te slayt yakınlaştırmasını ayarlama – Aspose.Slides for Java rehberi
 
 ## Giriş
-Detaylı bir PowerPoint sunumunda gezinmek zorlayıcı olabilir. **PowerPoint Slayt Yakınlaştırmasını Ayarla** Aspose.Slides for Java kullanarak, aynı anda ne kadar içeriğin görüleceği üzerinde hassas kontrol sağlar, hem sunucular hem de izleyiciler için netlik ve gezinmeyi artırır. Bu öğreticide, **PowerPoint slayt yakınlaştırması** seviyesini kontrol etmenin neden önemli olduğunu, Aspose.Slides Java API'si ile nasıl yapılandırılacağını ve güncellenmiş dosyayı PPTX olarak nasıl kaydedeceğinizi öğreneceksiniz.
+Bu rehberde Aspose.Slides for Java kullanarak PowerPoint slaytları için **yakınlaştırma ayarlamayı** öğreneceksiniz. Slayt yakınlaştırma seviyesini kontrol etmek, izleyicinin bir dizüstü bilgisayar ya da büyük ekran projektör kullanıyor olmasına bakılmaksızın tutarlı ve okunabilir bir görünüm sunmanızı sağlar. Maven Aspose Slides bağımlılığı, slayt‑görünümü ve not‑görünümü yakınlaştırma seviyelerini %100 olarak ayarlama ve güncellenmiş dosyayı PPTX olarak kaydetme konularını ele alacağız.
 
-Şunları adım adım inceleyeceğiz:
+Şunları adım adım inceleyeceksiniz:
 - Aspose.Slides ile bir PowerPoint sunumu başlatma
 - Slayt görünümü yakınlaştırma seviyesini %100 olarak ayarlama
 - Not görünümü yakınlaştırma seviyesini %100 olarak ayarlama
 - Değişikliklerinizi PPTX formatında kaydetme
 
-Gereksinimleri doğrulayarak başlayalım.
+Başlamadan önce gereksinimleri doğrulayalım.
 
-## Hızlı Yanıtlar
-- **“PowerPoint Slayt Yakınlaştırmasını Ayarla” ne işe yarar?** Slaytların veya notların görünür ölçeğini tanımlar, tüm içeriğin görüntüye sığmasını sağlar.
-- **Hangi kütüphane sürümü gereklidir?** Aspose.Slides for Java 25.4 (veya daha yeni).
-- **Maven bağımlılığı gerekli mi?** Evet – Maven Aspose Slides bağımlılığını `pom.xml` dosyanıza ekleyin.
-- **Yakınlaştırmayı özel bir değere değiştirebilir miyim?** Kesinlikle; `100` yerine istediğiniz tam sayı yüzde değerini koyabilirsiniz.
-- **Üretim ortamında lisans gerekir mi?** Evet, tam işlevsellik için geçerli bir Aspose.Slides lisansı gereklidir.
+## Hızlı cevaplar
+- **“set slide zoom PowerPoint” ne yapar?** Slaytların veya notların görünür ölçeğini tanımlar, tüm içeriğin görünüme sığmasını sağlar.  
+- **Hangi kütüphane sürümü gereklidir?** Aspose.Slides for Java 25.4 (veya daha yenisi).  
+- **Maven bağımlılığı gerekli mi?** Evet – `pom.xml` dosyanıza Maven Aspose Slides bağımlılığını ekleyin.  
+- **Yakınlaştırmayı özel bir değere ayarlayabilir miyim?** Elbette; `100` yerine istediğiniz tam sayı yüzdeyi koyabilirsiniz.  
+- **Üretim için lisans gerekli mi?** Evet, tam işlevsellik için geçerli bir Aspose.Slides lisansı gerekir.
 
-## “Slide zoom PowerPoint” nedir?
-PowerPoint’te slayt yakınlaştırmasını ayarlamak, bir slaytın veya notların hangi ölçekle görüntüleneceğini belirler. Bu değeri programlı olarak kontrol ederek, sunumunuzun her öğesinin tamamen görünür olmasını sağlarsınız; bu, otomatik slayt oluşturma veya toplu işleme senaryoları için özellikle faydalıdır.
+## “slide zoom PowerPoint” nedir?
+PowerPoint’te slayt yakınlaştırmasını ayarlamak, bir slaytın veya notlarının görüntülendiği ölçeği belirler. Bu değeri programlı olarak kontrol ederek, sunumunuzun her öğesinin tamamen görünür olmasını sağlarsınız; bu özellikle otomatik slayt oluşturma veya toplu işleme senaryolarında faydalıdır.
 
 ## Slide zoom PowerPoint ayarlamanın önemi?
-- **Tutarlı görsel deneyim** – İzleyiciler, ekran boyutundan bağımsız olarak tam olarak istediğiniz şeyi görür.
-- **Gelişmiş okunabilirlik** – Büyük ölçekli içerik, canlı demo sırasında manuel yakınlaştırma ihtiyacını ortadan kaldırır.
-- **Otomasyon‑hazır** – Anlık olarak sunu oluştururken, her slaytın optimum ölçekte açılmasını sağlayabilirsiniz.
+Slide zoom PowerPoint ayarlamak, cihazlar arasında tutarlı bir görsel deneyim sağlar, manuel yakınlaştırmayı ortadan kaldırarak okunabilirliği artırır ve anlık sunum sırasında görünümü ayarlama ihtiyacını azaltarak dikkat dağınıklığını önler. Ayrıca diyagramların, grafiklerin ve metnin istenen oranlarını korur, böylece sunum herhangi bir ekranda profesyonel görünür.
 
 ## Neden Aspose.Slides for Java kullanmalısınız?
-Aspose.Slides, Microsoft Office yüklü olmadan çalışan saf‑Java bir API sunar. Sunuları manipüle etmenize, görünüm özelliklerini ayarlamanıza ve birçok formata dışa aktarmanıza olanak tanır—hepsi sunucu‑tarafı koddan. Kütüphane ayrıca Maven gibi yapı araçlarıyla sorunsuz entegrasyon sağlar, böylece bağımlılık yönetimi basittir.
+Aspose.Slides for Java, Microsoft Office yüklü olmadan çalışan saf‑Java API’si sunar. **50+ giriş ve çıkış formatını** destekler, tüm dosyayı belleğe yüklemeden çok sayfalı sunumları işler ve Maven ile sorunsuz entegrasyon sayesinde bağımlılık yönetimini kolaylaştırır. Kütüphane ayrıca yüksek performanslı render sağlar, slaytları hızlıca görüntülere veya PDF’lere dönüştürmenize olanak tanır ve animasyonlar, grafikler ve SmartArt gibi gelişmiş özellikleri destekler.
 
 ## Önkoşullar
-- **Gerekli Kütüphaneler**: Aspose.Slides for Java sürüm 25.4  
-- **Ortam Kurulumu**: JDK 16 ile uyumlu bir Java Development Kit (JDK)  
-- **Bilgi**: Java programlamaya temel bir anlayış ve PowerPoint dosya yapıları hakkında aşinalık  
+- **Gerekli kütüphaneler**: Aspose.Slides for Java sürüm 25.4 (veya yenisi)  
+- **Ortam**: JDK 16 veya üzeri  
+- **Bilgi**: Temel Java programlama ve PowerPoint dosya yapıları hakkında bilgi  
 
-## Aspose.Slides for Java Kurulumu
-### Kurulum Bilgileri
+## Aspose.Slides for Java kurulumu
+### Kurulum bilgileri
 **Maven**  
 `pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 
@@ -77,17 +125,17 @@ Aspose.Slides, Microsoft Office yüklü olmadan çalışan saf‑Java bir API su
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direct Download**  
-Maven veya Gradle kullanmayanlar için, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
+**Doğrudan indirme**  
+Maven veya Gradle kullanmayanlar için en son sürümü [Aspose.Slides for Java sürümleri](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-### Lisans Edinme
-Aspose.Slides'ın tüm yeteneklerini tam olarak kullanmak için:
-- **Ücretsiz Deneme**: Özellikleri keşfetmek üzere geçici bir lisansla başlayın.  
-- **Geçici Lisans**: Deneme süreniz boyunca sınırlama olmadan tam erişim sağlamak için [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.  
-- **Satın Alma**: Uzun vadeli kullanım için lisansı [Aspose web sitesinden](https://purchase.aspose.com/buy) satın alın.
+### Lisans edinme
+Aspose.Slides’ın tüm özelliklerinden tam olarak yararlanmak için:
+- **Ücretsiz deneme** – özellikleri keşfetmek için geçici bir lisansla başlayın.  
+- **Geçici lisans** – sınırsız deneme kullanımı için [Aspose Geçici Lisans sayfası](https://purchase.aspose.com/temporary-license/) üzerinden alın.  
+- **Satın alma** – üretim ortamları için [Aspose web sitesinden](https://purchase.aspose.com/buy) lisans satın alın.
 
-### Temel Başlatma
-Java uygulamanızda Aspose.Slides'ı başlatmak için:
+### Temel başlatma
+`Presentation` sınıfı, bellekte bir PowerPoint dosyasını temsil eder ve görünüm özelliklerine, slayt koleksiyonlarına vb. erişim sağlar. Java uygulamanızda Aspose.Slides’ı başlatmak için:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -95,14 +143,15 @@ import com.aspose.slides.Presentation;
 Presentation presentation = new Presentation();
 ```
 
-## Uygulama Kılavuzu
-Bu bölüm, Aspose.Slides kullanarak yakınlaştırma seviyelerini ayarlamayı adım adım gösterir.
+## Uygulama rehberi
+Bu bölümde Aspose.Slides kullanarak yakınlaştırma seviyelerini nasıl ayarlayacağınızı adım adım gösteriyoruz.
 
-### Slide Zoom PowerPoint Ayarlama – Slayt Görünümü
-Tüm slaytı %100 yakınlaştırma seviyesine ayarlayarak görünür tutun.
+### Slide zoom PowerPoint nasıl ayarlanır – slayt görünümü
+Sunumu yükleyin, slayt‑görünümü yakınlaştırmasını istediğiniz yüzdeye ayarlayın ve kaydedin.  
 
-#### Adım Adım Uygulama
-**1. Instantiate Presentation**  
+**Doğrudan cevap:** `Presentation` örneği üzerinde `presentation.getViewProperties().getSlideViewProperties().setScale(100)` metodunu çağırın, ardından `presentation.save("output.pptx", SaveFormat.Pptx)` ile dosyayı kaydedin. Bu iki adımlı yaklaşım, slayt görünümünün %100 yakınlaştırma ile açılmasını sağlar.
+
+#### Adım 1: sunumu başlatma
 `Presentation` sınıfının yeni bir örneğini oluşturun:
 
 ```java
@@ -115,17 +164,17 @@ public class SetZoomFeature {
         Presentation presentation = new Presentation();
 ```
 
-**2. Adjust Slide Zoom Level**  
-Yakınlaştırma seviyesini ayarlamak için `setScale()` metodunu kullanın:
+#### Adım 2: slayt yakınlaştırma seviyesini ayarlama
+`setScale(int percent)` metodu, slayt görünümü için orijinal boyutun yüzde olarak yakınlaştırma seviyesini ayarlar.  
 
 ```java
 // Set slide view zoom to 100%
 presentation.getViewProperties().getSlideViewProperties().setScale(100);
-```
-*Why this step?* Ölçeği ayarlamak, tüm içeriğin görünür alana sığmasını sağlar, netlik ve odaklamayı artırır.
+```  
+*Bu adım neden?* Ölçeği ayarlamak, tüm slayt öğelerinin görünür alana sığmasını garantiler, canlı demo sırasında manuel ayarlamaya gerek kalmaz.
 
-**3. Save the Presentation**  
-Değişiklikleri bir dosyaya yazın:
+#### Adım 3: sunumu kaydetme
+Değişiklikleri bir PPTX dosyasına yazın:
 
 ```java
 // Save with PPTX format
@@ -134,74 +183,83 @@ try {
 } finally {
     if (presentation != null) presentation.dispose();
 }
-```
-*Why save in PPTX?* Bu format tüm iyileştirmeleri korur ve geniş çapta desteklenir.
+```  
+*PPTX olarak kaydetmek neden?* PPTX, tüm görünüm ayarlarını korur ve modern sunum araçları tarafından yaygın olarak desteklenir.
 
-### Slide Zoom PowerPoint Ayarlama – Not Görünümü
-Not görünümünü de aynı şekilde ayarlayarak tam görünürlük sağlayın:
+### Slide zoom PowerPoint nasıl ayarlanır – not görünümü
+Notların da doğru ölçekle görüntülenmesi için not görünümünü ayarlayın.  
 
-**1. Adjust Notes Zoom Level**
+**Doğrudan cevap:** Kaydetmeden önce `presentation.getViewProperties().getNotesViewProperties().setScale(100)` metodunu çağırın; bu, not görünümü yakınlaştırmasını slayt görünümüyle hizalar.
+
+#### Not yakınlaştırma seviyesini ayarlama
+`setScale(int percent)` metodu, not görünümü için orijinal boyutun yüzde olarak yakınlaştırma seviyesini ayarlar.  
 
 ```java
 // Set notes view zoom to 100%
 presentation.getViewProperties().getNotesViewProperties().setScale(100);
-```
-*Why this step?* Slaytlar ve notlar arasında tutarlı bir yakınlaştırma seviyesi, sorunsuz bir sunum deneyimi sunar.
+```  
+*Bu adım neden?* Slaytlar ve notlar arasında tutarlı yakınlaştırma, görünümler arasında geçiş yapan sunumcular için sorunsuz bir deneyim sağlar.
 
-## Pratik Uygulamalar
-İşte bazı gerçek dünya kullanım senaryoları:
-1. **Eğitim Sunumları** – Öğrenciler için her diyagram veya madde işaretinin tamamen görünür olmasını garantiler.  
-2. **İş Toplantıları** – Manuel yakınlaştırma yapmadan ana metriklere odaklanmayı sağlar.  
-3. **Uzaktan Çalışma Konferansları** – Net görünürlük, dağıtık ekipler arasında daha iyi iş birliğini mümkün kılar.  
+## Pratik uygulamalar
+Yakınlaştırmayı ayarlamanın değerli olduğu gerçek dünya senaryoları:
+1. **Eğitim sunumları** – diyagram ve denklemlerin öğrenenler için tamamen görünür olmasını sağlar.  
+2. **İş toplantıları** – ana metriklerin manuel ölçekleme olmadan okunabilir kalmasını sağlar.  
+3. **Uzaktan konferanslar** – tüm katılımcıların aynı görünümü görmesini sağlayarak iletişim hatalarını azaltır.
 
-## Performans Düşünceleri
-Aspose.Slides kullanırken Java uygulamanızın hızlı kalmasını sağlamak için:
-- **Bellek Yönetimi** – `Presentation` nesnelerini kaynakları serbest bırakmak için hemen dispose edin.  
-- **Verimli Ölçekleme** – İşlem süresini en aza indirmek için yalnızca gerektiğinde yakınlaştırma seviyelerini ayarlayın.  
-- **Toplu İşleme** – Çok sayıda sunu işlenirken, yükü azaltmak için bunları toplu olarak işleyin.  
+## Performans değerlendirmeleri
+Aspose.Slides kullanırken Java uygulamanızın yanıt verebilirliğini korumak için:
+- **Bellek yönetimi** – işiniz bittiğinde `presentation.dispose()` çağırarak kaynakları serbest bırakın.  
+- **Verimli ölçekleme** – yalnızca gerektiğinde yakınlaştırma seviyesini değiştirin; gereksiz çağrılar ek yük oluşturur.  
+- **Toplu işleme** – birden fazla sunumu toplu olarak işleyerek JVM ısınma süresini minimize edin.
 
-## Yaygın Sorunlar ve Çözümler
-- **Presentation won’t save** – Hedef dizin için yazma izinlerini kontrol edin ve başka bir sürecin dosyayı kilitlemediğinden emin olun.  
-- **Zoom value seems ignored** – Kaydetmeden önce aynı `Presentation` örneği üzerinde `getViewProperties()` çağrısı yaptığınızdan emin olun.  
-- **Out‑of‑memory errors** – Gösterildiği gibi `presentation.dispose()` metodunu `finally` bloğunda kullanın ve büyük sunuları daha küçük parçalar halinde işlemeyi düşünün.  
+## Yaygın sorunlar ve çözümler
+- **Sunum kaydedilemiyor** – hedef dizin için yazma izinlerini kontrol edin ve dosyanın başka bir süreç tarafından kilitlenmediğinden emin olun.  
+- **Yakınlaştırma değeri göz ardı ediliyor** – `save()` çağırmadan önce aynı `Presentation` örneği üzerinde `getViewProperties()` eriştiğinizi doğrulayın.  
+- **Bellek yetersizliği hataları** – `finally` bloğunda `presentation.dispose()` çağırın ve büyük sunumları daha küçük parçalar halinde işlemeyi düşünün.
 
-## Sık Sorulan Sorular
+## Sıkça sorulan sorular
 
-**S: %100 dışındaki özel yakınlaştırma seviyeleri ayarlayabilir miyim?**  
-C: Evet, `setScale()` metodunda istediğiniz tam sayı yüzde değerini belirterek yakınlaştırma seviyesini ihtiyacınıza göre özelleştirebilirsiniz.
+**S: %100 dışında özel yakınlaştırma seviyeleri ayarlayabilir miyim?**  
+C: Evet, `setScale()` metoduna istediğiniz tam sayı yüzdeyi vererek düzeninizi karşılayabilirsiniz.
 
 **S: Sunumum düzgün kaydedilmezse ne yapmalıyım?**  
-C: Belirtilen dizin için yazma izinlerinizin olduğundan ve dosyanın başka bir süreç tarafından kilitlenmediğinden emin olun.
+C: Dizin yazma izinlerini kontrol edin ve dosyanın başka bir uygulama tarafından kilitlenmediğinden emin olun.
 
-**S: Aspose.Slides kullanarak hassas verileri içeren sunumları nasıl yönetebilirim?**  
-C: Özellikle paylaşılan ortamlar içinde dosyaları işlerken veri koruma düzenlemelerine uyduğunuzdan emin olun.
+**S: Aspose.Slides ile hassas verileri içeren sunumları nasıl yönetirim?**  
+C: Dosyaları güvenli bir ortamda işleyin, gerekirse şifreleme uygulayın ve ilgili veri koruma düzenlemelerine uyun.
 
 **S: Maven Aspose Slides bağımlılığı diğer JDK sürümlerini destekliyor mu?**  
-C: `jdk16` sınıflandırıcısı JDK 16’yı hedefler, ancak Aspose diğer desteklenen JDK’ler için sınıflandırıcılar sunar—ortamınıza uygun olanı seçin.
+C: `jdk16` sınıflandırıcısı JDK 16 için hedeflenmiştir, ancak Aspose JDK 8, 11, 17 ve 21 için sınıflandırıcılar da sağlar—çalışma ortamınıza uygun olanı seçin.
 
-**S: Aynı yakınlaştırma ayarlarını birden fazla sunuya otomatik olarak uygulayabilir miyim?**  
-C: Evet, her sunuyu yükleyen, ölçeği ayarlayan ve dosyayı kaydeden bir döngü içinde kodu sarabilirsiniz.
+**S: Aynı yakınlaştırma ayarlarını birden fazla sunuma otomatik olarak uygulayabilir miyim?**  
+C: Evet, kodu bir döngü içinde her sunumu yükleyip ölçeği ayarlayıp dosyayı kaydedecek şekilde yerleştirin.
 
 ## Kaynaklar
-- **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Latest Release](https://releases.aspose.com/slides/java/)  
-- **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Get Started](https://releases.aspose.com/slides/java/)  
-- **Temporary License**: [Apply Here](https://purchase.aspose.com/temporary-license/)  
-- **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
+- **Dokümantasyon**: [Aspose.Slides Java Referansı](https://reference.aspose.com/slides/java/)  
+- **İndirme**: [En Son Sürüm](https://releases.aspose.com/slides/java/)  
+- **Lisans satın al**: [Şimdi Satın Al](https://purchase.aspose.com/buy)  
+- **Ücretsiz deneme**: [Başlayın](https://releases.aspose.com/slides/java/)  
+- **Geçici lisans**: [Buradan Başvurun](https://purchase.aspose.com/temporary-license/)  
+- **Destek forumu**: [Aspose Topluluk Desteği](https://forum.aspose.com/c/slides/11)
 
-Bu kaynakları keşfederek Aspose.Slides for Java kullanarak PowerPoint sunularınızı derinlemesine anlayabilir ve geliştirebilirsiniz. İyi sunumlar!
+Bu kaynakları keşfederek Aspose.Slides for Java ile PowerPoint sunumlarınızı derinlemesine öğrenin ve geliştirin. İyi sunumlar!
 
 ---
 
-**Son Güncelleme:** 2026-04-12  
-**Test Edilen:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Son Güncelleme:** 2026-10-08  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16 sınıflandırıcı)  
 **Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.Slides for Java ile Programlı Olarak PowerPoint Slayt Ana Görünümünü Değiştirme](/slides/java/animations-transitions/set-presentation-view-type-aspose-slides-java/)
+- [Aspose.Slides for Java ile PowerPoint Slayt Notları Küçük Resimlerini Oluşturma](/slides/java/headers-footers-notes/create-powerpoint-slide-notes-thumbnail-aspose-slides-java/)
+- [Aspose.Slides for Java ile Notlu PowerPoint Slaytını PDF’ye Dönüştürme](/slides/java/presentation-operations/convert-powerpoint-slide-to-pdf-notes-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

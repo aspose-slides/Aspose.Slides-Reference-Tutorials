@@ -1,63 +1,112 @@
 ---
-date: '2026-04-12'
-description: تعلم كيفية ضبط تكبير الشرائح في PowerPoint باستخدام Aspose.Slides للغة
-  Java، بما في ذلك تبعية Maven لـ Aspose Slides. يغطي هذا الدليل مستويات تكبير عرض
-  الشريحة وعرض الملاحظات لتقديم عروض واضحة وسهلة التنقل.
+date: '2026-10-08'
+description: تعلم كيفية ضبط مستوى التكبير لشرائح PowerPoint باستخدام Aspose.Slides
+  for Java، بما في ذلك اعتماد Maven، وضبط تكبير عرض الشريحة وعرض الملاحظات، وحفظ الملف
+  بصيغة PPTX.
 keywords:
+- how to set zoom
 - slide zoom powerpoint
-- set zoom level
-- aspose slides java
 - maven aspose slides
 - save presentation pptx
-title: تعيين تكبير الشريحة في PowerPoint باستخدام Aspose.Slides للـ Java – دليل
+- adjust slide zoom
+lastmod: '2026-10-08'
+og_description: كيفية ضبط التكبير في PowerPoint باستخدام Aspose.Slides for Java. إضافة
+  اعتماد Maven، ضبط مستويات تكبير عرض الشريحة وعرض الملاحظات، وحفظ ملف PPTX بكفاءة.
+og_image_alt: Guide showing how to set zoom for PowerPoint slides using Aspose.Slides
+  Java API
+og_title: كيفية ضبط التكبير في PowerPoint باستخدام Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: Learn how to set zoom for PowerPoint slides with Aspose.Slides for
+    Java, including Maven dependency, slide view and notes view adjustments, and saving
+    as PPTX.
+  headline: How to set zoom in PowerPoint using Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to set zoom for PowerPoint slides with Aspose.Slides for
+    Java, including Maven dependency, slide view and notes view adjustments, and saving
+    as PPTX.
+  name: How to set zoom in PowerPoint using Aspose.Slides for Java
+  steps:
+  - name: instantiate presentation
+    text: 'Create a new instance of `Presentation`:'
+  - name: adjust slide zoom level
+    text: '`setScale(int percent)` sets the zoom level for the slide view as a percentage
+      of the original size. *Why this step?* Setting the scale guarantees that all
+      slide elements fit within the visible area, eliminating the need for manual
+      adjustments during a live demo.'
+  - name: save the presentation
+    text: 'Write the changes back to a PPTX file: *Why save in PPTX?* PPTX retains
+      all view settings and is widely supported by modern presentation tools.'
+  type: HowTo
+- questions:
+  - answer: Yes, pass any integer percentage to `setScale()` to match your layout
+      requirements.
+    question: Can I set custom zoom levels other than 100 %?
+  - answer: Check directory write permissions and ensure the file isn’t locked by
+      another application.
+    question: What if my presentation doesn't save properly?
+  - answer: Process files in a secure environment, apply encryption if needed, and
+      comply with relevant data‑protection regulations.
+    question: How do I handle presentations with sensitive data using Aspose.Slides?
+  - answer: The `jdk16` classifier targets JDK 16, but Aspose provides classifiers
+      for JDK 8, 11, 17, and 21—choose the one that matches your runtime.
+    question: Does the Maven Aspose Slides dependency support other JDK versions?
+  - answer: Yes, place the code inside a loop that loads each presentation, sets the
+      scale, and saves the file.
+    question: Can I apply the same zoom settings to multiple presentations automatically?
+  type: FAQPage
+tags:
+- slide zoom
+- Aspose.Slides
+- Java presentation automation
+title: كيفية ضبط التكبير في PowerPoint باستخدام Aspose.Slides for Java
 url: /ar/java/animations-transitions/set-zoom-levels-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# تعيين تكبير الشريحة في PowerPoint باستخدام Aspose.Slides للـ Java – دليل
+
+# تعيين تكبير الشريحة في PowerPoint باستخدام Aspose.Slides for Java – دليل
 
 ## المقدمة
-التنقل عبر عرض تقديمي مفصل في PowerPoint يمكن أن يكون صعبًا. **Set slide zoom PowerPoint** باستخدام Aspose.Slides للـ Java يمنحك تحكمًا دقيقًا في مقدار المحتوى المرئي في آن واحد، مما يحسن الوضوح والتنقل لكل من المقدمين والجمهور. في هذا الدليل ستكتشف لماذا يعتبر التحكم في مستوى **slide zoom powerpoint** مهمًا، وكيفية تكوينه باستخدام Aspose.Slides Java API، وكيفية حفظ الملف المحدث كملف PPTX.
+في هذا الدليل ستتعلم **كيفية تعيين التكبير** لشرائح PowerPoint باستخدام Aspose.Slides for Java. التحكم في مستوى تكبير الشريحة في PowerPoint يتيح لك تقديم عرض ثابت وقابل للقراءة سواء كان الجمهور يستخدم حاسوبًا محمولًا أو جهاز عرض شاشة كبيرة. سنغطي الاعتماد المطلوب من Maven لـ Aspose Slides، وكيفية تعيين مستويات التكبير لكل من عرض الشريحة وعرض الملاحظات إلى 100 ٪، وكيفية حفظ الملف المحدث كملف PPTX.
 
-سنتناول:
+ستمر عبر:
 - تهيئة عرض تقديمي PowerPoint باستخدام Aspose.Slides
-- ضبط مستوى تكبير عرض الشريحة إلى 100٪
-- ضبط مستوى تكبير عرض الملاحظات إلى 100٪
+- تعيين مستوى تكبير عرض الشريحة إلى 100 ٪
+- ضبط مستوى تكبير عرض الملاحظات إلى 100 ٪
 - حفظ التعديلات بصيغة PPTX
 
-لنبدأ بتأكيد المتطلبات المسبقة.
+لنؤكد المتطلبات المسبقة قبل أن نبدأ.
 
 ## إجابات سريعة
-- **What does “set slide zoom PowerPoint” do?** يحدد مقياس العرض المرئي للشرائح أو الملاحظات، مما يضمن أن جميع المحتوى يتناسب مع العرض.
-- **Which library version is required?** Aspose.Slides للـ Java 25.4 (أو أحدث).
-- **Do I need a Maven dependency?** نعم – أضف تبعية Maven Aspose Slides إلى ملف `pom.xml` الخاص بك.
-- **Can I change the zoom to a custom value?** بالتأكيد؛ استبدل `100` بأي نسبة مئوية صحيحة.
-- **Is a license required for production?** نعم، يلزم وجود ترخيص Aspose.Slides صالح للحصول على الوظائف الكاملة.
+- **ما هو فعل “set slide zoom PowerPoint”?** يحدد مقياس العرض المرئي للشرائح أو الملاحظات، مما يضمن أن جميع المحتويات تتناسب مع العرض.  
+- **ما نسخة المكتبة المطلوبة؟** Aspose.Slides for Java 25.4 (أو أحدث).  
+- **هل أحتاج إلى اعتماد Maven؟** نعم – أضف اعتماد Maven Aspose Slides إلى ملف `pom.xml` الخاص بك.  
+- **هل يمكنني تغيير التكبير إلى قيمة مخصصة؟** بالتأكيد؛ استبدل `100` بأي نسبة مئوية صحيحة.  
+- **هل الترخيص مطلوب للإنتاج؟** نعم، يلزم وجود ترخيص Aspose.Slides صالح للحصول على الوظائف الكاملة.
 
 ## ما هو “slide zoom PowerPoint”؟
-تحديد تكبير الشريحة في PowerPoint يحدد المقياس الذي تُعرض به الشريحة أو ملاحظاتها. من خلال التحكم برمجيًا في هذه القيمة، تضمن أن كل عنصر في عرضك التقديمي يكون مرئيًا بالكامل، وهو أمر مفيد بشكل خاص في سيناريوهات إنشاء الشرائح تلقائيًا أو المعالجة الدفعية.
+تعيين تكبير الشريحة في PowerPoint يحدد المقياس الذي تُعرض به الشريحة أو ملاحظاتها. من خلال التحكم برمجياً في هذه القيمة، تضمن أن كل عنصر في عرضك التقديمي مرئي بالكامل، وهو أمر مفيد بشكل خاص في سيناريوهات إنشاء الشرائح تلقائيًا أو المعالجة الدفعية.
 
 ## لماذا يعتبر تعيين تكبير الشريحة في PowerPoint مهمًا؟
-- **Consistent visual experience** – يرى الجمهور بالضبط ما تقصده، بغض النظر عن حجم الشاشة.
-- **Improved readability** – المحتوى كبير الحجم يلغي الحاجة إلى التكبير اليدوي أثناء العرض الحي.
-- **Automation‑ready** – عند إنشاء العروض بسرعة، يمكنك ضمان فتح كل شريحة بالمقياس المثالي.
+يضمن تعيين تكبير الشريحة في PowerPoint تجربة بصرية متسقة عبر الأجهزة، ويحسن قابلية القراءة بإلغاء الحاجة إلى التكبير اليدوي، ويتيح أتمتة موثوقة عند إنشاء العروض بسرعة. عندما يكون مستوى التكبير محددًا مسبقًا، لا يحتاج المقدمون إلى تعديل العرض أثناء الجلسة الحية، مما يقلل من التشتيت. كما يضمن أن المخططات والرسوم البيانية والنصوص تحتفظ بنسبها المقصودة، مما يجعل العرض يبدو احترافيًا على أي شاشة.
 
-## لماذا تستخدم Aspose.Slides للـ Java؟
-توفر Aspose.Slides واجهة برمجة تطبيقات pure‑Java تعمل دون الحاجة إلى تثبيت Microsoft Office. تتيح لك تعديل العروض التقديمية، وضبط خصائص العرض، وتصديرها إلى صيغ متعددة — كل ذلك من كود على جانب الخادم. كما أن المكتبة تتكامل بسلاسة مع أدوات البناء مثل Maven، مما يجعل إدارة التبعيات سهلة.
+## لماذا تستخدم Aspose.Slides for Java؟
+توفر Aspose.Slides for Java واجهة برمجة تطبيقات Java صافية تعمل دون الحاجة إلى تثبيت Microsoft Office. تدعم **أكثر من 50 تنسيقًا للإدخال والإخراج**، وتعالج عروضًا تقديمية مئات الصفحات دون تحميل الملف بالكامل إلى الذاكرة، وتتكامل بسلاسة مع Maven، مما يجعل إدارة الاعتمادات بسيطة. كما تقدم المكتبة عرضًا عالي الأداء، مما يتيح لك تحويل الشرائح إلى صور أو ملفات PDF بسرعة، وتدعم ميزات متقدمة مثل الرسوم المتحركة والمخططات وSmartArt.
 
 ## المتطلبات المسبقة
-- **Required Libraries**: Aspose.Slides للـ Java الإصدار 25.4
-- **Environment Setup**: مجموعة تطوير Java (JDK) متوافقة مع JDK 16
-- **Knowledge**: فهم أساسي لبرمجة Java ومعرفة بهياكل ملفات PowerPoint.
+- **المكتبات المطلوبة**: Aspose.Slides for Java الإصدار 25.4 (أو أحدث)  
+- **البيئة**: JDK 16 أو أحدث  
+- **المعرفة**: برمجة Java الأساسية ومعرفة بهياكل ملفات PowerPoint  
 
-## إعداد Aspose.Slides للـ Java
+## إعداد Aspose.Slides for Java
 ### معلومات التثبيت
-**Maven**  أضف التبعية التالية إلى ملف `pom.xml` الخاص بك:
+**Maven**  
+أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -68,22 +117,24 @@ weight: 1
 </dependency>
 ```
 
-**Gradle**  أدرج هذا في ملف `build.gradle` الخاص بك:
+**Gradle**  
+أدرج هذا في ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direct Download**  لأولئك الذين لا يستخدمون Maven أو Gradle، قم بتحميل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direct download**  
+للذين لا يستخدمون Maven أو Gradle، قم بتنزيل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### الحصول على الترخيص
 لاستغلال إمكانيات Aspose.Slides بالكامل:
-- **Free Trial**: ابدأ برخصة مؤقتة لاستكشاف الميزات.
-- **Temporary License**: احصل على واحدة بزيارة [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/) للحصول على وصول كامل دون قيود خلال فترة التجربة.
-- **Purchase**: للاستخدام طويل الأمد، اشترِ ترخيصًا من [Aspose website](https://purchase.aspose.com/buy).
+- **تجربة مجانية** – ابدأ برخصة مؤقتة لاستكشاف الميزات.  
+- **رخصة مؤقتة** – احصل عليها عبر [صفحة الترخيص المؤقتة من Aspose](https://purchase.aspose.com/temporary-license/) للاستخدام التجريبي غير المقيد.  
+- **شراء** – اشترِ رخصة من [موقع Aspose](https://purchase.aspose.com/buy) للنشر في بيئات الإنتاج.
 
 ### التهيئة الأساسية
-لتهيئة Aspose.Slides في تطبيق Java الخاص بك:
+تمثل الفئة `Presentation` ملف PowerPoint في الذاكرة وتوفر الوصول إلى خصائص العرض، ومجموعات الشرائح، وأكثر. لتهيئة Aspose.Slides في تطبيق Java الخاص بك:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -92,14 +143,15 @@ Presentation presentation = new Presentation();
 ```
 
 ## دليل التنفيذ
-هذا القسم يشرح لك كيفية ضبط مستويات التكبير باستخدام Aspose.Slides.
+يوضح لك هذا القسم كيفية تعيين مستويات التكبير باستخدام Aspose.Slides.
 
 ### كيفية تعيين تكبير الشريحة في PowerPoint – عرض الشريحة
-تأكد من أن الشريحة بالكامل مرئية عن طريق ضبط مستوى تكبيرها إلى 100٪.
+حمّل العرض التقديمي، عيّن تكبير عرض الشريحة إلى النسبة المطلوبة، ثم احفظ.
 
-#### تنفيذ خطوة بخطوة
-**1. إنشاء Presentation**  
-إنشاء نسخة جديدة من `Presentation`:
+**الإجابة المباشرة:** استدعِ `presentation.getViewProperties().getSlideViewProperties().setScale(100)` على كائن `Presentation`، ثم احفظ الملف باستخدام `presentation.save("output.pptx", SaveFormat.Pptx)`. يضمن هذا النهج المكوّن من خطوتين أن يفتح عرض الشريحة عند تكبير 100 ٪.
+
+#### الخطوة 1: إنشاء كائن العرض التقديمي
+أنشئ مثيلًا جديدًا من `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -111,17 +163,17 @@ public class SetZoomFeature {
         Presentation presentation = new Presentation();
 ```
 
-**2. ضبط مستوى تكبير الشريحة**  
-استخدم طريقة `setScale()` لتعيين مستوى التكبير:
+#### الخطوة 2: ضبط مستوى تكبير الشريحة
+`setScale(int percent)` يحدد مستوى التكبير لعرض الشريحة كنسبة مئوية من الحجم الأصلي.
 
 ```java
 // Set slide view zoom to 100%
 presentation.getViewProperties().getSlideViewProperties().setScale(100);
-```
-*Why this step?* ضبط المقياس يضمن أن جميع المحتوى يتناسب مع المنطقة المرئية، مما يعزز الوضوح والتركيز.
+```  
+*لماذا هذه الخطوة؟* يضمن ضبط المقياس أن جميع عناصر الشريحة تتناسب مع المنطقة المرئية، مما يلغي الحاجة إلى تعديلات يدوية أثناء العرض الحي.
 
-**3. حفظ Presentation**  
-اكتب التغييرات مرة أخرى إلى ملف:
+#### الخطوة 3: حفظ العرض التقديمي
+اكتب التغييرات مرة أخرى إلى ملف PPTX:
 
 ```java
 // Save with PPTX format
@@ -130,73 +182,82 @@ try {
 } finally {
     if (presentation != null) presentation.dispose();
 }
-```
-*Why save in PPTX?* هذا التنسيق يحتفظ بجميع التحسينات وهو مدعوم على نطاق واسع.
+```  
+*لماذا الحفظ بصيغة PPTX؟* يحتفظ PPTX بجميع إعدادات العرض وهو مدعوم على نطاق واسع من قبل أدوات العرض الحديثة.
 
 ### كيفية تعيين تكبير الشريحة في PowerPoint – عرض الملاحظات
-وبالمثل، اضبط عرض الملاحظات لضمان رؤية كاملة:
+ضبط عرض الملاحظات بحيث يتم عرض ملاحظات المقدم أيضًا بالمقياس الصحيح.
 
-**1. ضبط مستوى تكبير الملاحظات**
+**الإجابة المباشرة:** استدعِ `presentation.getViewProperties().getNotesViewProperties().setScale(100)` قبل الحفظ؛ هذا يطابق تكبير عرض الملاحظات مع عرض الشريحة.
+
+#### ضبط تكبير الملاحظات
+`setScale(int percent)` يحدد مستوى التكبير لعرض الملاحظات كنسبة مئوية من الحجم الأصلي.
 
 ```java
 // Set notes view zoom to 100%
 presentation.getViewProperties().getNotesViewProperties().setScale(100);
-```
-*Why this step?* مستوى تكبير متسق عبر الشرائح والملاحظات يوفر تجربة عرض سلسة.
+```  
+*لماذا هذه الخطوة؟* يضمن التكبير المتسق عبر الشرائح والملاحظات تجربة سلسة للمقدمين الذين ينتقلون بين العروض.
 
 ## التطبيقات العملية
-إليك بعض حالات الاستخدام الواقعية:
-1. **Educational Presentations** – ضمان أن كل مخطط أو نقطة تعداد مرئية بالكامل للمتعلمين.
-2. **Business Meetings** – الحفاظ على التركيز على المقاييس الرئيسية دون الحاجة إلى التكبير اليدوي.
-3. **Remote Work Conferences** – الرؤية الواضحة تمكّن من تحسين التعاون للفرق الموزعة.
+سيناريوهات واقعية حيث يكون تعديل التكبير ذا قيمة:
+1. **العروض التعليمية** – ضمان أن تكون المخططات والمعادلات مرئية بالكامل للمتعلمين.  
+2. **اجتماعات الأعمال** – الحفاظ على قابلية قراءة المقاييس الرئيسية دون الحاجة إلى التكبير اليدوي.  
+3. **المؤتمرات عن بُعد** – ضمان أن جميع المشاركين يرون نفس العرض، مما يقلل من سوء التواصل.
 
 ## اعتبارات الأداء
-للحفاظ على سرعة تطبيق Java الخاص بك عند استخدام Aspose.Slides:
-- **Memory Management** – تخلص من كائنات `Presentation` بسرعة لتحرير الموارد.
-- **Efficient Scaling** – اضبط مستويات التكبير فقط عند الحاجة لتقليل وقت المعالجة.
-- **Batch Processing** – عند معالجة العديد من العروض، قم بمعالجتها على دفعات لتقليل الحمل.
+للحفاظ على استجابة تطبيق Java الخاص بك عند استخدام Aspose.Slides:
+- **إدارة الذاكرة** – استدعِ `presentation.dispose()` بمجرد الانتهاء لتحرير الموارد.  
+- **التكبير الفعال** – غير مستويات التكبير فقط عند الحاجة؛ المكالمات غير الضرورية تضيف عبئًا.  
+- **المعالجة الدفعية** – عالج عدة عروض تقديمية دفعةً لتقليل وقت إحماء JVM.
 
 ## المشكلات الشائعة والحلول
-- **Presentation won’t save** – تحقق من أذونات الكتابة للمجلد المستهدف وتأكد من عدم قفل الملف من قبل عملية أخرى.
-- **Zoom value seems ignored** – تأكد من أنك تستدعي `getViewProperties()` على نفس نسخة `Presentation` قبل الحفظ.
-- **Out‑of‑memory errors** – استخدم `presentation.dispose()` داخل كتلة `finally` (كما هو موضح) وفكّر في معالجة العروض الكبيرة على أجزاء أصغر.
+- **العرض لا يمكن حفظه** – تحقق من أذونات الكتابة للمجلد المستهدف وتأكد من عدم قفل الملف من عملية أخرى.  
+- **قيمة التكبير تبدو متجاهلة** – تأكد من أنك تصل إلى `getViewProperties()` على نفس كائن `Presentation` قبل استدعاء `save()`.  
+- **أخطاء نفاد الذاكرة** – استدعِ `presentation.dispose()` داخل كتلة `finally` وفكر في معالجة العروض الكبيرة على أجزاء أصغر.
 
 ## الأسئلة المتكررة
-**Q:** هل يمكنني تعيين مستويات تكبير مخصصة غير 100٪؟  
-**A:** نعم، يمكنك تحديد أي قيمة صحيحة في طريقة `setScale()` لتخصيص مستوى التكبير وفقًا لاحتياجاتك.
 
-**Q:** ماذا لو لم يتم حفظ العرض التقديمي بشكل صحيح؟  
-**A:** تأكد من أن لديك أذونات كتابة للمجلد المحدد وأنه لا يوجد ملف مقفل من قبل عملية أخرى.
+**س: هل يمكنني تعيين مستويات تكبير مخصصة غير 100 ٪؟**  
+ج: نعم، مرّر أي نسبة مئوية صحيحة إلى `setScale()` لتتناسب مع متطلبات التخطيط الخاصة بك.
 
-**Q:** كيف يمكنني التعامل مع العروض التقديمية التي تحتوي على بيانات حساسة باستخدام Aspose.Slides؟  
-**A:** احرص دائمًا على الالتزام بلوائح حماية البيانات عند معالجة الملفات، خاصة في البيئات المشتركة.
+**س: ماذا لو لم يتم حفظ العرض التقديمي بشكل صحيح؟**  
+ج: تحقق من أذونات الكتابة للمجلد وتأكد من أن الملف غير مقفل من قبل تطبيق آخر.
 
-**Q:** هل تدعم تبعية Maven Aspose Slides إصدارات JDK أخرى؟  
-**A:** المصنف `jdk16` يستهدف JDK 16، لكن Aspose توفر مصنفات لإصدارات JDK الأخرى المدعومة — اختر المصنف المتوافق مع بيئتك.
+**س: كيف أتعامل مع العروض التقديمية التي تحتوي على بيانات حساسة باستخدام Aspose.Slides؟**  
+ج: عالج الملفات في بيئة آمنة، طبق التشفير إذا لزم الأمر، وامتثل للوائح حماية البيانات ذات الصلة.
 
-**Q:** هل يمكنني تطبيق نفس إعدادات التكبير على عدة عروض تقديمية تلقائيًا؟  
-**A:** نعم، غلف الكود داخل حلقة تقوم بتحميل كل عرض تقديمي، وضبط المقياس، وحفظ الملف.
+**س: هل يدعم اعتماد Maven Aspose Slides إصدارات JDK أخرى؟**  
+ج: المصنف `jdk16` يستهدف JDK 16، لكن Aspose توفر مصنفات لـ JDK 8، 11، 17، و 21—اختر ما يتطابق مع بيئة تشغيلك.
+
+**س: هل يمكنني تطبيق نفس إعدادات التكبير على عدة عروض تقديمية تلقائيًا؟**  
+ج: نعم، ضع الكود داخل حلقة تقوم بتحميل كل عرض تقديمي، تعيين المقياس، وحفظ الملف.
 
 ## الموارد
-- **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)
-- **Download**: [Latest Release](https://releases.aspose.com/slides/java/)
-- **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)
-- **Free Trial**: [Get Started](https://releases.aspose.com/slides/java/)
-- **Temporary License**: [Apply Here](https://purchase.aspose.com/temporary-license/)
-- **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
+- **الوثائق**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
+- **التنزيل**: [Latest Release](https://releases.aspose.com/slides/java/)  
+- **شراء الترخيص**: [Buy Now](https://purchase.aspose.com/buy)  
+- **تجربة مجانية**: [Get Started](https://releases.aspose.com/slides/java/)  
+- **رخصة مؤقتة**: [Apply Here](https://purchase.aspose.com/temporary-license/)  
+- **منتدى الدعم**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
 
-استكشف هذه الموارد لتعميق فهمك وتعزيز عروض PowerPoint الخاصة بك باستخدام Aspose.Slides للـ Java. تقديمًا سعيدًا!
+استكشف هذه الموارد لتعميق فهمك وتعزيز عروض PowerPoint الخاصة بك باستخدام Aspose.Slides for Java. تقديم موفق!
 
 ---
 
-**Last Updated:** 2026-04-12  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose
+**Last Updated:** 2026-10-08  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**المؤلف:** Aspose
+
+## الدروس ذات الصلة
+
+- [كيفية تغيير عرض شريحة Master في PowerPoint برمجيًا باستخدام Aspose.Slides for Java](/slides/java/animations-transitions/set-presentation-view-type-aspose-slides-java/)
+- [إنشاء صور مصغرة لملاحظات شرائح PowerPoint باستخدام Aspose.Slides for Java](/slides/java/headers-footers-notes/create-powerpoint-slide-notes-thumbnail-aspose-slides-java/)
+- [كيفية تحويل شريحة PowerPoint إلى PDF مع الملاحظات باستخدام Aspose.Slides for Java](/slides/java/presentation-operations/convert-powerpoint-slide-to-pdf-notes-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
