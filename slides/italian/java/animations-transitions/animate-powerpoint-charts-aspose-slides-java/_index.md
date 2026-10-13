@@ -1,51 +1,99 @@
 ---
-date: '2026-04-22'
-description: Scopri come creare presentazioni PowerPoint animate con Java e animare
-  i grafici PowerPoint utilizzando Aspose.Slides per Java.
+date: '2026-10-13'
+description: Come animare i grafici ppt con Java usando Aspose.Slides – guida passo‑passo
+  per aggiungere animazioni alle presentazioni PowerPoint.
 keywords:
-- create animated powerpoint java
+- how to animate ppt
+- add animation to pptx
+- how to animate chart
+- add chart animation
 - chart animation with java
-- animate PowerPoint chart Java
-- Aspose Slides Java
-title: Crea PowerPoint animato in Java – Anima i grafici PowerPoint con Aspose.Slides
+lastmod: '2026-10-13'
+og_description: Come animare i grafici ppt con Java usando Aspose.Slides – impara
+  ad aggiungere animazioni ai file PowerPoint in pochi minuti.
+og_image_alt: Guide showing animated PowerPoint chart creation with Java and Aspose.Slides
+og_title: Come animare i grafici ppt con Java usando Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-10-13'
+  description: How to animate ppt charts with Java using Aspose.Slides – step‑by‑step
+    guide to add animation to PowerPoint presentations.
+  headline: How to animate ppt charts with Java using Aspose.Slides
+  type: TechArticle
+- description: How to animate ppt charts with Java using Aspose.Slides – step‑by‑step
+    guide to add animation to PowerPoint presentations.
+  name: How to animate ppt charts with Java using Aspose.Slides
+  steps:
+  - name: load the presentation
+    text: First, create a `Presentation` object that points to your existing PPTX
+      file.
+  - name: access the target slide and chart
+    text: Navigate to the slide that contains the chart and retrieve the chart shape.
+      The chart is represented by the `IChart` interface, which provides access to
+      series and data points.
+  - name: add animation effects to the chart
+    text: Now we’ll add a fade‑in for the whole chart and then animate each data point
+      individually. Animation effects are added via the slide's `ITimeline` and `ISequence`
+      objects.
+  - name: save the modified presentation
+    text: 'Finally, write the animated presentation back to disk. Use `presentation.save(outputPath,
+      SaveFormat.Pptx)` to write the file. Don’t forget to release resources:'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java (v25.4 or later) – the leading API for **chart
+      animation with Java**.
+    question: What library do I need?
+  - answer: Yes – each series or data point can receive its own effect for fine‑grained
+      control.
+    question: Can I animate individual chart series?
+  - answer: A free trial works for testing; a full license is required for production
+      deployments.
+    question: Do I need a license for development?
+  - answer: Java 16 or newer.
+    question: Which JDK version is required?
+  - answer: Most developers finish a basic chart animation in under 15 minutes.
+    question: How long does implementation take?
+  type: FAQPage
+tags:
+- animate ppt
+- Aspose.Slides
+- Java chart animation
+- PowerPoint automation
+title: Come animare i grafici ppt con Java usando Aspose.Slides
 url: /it/java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crea presentazioni PowerPoint animate Java – Anima i grafici PowerPoint con Aspose.Slides
-## Come creare presentazioni PowerPoint animate Java: Guida passo‑passo
-### Introduzione
-Stai cercando di **creare presentazioni PowerPoint animate Java** che catturino l'attenzione con animazioni vivaci dei grafici? Con **Aspose.Slides for Java**, aggiungere movimento agli elementi dei grafici è semplice e potente. Che tu sia uno sviluppatore che automatizza la generazione di report o un analista dati che perfeziona una presentazione, questo tutorial ti mostra esattamente come animare i grafici PowerPoint e offrire una storia più coinvolgente.
 
-Nei prossimi minuti, vedremo come caricare un PPTX esistente, accedere a diapositive e forme, applicare effetti di animazione alle serie del grafico e infine salvare il file migliorato. Alla fine, sarai pronto a **aggiungere animazione ai grafici PowerPoint** a qualsiasi presentazione.
+# Come animare i grafici ppt con Java usando Aspose.Slides
+
+## Come creare presentazioni PowerPoint Java animate: una guida passo‑passo
+### Introduzione
+Se hai bisogno di **how to animate ppt** presentazioni in modo programmatico, Aspose.Slides per Java ti offre il pieno controllo sul movimento dei grafici, le transizioni delle diapositive e la sequenza degli oggetti. Che tu generi deck finanziari giornalieri da un flusso di dati o crei una presentazione di vendita raffinata al volo, questo tutorial ti guida attraverso il caricamento di un PPTX esistente, la selezione delle serie del grafico, l'applicazione degli effetti di animazione e il salvataggio del file animato finale. Alla fine sarai pronto ad aggiungere animazioni ai file pptx con poche righe di codice Java.
 
 ## Risposte rapide
-- **Quale libreria mi serve?** Aspose.Slides for Java (v25.4 o successiva) – la soluzione di riferimento per **animazione di grafici con Java**.  
-- **Posso animare serie di grafico individuali?** Sì – puoi mirare a ciascun elemento di una serie per un controllo dettagliato.  
-- **È necessaria una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è richiesta una licenza completa per la produzione.  
-- **Quale versione di JDK è richiesta?** Java 16 o successiva.  
-- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 15 minuti per un'animazione di grafico di base.
+- **Quale libreria mi serve?** Aspose.Slides for Java (v25.4 or later) – the leading API for **chart animation with Java**.  
+- **Posso animare singole serie di grafico?** Yes – each series or data point can receive its own effect for fine‑grained control.  
+- **Ho bisogno di una licenza per lo sviluppo?** A free trial works for testing; a full license is required for production deployments.  
+- **Quale versione di JDK è richiesta?** Java 16 or newer.  
+- **Quanto tempo richiede l'implementazione?** Most developers finish a basic chart animation in under 15 minutes.
 
-## Cos'è “creare PowerPoint animato Java”?
-Indica la generazione o la modifica programmatica di file PowerPoint (.pptx) in Java e l'applicazione di effetti di animazione a elementi visivi come grafici, forme o testo. Con Aspose.Slides, puoi controllare completamente la timeline dell'animazione senza mai aprire manualmente PowerPoint.
+## Cos'è “create animated PowerPoint Java”?
+Il termine si riferisce alla generazione o modifica programmatica di file PowerPoint (.pptx) in Java e all'applicazione di effetti di animazione a elementi visivi come grafici, forme o testo. Con Aspose.Slides, puoi controllare completamente la timeline dell'animazione senza aprire manualmente PowerPoint, consentendo la generazione automatizzata di report su larga scala.
 
 ## Perché animare i grafici PowerPoint?
-- **Aumentare il coinvolgimento del pubblico** – Il movimento attira l'occhio sui punti dati chiave.  
-- **Chiarire le tendenze dei dati** – Rivelazioni sequenziali aiutano a spiegare i cambiamenti passo‑passo.  
-- **Automatizzare i report** – Genera presentazioni animate al volo dai flussi di dati.
+Aggiungere movimento agli elementi del grafico cattura immediatamente l'attenzione del pubblico e chiarisce le tendenze dei dati. Un fade‑in seguito da rivelazioni sequenziali dei punti dati guida gli spettatori attraverso informazioni complesse, riduce il carico cognitivo e rende i deck automatizzati così curati come quelli realizzati manualmente. In ambienti di reporting su larga scala, l'animazione differenzia inoltre il tuo output dai PDF statici, aumentando il coinvolgimento degli stakeholder.
 
 ## Prerequisiti
-- **Java Development Kit** 16 o successivo installato.  
-- **Libreria Aspose.Slides for Java** (aggiungi via Maven o Gradle).  
+- **Java Development Kit** 16 or newer installed.  
+- **Aspose.Slides for Java** library (add via Maven or Gradle).  
 - Un file PowerPoint di esempio contenente almeno un grafico (ad es., `ExistingChart.pptx`).  
 
 ### Librerie richieste
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,26 +103,26 @@ Indica la generazione o la modifica programmatica di file PowerPoint (.pptx) in 
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Puoi anche scaricare l'ultimo JAR dalla pagina ufficiale dei rilasci:  
+Puoi anche scaricare l'ultimo JAR dalla pagina ufficiale delle release:  
 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Opzioni di licenza
-- **Prova gratuita** – Nessun file di licenza richiesto per la valutazione.  
-- **Licenza temporanea** – Ideale per test a breve termine ([ottieni una qui](https://purchase.aspose.com/temporary-license/)).  
-- **Licenza completa** – Necessaria per il deployment commerciale.
+## Opzioni di licenza
+- **Free trial** – Nessun file di licenza richiesto per la valutazione.  
+- **Temporary license** – Ideale per test a breve termine ([obtain a temporary license](https://purchase.aspose.com/temporary-license/)).  
+- **Full license** – Necessaria per il deployment commerciale.
 
-## Come implementare l'animazione di grafici con Java
-Prima di immergerti nel codice passo‑passo, è utile capire il processo in due fasi: prima aggiungi un **fade‑in** per l'intero grafico, poi animi ogni punto dati (o elemento della serie) individualmente. Questo approccio fornisce un ingresso fluido seguito da una rivelazione dettagliata, modello comune nelle presentazioni professionali.
+## Come implementare l'animazione dei grafici con Java
+Aggiungi un fade‑in per l'intero grafico, quindi anima ogni elemento della serie singolarmente. Questo approccio a due fasi crea un ingresso fluido seguito da una rivelazione dettagliata, un modello ampiamente usato nei deck professionali.
 
-## Implementazione passo‑passo
+Carica la presentazione, individua il grafico, allega gli effetti di animazione e infine salva il file. I passaggi seguenti mostrano le chiamate API esatte di cui hai bisogno.
 
-### Passo 1: Caricare la presentazione
-Crea un oggetto `Presentation` che punti al tuo file PPTX esistente.
+### Passo 1: caricare la presentazione
+First, create a `Presentation` object that points to your existing PPTX file.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -83,8 +131,9 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-### Passo 2: Accedere alla diapositiva e al grafico target
-Naviga alla diapositiva che contiene il grafico e recupera la forma del grafico.
+### Passo 2: accedere alla diapositiva e al grafico di destinazione
+Navigate to the slide that contains the chart and retrieve the chart shape.  
+The chart is represented by the `IChart` interface, which provides access to series and data points.
 
 ```java
 import com.aspose.slides.ISlide;
@@ -95,8 +144,9 @@ IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0); // Assumes the first shape is a chart
 ```
 
-### Passo 3: Aggiungere effetti di animazione al grafico
-Ora aggiungeremo un fade‑in per l'intero grafico e poi animiamo ogni punto dati individualmente.
+### Passo 3: aggiungere effetti di animazione al grafico
+Now we’ll add a fade‑in for the whole chart and then animate each data point individually.  
+Animation effects are added via the slide's `ITimeline` and `ISequence` objects.
 
 ```java
 import com.aspose.slides.IEffect;
@@ -132,8 +182,9 @@ for (int[] indices : table) {
 }
 ```
 
-### Passo 4: Salvare la presentazione modificata
-Infine, scrivi la presentazione animata su disco.
+### Passo 4: salvare la presentazione modificata
+Finally, write the animated presentation back to disk.  
+Use `presentation.save(outputPath, SaveFormat.Pptx)` to write the file.
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -149,38 +200,38 @@ presentation.dispose();
 ```
 
 ## Applicazioni pratiche
-- **Report aziendali:** Trasforma i grafici finanziari statici in storie animate che guidano i dirigenti attraverso le metriche chiave.  
-- **Diapositive educative:** Rivela le tendenze passo‑passo per aiutare gli studenti a comprendere dati complessi.  
-- **Presentazioni di vendita:** Evidenzia picchi di performance con animazioni accattivanti durante le pitch.
+- **Business reports:** Trasforma i grafici finanziari statici in storie animate che guidano i dirigenti attraverso le metriche chiave.  
+- **Educational slides:** Rivela le tendenze passo‑passo per aiutare gli studenti a comprendere dati complessi.  
+- **Sales decks:** Evidenzia i picchi di performance con animazioni accattivanti durante le presentazioni.
 
-## Consigli sulle prestazioni
-- **Disporre rapidamente:** Chiama sempre `presentation.dispose()` per liberare la memoria nativa.  
-- **Limitare il numero di animazioni:** Un uso eccessivo può aumentare le dimensioni del file e i tempi di rendering.  
-- **Testare sui dispositivi target:** Verifica che le animazioni funzionino senza problemi sulle versioni di PowerPoint usate dal tuo pubblico.
+## Suggerimenti sulle prestazioni
+- **Dispose promptly:** Always call `presentation.dispose()` to free native memory.  
+- **Limit animation count:** L'uso eccessivo di effetti può aumentare le dimensioni del file e il tempo di rendering.  
+- **Test on target devices:** Verifica che le animazioni funzionino senza problemi sulle versioni di PowerPoint utilizzate dal tuo pubblico.
 
 ## Problemi comuni e soluzioni
-| Problema | Perché accade | Come risolvere |
+| Problema | Perché succede | Come risolvere |
 |----------|----------------|----------------|
-| Le animazioni non compaiono in PowerPoint | La timeline non è stata confermata perché `mainSequence` non è stato recuperato dalla diapositiva corretta. | Assicurati di chiamare `slide.getTimeline().getMainSequence()` **dopo** aver aggiunto tutti gli effetti. |
-| Le dimensioni del file aumentano notevolmente | Ogni effetto `Appear` aggiunge metadati. | Usa solo gli effetti essenziali e valuta di raggruppare le serie quando possibile. |
-| NullPointerException su `chart` | La prima forma non è un grafico. | Itera su `slide.getShapes()` e verifica `shape instanceof IChart` prima del cast. |
+| Le animazioni non appaiono in PowerPoint | La timeline non è stata confermata perché `mainSequence` non è stato recuperato dalla diapositiva corretta. | Assicurati di chiamare `slide.getTimeline().getMainSequence()` **dopo** aver aggiunto tutti gli effetti. |
+| La dimensione del file aumenta notevolmente | Ogni effetto `Appear` aggiunge metadati. | Usa solo gli effetti essenziali e considera di raggruppare le serie quando possibile. |
+| NullPointerException su `chart` | La prima forma non è un grafico. | Itera attraverso `slide.getShapes()` e verifica `shape instanceof IChart` prima del cast. |
 
 ## Domande frequenti
 
-**D:** *Posso animare i grafici senza scrivere codice Java?*  
-**R:** Sì, PowerPoint offre strumenti di animazione manuali, ma usare Aspose.Slides for Java ti consente di automatizzare il processo e generare molte presentazioni programmaticamente.
+**Q:** *Posso animare i grafici senza scrivere codice Java?*  
+**A:** Sì, l'interfaccia di PowerPoint offre strumenti di animazione manuali, ma Aspose.Slides per Java ti consente di automatizzare il processo e generare molte presentazioni in modo programmatico.
 
-**D:** *Cosa succede se la mia presentazione contiene più grafici?*  
-**R:** Scorri `slide.getShapes()` e controlla il tipo di ogni forma. Applica la stessa logica di animazione a ciascun `IChart` trovato.
+**Q:** *E se la mia presentazione contiene più grafici?*  
+**A:** Itera attraverso `slide.getShapes()` e controlla il tipo di ogni forma. Applica la stessa logica di animazione a ogni `IChart` che trovi.
 
-**D:** *Ci sono limiti al numero di animazioni per diapositiva?*  
-**R:** Tecnicamente no, ma animazioni eccessive possono rallentare il rendering e aumentare le dimensioni del file. Punta alla chiarezza piuttosto che alla quantità.
+**Q:** *Ci sono limiti al numero di animazioni per diapositiva?*  
+**A:** Tecnicamente no, ma animazioni eccessive possono rallentare il rendering e ingrandire il file. Punta alla chiarezza piuttosto che alla quantità.
 
-**D:** *La libreria supporta formati PowerPoint più vecchi (*.ppt)?*  
-**R:** Sì, Aspose.Slides può leggere e scrivere sia file `.ppt` che `.pptx`, anche se alcune funzionalità di animazione più recenti potrebbero essere limitate nel formato più vecchio.
+**Q:** *La libreria supporta i formati PowerPoint più vecchi (*.ppt)?*  
+**A:** Sì, Aspose.Slides legge e scrive sia file `.ppt` che `.pptx`, sebbene alcune funzionalità di animazione più recenti possano essere limitate nel formato più vecchio.
 
-**D:** *Il codice è compatibile con container Linux?*  
-**R:** Assolutamente. Finché disponi di un JDK compatibile e del JAR Aspose.Slides, il codice funziona su qualsiasi OS che supporti Java.
+**Q:** *Il codice è compatibile con i container Linux?*  
+**A:** Assolutamente. Finché disponi di un JDK compatibile e del JAR di Aspose.Slides, il codice funziona su qualsiasi OS che supporta Java.
 
 ## Risorse
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
@@ -188,14 +239,20 @@ presentation.dispose();
 
 ---
 
-**Ultimo aggiornamento:** 2026-04-22  
+**Ultimo aggiornamento:** 2026-10-13  
 **Testato con:** Aspose.Slides 25.4 for Java  
 **Autore:** Aspose
+
+## Tutorial correlati
+
+- [Crea Powerpoint Java dinamico – Guida ai tipi di animazione Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [Come animare PowerPoint con Aspose.Slides in Java – Carica e anima presentazioni senza sforzo](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [Come aggiungere un grafico a PowerPoint usando Aspose.Slides per Java: Guida passo‑passo](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
