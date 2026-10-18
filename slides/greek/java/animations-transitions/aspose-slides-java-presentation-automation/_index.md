@@ -1,33 +1,40 @@
 ---
-date: '2026-05-08'
-description: Μάθετε πώς να χρησιμοποιείτε τη βιβλιοθήκη java powerpoint για να δημιουργείτε
-  προγραμματιστικά παρουσιάσεις και να προσθέτετε μεταβάσεις με το Aspose.Slides for
-  Java.
+date: '2026-10-18'
+description: Μάθετε πώς να μετατρέψετε ppt σε pptx και να ορίσετε τη διάρκεια της
+  μετάβασης σε Java χρησιμοποιώντας το Aspose.Slides, τη κορυφαία βιβλιοθήκη java
+  powerpoint για αυτοματοποιημένες slide transitions.
 keywords:
+- convert ppt to pptx
+- create powerpoint presentation java
+- set transition duration java
 - java powerpoint library
-- how to add transitions
 - automate slide transitions
-- generate powerpoint code
-- apply animations java
+lastmod: '2026-10-18'
+og_description: Μάθετε πώς να μετατρέψετε ppt σε pptx και να ορίσετε τη διάρκεια της
+  μετάβασης σε Java χρησιμοποιώντας το Aspose.Slides, τη κορυφαία βιβλιοθήκη java
+  powerpoint για αυτοματοποιημένες slide transitions.
+og_image_alt: 'Tutorial: convert ppt to pptx and add slide transitions in Java with
+  Aspose.Slides'
+og_title: Πώς να μετατρέψετε ppt σε pptx και να προσθέσετε slide transitions σε Java
 schemas:
 - author: Aspose
-  dateModified: '2026-05-08'
-  description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  headline: 'java powerpoint library: slide transitions with Aspose.Slides'
+  dateModified: '2026-10-18'
+  description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  headline: How to convert ppt to pptx and add slide transitions in Java
   type: TechArticle
-- description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  name: 'java powerpoint library: slide transitions with Aspose.Slides'
+- description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  name: How to convert ppt to pptx and add slide transitions in Java
   steps:
-  - name: Load the Presentation
+  - name: Load the presentation
     text: '*Explanation*: The `Presentation` constructor reads the PowerPoint file
       from the supplied path, giving you a manipulable object model.'
-  - name: Apply Transitions
+  - name: Apply transitions
     text: '*Explanation*: The `SlideShowTransition` object lets you define the visual
       effect that appears when moving to the next slide. Here we set two different
       transition types for the first two slides.'
-  - name: Save the Presentation
+  - name: Save the presentation
     text: '*Explanation*: Using `SaveFormat.Pptx` ensures the output remains a standard
       PowerPoint file with all transitions intact.'
   type: HowTo
@@ -49,45 +56,51 @@ schemas:
       pricing.
     question: What licensing model should I choose for a batch processing service?
   type: FAQPage
-title: 'βιβλιοθήκη java powerpoint: μεταβάσεις διαφάνειας με Aspose.Slides'
+tags:
+- convert ppt
+- Aspose.Slides
+- Java presentation automation
+- slide transitions
+- powerpoint programming
+title: Πώς να μετατρέψετε ppt σε pptx και να προσθέσετε slide transitions σε Java
 url: /el/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Δημιουργία Παρουσίασης Προγραμματιστικά σε Java: Αυτοματοποίηση Μεταβάσεων PowerPoint με Aspose.Slides
+
+# Δημιουργία παρουσίασης προγραμματιστικά σε Java: αυτοματοποίηση μεταβάσεων PowerPoint με Aspose.Slides
 
 ## Εισαγωγή
 
-Στον σημερινό γρήγορα εξελισσόμενο επιχειρηματικό κόσμο, συχνά χρειάζεται να **δημιουργήσετε παρουσίαση προγραμματιστικά** για να ανταποκριθείτε σε στενά χρονοδιαγράμματα. Η **java powerpoint library** που παρέχεται από το Aspose.Slides for Java σας επιτρέπει να δημιουργείτε ή να τροποποιείτε αρχεία PowerPoint εξ ολοκλήρου μέσω κώδικα, εξαλείφοντας τα χειροκίνητα, επιρρεπή σε σφάλματα βήματα. Με αυτή τη βιβλιοθήκη μπορείτε να **αυτοματοποιήσετε τις μεταβάσεις PowerPoint**, να φορτώσετε υπάρχοντα αρχεία PPTX, να εφαρμόσετε προσαρμοσμένα animations και να αποθηκεύσετε το αποτέλεσμα—όλα από Java. Αυτό το tutorial σας οδηγεί μέσα από τη πλήρη ροή εργασίας, από τη ρύθμιση της βιβλιοθήκης έως την επεξεργασία πολλαπλών παρουσιάσεων σε παρτίδες.
+Στον σημερινό γρήγορα εξελισσόμενο επιχειρηματικό κόσμο, συχνά χρειάζεται να **δημιουργήσετε παρουσιάσεις PowerPoint προγραμματιστικά** για να ανταποκριθείτε σε στενά χρονοδιαγράμματα. Η **java powerpoint library** που παρέχεται από το Aspose.Slides for Java σας επιτρέπει να δημιουργείτε, να επεξεργάζεστε και **να μετατρέπετε ppt σε pptx** αρχεία εξ ολοκλήρου από κώδικα, εξαλείφοντας τα χειροκίνητα, επιρρεπή σε σφάλματα βήματα. Με αυτή τη βιβλιοθήκη μπορείτε να **αυτοματοποιήσετε τις μεταβάσεις διαφάνειας**, να φορτώσετε υπάρχοντα αρχεία PPTX, να εφαρμόσετε προσαρμοσμένες κινήσεις και να αποθηκεύσετε το αποτέλεσμα—όλα από τη Java. Αυτό το tutorial σας καθοδηγεί μέσα από τη πλήρη ροή εργασίας, από τη ρύθμιση της βιβλιοθήκης μέχρι την επεξεργασία πολλαπλών παρουσιάσεων σε παρτίδες.
 
 Στο τέλος αυτού του οδηγού θα μπορείτε να:
 
 - Φορτώσετε ένα αρχείο PPTX στην εφαρμογή Java  
-- **Java προσθέτει μεταβάσεις διαφάνειας** για μεμονωμένες διαφάνειες ή ολόκληρο το σετ  
-- Αποθηκεύσετε την τροποποιημένη παρουσίαση διατηρώντας όλο το περιεχόμενο  
-- Εφαρμόσετε την τεχνική σε σενάριο **batch process PowerPoint** για αυτοματοποίηση μεγάλης κλίμακας  
+- **Java add slide transitions** για μεμονωμένες διαφάνειες ή ολόκληρο το deck  
+- **Convert ppt to pptx** διατηρώντας όλο το περιεχόμενο και τις κινήσεις  
+- Αποθηκεύσετε την τροποποιημένη παρουσίαση με προσαρμοσμένη τιμή **set transition duration java**  
+- Εφαρμόσετε την τεχνική σε σενάριο **batch process PowerPoint** για μεγάλης κλίμακας αυτοματοποίηση  
 
 Ας ξεκινήσουμε!
 
-## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “create presentation programmatically”;** Σημαίνει τη δημιουργία ή τροποποίηση αρχείων PowerPoint μέσω κώδικα αντί της διεπαφής χρήστη.  
+## Γρήγορες απαντήσεις
+- **Τι σημαίνει “create presentation programmatically”;** Σημαίνει τη δημιουργία ή τροποποίηση αρχείων PowerPoint μέσω κώδικα αντί για το UI.  
 - **Ποια βιβλιοθήκη διαχειρίζεται την αυτοματοποίηση;** Aspose.Slides for Java, η κορυφαία java powerpoint library.  
-- **Μπορώ να εφαρμόσω μεταβάσεις σε πολλές διαφάνειες ταυτόχρονα;** Ναι – κάντε βρόχο στη συλλογή διαφανειών ή χρησιμοποιήστε batch processing.  
-- **Χρειάζομαι άδεια για παραγωγική χρήση;** Απαιτείται προσωρινή ή αγορασμένη άδεια για απεριόριστες λειτουργίες.  
+- **Μπορώ να εφαρμόσω μεταβάσεις σε πολλές διαφάνειες ταυτόχρονα;** Ναι – κάντε βρόχο στη συλλογή διαφανειών ή χρησιμοποιήστε επεξεργασία παρτίδας.  
+- **Χρειάζομαι άδεια για παραγωγική χρήση;** Απαιτείται προσωρινή ή αγορασμένη άδεια για απεριόριστες δυνατότητες.  
 - **Ποια έκδοση Java απαιτείται;** JDK 1.6 ή νεότερη (συνιστάται JDK 16 για τις τελευταίες εκδόσεις).
 
 ## Προαπαιτούμενα
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
 
-- **Aspose.Slides for Java** προστέθηκε στο έργο σας (Maven, Gradle ή χειροκίνητο JAR).  
+- **Aspose.Slides for Java** προστιθέμενο στο έργο σας (Maven, Gradle ή χειροκίνητο JAR).  
 - Περιβάλλον ανάπτυξης Java (JDK 1.6+).  
-- Βασική εξοικείωση με τη σύνταξη Java και τις αντικειμενοστραφείς έννοιες.  
+- Βασική εξοικείωση με τη σύνταξη Java και τις αντικειμενο‑προσανατολισμένες έννοιες.  
 
 ## Ρύθμιση Aspose.Slides για Java
 
@@ -108,13 +121,13 @@ weight: 1
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Άμεση Λήψη
+### Άμεση λήψη
 
-Εναλλακτικά, μπορείτε να κατεβάσετε την τελευταία έκδοση από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Εναλλακτικά, μπορείτε να κατεβάσετε την πιο πρόσφατη έκδοση από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**License Acquisition**: Η Aspose προσφέρει δωρεάν δοκιμή, προσωρινές άδειες και πλήρεις επιλογές αγοράς. Για παραγωγική χρήση, αποκτήστε μια προσωρινή άδεια ή αγοράστε μία για να αφαιρέσετε τους περιορισμούς αξιολόγησης.
+**Απόκτηση άδειας**: Η Aspose προσφέρει δωρεάν δοκιμή, προσωρινές άδειες και πλήρεις επιλογές αγοράς. Για παραγωγική χρήση, αποκτήστε μια προσωρινή άδεια ή αγοράστε μία για να αφαιρέσετε τους περιορισμούς αξιολόγησης.
 
-## Βασική Αρχικοποίηση
+## Βασική αρχικοποίηση
 
 Η κλάση `Presentation` είναι το κύριο αντικείμενο της java powerpoint library που αντιπροσωπεύει ένα αρχείο PowerPoint στη μνήμη. Μόλις η βιβλιοθήκη είναι διαθέσιμη, μπορείτε να δημιουργήσετε την κύρια κλάση:
 
@@ -127,31 +140,33 @@ Presentation presentation = new Presentation();
 
 ## Πώς να δημιουργήσετε παρουσίαση προγραμματιστικά με Aspose.Slides
 
-Φορτώστε ένα υπάρχον PPTX, εφαρμόστε τις επιθυμητές μεταβάσεις και αποθηκεύστε το ξανά—όλα σε λίγες σύντομες γραμμές κώδικα Java. Αυτό το μοτίβο λειτουργεί για επεξεργασία ενός μόνο αρχείου καθώς και για επεξεργασία δεκάδων σετ σε εργασία παρτίδας, δίνοντάς σας πλήρη έλεγχο του χρόνου διαφάνειας, των εφέ και της μορφής εξόδου.
+Φορτώστε ένα υπάρχον PPTX, εφαρμόστε τις επιθυμητές μεταβάσεις και αποθηκεύστε το ξανά—όλα σε λίγες σύντομες γραμμές κώδικα Java. Αυτό το πρότυπο λειτουργεί για επεξεργασία μεμονωμένων αρχείων καθώς και για επεξεργασία δεκάδων decks σε εργασία παρτίδας, δίνοντάς σας πλήρη έλεγχο του χρόνου διαφάνειας, των εφέ και του μορφότυπου εξόδου.
 
-### Φόρτωση Παρουσίασης
-**Overview**: Το πρώτο βήμα είναι η φόρτωση ενός υπάρχοντος αρχείου PPTX που θέλετε να τροποποιήσετε.
+### Φόρτωση παρουσίασης
+**Επισκόπηση**: Το πρώτο βήμα είναι η φόρτωση ενός υπάρχοντος αρχείου PPTX που θέλετε να τροποποιήσετε.
 
-#### Βήμα 1: Καθορίστε τον Κατάλογο Εγγράφου
+#### Βήμα 1: Καθορίστε τον κατάλογο εγγράφου
 ```java
 final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Βήμα 2: Φορτώστε την Παρουσίαση
+#### Βήμα 2: Φορτώστε την παρουσίαση
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-*Εξήγηση*: Ο κατασκευαστής `Presentation` διαβάζει το αρχείο PowerPoint από τη δοθείσα διαδρομή, παρέχοντάς σας ένα αντικειμενικό μοντέλο που μπορεί να χειριστεί.
+*Επεξήγηση*: Ο κατασκευαστής `Presentation` διαβάζει το αρχείο PowerPoint από τη δοθείσα διαδρομή, παρέχοντάς σας ένα διαχειρίσιμο μοντέλο αντικειμένων.
 
-### Java προσθέτει μεταβάσεις διαφάνειας
-**Overview**: Αυτή η ενότητα δείχνει πώς να εφαρμόσετε διαφορετικά εφέ μετάβασης σε μεμονωμένες διαφάνειες.
+## Java add slide transitions
+**Επισκόπηση**: Αυτή η ενότητα δείχνει πώς να εφαρμόσετε διαφορετικά εφέ μετάβασης σε μεμονωμένες διαφάνειες.
 
-#### Βήμα 1: Εισαγωγή Τύπων Μετάβασης
+Η κλάση `SlideShowTransition` ορίζει το οπτικό εφέ που εφαρμόζεται κατά τη μετάβαση στην επόμενη διαφάνεια.
+
+#### Βήμα 1: Εισαγωγή τύπων μετάβασης
 ```java
 import com.aspose.slides.TransitionType;
 ```
 
-#### Βήμα 2: Εφαρμογή Μεταβάσεων
+#### Βήμα 2: Εφαρμογή μεταβάσεων
 ```java
 try {
     // Circle type transition on slide 1
@@ -163,17 +178,17 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Εξήγηση*: Το αντικείμενο `SlideShowTransition` σας επιτρέπει να ορίσετε το οπτικό εφέ που εμφανίζεται όταν περνάτε στην επόμενη διαφάνεια. Εδώ ορίζουμε δύο διαφορετικούς τύπους μετάβασης για τις πρώτες δύο διαφάνειες.
+*Επεξήγηση*: Το αντικείμενο `SlideShowTransition` σας επιτρέπει να ορίσετε το οπτικό εφέ που εμφανίζεται κατά τη μετάβαση στην επόμενη διαφάνεια. Εδώ ορίζουμε δύο διαφορετικούς τύπους μετάβασης για τις πρώτες δύο διαφάνειες.
 
-### Αποθήκευση Παρουσίασης
-**Overview**: Μετά από όλες τις τροποποιήσεις, γράψτε το ενημερωμένο αρχείο πίσω στο δίσκο.
+## Αποθήκευση παρουσίασης
+**Επισκόπηση**: Μετά από όλες τις τροποποιήσεις, γράψτε το ενημερωμένο αρχείο πίσω στο δίσκο.
 
-#### Βήμα 1: Καθορίστε τον Κατάλογο Εξόδου
+#### Βήμα 1: Καθορίστε τον κατάλογο εξόδου
 ```java
 final String outPath = "YOUR_OUTPUT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Βήμα 2: Αποθηκεύστε την Παρουσίαση
+#### Βήμα 2: Αποθήκευση της παρουσίασης
 ```java
 try {
     presentation.save(outPath + "/SampleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
@@ -181,85 +196,83 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Εξήγηση*: Η χρήση του `SaveFormat.Pptx` εξασφαλίζει ότι η έξοδος παραμένει ένα τυπικό αρχείο PowerPoint με όλες τις μεταβάσεις ακεραιωμένες.
+*Επεξήγηση*: Η χρήση του `SaveFormat.Pptx` διασφαλίζει ότι η έξοδος παραμένει ένα τυπικό αρχείο PowerPoint με όλες τις μεταβάσεις ακεραιωμένες.
 
 ## Πώς να προσθέσετε μεταβάσεις διαφάνειας σε Java;
 
-Δημιουργήστε ένα `SlideShowTransition` για κάθε διαφάνεια, ορίστε τον τύπο και τη διάρκεια, και στη συνέχεια αποθηκεύστε τις αλλαγές. Αυτή η προσέγγιση σας επιτρέπει να ελέγχετε προγραμματιστικά την εμφάνιση κάθε μετάβασης χωρίς ποτέ να ανοίγετε το PowerPoint χειροκίνητα.
-
-### Παράδειγμα Ροής Εργασίας
-1. Κάντε βρόχο στο `presentation.getSlides()`  
-2. Για κάθε `ISlide` καλέστε `getSlideShowTransition()`  
-3. Ορίστε `setTransitionType(TransitionType.Fade)` και `setDuration(2.0)`  
-
-(Χρησιμοποιήστε τα παραπάνω placeholders για τα ακριβή αποσπάσματα κώδικα.)
+Φορτώστε την παρουσίασή σας, δημιουργήστε ένα `SlideShowTransition` για κάθε διαφάνεια, ορίστε τον επιθυμητό τύπο και καθορίστε τη διάρκεια της μετάβασης πριν αποθηκεύσετε. Αυτή η προσέγγιση σας δίνει ακριβή έλεγχο της οπτικής ροής, επιτρέποντας την προσαρμογή του χρόνου, του στυλ εφέ και ακόμη και τον συνδυασμό μεταβάσεων με κινήσεις αντικειμένων για ένα επαγγελματικό αποτέλεσμα.
 
 ## Γιατί να αυτοματοποιήσετε τις μεταβάσεις PowerPoint;
 
-Η αυτοματοποίηση των μεταβάσεων εγγυάται συνεπή οπτική ροή σε όλα τα decks, μειώνει την χειροκίνητη εργασία έως και 90 % για μεγάλες παρτίδες, και σας επιτρέπει να δημιουργείτε εκατοντάδες παρουσιάσεις σε λεπτά αντί για ώρες. Η java powerpoint library επεξεργάζεται decks εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, καθιστώντας την ιδανική για επιχειρησιακή αναφορά σε μεγάλη κλίμακα.
+Η αυτοματοποίηση των μεταβάσεων εξασφαλίζει μια συνεπή οπτική εμπειρία σε όλα τα decks ενώ μειώνει δραστικά το χειροκίνητο έργο. Χρησιμοποιώντας τη java powerpoint library μπορείτε να εφαρμόσετε το ίδιο εφέ σε εκατοντάδες διαφάνειες σε δευτερόλεπτα, να κλιμακώσετε την επεξεργασία σε πολλαπλούς πυρήνες και να εγγυηθείτε ότι κάθε παρουσίαση τηρεί τις οδηγίες branding σας χωρίς ανθρώπινα λάθη.
 
-## Πρακτικές Εφαρμογές
+## Πρακτικές εφαρμογές
 
-Το Aspose.Slides for Java διαπρέπει σε πολλές πραγματικές περιπτώσεις:
+Aspose.Slides for Java διαπρέπει σε πολλές πραγματικές περιπτώσεις:
 
-1. **Αυτοματοποιημένη Δημιουργία Αναφορών** – Δημιουργήστε μηνιαίες παρουσιάσεις KPI με δυναμικές μεταβάσεις.  
-2. **Ενότητες E‑Learning** – Δημιουργήστε διαδραστικά εκπαιδευτικά decks που καθοδηγούν τους μαθητές μέσα στο περιεχόμενο ομαλά.  
-3. **Καμπάνιες Μάρκετινγκ** – Παραγάγετε εξατομικευμένα pitch decks σε κλίμακα, καθένα με προσαρμοσμένες ακολουθίες animation.  
+1. **Αυτοματοποιημένη δημιουργία αναφορών** – Δημιουργήστε μηνιαίες παρουσιάσεις KPI με δυναμικές μεταβάσεις και **convert ppt to pptx** για σύγχρονη συμβατότητα.  
+2. **E‑learning μονάδες** – Κατασκευάστε διαδραστικά εκπαιδευτικά decks που οδηγούν τους μαθητές μέσω του περιεχομένου ομαλά, χρησιμοποιώντας ακριβείς τιμές **set transition duration java** για το χρονισμό.  
+3. **Καμπάνιες μάρκετινγκ** – Παραγάγετε εξατομικευμένα pitch decks σε κλίμακα, το καθένα με προσαρμοσμένες ακολουθίες κινήσεων και σύγχρονη μορφή PPTX.  
 
-## Σκέψεις Απόδοσης & Επεξεργασία σε Παρτίδες
+## Παράγοντες απόδοσης & επεξεργασία παρτίδας
 
-Κατά την επεξεργασία μεγάλων ή πολλών παρουσιάσεων, λάβετε υπόψη τις παρακάτω συμβουλές:
+Όταν διαχειρίζεστε μεγάλες ή πολλές παρουσιάσεις, λάβετε υπόψη τις παρακάτω συμβουλές:
 
-- **Άμεση Αποδέσμευση** – Πάντα καλέστε `presentation.dispose()` για να ελευθερώσετε τους εγγενείς πόρους.  
-- **Επεξεργασία σε Παρτίδες** – Φορτώστε περιορισμένο αριθμό αρχείων τη φορά για να αποφύγετε αυξήσεις μνήμης.  
-- **Παράλληλη Εκτέλεση** – Χρησιμοποιήστε το `ExecutorService` της Java για να τρέξετε πολλαπλές εργασίες μετατροπής ταυτόχρονα, αλλά παρακολουθείτε τη χρήση CPU.  
+- **Άμεση αποδέσμευση** – Πάντα καλέστε `presentation.dispose()` για να ελευθερώσετε τους εγγενείς πόρους.  
+- **Επεξεργασία σε παρτίδες** – Φορτώστε περιορισμένο αριθμό αρχείων τη φορά για να αποφύγετε αιχμές μνήμης.  
+- **Παράλληλη εκτέλεση** – Χρησιμοποιήστε το `ExecutorService` της Java για να τρέξετε πολλαπλές εργασίες μετατροπής ταυτόχρονα, αλλά παρακολουθείτε τη χρήση CPU.  
+- **Μετατροπή με αποδοτική μνήμη** – Η βιβλιοθήκη μπορεί να **convert ppt to pptx** χωρίς πλήρη υλοποίηση του εγγράφου, μειώνοντας την κατανάλωση heap έως και 40 % σε μεγάλα αρχεία.  
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Κοινά προβλήματα και λύσεις
 
 | Πρόβλημα | Λύση |
 |----------|------|
 | `FileNotFoundException` | Επαληθεύστε τη διαδρομή του αρχείου και βεβαιωθείτε ότι η εφαρμογή έχει δικαιώματα ανάγνωσης/εγγραφής. |
-| Οι μεταβάσεις δεν εμφανίζονται | Επιβεβαιώστε ότι αποθηκεύσατε χρησιμοποιώντας `SaveFormat.Pptx` και ανοίξατε το αρχείο στο PowerPoint 2016+ (παλαιότερες εκδόσεις μπορεί να αγνοούν ορισμένα εφέ). |
-| Υψηλή χρήση μνήμης σε μεγάλα decks | Επεξεργαστείτε τις διαφάνειες σε τμήματα, αποδεσμεύστε το αντικείμενο `Presentation` μετά από κάθε αρχείο και σκεφτείτε την αύξηση του μεγέθους heap της JVM (`-Xmx`). |
+| Οι μεταβάσεις δεν εμφανίζονται | Επιβεβαιώστε ότι αποθηκεύσατε χρησιμοποιώντας `SaveFormat.Pptx` και ανοίξατε το αρχείο σε PowerPoint 2016+ (παλαιότερες εκδόσεις μπορεί να αγνοούν ορισμένα εφέ). |
+| Υψηλή χρήση μνήμης σε μεγάλα decks | Επεξεργαστείτε τις διαφάνειες σε τμήματα, αποδεσμεύστε το αντικείμενο `Presentation` μετά από κάθε αρχείο και εξετάστε την αύξηση του μεγέθους heap της JVM (`-Xmx`). |
+| Τα παλιά αρχεία PPT χάνουν μορφοποίηση | Χρησιμοποιήστε το `PptLoadOptions` της βιβλιοθήκης κατά τη φόρτωση παλαιών αρχείων PPT για διατήρηση των κληρονομικών στοιχείων πριν τη μετατροπή σε PPTX. |
+| Η διάρκεια της μετάβασης αγνοείται | Βεβαιωθείτε ότι καλείτε `getSlideShowTransition().setDuration(seconds)` **πριν** αποθηκεύσετε την παρουσίαση. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Q: Μπορώ να εφαρμόσω την ίδια μετάβαση σε όλες τις διαφάνειες αυτόματα;**  
-A: Ναι. Κάντε βρόχο στο `presentation.getSlides()` και ορίστε τον τύπο μετάβασης για κάθε διαφάνεια μέσα στο βρόχο.
+**Ε: Μπορώ να εφαρμόσω την ίδια μετάβαση σε όλες τις διαφάνειες αυτόματα;**  
+Α: Ναι. Κάντε βρόχο στο `presentation.getSlides()` και ορίστε τον τύπο μετάβασης για κάθε διαφάνεια μέσα στον βρόχο.
 
-**Q: Πώς αλλάζω τη διάρκεια της μετάβασης;**  
-A: Χρησιμοποιήστε `getSlideShowTransition().setDuration(double seconds)` για να ορίσετε τη διάρκεια του εφέ.
+**Ε: Πώς αλλάζω τη διάρκεια της μετάβασης;**  
+Α: Χρησιμοποιήστε `getSlideShowTransition().setDuration(double seconds)` για να καθορίσετε πόσο διαρκεί το εφέ.
 
-**Q: Είναι δυνατόν να συνδυάσετε πολλαπλά εφέ μετάβασης;**  
-A: Το Aspose.Slides σας επιτρέπει να ορίσετε μία κύρια μετάβαση ανά διαφάνεια, αλλά μπορείτε να συνδέσετε animations σε μεμονωμένα αντικείμενα για πιο πλούσια εφέ.
+**Ε: Είναι δυνατόν να συνδυάσω πολλαπλά εφέ μετάβασης;**  
+Α: Το Aspose.Slides επιτρέπει τον ορισμό ενός κύριου εφέ μετάβασης ανά διαφάνεια, αλλά μπορείτε να αλυσίδετε κινήσεις σε μεμονωμένα αντικείμενα για πιο πλούσια εφέ.
 
-**Q: Υποστηρίζει η βιβλιοθήκη άλλες μορφές αρχείων (π.χ., ODP, PPT);**  
-A: Απόλυτα. Το Aspose.Slides μπορεί να φορτώσει και να αποθηκεύσει PPT, PPTX, ODP και πολλές άλλες μορφές παρουσιάσεων.
+**Ε: Υποστηρίζει η βιβλιοθήκη άλλες μορφές αρχείων (π.χ., ODP, PPT);**  
+Α: Απόλυτα. Το Aspose.Slides μπορεί να φορτώσει και να αποθηκεύσει PPT, PPTX, ODP και πολλές άλλες μορφές παρουσιάσεων.
 
-**Q: Ποιο μοντέλο αδειοδότησης πρέπει να επιλέξω για υπηρεσία επεξεργασίας σε παρτίδες;**  
-A: Για αυτοματοποίηση υψηλού όγκου, συνιστάται μια **προσωρινή άδεια** για αξιολόγηση ή μια **site license** για παραγωγή. Επικοινωνήστε με τις πωλήσεις της Aspose για τιμές όγκου.
+**Ε: Ποιο μοντέλο αδειοδότησης πρέπει να επιλέξω για υπηρεσία επεξεργασίας παρτίδας;**  
+Α: Για υψηλή όγκο αυτοματοποίηση, συνιστάται μια **temporary license** για αξιολόγηση ή μια **site license** για παραγωγική χρήση. Επικοινωνήστε με τις πωλήσεις της Aspose για τιμές όγκου.
 
 ## Πόροι
-- [Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Λήψη Τελευταίας Έκδοσης](https://releases.aspose.com/slides/java/)
-- [Αγορά Αδειών](https://purchase.aspose.com/buy)
-- [Πρόσβαση Δωρεάν Δοκιμής](https://releases.aspose.com/slides/java/)
-- [Πληροφορίες Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
-- [Υποστήριξη και Φόρουμ](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Latest Version](https://releases.aspose.com/slides/java/)
+- [Purchase Licenses](https://purchase.aspose.com/buy)
+- [Free Trial Access](https://releases.aspose.com/slides/java/)
+- [Temporary License Information](https://purchase.aspose.com/temporary-license/)
+- [Support and Forums](https://forum.aspose.com/c/slides/11)
 
-Βυθιστείτε, πειραματιστείτε με διαφορετικούς τύπους μεταβάσεων και αφήστε τις παρουσιάσεις σας να λάμψουν με επαγγελματικό επίπεδο αυτοματοποίησης!
+Βυθιστείτε, πειραματιστείτε με διαφορετικούς τύπους μεταβάσεων και αφήστε τις παρουσιάσεις σας να λάμψουν με επαγγελματική αυτοματοποίηση!
 
-**Τελευταία Ενημέρωση:** 2026-05-08  
-**Δοκιμάστηκε Με:** Aspose.Slides 25.4 (JDK 16)  
+---
+
+**Τελευταία ενημέρωση:** 2026-10-18  
+**Δοκιμάστηκε με:** Aspose.Slides 25.4 (JDK 16)  
 **Συγγραφέας:** Aspose  
 
 ---
 
-## Σχετικά Μαθήματα
+## Σχετικά tutorials
 
-- [Προσθήκη Μεταβάσεων Διαφάνειας – Μαθήματα Aspose.Slides για Java](/slides/java/animations-transitions/)
-- [Πώς να δημιουργήσετε μεταβάσεις παρουσίασης σε Java με Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
-- [Πώς να δημιουργήσετε animated powerpoint με Aspose.Slides σε Java - Φόρτωση και Animation Παρουσιάσεων Απρόσκοπτα](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [Add Slide Transitions – Aspose.Slides for Java Tutorials](/slides/java/animations-transitions/)
+- [How to create presentation transitions in Java with Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
+- [How to create animated powerpoint with Aspose.Slides in Java - Load and Animate Presentations Effortlessly](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

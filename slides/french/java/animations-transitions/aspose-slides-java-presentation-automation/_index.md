@@ -1,32 +1,41 @@
 ---
-date: '2026-05-08'
-description: Apprenez à utiliser la bibliothèque Java PowerPoint pour créer des présentations
-  de manière programmatique et ajouter des transitions avec Aspose.Slides pour Java.
+date: '2026-10-18'
+description: Apprenez à convertir ppt en pptx et à définir la durée de transition
+  en Java en utilisant Aspose.Slides, la principale bibliothèque Java PowerPoint pour
+  les transitions de diapositive automatisées.
 keywords:
+- convert ppt to pptx
+- create powerpoint presentation java
+- set transition duration java
 - java powerpoint library
-- how to add transitions
 - automate slide transitions
-- generate powerpoint code
-- apply animations java
+lastmod: '2026-10-18'
+og_description: Apprenez à convertir ppt en pptx et à définir la durée de transition
+  en Java en utilisant Aspose.Slides, la principale bibliothèque Java PowerPoint pour
+  les transitions de diapositive automatisées.
+og_image_alt: 'Tutorial: convert ppt to pptx and add slide transitions in Java with
+  Aspose.Slides'
+og_title: Comment convertir ppt en pptx et ajouter des transitions de diapositive
+  en Java
 schemas:
 - author: Aspose
-  dateModified: '2026-05-08'
-  description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  headline: 'java powerpoint library: slide transitions with Aspose.Slides'
+  dateModified: '2026-10-18'
+  description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  headline: How to convert ppt to pptx and add slide transitions in Java
   type: TechArticle
-- description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  name: 'java powerpoint library: slide transitions with Aspose.Slides'
+- description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  name: How to convert ppt to pptx and add slide transitions in Java
   steps:
-  - name: Load the Presentation
+  - name: Load the presentation
     text: '*Explanation*: The `Presentation` constructor reads the PowerPoint file
       from the supplied path, giving you a manipulable object model.'
-  - name: Apply Transitions
+  - name: Apply transitions
     text: '*Explanation*: The `SlideShowTransition` object lets you define the visual
       effect that appears when moving to the next slide. Here we set two different
       transition types for the first two slides.'
-  - name: Save the Presentation
+  - name: Save the presentation
     text: '*Explanation*: Using `SaveFormat.Pptx` ensures the output remains a standard
       PowerPoint file with all transitions intact.'
   type: HowTo
@@ -48,41 +57,48 @@ schemas:
       pricing.
     question: What licensing model should I choose for a batch processing service?
   type: FAQPage
-title: 'bibliothèque Java PowerPoint : transitions de diapositives avec Aspose.Slides'
+tags:
+- convert ppt
+- Aspose.Slides
+- Java presentation automation
+- slide transitions
+- powerpoint programming
+title: Comment convertir ppt en pptx et ajouter des transitions de diapositive en
+  Java
 url: /fr/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer une présentation programmatiquement en Java : automatiser les transitions PowerPoint avec Aspose.Slides
+
+# Créer une présentation programmatique en Java : automatiser les transitions PowerPoint avec Aspose.Slides
 
 ## Introduction
 
-Dans le monde des affaires d'aujourd'hui, où tout va très vite, vous avez souvent besoin de **créer une présentation programmatiquement** pour respecter des délais serrés. La **bibliothèque java powerpoint** fournie par Aspose.Slides for Java vous permet de générer ou de modifier des fichiers PowerPoint entièrement depuis le code, éliminant ainsi les étapes manuelles et sujettes aux erreurs. Avec cette bibliothèque, vous pouvez **automatiser les transitions PowerPoint**, charger des fichiers PPTX existants, appliquer des animations personnalisées et enregistrer le résultat — le tout depuis Java. Ce tutoriel vous guide à travers le flux complet, depuis la configuration de la bibliothèque jusqu'au traitement par lots de multiples présentations.
+Dans le monde des affaires d'aujourd'hui, au rythme rapide, vous devez souvent **créer des présentations PowerPoint de manière programmatique** pour respecter des délais serrés. La **java powerpoint library** fournie par Aspose.Slides for Java vous permet de générer, modifier et **convertir ppt en pptx** entièrement depuis le code, éliminant les étapes manuelles et sujettes aux erreurs. Avec cette bibliothèque, vous pouvez **automatiser les transitions de diapositives**, charger des fichiers PPTX existants, appliquer des animations personnalisées et enregistrer le résultat — le tout depuis Java. Ce tutoriel vous guide à travers le flux de travail complet, de la configuration de la bibliothèque au traitement par lots de plusieurs présentations.
 
 À la fin de ce guide, vous serez capable de :
 
 - Charger un fichier PPTX dans votre application Java  
-- **Java ajouter des transitions de diapositives** pour des diapositives individuelles ou pour l'ensemble du diaporama  
-- Enregistrer la présentation modifiée tout en conservant l'intégralité du contenu  
-- Appliquer la technique dans un **scénario de traitement par lots PowerPoint** pour une automatisation à grande échelle  
+- **Java add slide transitions** pour des diapositives individuelles ou un jeu complet  
+- **Convert ppt to pptx** tout en préservant tout le contenu et les animations  
+- Enregistrer la présentation modifiée avec une valeur personnalisée **set transition duration java**  
+- Appliquer la technique dans un scénario **batch process PowerPoint** pour une automatisation à grande échelle  
 
-Plongeons‑y !
+Plongeons‑y !
 
 ## Réponses rapides
-- **Que signifie « créer une présentation programmatiquement » ?** Cela signifie générer ou modifier des fichiers PowerPoint via du code au lieu d'utiliser l'interface graphique.  
-- **Quelle bibliothèque gère l'automatisation ?** Aspose.Slides for Java, la principale bibliothèque java powerpoint.  
-- **Puis‑je appliquer des transitions à de nombreuses diapositives en même temps ?** Oui – parcourez la collection de diapositives ou utilisez le traitement par lots.  
-- **Ai‑je besoin d'une licence pour une utilisation en production ?** Une licence temporaire ou achetée est requise pour débloquer toutes les fonctionnalités.  
-- **Quelle version de Java est requise ?** JDK 1.6 ou supérieur (JDK 16 recommandé pour les dernières versions).
+- **What does “create presentation programmatically” mean?** Cela signifie générer ou modifier des fichiers PowerPoint via du code au lieu d'utiliser l'interface graphique.  
+- **Which library handles the automation?** Aspose.Slides for Java, la principale java powerpoint library.  
+- **Can I apply transitions to many slides at once?** Oui – parcourez la collection de diapositives ou utilisez le traitement par lots.  
+- **Do I need a license for production use?** Une licence temporaire ou achetée est requise pour les fonctionnalités illimitées.  
+- **What Java version is required?** JDK 1.6 ou supérieur (JDK 16 recommandé pour les dernières versions).  
 
 ## Prérequis
 
-Avant de commencer, assurez‑vous d'avoir :
+Avant de commencer, assurez-vous d'avoir :
 
 - **Aspose.Slides for Java** ajouté à votre projet (Maven, Gradle ou JAR manuel).  
 - Un environnement de développement Java (JDK 1.6+).  
@@ -107,15 +123,15 @@ Pour commencer, ajoutez la dépendance Aspose.Slides à votre système de constr
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Téléchargement direct
 
-Vous pouvez également télécharger la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Alternativement, vous pouvez télécharger la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Acquisition de licence** : Aspose propose un essai gratuit, des licences temporaires et des options d'achat complètes. Pour une utilisation en production, obtenez une licence temporaire ou achetez‑en une afin de supprimer les limitations d'évaluation.
+**License acquisition**: Aspose propose un essai gratuit, des licences temporaires et des options d'achat complet. Pour une utilisation en production, obtenez une licence temporaire ou achetez‑en une pour supprimer les limitations d'évaluation.
 
 ## Initialisation de base
 
-La classe `Presentation` est l'objet central de la bibliothèque java powerpoint qui représente un fichier PowerPoint en mémoire. Une fois la bibliothèque disponible, vous pouvez instancier la classe principale :
+La classe `Presentation` est l'objet principal de la java powerpoint library qui représente un fichier PowerPoint en mémoire. Une fois la bibliothèque disponible, vous pouvez instancier la classe principale :
 
 ```java
 import com.aspose.slides.Presentation;
@@ -124,33 +140,33 @@ import com.aspose.slides.Presentation;
 Presentation presentation = new Presentation();
 ```
 
-## Comment créer une présentation programmatiquement avec Aspose.Slides
+## Comment créer une présentation de manière programmatique avec Aspose.Slides
 
-Chargez un PPTX existant, appliquez les transitions souhaitées, puis enregistrez‑le — le tout en quelques lignes concises de code Java. Ce modèle fonctionne aussi bien pour des modifications de fichier unique que pour le traitement de dizaines de diaporamas dans un job batch, vous offrant un contrôle total sur le minutage, les effets et le format de sortie.
+Chargez un PPTX existant, appliquez les transitions souhaitées, puis enregistrez‑le — le tout en quelques lignes concises de code Java. Ce modèle fonctionne aussi bien pour des modifications de fichiers uniques que pour le traitement de dizaines de présentations dans un travail par lots, vous offrant un contrôle complet sur le minutage des diapositives, les effets et le format de sortie.
 
 ### Charger la présentation
-**Vue d'ensemble** : la première étape consiste à charger un fichier PPTX existant que vous souhaitez modifier.
+**Overview** : La première étape consiste à charger un fichier PPTX existant que vous souhaitez modifier.
 
-#### Étape 1 : spécifier le répertoire du document
+#### Étape 1 : Spécifier le répertoire du document
 ```java
 final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Étape 2 : charger la présentation
+#### Étape 2 : Charger la présentation
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-*Explication* : le constructeur `Presentation` lit le fichier PowerPoint depuis le chemin fourni, vous donnant un modèle d'objet manipulable.
+*Explanation* : Le constructeur `Presentation` lit le fichier PowerPoint depuis le chemin fourni, vous offrant un modèle d'objet manipulable.
 
-### Java ajouter des transitions de diapositives
-**Vue d'ensemble** : cette section montre comment appliquer différents effets de transition à des diapositives individuelles.
+## Ajouter des transitions de diapositives en Java
+**Overview** : Cette section montre comment appliquer différents effets de transition aux diapositives individuelles.
 
-#### Étape 1 : importer les types de transition
+#### Étape 1 : Importer les types de transition
 ```java
 import com.aspose.slides.TransitionType;
 ```
 
-#### Étape 2 : appliquer les transitions
+#### Étape 2 : Appliquer les transitions
 ```java
 try {
     // Circle type transition on slide 1
@@ -162,17 +178,17 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Explication* : l'objet `SlideShowTransition` vous permet de définir l'effet visuel qui apparaît lors du passage à la diapositive suivante. Ici, nous définissons deux types de transition différents pour les deux premières diapositives.
+*Explanation* : L'objet `SlideShowTransition` vous permet de définir l'effet visuel qui apparaît lors du passage à la diapositive suivante. Ici, nous définissons deux types de transition différents pour les deux premières diapositives.
 
-### Enregistrer la présentation
-**Vue d'ensemble** : après toutes les modifications, écrivez le fichier mis à jour sur le disque.
+## Enregistrer la présentation
+**Overview** : Après toutes les modifications, écrivez le fichier mis à jour sur le disque.
 
-#### Étape 1 : spécifier le répertoire de sortie
+#### Étape 1 : Spécifier le répertoire de sortie
 ```java
 final String outPath = "YOUR_OUTPUT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Étape 2 : enregistrer la présentation
+#### Étape 2 : Enregistrer la présentation
 ```java
 try {
     presentation.save(outPath + "/SampleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
@@ -180,88 +196,79 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Explication* : l'utilisation de `SaveFormat.Pptx` garantit que la sortie reste un fichier PowerPoint standard avec toutes les transitions intactes.
+*Explanation* : L'utilisation de `SaveFormat.Pptx` garantit que la sortie reste un fichier PowerPoint standard avec toutes les transitions intactes.
 
 ## Comment ajouter des transitions de diapositives en Java ?
 
-Créez un `SlideShowTransition` pour chaque diapositive, définissez son type et sa durée, puis persistez les changements. Cette approche vous permet de contrôler programmatiquement l'aspect et le comportement de chaque transition sans jamais ouvrir PowerPoint manuellement.
-
-### Exemple de flux de travail
-1. Parcourez `presentation.getSlides()`  
-2. Pour chaque `ISlide`, appelez `getSlideShowTransition()`  
-3. Définissez `setTransitionType(TransitionType.Fade)` et `setDuration(2.0)`  
-
-(Utilisez les espaces réservés ci‑dessus pour les extraits de code exacts.)
+Chargez votre présentation, créez un `SlideShowTransition` pour chaque diapositive, définissez le type souhaité et spécifiez la durée de la transition avant d'enregistrer. Cette approche vous donne un contrôle précis sur le flux visuel, vous permettant de personnaliser le minutage, le style d'effet et même de combiner les transitions avec des animations d'objets pour un résultat soigné.
 
 ## Pourquoi automatiser les transitions PowerPoint ?
 
-L'automatisation des transitions garantit un flux visuel cohérent à travers tous les diaporamas, réduit l'effort manuel jusqu'à 90 % pour les gros lots, et vous permet de générer des centaines de présentations en quelques minutes au lieu de plusieurs heures. La bibliothèque java powerpoint traite des diaporamas de plusieurs centaines de pages sans charger le fichier complet en mémoire, ce qui la rend idéale pour les rapports à l'échelle d'entreprise.
+L'automatisation des transitions garantit une expérience visuelle cohérente sur tous les jeux de diapositives tout en réduisant considérablement l'effort manuel. En utilisant la java powerpoint library, vous pouvez appliquer le même effet à des centaines de diapositives en quelques secondes, mettre à l'échelle le traitement sur plusieurs cœurs et garantir que chaque présentation respecte vos directives de marque sans erreur humaine.
 
 ## Applications pratiques
 
-Aspose.Slides for Java brille dans de nombreux scénarios réels :
+Aspose.Slides for Java se distingue dans de nombreux scénarios réels :
 
-1. **Génération de rapports automatisée** – Créez des présentations mensuelles de KPI avec des transitions dynamiques.  
-2. **Modules e‑Learning** – Construisez des diaporamas interactifs qui guident les apprenants à travers le contenu de manière fluide.  
-3. **Campagnes marketing** – Produisez des pitch decks personnalisés à grande échelle, chacun avec des séquences d'animation sur mesure.  
+1. **Automated report generation** – Créez des présentations mensuelles de KPI avec des transitions dynamiques et **convertir ppt en pptx** pour une compatibilité moderne.  
+2. **E‑learning modules** – Construisez des jeux de formation interactifs qui guident les apprenants à travers le contenu de manière fluide, en utilisant des valeurs précises **set transition duration java** pour le minutage.  
+3. **Marketing campaigns** – Produisez des présentations personnalisées à grande échelle, chacune avec des séquences d'animation personnalisées et un format PPTX à jour.  
 
 ## Considérations de performance et traitement par lots
 
-Lorsque vous manipulez de grandes présentations ou de nombreux fichiers, gardez ces conseils à l'esprit :
+Lors du traitement de nombreuses ou de grandes présentations, gardez ces conseils à l'esprit :
 
-- **Libérez rapidement** – Appelez toujours `presentation.dispose()` pour libérer les ressources natives.  
-- **Traitez par lots** – Chargez un nombre limité de fichiers à la fois afin d'éviter les pics de mémoire.  
-- **Exécution parallèle** – Utilisez le `ExecutorService` de Java pour lancer plusieurs jobs de conversion simultanément, tout en surveillant l'utilisation du CPU.  
+- **Dispose promptly** – Appelez toujours `presentation.dispose()` pour libérer les ressources natives.  
+- **Process in batches** – Chargez un nombre limité de fichiers à la fois pour éviter les pics de mémoire.  
+- **Parallel execution** – Utilisez le `ExecutorService` de Java pour exécuter plusieurs tâches de conversion en parallèle, mais surveillez l'utilisation du CPU.  
+- **Memory‑efficient conversion** – La bibliothèque peut **convertir ppt en pptx** sans matérialiser entièrement le document, ce qui réduit la consommation de heap jusqu'à 40 % sur les gros fichiers.  
 
 ## Problèmes courants et solutions
 
 | Problème | Solution |
 |----------|----------|
-| `FileNotFoundException` | Vérifiez le chemin du fichier et assurez‑vous que l'application dispose des droits de lecture/écriture. |
-| Les transitions n'apparaissent pas | Confirmez que vous avez enregistré avec `SaveFormat.Pptx` et ouvrez le fichier dans PowerPoint 2016+ (les versions plus anciennes peuvent ignorer certains effets). |
-| Utilisation élevée de mémoire sur de gros diaporamas | Traitez les diapositives par lots, libérez l'objet `Presentation` après chaque fichier, et envisagez d'augmenter la taille du tas JVM (`-Xmx`). |
+| `FileNotFoundException` | Vérifiez le chemin du fichier et assurez-vous que l'application dispose des permissions de lecture/écriture. |
+| Les transitions n'apparaissent pas | Confirmez que vous avez enregistré en utilisant `SaveFormat.Pptx` et que vous avez ouvert le fichier dans PowerPoint 2016+ (les versions plus anciennes peuvent ignorer certains effets). |
+| Utilisation élevée de mémoire sur de gros jeux de diapositives | Traitez les diapositives par blocs, libérez l'objet `Presentation` après chaque fichier, et envisagez d'augmenter la taille du heap JVM (`-Xmx`). |
+| Les fichiers PPT anciens perdent le formatage | Utilisez `PptLoadOptions` de la bibliothèque lors du chargement d'anciens fichiers PPT pour préserver les éléments hérités avant de convertir en PPTX. |
+| Durée de transition ignorée | Assurez‑vous d'appeler `getSlideShowTransition().setDuration(seconds)` **avant** d'enregistrer la présentation. |
 
-## Questions fréquentes
+## Questions fréquemment posées
 
 **Q : Puis‑je appliquer la même transition à toutes les diapositives automatiquement ?**  
-R : Oui. Parcourez `presentation.getSlides()` et définissez le type de transition pour chaque diapositive dans la boucle.
+A : Oui. Parcourez `presentation.getSlides()` et définissez le type de transition pour chaque diapositive dans la boucle.
 
-**Q : Comment modifier la durée d'une transition ?**  
-R : Utilisez `getSlideShowTransition().setDuration(double seconds)` pour spécifier la durée de l'effet.
+**Q : Comment modifier la durée de la transition ?**  
+A : Utilisez `getSlideShowTransition().setDuration(double seconds)` pour spécifier la durée de l'effet.
 
 **Q : Est‑il possible de combiner plusieurs effets de transition ?**  
-R : Aspose.Slides vous permet de définir une transition principale par diapositive, mais vous pouvez chaîner des animations sur des objets individuels pour des effets plus riches.
+A : Aspose.Slides vous permet de définir une transition principale par diapositive, mais vous pouvez enchaîner des animations sur des objets individuels pour des effets plus riches.
 
-**Q : La bibliothèque prend‑elle en charge d'autres formats de fichier (par ex., ODP, PPT) ?**  
-R : Absolument. Aspose.Slides peut charger et enregistrer PPT, PPTX, ODP et de nombreux autres formats de présentation.
+**Q : La bibliothèque prend‑elle en charge d'autres formats de fichiers (p. ex., ODP, PPT) ?**  
+A : Absolument. Aspose.Slides peut charger et enregistrer les formats PPT, PPTX, ODP et de nombreux autres formats de présentation.
 
-**Q : Quel modèle de licence choisir pour un service de traitement par lots ?**  
-R : Pour une automatisation à haut volume, une **licence temporaire** pour l'évaluation ou une **licence site** pour la production est recommandée. Contactez le service commercial d'Aspose pour les tarifs en fonction du volume.
+**Q : Quel modèle de licence devrais‑je choisir pour un service de traitement par lots ?**  
+A : Pour une automatisation à haut volume, une **licence temporaire** pour l'évaluation ou une **licence site** pour la production est recommandée. Contactez les ventes d'Aspose pour les tarifs en volume.
 
 ## Ressources
 - [Documentation Aspose.Slides](https://reference.aspose.com/slides/java/)
 - [Télécharger la dernière version](https://releases.aspose.com/slides/java/)
 - [Acheter des licences](https://purchase.aspose.com/buy)
 - [Accès à l'essai gratuit](https://releases.aspose.com/slides/java/)
-- [Informations sur les licences temporaires](https://purchase.aspose.com/temporary-license/)
+- [Informations sur la licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Support et forums](https://forum.aspose.com/c/slides/11)
 
-Plongez, expérimentez différents types de transition, et laissez vos présentations briller grâce à une automatisation de niveau professionnel !
+Plongez‑vous, expérimentez différents types de transition, et laissez vos présentations briller grâce à une automatisation de niveau professionnel !
 
----
-
-**Dernière mise à jour :** 2026-05-08  
-**Testé avec :** Aspose.Slides 25.4 (JDK 16)  
-**Auteur :** Aspose  
-
----
+**Dernière mise à jour** : 2026-10-18  
+**Testé avec** : Aspose.Slides 25.4 (JDK 16)  
+**Auteur** : Aspose  
 
 ## Tutoriels associés
 
 - [Ajouter des transitions de diapositives – Tutoriels Aspose.Slides pour Java](/slides/java/animations-transitions/)
 - [Comment créer des transitions de présentation en Java avec Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
-- [Comment créer un PowerPoint animé avec Aspose.Slides en Java – Charger et animer les présentations facilement](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
-
+- [Comment créer un PowerPoint animé avec Aspose.Slides en Java – Charger et animer les présentations sans effort](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
