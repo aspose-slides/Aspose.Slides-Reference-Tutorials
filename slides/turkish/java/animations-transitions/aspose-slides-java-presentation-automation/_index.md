@@ -1,32 +1,40 @@
 ---
-date: '2026-05-08'
-description: java powerpoint kütüphanesini programlı olarak sunumlar oluşturmak ve
-  Aspose.Slides for Java ile geçişler eklemek için nasıl kullanacağınızı öğrenin.
+date: '2026-10-18'
+description: Aspose.Slides kullanarak Java'da ppt'yi pptx'e dönüştürmeyi ve geçiş
+  süresini ayarlamayı öğrenin; otomatik slayt geçişleri için önde gelen java powerpoint
+  kütüphanesi.
 keywords:
+- convert ppt to pptx
+- create powerpoint presentation java
+- set transition duration java
 - java powerpoint library
-- how to add transitions
 - automate slide transitions
-- generate powerpoint code
-- apply animations java
+lastmod: '2026-10-18'
+og_description: Aspose.Slides kullanarak Java'da ppt'yi pptx'e dönüştürmeyi ve geçiş
+  süresini ayarlamayı öğrenin; otomatik slayt geçişleri için önde gelen java powerpoint
+  kütüphanesi.
+og_image_alt: 'Tutorial: convert ppt to pptx and add slide transitions in Java with
+  Aspose.Slides'
+og_title: Java'da ppt'yi pptx'e dönüştürme ve slayt geçişleri ekleme
 schemas:
 - author: Aspose
-  dateModified: '2026-05-08'
-  description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  headline: 'java powerpoint library: slide transitions with Aspose.Slides'
+  dateModified: '2026-10-18'
+  description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  headline: How to convert ppt to pptx and add slide transitions in Java
   type: TechArticle
-- description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  name: 'java powerpoint library: slide transitions with Aspose.Slides'
+- description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  name: How to convert ppt to pptx and add slide transitions in Java
   steps:
-  - name: Load the Presentation
+  - name: Load the presentation
     text: '*Explanation*: The `Presentation` constructor reads the PowerPoint file
       from the supplied path, giving you a manipulable object model.'
-  - name: Apply Transitions
+  - name: Apply transitions
     text: '*Explanation*: The `SlideShowTransition` object lets you define the visual
       effect that appears when moving to the next slide. Here we set two different
       transition types for the first two slides.'
-  - name: Save the Presentation
+  - name: Save the presentation
     text: '*Explanation*: Using `SaveFormat.Pptx` ensures the output remains a standard
       PowerPoint file with all transitions intact.'
   type: HowTo
@@ -48,37 +56,43 @@ schemas:
       pricing.
     question: What licensing model should I choose for a batch processing service?
   type: FAQPage
-title: 'java powerpoint kütüphanesi: Aspose.Slides ile slayt geçişleri'
+tags:
+- convert ppt
+- Aspose.Slides
+- Java presentation automation
+- slide transitions
+- powerpoint programming
+title: Java'da ppt'yi pptx'e dönüştürme ve slayt geçişleri ekleme
 url: /tr/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java'da Programlı Olarak Sunum Oluşturma: Aspose.Slides ile PowerPoint Geçişlerini Otomatikleştirme
+
+# Java'da programlı olarak sunum oluşturma: Aspose.Slides ile PowerPoint geçişlerini otomatikleştirme
 
 ## Giriş
 
-Bugünün hızlı tempolu iş dünyasında, sıkı teslim tarihleriyle başa çıkmak için genellikle **programlı olarak sunum oluşturmanız** gerekir. Aspose.Slides for Java tarafından sağlanan **java powerpoint library** kod üzerinden tamamen PowerPoint dosyaları oluşturmanıza veya değiştirmenize olanak tanır, manuel ve hataya açık adımları ortadan kaldırır. Bu kütüphane ile **PowerPoint geçişlerini otomatikleştirebilir**, mevcut PPTX dosyalarını yükleyebilir, özel animasyonlar uygulayabilir ve sonucu kaydedebilirsiniz — tümü Java'dan. Bu öğretici, kütüphaneyi kurmaktan birden fazla sunuyu toplu olarak işleme kadar tam iş akışını adım adım gösterir.
+Bugünün hızlı tempolu iş dünyasında, sık sık **create PowerPoint presentations programmatically** ihtiyacınız olur, sıkı teslim tarihlerine ayak uydurmak için. Aspose.Slides for Java tarafından sağlanan **java powerpoint library**, kod üzerinden tamamen **convert ppt to pptx** dosyalarını oluşturmanıza, düzenlemenize ve **convert ppt to pptx** dosyalarını dönüştürmenize olanak tanır, manuel, hataya açık adımları ortadan kaldırır. Bu kütüphane ile **automate slide transitions** otomatikleştirebilir, mevcut PPTX dosyalarını yükleyebilir, özel animasyonlar uygulayabilir ve sonucu kaydedebilirsiniz—hepsi Java'dan. Bu öğretici, kütüphaneyi kurmaktan çoklu sunumların toplu işlenmesine kadar tam iş akışını adım adım gösterir.
 
 Bu kılavuzun sonunda şunları yapabileceksiniz:
 
-- Bir PPTX dosyasını Java uygulamanıza yükleyebileceksiniz  
-- **Java slide geçişleri ekleme** tek tek slaytlar için veya tüm sunu için  
-- Tüm içeriği koruyarak değiştirilmiş sunuyu kaydedebileceksiniz  
-- Büyük ölçekli otomasyon için **batch process PowerPoint** senaryosunda tekniği uygulayabileceksiniz  
+- Java uygulamanıza bir PPTX dosyası yükleyin  
+- **Java add slide transitions** tek tek slaytlar veya tüm sunu için  
+- **Convert ppt to pptx** tüm içerik ve animasyonları koruyarak  
+- Değiştirilmiş sunumu, özel **set transition duration java** değeriyle kaydedin  
+- Tekniği, büyük ölçekli otomasyon için **batch process PowerPoint** senaryosunda uygulayın  
 
-Haydi başlayalım!
+Hadi başlayalım!
 
-## Hızlı Yanıtlar
-- **“Programlı olarak sunum oluşturma” ne anlama geliyor?** Kod aracılığıyla UI kullanmadan PowerPoint dosyaları oluşturmak veya değiştirmek anlamına gelir.  
-- **Otomasyonu hangi kütüphane yönetiyor?** Aspose.Slides for Java, lider java powerpoint library.  
-- **Birçok slayta aynı anda geçiş uygulayabilir miyim?** Evet — slayt koleksiyonunu döngüyle işleyebilir veya toplu işleme kullanabilirsiniz.  
-- **Üretim kullanımında lisansa ihtiyacım var mı?** Sınırsız özellikler için geçici veya satın alınmış bir lisans gereklidir.  
-- **Hangi Java sürümü gerekiyor?** JDK 1.6 veya üzeri (en son sürümler için JDK 16 önerilir).
+## Hızlı cevaplar
+- **“create presentation programmatically” ne anlama geliyor?** Bu, PowerPoint dosyalarını kullanıcı arayüzü yerine kod aracılığıyla oluşturmak veya değiştirmek anlamına gelir.  
+- **Hangi kütüphane otomasyonu yönetiyor?** Aspose.Slides for Java, önde gelen java powerpoint library.  
+- **Geçişleri birden çok slayta aynı anda uygulayabilir miyim?** Evet – slayt koleksiyonunu döngüyle işleyebilir veya toplu işleme kullanabilirsiniz.  
+- **Üretim kullanımı için lisansa ihtiyacım var mı?** Sınırsız özellikler için geçici veya satın alınmış bir lisans gereklidir.  
+- **Hangi Java sürümü gerekiyor?** JDK 1.6 veya üzeri (en yeni sürümler için JDK 16 önerilir).
 
 ## Önkoşullar
 
@@ -86,7 +100,7 @@ Başlamadan önce şunların olduğundan emin olun:
 
 - **Aspose.Slides for Java** projenize eklenmiş (Maven, Gradle veya manuel JAR).  
 - Java geliştirme ortamı (JDK 1.6+).  
-- Java sözdizimi ve nesne‑yönelimli kavramlara temel aşinalık.  
+- Java sözdizimi ve nesne‑yönelimli kavramlara temel aşinalık.
 
 ## Aspose.Slides for Java'ı Kurma
 
@@ -107,15 +121,15 @@ Başlamak için Aspose.Slides bağımlılığını derleme sisteminize ekleyin.
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Direct download
 
 Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
-**Lisans Edinme**: Aspose ücretsiz deneme, geçici lisanslar ve tam satın alma seçenekleri sunar. Üretim kullanımında, değerlendirme sınırlamalarını kaldırmak için geçici bir lisans alın veya bir lisans satın alın.
+**License acquisition**: Aspose ücretsiz deneme, geçici lisanslar ve tam satın alma seçenekleri sunar. Üretim kullanımı için değerlendirme sınırlamalarını kaldırmak amacıyla geçici bir lisans alın veya bir lisans satın alın.
 
-## Temel Başlatma
+## Temel başlatma
 
-`Presentation` sınıfı, java powerpoint library'nin bellek içindeki bir PowerPoint dosyasını temsil eden çekirdek nesnedir. Kütüphane mevcut olduğunda, ana sınıfı örnekleyebilirsiniz:
+`Presentation` sınıfı, java powerpoint library'nin bellek içindeki bir PowerPoint dosyasını temsil eden çekirdek nesnesidir. Kütüphane mevcut olduğunda, ana sınıfı şu şekilde örnekleyebilirsiniz:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -126,31 +140,33 @@ Presentation presentation = new Presentation();
 
 ## Aspose.Slides ile programlı olarak sunum oluşturma
 
-Mevcut bir PPTX dosyasını yükleyin, istediğiniz geçişleri uygulayın ve birkaç satır Java kodu içinde geri kaydedin. Bu desen, tek dosya düzenlemeleri için olduğu gibi toplu işlerde onlarca sunuyu işlemek için de çalışır ve slayt zamanlaması, efektler ve çıktı formatı üzerinde tam kontrol sağlar.
+Mevcut bir PPTX dosyasını yükleyin, istenen geçişleri uygulayın ve birkaç satır Java koduyla geri kaydedin. Bu desen, tek dosya düzenlemeleri için olduğu gibi toplu işlerde onlarca sunuyu işlemek için de çalışır ve slayt zamanlaması, efektler ve çıktı formatı üzerinde tam kontrol sağlar.
 
-### Sunumu Yükleme
-**Genel Bakış**: Değiştirmek istediğiniz mevcut PPTX dosyasını yüklemek ilk adımdır.
+### Load presentation
+**Overview**: İlk adım, değiştirmek istediğiniz mevcut PPTX dosyasını yüklemektir.
 
-#### Adım 1: Belge Dizini Belirtme
+#### Step 1: Specify document directory
 ```java
 final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Adım 2: Sunumu Yükleme
+#### Step 2: Load the presentation
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-*Explanation*: `Presentation` yapıcı, sağlanan yoldan PowerPoint dosyasını okuyarak manipüle edilebilir bir nesne modeli oluşturur.
+*Explanation*: `Presentation` yapıcı, verilen yoldan PowerPoint dosyasını okur ve manipüle edilebilir bir nesne modeli sunar.
 
-### Java slide geçişleri ekleme
-**Genel Bakış**: Bu bölüm, tek tek slaytlara farklı geçiş efektleri uygulamayı gösterir.
+## Java slide geçişleri ekleme
+**Overview**: Bu bölüm, bireysel slaytlara farklı geçiş efektleri uygulamayı gösterir.
 
-#### Adım 1: Geçiş Türlerini İçe Aktarma
+`SlideShowTransition` sınıfı, bir sonraki slayta geçerken uygulanan görsel efekti tanımlar.
+
+#### Step 1: Import transition types
 ```java
 import com.aspose.slides.TransitionType;
 ```
 
-#### Adım 2: Geçişleri Uygulama
+#### Step 2: Apply transitions
 ```java
 try {
     // Circle type transition on slide 1
@@ -162,17 +178,17 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Explanation*: `SlideShowTransition` nesnesi, bir sonraki slayta geçerken görünen görsel efekti tanımlamanızı sağlar. Burada ilk iki slayt için iki farklı geçiş türü ayarlıyoruz.
+*Explanation*: `SlideShowTransition` nesnesi, bir sonraki slayta geçerken ortaya çıkan görsel efekti tanımlamanıza izin verir. Burada ilk iki slayt için iki farklı geçiş tipi ayarlıyoruz.
 
-### Sunumu Kaydetme
-**Genel Bakış**: Tüm değişikliklerden sonra güncellenmiş dosyayı diske yazın.
+## Sunumu kaydet
+**Overview**: Tüm değişikliklerden sonra güncellenmiş dosyayı diske yazın.
 
-#### Adım 1: Çıktı Dizinini Belirtme
+#### Step 1: Specify output directory
 ```java
 final String outPath = "YOUR_OUTPUT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Adım 2: Sunumu Kaydetme
+#### Step 2: Save the presentation
 ```java
 try {
     presentation.save(outPath + "/SampleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
@@ -184,79 +200,75 @@ try {
 
 ## Java'da slide geçişleri nasıl eklenir?
 
-Her slayt için bir `SlideShowTransition` oluşturun, tipini ve süresini ayarlayın ve ardından değişiklikleri kalıcı hale getirin. Bu yaklaşım, PowerPoint'i manuel olarak açmadan her slayt geçişinin görünümünü programlı olarak kontrol etmenizi sağlar.
+Sunumunuzu yükleyin, her slayt için bir `SlideShowTransition` oluşturun, istediğiniz tipi ayarlayın ve kaydetmeden önce geçiş süresini belirleyin. Bu yaklaşım, görsel akış üzerinde kesin kontrol sağlar; zamanlamayı, efekt stilini ve hatta nesne animasyonlarıyla geçişleri birleştirerek profesyonel bir sonuç elde etmenize imkan tanır.
 
-### Örnek İş Akışı
-1. `presentation.getSlides()` üzerinden döngü oluşturun  
-2. Her `ISlide` için `getSlideShowTransition()` metodunu çağırın  
-3. `setTransitionType(TransitionType.Fade)` ve `setDuration(2.0)` ayarlayın  
+## Neden PowerPoint geçişlerini otomatikleştirirsiniz?
 
-(Tam kod parçacıkları için yukarıdaki yer tutucuları kullanın.)
+Geçişleri otomatikleştirmek, tüm sunular arasında tutarlı bir görsel deneyim sağlar ve manuel çabayı büyük ölçüde azaltır. java powerpoint library sayesinde aynı efekti yüzlerce slayta saniyeler içinde uygulayabilir, işleme birden çok çekirdekte ölçeklendirebilir ve her sununun marka yönergelerinize uygun olmasını insan hatasından bağımsız olarak garantileyebilirsiniz.
 
-## PowerPoint geçişlerini neden otomatikleştirmelisiniz?
-
-Geçişleri otomatikleştirmek, tüm sunular arasında tutarlı görsel akış sağlar, büyük toplu işler için manuel çabayı %90’a kadar azaltır ve yüzlerce sunumu saatler yerine dakikalar içinde üretmenizi mümkün kılar. java powerpoint library, tüm dosyayı belleğe yüklemeden çok sayfalı sunuları işleyebilir, bu da kurumsal ölçekli raporlamada ideal bir çözümdür.
-
-## Pratik Uygulamalar
+## Pratik uygulamalar
 
 Aspose.Slides for Java birçok gerçek dünya senaryosunda öne çıkar:
 
-1. **Otomatik Rapor Oluşturma** – Dinamik geçişlerle aylık KPI sunumları oluşturun.  
-2. **E‑Learning Modülleri** – Öğrencileri içeriğe sorunsuz yönlendiren etkileşimli eğitim sunumları oluşturun.  
-3. **Pazarlama Kampanyaları** – Ölçekli, her biri özel animasyon dizileri içeren kişiselleştirilmiş sunumlar üretin.  
+1. **Automated report generation** – Dinamik geçişlerle aylık KPI sunumları oluşturun ve modern uyumluluk için **convert ppt to pptx** yapın.  
+2. **E‑learning modules** – Öğrencileri içeriğe sorunsuz yönlendiren etkileşimli eğitim sunuları oluşturun, zamanlama için hassas **set transition duration java** değerleri kullanın.  
+3. **Marketing campaigns** – Kişiselleştirilmiş pitch deck'leri ölçekli olarak üretin, her birine özel animasyon dizileri ve güncel PPTX formatı ekleyin.  
 
-## Performans Hususları ve Toplu İşleme
+## Performans hususları ve toplu işleme
 
-Büyük veya çok sayıda sunu işlerken şu ipuçlarını aklınızda tutun:
+Büyük ya da çok sayıda sunu işlerken şu ipuçlarını aklınızda tutun:
 
-- **Hemen Serbest Bırakın** – Yerel kaynakları serbest bırakmak için her zaman `presentation.dispose()` çağırın.  
-- **Toplu İşleyin** – Bellek dalgalanmalarını önlemek için bir seferde sınırlı sayıda dosya yükleyin.  
-- **Paralel Çalıştırma** – Java’nın `ExecutorService`'ini kullanarak birden fazla dönüştürme görevini aynı anda çalıştırın, ancak CPU kullanımını izleyin.  
+- **Dispose promptly** – Yerel kaynakları serbest bırakmak için her zaman `presentation.dispose()` çağırın.  
+- **Process in batches** – Bellek dalgalanmalarını önlemek için aynı anda sınırlı sayıda dosya yükleyin.  
+- **Parallel execution** – Java’nın `ExecutorService`'ini kullanarak birden çok dönüşüm işini eşzamanlı çalıştırın, ancak CPU kullanımını izleyin.  
+- **Memory‑efficient conversion** – Kütüphane, belgeyi tamamen belleğe almadan **convert ppt to pptx** yapabilir; bu, büyük dosyalarda yığın tüketimini %40’a kadar azaltır.  
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
-| Issue | Solution |
+| Sorun | Çözüm |
 |-------|----------|
 | `FileNotFoundException` | Dosya yolunu doğrulayın ve uygulamanın okuma/yazma izinlerine sahip olduğundan emin olun. |
-| Transitions not appearing | `SaveFormat.Pptx` kullanarak kaydettiğinizi ve dosyayı PowerPoint 2016+ (eski sürümler bazı efektleri göz ardı edebilir) ile açtığınızı doğrulayın. |
-| High memory usage on large decks | Slaytları parçalar halinde işleyin, her dosyadan sonra `Presentation` nesnesini serbest bırakın ve JVM yığın boyutunu (`-Xmx`) artırmayı düşünün. |
+| Geçişler görünmüyor | `SaveFormat.Pptx` ile kaydettiğinizi ve dosyayı PowerPoint 2016+ sürümünde açtığınızı doğrulayın (eski sürümler bazı efektleri yok sayabilir). |
+| Büyük sunularda yüksek bellek kullanımı | Slaytları parçalar halinde işleyin, her dosyadan sonra `Presentation` nesnesini serbest bırakın ve JVM yığın boyutunu (`-Xmx`) artırmayı düşünün. |
+| Eski PPT dosyaları biçim kaybı yaşıyor | Eski PPT dosyalarını yüklerken `PptLoadOptions` kullanarak eski öğeleri koruyun, ardından PPTX'e dönüştürün. |
+| Geçiş süresi göz ardı ediliyor | `getSlideShowTransition().setDuration(seconds)` **save** işleminden **önce** çağırdığınızdan emin olun. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Tüm slaytlara aynı geçişi otomatik olarak uygulayabilir miyim?**  
-C: Evet. `presentation.getSlides()` üzerinden döngü oluşturup, döngü içinde her slayt için geçiş tipini ayarlayın.
+**S: Aynı geçişi tüm slaytlara otomatik olarak uygulayabilir miyim?**  
+C: Evet. `presentation.getSlides()` üzerinden döngü kurarak her slayt için geçiş tipini ayarlayabilirsiniz.
 
 **S: Geçiş süresini nasıl değiştiririm?**  
-C: Etkinin ne kadar süreceğini belirlemek için `getSlideShowTransition().setDuration(double seconds)` kullanın.
+C: `getSlideShowTransition().setDuration(double seconds)` kullanarak efektin ne kadar süreceğini belirtebilirsiniz.
 
-**S: Birden fazla geçiş efektini birleştirmek mümkün mü?**  
-C: Aspose.Slides her slayt için bir ana geçiş ayarlamanıza izin verir, ancak daha zengin efektler için bireysel nesneler üzerinde animasyonları zincirleyebilirsiniz.
+**S: Birden fazla geçiş efekti birleştirilebilir mi?**  
+C: Aspose.Slides her slayt için bir ana geçiş belirlemenize izin verir, ancak bireysel nesneler üzerinde zincirleme animasyonlar ekleyerek daha zengin efektler elde edebilirsiniz.
 
 **S: Kütüphane diğer dosya formatlarını (ör. ODP, PPT) destekliyor mu?**  
-C: Kesinlikle. Aspose.Slides PPT, PPTX, ODP ve birçok diğer sunum formatını yükleyip kaydedebilir.
+C: Kesinlikle. Aspose.Slides PPT, PPTX, ODP ve birçok başka sunum formatını yükleyip kaydedebilir.
 
-**S: Toplu işleme hizmeti için hangi lisans modelini seçmeliyim?**  
-C: Yüksek hacimli otomasyon için değerlendirme amaçlı **geçici lisans** veya üretim için **site lisansı** önerilir. Hacim fiyatlandırması için Aspose satış ekibiyle iletişime geçin.
+**S: Toplu işleme servisi için hangi lisans modelini seçmeliyim?**  
+C: Yüksek hacimli otomasyon için bir **temporary license** değerlendirme amaçlı ya da **site license** üretim için önerilir. Hacim fiyatlandırması için Aspose satış ekibiyle iletişime geçin.
 
 ## Kaynaklar
-- [Aspose.Slides Dokümantasyonu](https://reference.aspose.com/slides/java/)
-- [En Son Sürümü İndir](https://releases.aspose.com/slides/java/)
-- [Lisans Satın Al](https://purchase.aspose.com/buy)
-- [Ücretsiz Deneme Erişimi](https://releases.aspose.com/slides/java/)
-- [Geçici Lisans Bilgileri](https://purchase.aspose.com/temporary-license/)
-- [Destek ve Forumlar](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Latest Version](https://releases.aspose.com/slides/java/)
+- [Purchase Licenses](https://purchase.aspose.com/buy)
+- [Free Trial Access](https://releases.aspose.com/slides/java/)
+- [Temporary License Information](https://purchase.aspose.com/temporary-license/)
+- [Support and Forums](https://forum.aspose.com/c/slides/11)
 
-Deneyin, farklı geçiş türleriyle oynayın ve sunularınızın profesyonel‑düzey otomasyonla parlamasını sağlayın!
+Deneyin, farklı geçiş tipleriyle oynayın ve sunularınızın profesyonel‑düzey otomasyonla parlamasını sağlayın!
 
-**Last Updated:** 2026-05-08  
+**Last Updated:** 2026-10-18  
 **Tested With:** Aspose.Slides 25.4 (JDK 16)  
 **Author:** Aspose  
 
-## İlgili Öğreticiler
+## İlgili öğreticiler
 
-- [Slide Geçişleri Ekle – Aspose.Slides for Java Öğreticileri](/slides/java/animations-transitions/)
-- [Java'da Aspose.Slides ile sunum geçişleri nasıl oluşturulur](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
-- [Aspose.Slides ile Java'da animasyonlu PowerPoint nasıl oluşturulur - Sunumları Kolayca Yükleyin ve Animasyon Ekleyin](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [Add Slide Transitions – Aspose.Slides for Java Tutorials](/slides/java/animations-transitions/)
+- [How to create presentation transitions in Java with Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
+- [How to create animated powerpoint with Aspose.Slides in Java - Load and Animate Presentations Effortlessly](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

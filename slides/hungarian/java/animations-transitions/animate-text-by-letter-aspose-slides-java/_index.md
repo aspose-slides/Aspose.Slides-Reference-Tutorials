@@ -1,21 +1,29 @@
 ---
-date: '2026-06-13'
-description: Tanulja meg, hogyan animálhat betűnként szöveget Java-ban az Aspose.Slides
-  használatával. Ez az útmutató bemutatja a beállítást, az ovális alakzat hozzáadását,
-  az animáció időzítésének beállítását, és a PPTX formátumba mentést.
+date: '2026-10-18'
+description: Tanulja meg, hogyan animáljon betűnként szöveget Java-ban az Aspose.Slides
+  segítségével. Ez az útmutató lefedi a beállítást, az oval shape java hozzáadását,
+  az animáció késleltetésének beállítását, és a prezentáció pptx formátumban történő
+  mentését.
 keywords:
 - how to animate text
-- letter by letter animation
+- animate text by letter
 - add oval shape java
 - maven aspose slides dependency
-- set animation timing java
+- set animation delay
+lastmod: '2026-10-18'
+og_description: Tanulja meg, hogyan animáljon betűnként szöveget Java-ban az Aspose.Slides
+  segítségével. Ez az útmutató megmutatja, hogyan adjon hozzá oval shape java elemet,
+  állítsa be az animáció késleltetését, és mentse a prezentációt pptx formátumban.
+og_image_alt: 'Developer guide: animate text by letter in Java with Aspose.Slides'
+og_title: Hogyan animáljunk betűnként szöveget Java-ban az Aspose.Slides segítségével
 schemas:
 - author: Aspose
-  dateModified: '2026-06-13'
+  dateModified: '2026-10-18'
   description: Learn how to animate text by letter in Java using Aspose.Slides. This
-    guide covers setup, adding oval shape, set animation timing, and save as PPTX.
-  headline: How to Animate Text by Letter in Java Using Aspose.Slides – A Complete
-    Guide
+    guide covers setup, add oval shape java, set animation delay, and save presentation
+    as pptx.
+  headline: How to animate text by letter in Java using Aspose.Slides – A complete
+    guide
   type: TechArticle
 - questions:
   - answer: It’s a powerful API that lets developers create, edit, and render PowerPoint
@@ -35,59 +43,64 @@ schemas:
       for development and testing.
     question: Do I need a license for production use?
   type: FAQPage
-title: Hogyan animáljunk betűnként szöveget Java-ban az Aspose.Slides használatával
+tags:
+- animate text
+- Aspose.Slides
+- Java presentation automation
+- PPTX animation
+- Java tutorial
+title: Hogyan animáljunk betűnként szöveget Java-ban az Aspose.Slides segítségével
   – Teljes útmutató
 url: /hu/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Szöveg betűnkénti animálása Java-ban az Aspose.Slides használatával
 
-Látványos prezentációk készítése elengedhetetlen a mai gyorsan változó üzleti környezetben, és a **how to animate text** hatékony alkalmazása kiemelheti a diáidat. Ebben az útmutatóban megtudod, hogyan animálj szöveget betűnként, hogy minden karakter egymás után jelenjen meg, így a prezentációid professzionális, kifinomult hatást keltenek.
+Látványos prezentációk készítése elengedhetetlen a mai gyorsan változó üzleti környezetben, és a **szöveg animálása** hatékony módon kiemelheti a diáidat. Ebben az útmutatóban megtudod, hogyan animálj szöveget betűnként, hogy minden karakter egymás után jelenjen meg, így a prezentációid kifinomult, professzionális hatást keltenek.
 
 ## Gyors válaszok
-- **Melyik könyvtár szükséges?** Aspose.Slides for Java  
-- **Hozzáadhatok ovális alakzatot Java-ban?** Igen – használd a `addAutoShape` metódust  
+- **Milyen könyvtár szükséges?** Aspose.Slides for Java  
+- **Hozzáadhatok ovális alakzatot Java-ban?** Igen – használd az `addAutoShape` metódust  
 - **Hogyan állítható be az animáció késleltetése?** Hívd meg a `setDelayBetweenTextParts` metódust az effektus objektumon  
-- **Szükség van licencre a termeléshez?** Állandó licenc szükséges; egy ingyenes próba a fejlesztéshez elegendő  
-- **Mely építőeszközök támogatottak?** Maven, Gradle, vagy manuális JAR letöltés  
-- **Menthető a fájl PPTX formátumban?** Igen – hívd a `presentation.save(..., SaveFormat.Pptx)` metódust  
+- **Szükség van licencre a termeléshez?** Állandó licenc szükséges; a ingyenes próba verzió fejlesztéshez elegendő  
+- **Mely építőeszközök támogatottak?** Maven, Gradle vagy kézi JAR letöltés  
+- **Menthető a fájl PPTX formátumban?** Igen – hívd meg a `presentation.save(..., SaveFormat.Pptx)` metódust
 
-## Mit fogsz megtanulni
-- **Hogyan animáljunk szöveget betűnként egy PowerPoint dián** – a *how to animate text* alapja Java-ban.  
-- **Add oval shape java** – helyezz be egy ellipszist és csatolj hozzá szöveget.  
+## Mit tanulhatsz meg
+- **Hogyan animálj szöveget betűnként egy PowerPoint dián** – a *szöveg animálása* Java-ban alapja.  
+- **Ovális alakzat hozzáadása Java-ban** – illessz be egy ellipszist és csatolj hozzá szöveget.  
 - **Aspose.Slides for Java beállítása** Maven, Gradle vagy közvetlen letöltés használatával.  
-- **Animáció időzítésének konfigurálása Java-ban** a betűnkénti hatás sebességének szabályozásához.  
-- **Teljesítmény tippek** memóriahatékony prezentációkhoz.  
+- **Animáció időzítésének beállítása Java-ban** a betűnkénti hatás sebességének szabályozásához.  
+- **Teljesítmény tippek** memóriahatékony prezentációkhoz.
 
 ## Miért animáljuk a szöveget betűnként?
-Az egyes karakterek animálása felkelti a közönség figyelmét, megerősíti a kulcsüzeneteket, és dinamikus történetmesélő elemet ad hozzá. Legyen szó oktatási anyagról, értékesítési bemutatóról vagy marketing prezentációról, ez a technika kiemeli a tartalmadat.  
+Az egyes karakterek animálása felkelti a közönség figyelmét, megerősíti a kulcsüzeneteket, és dinamikus történetmesélő elemet ad hozzá. Lépésről‑lépésre történő megjelenést hoz létre, amely leköti a nézőket, egyesével kiemeli a fontos kifejezéseket, és a prezentáló számára irányítást biztosít a narratív áramlás felett, így a komplex információk könnyebben emészthetőek.
 
-## Előfeltételek
+## Előkövetelmények
 Mielőtt belemerülnénk, győződj meg róla, hogy rendelkezel a következőkkel:
 
 ### Szükséges könyvtárak
-- **Aspose.Slides for Java** – a fő API PowerPoint fájlok létrehozásához és manipulálásához. Támogat **50+ bemeneti és kimeneti formátumot**, és akár **1 000 diát** is képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené.  
+- **Aspose.Slides for Java** – a fő API PowerPoint fájlok létrehozásához és manipulálásához. Támogat **50+ bemeneti és kimeneti formátumot**, és akár **1000 diát** is képes feldolgozni a teljes fájl memóriába töltése nélkül.  
 - **Java Development Kit (JDK)** – 16-os vagy újabb verzió.
 
 ### Környezet beállítása
-- **IDE** – IntelliJ IDEA vagy Eclipse (mindkettő nagyszerűen működik).  
-- **Build Tools** – Maven vagy Gradle ajánlott a függőségek kezeléséhez.
+- **IDE** – IntelliJ IDEA vagy Eclipse (mindkettő nagyszerű).  
+- **Build tools** – Maven vagy Gradle ajánlott a függőségkezeléshez.
 
 ### Tudás előfeltételek
 - Alapvető Java programozási ismeretek.  
-- Maven/Gradle függőségek hozzáadásának ismerete (hasznos, de nem kötelező).
+- Ismeret a függőségek hozzáadásáról Maven/Gradle-ban (hasznos, de nem kötelező).
 
 ## Aspose.Slides for Java beállítása
-Az Aspose.Slides három módon integrálható a projektedbe. Válaszd ki azt, amelyik a munkafolyamatodhoz illik.
+Az Aspose.Slides három módon integrálható a projektedbe. Válaszd azt, amelyik a munkafolyamatodhoz illik.
 
 ### Maven (maven aspose slides függőség)
-Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
+Add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -98,166 +111,165 @@ Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
 ```
 
 ### Gradle (maven aspose slides függőség)
-Tedd be ezt a sort a `build.gradle` fájlodba:
+Include this line in your `build.gradle` file:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Közvetlen letöltés
-Alternatívaként [letöltheted a legújabb verziót](https://releases.aspose.com/slides/java/) közvetlenül az Aspose-tól.
+### Direct download
+Alternatively, you can [download the latest version](https://releases.aspose.com/slides/java/) directly from Aspose.
 
-**License Acquisition** – Több lehetőséged is van:
-- **Free Trial** – 30 napos próba a teljes funkciókészlettel.  
-- **Temporary License** – Kérj hosszabb távú értékelési licencet.  
-- **Purchase** – Egy előfizetés minden termelési funkciót felold.
+**License acquisition** – You have several options:
+- **Free trial** – 30‑day trial with full feature set. Use the **Start Free Trial** link: [Start Free Trial](https://releases.aspose.com/slides/java/).  
+- **Temporary license** – Request a longer‑term evaluation license via the **Get Temporary License** link: [Get Temporary License](https://purchase.aspose.com/).  
+- **Purchase** – A subscription unlocks all production capabilities: [Buy Aspose.Slides](https://purchase.aspose.com/buy).
 
-Miután a könyvtár hozzá lett adva, importáld a szükséges csomagokat a Java osztályodban.
+Once the library is added, import the required packages in your Java class.
 
-## Megvalósítási útmutató
-Az alábbiakban végigvezetünk a két fő feladaton: **animating text by letter** és **adding an oval shape in Java**. Minden lépés rövid magyarázatot tartalmaz, majd a pontos kódot, amelyet másolnod kell.
+## Implementation guide
+Below we walk through the two main tasks: **animating text by letter** and **adding an oval shape in Java**. Each step includes a short explanation followed by the exact code you need to copy.
 
-**Definition:** `Presentation` a fő osztály, amely egy PowerPoint fájlt reprezentál a memóriában.
+**Definition:** `Presentation` is the top‑level object that represents a PowerPoint file in memory.
 
-### Hogyan animáljunk szöveget betűnként Java-ban – Közvetlen válasz
-Tölts be egy új `Presentation` objektumot, helyezz be egy ellipszist, csatolj egy szövegkeretet, hozz létre egy „Appear” effektust, állítsd be a `setDelayBetweenTextParts`-t az effektus objektumon, majd mentsd el a fájlt PPTX formátumban. Ez az átfogó folyamat csak néhány API hívást igényel, és tipikus diaméretek esetén kevesebb, mint egy másodperc alatt lefut.
+### How to animate text by letter in Java?
+Load a new `Presentation`, insert an ellipse, attach a text frame, create an “Appear” effect, set `setDelayBetweenTextParts` on the effect object, and finally save the file as PPTX. This end‑to‑end flow requires only a handful of API calls and runs in under a second for typical slide sizes.
 
-#### Definíció horgony
-`Presentation` az Aspose.Slides legfelső szintű objektuma, amely egy PowerPoint fájlt reprezentál a memóriában.
+#### Definition anchor
+`Presentation` is Aspose.Slides' top‑level object that represents a PowerPoint file in memory.
 
-#### 1. Új prezentáció létrehozása
-Először hozz létre egy új `Presentation` objektumot.
+#### 1. Create a new presentation
+First, instantiate a fresh `Presentation` object.
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. Ovális alakzat hozzáadása szöveggel (add oval shape java)
-Ezután helyezz el egy ellipszist az első dián, és add meg a szöveget, amelyet animálni szeretnél.
+#### 2. Add an oval shape with text (add oval shape java)
+`addAutoShape` adds a new auto shape (such as an ellipse) to the slide. `ShapeType.Ellipse` specifies an ellipse shape. Next, place an ellipse on the first slide and give it the text you want to animate.
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. Az animáció idővonalának elérése
-Szerezd meg az első dia idővonalát – itt csatolod majd az animációs effektust.
+#### 3. Access the animation timeline
+Retrieve the timeline for the first slide – this is where you’ll attach the animation effect.
 ```java
 IAnimationTimeLine timeline = presentation.getSlides().get_Item(0).getTimeline();
 ```
 
-#### 4. Megjelenési effektus hozzáadása
-Hozz létre egy „Appear” effektust, és mondd meg az Aspose.Slides-nak, hogy a szöveget **betűnként** animálja.
+#### 4. Add an appearance effect
+`IEffect` represents an animation effect applied to a slide object. Create an “Appear” effect and tell Aspose.Slides to animate the text **by letter**.
 ```java
 IEffect effect = timeline.getMainSequence().addEffect(oval, 
     EffectType.Appear, EffectSubtype.None, EffectTriggerType.OnClick);
 effect.setAnimateTextType(AnimateTextType.ByLetter);
 ```
 
-**Definition:** A `setDelayBetweenTextParts` metódus beállítja a szünetet az egymást követő karakterek között egy szöveganimációban.
+**Definition:** The `setDelayBetweenTextParts` method sets the pause between successive characters in a text animation.
 
-#### 5. Szöveganimáció időzítésének beállítása
-Állítsd be, milyen gyorsan jelenjen meg minden karakter a szövegrészek közötti késleltetés beállításával.  
-*(Itt **állítjuk be az animáció időzítését**.)*
+#### 5. Configure text animation timing
+Control how fast each character shows up by setting the delay between text parts.  
+*(This is where we **set animation delay**.)*
 ```java
 effect.setDelayBetweenTextParts(-1.5f); // Adjust as needed
 ```
 
-#### 6. Prezentáció mentése (save as PPTX)
-Végül írd a fájlt lemezre PPTX formátumban.
+#### 6. Save the presentation (save as pptx)
+`SaveFormat.Pptx` indicates the PPTX file format for saving. Finally, write the file to disk in PPTX format.
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/AnimateTextEffect_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
-> **Pro tip:** Használj negatív késleltetést (ahogy látható) az azonnali kaszkádhoz, vagy pozitív értéket az animáció lassításához.
+> **Pro tip:** Use a negative delay (as shown) for an instant cascade, or a positive value to slow the animation down.
 
-### Alakzatok hozzáadása szöveggel – Részletes útmutató (add oval shape java)
+### Adding shapes with text – detailed walkthrough (add oval shape java)
 
-#### Definíció horgony
-`IAutoShape` az az interfész, amely bármely auto‑shape, például egy ellipszis, amely szövegkeretet tartalmazhat, reprezentálja.
+#### Definition anchor
+`IAutoShape` is the interface representing any auto‑shape, such as an ellipse, that can contain a text frame.
 
-#### 1. Új prezentáció inicializálása
+#### 1. Initialize a new presentation
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. Ovális alakzat beszúrása és szöveg beállítása
+#### 2. Insert an oval shape and set its text
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. Az eredmény fájl mentése (save as PPTX)
+#### 3. Save the resulting file (save as pptx)
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/ShapeWithText_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
-## Gyakorlati alkalmazások
-A szöveg animálása és az alakzatok hozzáadása sokféle prezentációt emelhet a következő szintre:
+## Practical applications
+Animating text and adding shapes can elevate many types of presentations:
 
-| Forgatókönyv | Hogyan segít |
-|--------------|--------------|
-| **Oktatási diák** | Kiemeli a kulcsszavakat egyesével, így a diák a tanulók figyelmét fenntartják. |
-| **Üzleti ajánlatok** | Felhívja a figyelmet a kritikus számokra vagy mérföldkövekre. |
-| **Marketing anyagok** | Dinamikus termékbemutatókat hoz létre, amelyek lenyűgözik az ügyfeleket. |
+| Scenario | How it helps |
+|----------|--------------|
+| **Educational slides** | Highlights key terms one‑by‑one, keeping students focused. |
+| **Business proposals** | Draws attention to critical numbers or milestones. |
+| **Marketing decks** | Creates dynamic product showcases that impress clients. |
 
-Ezeket a technikákat kombinálhatod adat‑vezérelt diakészítéssel is, tartalmat adatbázisokból vagy CSV fájlokból betöltve.
+You can also combine these techniques with data‑driven slide generation, feeding content from databases or CSV files.
 
-## Teljesítmény szempontok
-- **Tartsd az alakzatokat könnyűnek** – kerüld a túl komplex geometriát.  
-- **Zárd le a prezentációkat** a használat után (pl. `presentation.dispose();`) a memória felszabadításához.  
-- **Használd a beépített optimalizálást** – az Aspose.Slides biztosítja a `presentation.getSlides().optimizeResources();` metódust a memóriahasználat csökkentésére.
+## Performance considerations
+- **Keep shapes lightweight** – avoid overly complex geometry.  
+- **Dispose of presentations** when done (e.g., `presentation.dispose();`) to free memory.  
+- **Use built‑in optimization** – Aspose.Slides offers `presentation.getSlides().optimizeResources();` to reduce memory footprint.
 
-## Gyakori problémák és megoldások
-- **Fájlútvonal hibák** – Ellenőrizd, hogy a `YOUR_DOCUMENT_DIRECTORY` létezik és írható.  
-- **Hiányzó függőségek** – Győződj meg róla, hogy a Maven/Gradle koordináták megfelelnek a JDK verziódnak.  
-- **Az animáció nem látható** – Ellenőrizd, hogy az effektus trigger típusa egyezik a diák átmeneti beállításaival.
+## Common issues & solutions
+- **File path errors** – Verify that `YOUR_DOCUMENT_DIRECTORY` exists and is writable.  
+- **Missing dependencies** – Ensure the Maven/Gradle coordinates match your JDK version.  
+- **Animation not visible** – Confirm that the effect’s trigger type matches your slide transition settings.
 
-## Gyakran ismételt kérdések
+## Frequently asked questions
 
-**Q: Mi az Aspose.Slides for Java?**  
-A: Egy erőteljes API, amely lehetővé teszi a fejlesztők számára PowerPoint fájlok létrehozását, szerkesztését és renderelését a Microsoft Office nélkül.
+**Q: What is Aspose.Slides for Java?**  
+A: It’s a powerful API that lets developers create, edit, and render PowerPoint files without Microsoft Office.
 
-**Q: Hogyan animáljak szöveget betűnként az Aspose.Slides használatával?**  
-A: Hívd meg a `setAnimateTextType(AnimateTextType.ByLetter)` metódust egy olyan `IEffect`-en, amely egy szöveget tartalmazó alakzathoz van csatolva, majd állítsd be a késleltetést a `setDelayBetweenTextParts` segítségével.
+**Q: How do I animate text by letter using Aspose.Slides?**  
+A: Call `setAnimateTextType(AnimateTextType.ByLetter)` on an `IEffect` attached to a shape containing text, then adjust the delay with `setDelayBetweenTextParts`.
 
-**Q: Testreszabhatom az animáció időzítését az Aspose.Slides-ben?**  
-A: Igen, a `setDelayBetweenTextParts(float)` metódussal definiálhatod a szünetet az egyes karakterek között; az értékek lehetnek negatívak az azonnali kaszkádhoz vagy pozitívak a lassabb hatáshoz.
+**Q: Can I customize animation timing in Aspose.Slides?**  
+A: Yes, use `setDelayBetweenTextParts(float)` to define the pause between each character; values can be negative for instant cascade or positive for slower effects.
 
-**Q: Hogyan adhatok hozzá ovális alakzatot Java-ban?**  
-A: Használd a `addAutoShape(ShapeType.Ellipse, x, y, width, height)` metódust a dia alakzatgyűjteményén, majd állítsd be a szövegkeretét.
+**Q: How do I add an oval shape in Java?**  
+A: Use `addAutoShape(ShapeType.Ellipse, x, y, width, height)` on the slide’s shape collection, then set its text frame.
 
-**Q: Szükség van licencre a termelési használathoz?**  
-A: Érvényes licenc szükséges a kereskedelmi bevetéshez; egy ingyenes próba elegendő a fejlesztéshez és teszteléshez.
+**Q: Do I need a license for production use?**  
+A: A valid license is required for commercial deployments; a free trial suffices for development and testing.
 
-**Q: Hogyan menthetem el a fájlt PPTX formátumban?**  
-A: Hívd meg a `presentation.save("output.pptx", SaveFormat.Pptx);` metódust, ahogy a kódpéldákban látható.
+**Q: How can I save the file as PPTX?**  
+A: Call `presentation.save("output.pptx", SaveFormat.Pptx);` as shown in the code examples.
 
-## További források
-- [Aspose.Slides Java referencia](https://reference.aspose.com/slides/java/)  
-- [Aspose.Slides kiadások](https://releases.aspose.com/slides/java/)  
-- [Aspose.Slides vásárlása](https://purchase.aspose.com/buy)  
-- [Ingyenes próba indítása](https://releases.aspose.com/slides/java/)  
-- [Ideiglenes licenc beszerzése](https://purchase.aspose.com/)
+## Additional resources
+- [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
+- [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)  
+- [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- [Start Free Trial](https://releases.aspose.com/slides/java/)  
 
 ---
 
-**Last Updated:** 2026-06-13  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Last updated:** 2026-10-18  
+**Tested with:** Aspose.Slides 25.4 (JDK 16 classifier)  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
 
-## Kapcsolódó útmutatók
 
-- [Aspose Slides Maven függőség – PowerPoint animálása Java-val](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
-- [PowerPoint mentése animációval az Aspose.Slides for Java használatával](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
-- [aspose slides maven – Haladó diák animációk elsajátítása Java-ban](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+## Related tutorials
 
+- [Aspose Slides Maven Dependency – Animate PowerPoint with Java](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [Save PowerPoint with Animation Using Aspose.Slides for Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
+- [aspose slides maven - Master Advanced Slide Animations in Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

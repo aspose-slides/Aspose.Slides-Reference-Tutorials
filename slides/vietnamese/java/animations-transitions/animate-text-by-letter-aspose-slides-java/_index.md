@@ -1,21 +1,28 @@
 ---
-date: '2026-06-13'
+date: '2026-10-18'
 description: Tìm hiểu cách tạo hoạt ảnh cho văn bản theo từng ký tự trong Java bằng
-  Aspose.Slides. Hướng dẫn này bao gồm cài đặt, thêm hình oval, thiết lập thời gian
-  hoạt ảnh và lưu dưới dạng PPTX.
+  Aspose.Slides. Hướng dẫn này bao gồm cài đặt, thêm oval shape java, thiết lập animation
+  delay, và lưu bản trình chiếu dưới dạng pptx.
 keywords:
 - how to animate text
-- letter by letter animation
+- animate text by letter
 - add oval shape java
 - maven aspose slides dependency
-- set animation timing java
+- set animation delay
+lastmod: '2026-10-18'
+og_description: Tìm hiểu cách tạo hoạt ảnh cho văn bản theo từng ký tự trong Java
+  bằng Aspose.Slides. Hướng dẫn này cho bạn cách thêm oval shape java, thiết lập animation
+  delay, và lưu bản trình chiếu dưới dạng pptx.
+og_image_alt: 'Developer guide: animate text by letter in Java with Aspose.Slides'
+og_title: Cách tạo hoạt ảnh cho văn bản theo từng ký tự trong Java bằng Aspose.Slides
 schemas:
 - author: Aspose
-  dateModified: '2026-06-13'
+  dateModified: '2026-10-18'
   description: Learn how to animate text by letter in Java using Aspose.Slides. This
-    guide covers setup, adding oval shape, set animation timing, and save as PPTX.
-  headline: How to Animate Text by Letter in Java Using Aspose.Slides – A Complete
-    Guide
+    guide covers setup, add oval shape java, set animation delay, and save presentation
+    as pptx.
+  headline: How to animate text by letter in Java using Aspose.Slides – A complete
+    guide
   type: TechArticle
 - questions:
   - answer: It’s a powerful API that lets developers create, edit, and render PowerPoint
@@ -35,6 +42,12 @@ schemas:
       for development and testing.
     question: Do I need a license for production use?
   type: FAQPage
+tags:
+- animate text
+- Aspose.Slides
+- Java presentation automation
+- PPTX animation
+- Java tutorial
 title: Cách tạo hoạt ảnh cho văn bản theo từng ký tự trong Java bằng Aspose.Slides
   – Hướng dẫn đầy đủ
 url: /vi/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
@@ -42,52 +55,51 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hoạt ảnh Văn bản theo Chữ trong Java Sử dụng Aspose.Slides
 
-Việc tạo các bản thuyết trình bắt mắt là điều thiết yếu trong môi trường kinh doanh nhanh chóng ngày nay, và **cách hoạt ảnh văn bản** một cách hiệu quả có thể làm cho các slide của bạn nổi bật. Trong hướng dẫn này, bạn sẽ khám phá cách hoạt ảnh văn bản theo từng chữ sao cho mỗi ký tự xuất hiện lần lượt, mang lại cho bản thuyết trình của bạn cảm giác chuyên nghiệp và tinh tế.
+# Hoạt ảnh văn bản theo ký tự trong Java bằng Aspose.Slides
+
+Tạo các bài thuyết trình bắt mắt là điều thiết yếu trong môi trường kinh doanh nhanh chóng ngày nay, và **cách hoạt ảnh văn bản** một cách hiệu quả có thể làm cho các slide của bạn nổi bật. Trong hướng dẫn này, bạn sẽ khám phá cách hoạt ảnh văn bản theo ký tự sao cho mỗi ký tự xuất hiện lần lượt, mang lại cho bài thuyết trình của bạn cảm giác chuyên nghiệp, tinh tế.
 
 ## Câu trả lời nhanh
-- **Thư viện nào được yêu cầu?** Aspose.Slides for Java  
+- **Thư viện nào cần thiết?** Aspose.Slides for Java  
 - **Tôi có thể thêm hình oval trong Java không?** Yes – use the `addAutoShape` method  
 - **Làm thế nào để cấu hình độ trễ hoạt ảnh?** Call `setDelayBetweenTextParts` on the effect object  
-- **Tôi có cần giấy phép cho môi trường sản xuất không?** A permanent license is required; a free trial works for development  
-- **Các công cụ xây dựng nào được hỗ trợ?** Maven, Gradle, or manual JAR download  
-- **Tôi có thể lưu tệp dưới dạng PPTX không?** Yes – call `presentation.save(..., SaveFormat.Pptx)`  
+- **Tôi có cần giấy phép cho môi trường production không?** A permanent license is required; a free trial works for development  
+- **Công cụ build nào được hỗ trợ?** Maven, Gradle, or manual JAR download  
+- **Tôi có thể lưu file dưới dạng PPTX không?** Yes – call `presentation.save(..., SaveFormat.Pptx)`
 
 ## Những gì bạn sẽ học
-- **Cách hoạt ảnh văn bản theo từng chữ trong một slide PowerPoint** – the core of *how to animate text* in Java.  
-- **Thêm hình oval trong Java** – insert an ellipse and attach text to it.  
-- **Cài đặt Aspose.Slides cho Java** using Maven, Gradle, or a direct download.  
-- **Cấu hình thời gian hoạt ảnh trong Java** to control the speed of the letter‑by‑letter effect.  
+- **Cách hoạt ảnh văn bản theo từng ký tự trong một slide PowerPoint** – the core of *how to animate text* in Java.  
+- **Thêm hình oval java** – insert an ellipse and attach text to it.  
+- **Cài đặt Aspose.Slides for Java** using Maven, Gradle, or a direct download.  
+- **Cấu hình thời gian hoạt ảnh java** to control the speed of the letter‑by‑letter effect.  
 - **Mẹo hiệu suất** for memory‑efficient presentations.
 
-## Tại sao nên hoạt ảnh Văn bản theo Chữ?
-Hoạt ảnh mỗi ký tự thu hút sự chú ý của khán giả, củng cố các thông điệp chính, và thêm yếu tố kể chuyện động. Dù bạn đang xây dựng một bộ slide giáo dục, một bài thuyết trình bán hàng, hay một buổi trình bày marketing, kỹ thuật này sẽ làm cho nội dung của bạn nổi bật.
+## Tại sao nên hoạt ảnh văn bản theo ký tự?
+Việc hoạt ảnh từng ký tự thu hút sự chú ý của khán giả, củng cố các thông điệp chính và thêm yếu tố kể chuyện động. Nó tạo ra một quá trình tiết lộ có nhịp độ, giữ người xem luôn hứng thú, làm nổi bật các thuật ngữ quan trọng từng cái một, và cho người thuyết trình kiểm soát luồng câu chuyện, giúp thông tin phức tạp dễ hiểu hơn.
 
 ## Yêu cầu trước
 Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-### Thư viện yêu cầu
-- **Aspose.Slides for Java** – the core API for creating and manipulating PowerPoint files. It supports **50+ input and output formats** and can process presentations with **up to 1,000 slides** without loading the entire file into memory.  
+### Thư viện cần thiết
+- **Aspose.Slides for Java** – API cốt lõi để tạo và thao tác các tệp PowerPoint. Nó hỗ trợ **hơn 50 định dạng nhập và xuất** và có thể xử lý các bài thuyết trình với **tối đa 1.000 slide** mà không cần tải toàn bộ tệp vào bộ nhớ.  
 - **Java Development Kit (JDK)** – version 16 or later.
 
-### Cài đặt môi trường
-- **IDE** – IntelliJ IDEA or Eclipse (both work great).  
-- **Build Tools** – Maven or Gradle are recommended for dependency management.
+### Cấu hình môi trường
+- **IDE** – IntelliJ IDEA hoặc Eclipse (cả hai đều hoạt động tốt).  
+- **Build tools** – Maven hoặc Gradle được khuyến nghị để quản lý phụ thuộc.
 
-### Kiến thức yêu cầu
+### Kiến thức tiên quyết
 - Kỹ năng lập trình Java cơ bản.  
-- Quen thuộc với việc thêm dependencies trong Maven/Gradle (hữu ích nhưng không bắt buộc).
+- Quen thuộc với việc thêm phụ thuộc trong Maven/Gradle (có ích nhưng không bắt buộc).
 
 ## Cài đặt Aspose.Slides cho Java
 Bạn có thể tích hợp Aspose.Slides vào dự án của mình theo ba cách. Chọn cách phù hợp với quy trình làm việc của bạn.
 
-### Maven (phụ thuộc aspose slides)
-Thêm dependency sau vào tệp `pom.xml` của bạn:
+### Maven (phụ thuộc maven aspose slides)
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn.
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -97,167 +109,165 @@ Thêm dependency sau vào tệp `pom.xml` của bạn:
 </dependency>
 ```
 
-### Gradle (phụ thuộc aspose slides)
-Thêm dòng này vào tệp `build.gradle` của bạn:
+### Gradle (phụ thuộc maven aspose slides)
+Bao gồm dòng này trong tệp `build.gradle` của bạn.
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Tải trực tiếp
-Ngoài ra, bạn có thể [download the latest version](https://releases.aspose.com/slides/java/) directly from Aspose.
+Ngoài ra, bạn có thể [tải phiên bản mới nhất](https://releases.aspose.com/slides/java/) trực tiếp từ Aspose.
 
-**Mua giấy phép** – Bạn có một số lựa chọn:
-- **Free Trial** – 30‑day trial with full feature set.  
-- **Temporary License** – Request a longer‑term evaluation license.  
-- **Purchase** – A subscription unlocks all production capabilities.
+**Mua giấy phép** – Bạn có một số tùy chọn:
+- **Dùng thử miễn phí** – Dùng thử 30 ngày với đầy đủ tính năng. Sử dụng liên kết **Start Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/).  
+- **Giấy phép tạm thời** – Yêu cầu giấy phép đánh giá dài hạn qua liên kết **Get Temporary License**: [Get Temporary License](https://purchase.aspose.com/).  
+- **Mua** – Đăng ký sẽ mở khóa tất cả các tính năng cho môi trường production: [Buy Aspose.Slides](https://purchase.aspose.com/buy).
 
-Sau khi thư viện được thêm, import các package cần thiết trong lớp Java của bạn.
+Sau khi thư viện được thêm, nhập các gói cần thiết vào lớp Java của bạn.
 
-## Hướng dẫn thực hiện
-Dưới đây chúng tôi sẽ hướng dẫn hai nhiệm vụ chính: **hoạt ảnh văn bản theo chữ** và **thêm hình oval trong Java**. Mỗi bước bao gồm một giải thích ngắn gọn và sau đó là đoạn code chính xác bạn cần sao chép.
+## Hướng dẫn triển khai
+Dưới đây chúng tôi sẽ hướng dẫn hai nhiệm vụ chính: **hoạt ảnh văn bản theo ký tự** và **thêm hình oval trong Java**. Mỗi bước bao gồm một giải thích ngắn kèm theo đoạn mã chính xác bạn cần sao chép.
 
-**Định nghĩa:** `Presentation` là lớp chính đại diện cho một tệp PowerPoint trong bộ nhớ.
+**Định nghĩa:** `Presentation` là đối tượng cấp cao nhất đại diện cho tệp PowerPoint trong bộ nhớ.
 
-### Cách hoạt ảnh Văn bản theo Chữ trong Java – Trả lời trực tiếp
-Tải một `Presentation` mới, chèn một ellipse, gắn một text frame, tạo hiệu ứng “Appear”, đặt `setDelayBetweenTextParts` trên đối tượng effect, và cuối cùng lưu tệp dưới dạng PPTX. Quy trình end‑to‑end này chỉ cần một vài lời gọi API và chạy dưới một giây cho các slide kích thước thông thường.
+### Cách hoạt ảnh văn bản theo ký tự trong Java?
+Tải một `Presentation` mới, chèn một hình ellipse, gắn khung văn bản, tạo hiệu ứng “Appear”, đặt `setDelayBetweenTextParts` trên đối tượng hiệu ứng, và cuối cùng lưu tệp dưới dạng PPTX. Quy trình từ đầu đến cuối này chỉ cần một vài lời gọi API và chạy dưới một giây cho các kích thước slide thông thường.
 
-#### Definition Anchor
-`Presentation` is Aspose.Slides' top‑level object that represents a PowerPoint file in memory.
+#### Định nghĩa neo
+`Presentation` là đối tượng cấp cao nhất của Aspose.Slides đại diện cho tệp PowerPoint trong bộ nhớ.
 
-#### 1. Create a New Presentation
-First, instantiate a fresh `Presentation` object.
+#### 1. Tạo một bản trình bày mới
+Đầu tiên, khởi tạo một đối tượng `Presentation` mới.
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. Add an Oval Shape with Text (add oval shape java)
-Next, place an ellipse on the first slide and give it the text you want to animate.
+#### 2. Thêm hình oval với văn bản (add oval shape java)
+`addAutoShape` thêm một auto shape mới (như ellipse) vào slide. `ShapeType.Ellipse` chỉ định hình ellipse. Tiếp theo, đặt một ellipse trên slide đầu tiên và gán cho nó văn bản bạn muốn hoạt ảnh.
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. Access the Animation Timeline
-Retrieve the timeline for the first slide – this is where you’ll attach the animation effect.
+#### 3. Truy cập timeline hoạt ảnh
+Lấy timeline cho slide đầu tiên – đây là nơi bạn sẽ gắn hiệu ứng hoạt ảnh.
 ```java
 IAnimationTimeLine timeline = presentation.getSlides().get_Item(0).getTimeline();
 ```
 
-#### 4. Add an Appearance Effect
-Create an “Appear” effect and tell Aspose.Slides to animate the text **by letter**.
+#### 4. Thêm hiệu ứng xuất hiện
+`IEffect` đại diện cho một hiệu ứng hoạt ảnh được áp dụng cho đối tượng slide. Tạo hiệu ứng “Appear” và yêu cầu Aspose.Slides hoạt ảnh văn bản **theo ký tự**.
 ```java
 IEffect effect = timeline.getMainSequence().addEffect(oval, 
     EffectType.Appear, EffectSubtype.None, EffectTriggerType.OnClick);
 effect.setAnimateTextType(AnimateTextType.ByLetter);
 ```
 
-**Định nghĩa:** The `setDelayBetweenTextParts` method sets the pause between successive characters in a text animation.
+**Định nghĩa:** Phương thức `setDelayBetweenTextParts` đặt khoảng dừng giữa các ký tự liên tiếp trong một hoạt ảnh văn bản.
 
-#### 5. Configure Text Animation Timing
-Control how fast each character shows up by setting the delay between text parts.  
-*(This is where we **set animation timing**.)*
+#### 5. Cấu hình thời gian hoạt ảnh văn bản
+Kiểm soát tốc độ xuất hiện của mỗi ký tự bằng cách đặt độ trễ giữa các phần văn bản. *(Đây là nơi chúng tôi **đặt độ trễ hoạt ảnh**.)*
 ```java
 effect.setDelayBetweenTextParts(-1.5f); // Adjust as needed
 ```
 
-#### 6. Save the Presentation (save as PPTX)
-Finally, write the file to disk in PPTX format.
+#### 6. Lưu bản trình bày (lưu dưới dạng pptx)
+`SaveFormat.Pptx` chỉ định định dạng tệp PPTX để lưu. Cuối cùng, ghi tệp ra đĩa ở định dạng PPTX.
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/AnimateTextEffect_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
-> **Pro tip:** Use a negative delay (as shown) for an instant cascade, or a positive value to slow the animation down.
+> **Mẹo chuyên nghiệp:** Sử dụng độ trễ âm (như trong ví dụ) để có hiệu ứng cascade ngay lập tức, hoặc giá trị dương để làm chậm hoạt ảnh.
 
-### Thêm hình dạng với Văn bản – Hướng dẫn chi tiết (add oval shape java)
+### Thêm các hình dạng với văn bản – hướng dẫn chi tiết (add oval shape java)
 
-#### Definition Anchor
-`IAutoShape` is the interface representing any auto‑shape, such as an ellipse, that can contain a text frame.
+#### Định nghĩa neo
+`IAutoShape` là giao diện đại diện cho bất kỳ auto‑shape nào, như ellipse, có thể chứa khung văn bản.
 
-#### 1. Initialize a New Presentation
+#### 1. Khởi tạo một bản trình bày mới
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. Insert an Oval Shape and Set Its Text
+#### 2. Chèn hình oval và đặt văn bản
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. Save the Resulting File (save as PPTX)
+#### 3. Lưu tệp kết quả (lưu dưới dạng pptx)
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/ShapeWithText_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
 ## Ứng dụng thực tế
-Hoạt ảnh văn bản và thêm hình dạng có thể nâng cao nhiều loại bản thuyết trình:
+Việc hoạt ảnh văn bản và thêm các hình dạng có thể nâng cao nhiều loại bài thuyết trình:
 
 | Kịch bản | Lợi ích |
-|----------|--------------|
-| **Slide giáo dục** | Làm nổi bật các thuật ngữ quan trọng từng cái một, giữ cho sinh viên tập trung. |
-| **Đề xuất kinh doanh** | Thu hút sự chú ý đến các số liệu hoặc cột mốc quan trọng. |
-| **Bộ trình marketing** | Tạo ra các buổi trình bày sản phẩm động, gây ấn tượng với khách hàng. |
+|----------|---------|
+| **Slide giáo dục** | Làm nổi bật các thuật ngữ chính từng cái một, giữ cho học sinh tập trung. |
+| **Đề xuất kinh doanh** | Thu hút sự chú ý đến các con số hoặc cột mốc quan trọng. |
+| **Bộ trình marketing** | Tạo ra các buổi trình bày sản phẩm động gây ấn tượng với khách hàng. |
 
 Bạn cũng có thể kết hợp các kỹ thuật này với việc tạo slide dựa trên dữ liệu, cung cấp nội dung từ cơ sở dữ liệu hoặc tệp CSV.
 
 ## Các lưu ý về hiệu suất
-- **Keep shapes lightweight** – avoid overly complex geometry.  
-- **Dispose of presentations** when done (e.g., `presentation.dispose();`) to free memory.  
-- **Use built‑in optimization** – Aspose.Slides offers `presentation.getSlides().optimizeResources();` to reduce memory footprint.
+- **Giữ các hình dạng nhẹ** – tránh hình học quá phức tạp.  
+- **Giải phóng các bản trình bày** khi hoàn thành (ví dụ, `presentation.dispose();`) để giải phóng bộ nhớ.  
+- **Sử dụng tối ưu hoá tích hợp** – Aspose.Slides cung cấp `presentation.getSlides().optimizeResources();` để giảm dung lượng bộ nhớ.
 
-## Các vấn đề thường gặp & Giải pháp
-- **File path errors** – Verify that `YOUR_DOCUMENT_DIRECTORY` exists and is writable.  
-- **Missing dependencies** – Ensure the Maven/Gradle coordinates match your JDK version.  
-- **Animation not visible** – Confirm that the effect’s trigger type matches your slide transition settings.
+## Các vấn đề thường gặp & giải pháp
+- **Lỗi đường dẫn tệp** – Kiểm tra `YOUR_DOCUMENT_DIRECTORY` tồn tại và có quyền ghi.  
+- **Thiếu phụ thuộc** – Đảm bảo các tọa độ Maven/Gradle phù hợp với phiên bản JDK của bạn.  
+- **Hoạt ảnh không hiển thị** – Xác nhận loại trigger của hiệu ứng phù hợp với cài đặt chuyển đổi slide của bạn.
 
 ## Câu hỏi thường gặp
 
 **Q: Aspose.Slides for Java là gì?**  
-A: It’s a powerful API that lets developers create, edit, and render PowerPoint files without Microsoft Office.
+A: Đó là một API mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và render các tệp PowerPoint mà không cần Microsoft Office.
 
-**Q: Làm thế nào để hoạt ảnh văn bản theo chữ bằng Aspose.Slides?**  
-A: Call `setAnimateTextType(AnimateTextType.ByLetter)` on an `IEffect` attached to a shape containing text, then adjust the delay with `setDelayBetweenTextParts`.
+**Q: Làm thế nào để hoạt ảnh văn bản theo ký tự bằng Aspose.Slides?**  
+A: Gọi `setAnimateTextType(AnimateTextType.ByLetter)` trên một `IEffect` gắn vào shape chứa văn bản, sau đó điều chỉnh độ trễ bằng `setDelayBetweenTextParts`.
 
 **Q: Tôi có thể tùy chỉnh thời gian hoạt ảnh trong Aspose.Slides không?**  
-A: Yes, use `setDelayBetweenTextParts(float)` to define the pause between each character; values can be negative for instant cascade or positive for slower effects.
+A: Có, sử dụng `setDelayBetweenTextParts(float)` để định nghĩa khoảng dừng giữa mỗi ký tự; giá trị có thể âm để cascade ngay lập tức hoặc dương để hiệu ứng chậm hơn.
 
-**Q: Làm sao để thêm một hình oval trong Java?**  
-A: Use `addAutoShape(ShapeType.Ellipse, x, y, width, height)` on the slide’s shape collection, then set its text frame.
+**Q: Làm sao để thêm hình oval trong Java?**  
+A: Sử dụng `addAutoShape(ShapeType.Ellipse, x, y, width, height)` trên bộ sưu tập shape của slide, sau đó đặt khung văn bản cho nó.
 
-**Q: Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?**  
-A: A valid license is required for commercial deployments; a free trial suffices for development and testing.
+**Q: Tôi có cần giấy phép cho việc sử dụng trong môi trường production không?**  
+A: Cần một giấy phép hợp lệ cho các triển khai thương mại; dùng thử miễn phí đủ cho phát triển và kiểm thử.
 
 **Q: Làm sao để lưu tệp dưới dạng PPTX?**  
-A: Call `presentation.save("output.pptx", SaveFormat.Pptx);` as shown in the code examples.
+A: Gọi `presentation.save("output.pptx", SaveFormat.Pptx);` như trong các ví dụ mã.
 
 ## Tài nguyên bổ sung
-- [Tham chiếu Aspose.Slides Java](https://reference.aspose.com/slides/java/)  
+- [Tham khảo Aspose.Slides Java](https://reference.aspose.com/slides/java/)  
 - [Bản phát hành Aspose.Slides](https://releases.aspose.com/slides/java/)  
 - [Mua Aspose.Slides](https://purchase.aspose.com/buy)  
-- [Bắt đầu dùng bản dùng thử miễn phí](https://releases.aspose.com/slides/java/)  
-- [Nhận giấy phép tạm thời](https://purchase.aspose.com/)
+- [Bắt đầu dùng thử miễn phí](https://releases.aspose.com/slides/java/)  
 
 ---
 
-**Cập nhật lần cuối:** 2026-06-13  
+**Cập nhật lần cuối:** 2026-10-18  
 **Kiểm tra với:** Aspose.Slides 25.4 (JDK 16 classifier)  
 **Tác giả:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
 
-## Hướng dẫn liên quan
 
-- [Aspose Slides Maven Dependency – Animate PowerPoint with Java](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
-- [Save PowerPoint with Animation Using Aspose.Slides for Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
-- [aspose slides maven - Master Advanced Slide Animations in Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+## Các hướng dẫn liên quan
 
+- [Phụ thuộc Maven Aspose Slides – Hoạt ảnh PowerPoint bằng Java](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [Lưu PowerPoint với Hoạt ảnh bằng Aspose.Slides cho Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
+- [aspose slides maven - Nâng cao Hoạt ảnh Slide trong Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

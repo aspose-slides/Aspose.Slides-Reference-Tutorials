@@ -1,21 +1,28 @@
 ---
-date: '2026-06-13'
-description: Java'da Aspose.Slides kullanarak metni harfe göre nasıl canlandıracağınızı
-  öğrenin. Bu rehber kurulum, oval şekil ekleme, animasyon zamanlamasını ayarlama
-  ve PPTX olarak kaydetme konularını kapsar.
+date: '2026-10-18'
+description: Java'da Aspose.Slides kullanarak metni harf harf nasıl canlandırılacağını
+  öğrenin. Bu rehber kurulum, add oval shape java, set animation delay ve sunumu pptx
+  olarak kaydetme konularını kapsar.
 keywords:
 - how to animate text
-- letter by letter animation
+- animate text by letter
 - add oval shape java
 - maven aspose slides dependency
-- set animation timing java
+- set animation delay
+lastmod: '2026-10-18'
+og_description: Java'da Aspose.Slides kullanarak metni harf harf nasıl canlandırılacağını
+  öğrenin. Bu rehber, add oval shape java, set animation delay ve sunumu pptx olarak
+  kaydetme adımlarını gösterir.
+og_image_alt: 'Developer guide: animate text by letter in Java with Aspose.Slides'
+og_title: Java'da Aspose.Slides kullanarak metni harf harf nasıl canlandırılır
 schemas:
 - author: Aspose
-  dateModified: '2026-06-13'
+  dateModified: '2026-10-18'
   description: Learn how to animate text by letter in Java using Aspose.Slides. This
-    guide covers setup, adding oval shape, set animation timing, and save as PPTX.
-  headline: How to Animate Text by Letter in Java Using Aspose.Slides – A Complete
-    Guide
+    guide covers setup, add oval shape java, set animation delay, and save presentation
+    as pptx.
+  headline: How to animate text by letter in Java using Aspose.Slides – A complete
+    guide
   type: TechArticle
 - questions:
   - answer: It’s a powerful API that lets developers create, edit, and render PowerPoint
@@ -35,58 +42,61 @@ schemas:
       for development and testing.
     question: Do I need a license for production use?
   type: FAQPage
-title: Java'da Aspose.Slides Kullanarak Metni Harfe Göre Nasıl Canlandırılır – Tam
-  Bir Rehber
+tags:
+- animate text
+- Aspose.Slides
+- Java presentation automation
+- PPTX animation
+- Java tutorial
+title: Java'da Aspose.Slides kullanarak metni harf harf nasıl canlandırılır – Tam
+  bir rehber
 url: /tr/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java'da Aspose.Slides Kullanarak Harfe Göre Metin Animasyonu
 
-Günümüzün hızlı iş ortamında dikkat çekici sunumlar oluşturmak esastır ve **metni nasıl animasyonlandırılır** etkili bir şekilde slaytlarınızı öne çıkarabilir. Bu öğreticide harfe göre metni nasıl animasyonlandıracağınızı keşfedecek, böylece her karakter birbiri ardına görünecek ve sunumlarınıza cilalı, profesyonel bir his katacaksınız.
+# Harf harf metni Java'da Aspose.Slides ile canlandırma
 
-## Hızlı Yanıtlar
-- **Gerekli kütüphane nedir?** Aspose.Slides for Java  
+## Hızlı cevaplar
+- **Hangi kütüphane gerekli?** Aspose.Slides for Java  
 - **Java'da oval şekil ekleyebilir miyim?** Evet – `addAutoShape` metodunu kullanın  
-- **Animasyon gecikmesini nasıl yapılandırırım?** Etki nesnesinde `setDelayBetweenTextParts` metodunu çağırın  
-- **Üretim için lisansa ihtiyacım var mı?** Kalıcı bir lisans gereklidir; ücretsiz deneme geliştirme için çalışır  
+- **Animasyon gecikmesini nasıl yapılandırırım?** Etki nesnesi üzerinde `setDelayBetweenTextParts` metodunu çağırın  
+- **Üretim için lisansa ihtiyacım var mı?** Kalıcı bir lisans gereklidir; geliştirme için ücretsiz deneme yeterli  
 - **Hangi yapı araçları destekleniyor?** Maven, Gradle veya manuel JAR indirme  
-- **Dosyayı PPTX olarak kaydedebilir miyim?** Evet – `presentation.save(..., SaveFormat.Pptx)` metodunu çağırın  
+- **Dosyayı PPTX olarak kaydedebilir miyim?** Evet – `presentation.save(..., SaveFormat.Pptx)` metodunu çağırın
 
 ## Öğrenecekleriniz
-- **PowerPoint slaytında her harfe göre metni nasıl animasyonlandırılır** – Java'da *metni nasıl animasyonlandırılır* konusunun temeli.  
-- **Java'da oval şekil ekle** – bir elips ekleyin ve üzerine metin ekleyin.  
-- **Aspose.Slides for Java'ı kurun** Maven, Gradle veya doğrudan indirme ile.  
-- **Java'da animasyon zamanlamasını yapılandırın** harf‑harf efekti hızını kontrol etmek için.  
-- **Performans ipuçları** bellek‑verimli sunumlar için.  
+- **PowerPoint slaytında her harf için metni nasıl canlandırılır** – Java'da *metni nasıl canlandırılır* sorusunun temeli.  
+- **Oval şekil java** – bir elips ekleyin ve metni ona bağlayın.  
+- **Maven, Gradle veya doğrudan indirme** yoluyla Aspose.Slides for Java kurulumu.  
+- **Animasyon zamanlamasını java** ile harf‑harf etkisinin hızını kontrol etme.  
+- **Bellek‑verimli sunumlar** için performans ipuçları.
 
-## Metni Harf‑Harf Neden Animasyonlandırmalısınız?
-Her karakteri animasyonlandırmak izleyicinin dikkatini çeker, ana mesajları pekiştirir ve dinamik bir hikaye anlatım unsuru ekler. Eğitim sunumu, satış sunumu ya da pazarlama gösterisi hazırlıyor olun, bu teknik içeriğinizi öne çıkarır.
+## Neden metni harf‑harf canlandırmalısınız?
+Her karakteri canlandırmak izleyicinin dikkatini çeker, ana mesajları pekiştirir ve dinamik bir hikâye anlatımı ekler. İzleyiciyi meşgul tutan bir aşamalı ortaya çıkış yaratır, önemli terimleri tek tek vurgular ve sunum yapanın anlatı akışını kontrol etmesini sağlar; böylece karmaşık bilgiler daha kolay sindirilir.
 
 ## Önkoşullar
-İçeriğe girmeden önce, şunların olduğundan emin olun:
+İlerlemeye başlamadan önce şunların kurulu olduğundan emin olun:
 
-### Gerekli Kütüphaneler
-- **Aspose.Slides for Java** – PowerPoint dosyaları oluşturmak ve manipüle etmek için temel API. **50+ giriş ve çıkış formatını** destekler ve **1.000 slayta** kadar sunumu, tüm dosyayı belleğe yüklemeden işleyebilir.  
+### Gerekli kütüphaneler
+- **Aspose.Slides for Java** – PowerPoint dosyalarını oluşturup değiştirmek için temel API. **50+ giriş ve çıkış formatını** destekler ve **1.000 slayta** kadar olan sunumları tüm dosyayı belleğe yüklemeden işleyebilir.  
 - **Java Development Kit (JDK)** – sürüm 16 veya üzeri.
 
-### Ortam Kurulumu
-- **IDE** – IntelliJ IDEA veya Eclipse (her ikisi de harika çalışır).  
-- **Yapı Araçları** – Maven veya Gradle bağımlılık yönetimi için önerilir.
+### Ortam kurulumu
+- **IDE** – IntelliJ IDEA veya Eclipse (her ikisi de sorunsuz çalışır).  
+- **Yapı araçları** – Bağımlılık yönetimi için Maven veya Gradle önerilir.
 
-### Bilgi Önkoşulları
+### Bilgi önkoşulları
 - Temel Java programlama becerileri.  
-- Maven/Gradle'da bağımlılık ekleme konusunda aşinalık (yardımcı olur ancak zorunlu değildir).
+- Maven/Gradle’da bağımlılık ekleme konusunda temel bilgi (yardımcı olur ancak zorunlu değildir).
 
-## Aspose.Slides for Java'ı Kurma
-Aspose.Slides'ı projenize üç şekilde entegre edebilirsiniz. İş akışınıza uyanı seçin.
+## Aspose.Slides for Java Kurulumu
+Aspose.Slides'i projenize üç farklı yolla entegre edebilirsiniz. İş akışınıza en uygun olanı seçin.
 
-### Maven (maven aspose slides bağımlılığı)
+### Maven (maven aspose slides dependency)
 `pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 ```xml
 <dependency>
@@ -97,166 +107,166 @@ Aspose.Slides'ı projenize üç şekilde entegre edebilirsiniz. İş akışını
 </dependency>
 ```
 
-### Gradle (maven aspose slides bağımlılığı)
-`build.gradle` dosyanıza bu satırı ekleyin:
+### Gradle (maven aspose slides dependency)
+`build.gradle` dosyanıza şu satırı ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Doğrudan İndirme
-Alternatif olarak, Aspose'dan doğrudan [en son sürümü indirebilirsiniz](https://releases.aspose.com/slides/java/).
+### Doğrudan indirme
+Alternatif olarak, Aspose'tan doğrudan [en son sürümü indirin](https://releases.aspose.com/slides/java/).
 
-**Lisans Alımı** – Birkaç seçeneğiniz var:
-- **Ücretsiz Deneme** – tam özellik setiyle 30‑günlük deneme.  
-- **Geçici Lisans** – daha uzun vadeli değerlendirme lisansı isteyin.  
-- **Satın Alım** – Abonelik tüm üretim yeteneklerini açar.
+**Lisans edinme** – Birkaç seçeneğiniz var:
+- **Ücretsiz deneme** – tam özellik setiyle 30‑günlük deneme. **Ücretsiz Deneme Başlat** bağlantısını kullanın: [Ücretsiz Deneme Başlat](https://releases.aspose.com/slides/java/).  
+- **Geçici lisans** – **Geçici Lisans Al** bağlantısı üzerinden daha uzun süreli değerlendirme lisansı talep edin: [Geçici Lisans Al](https://purchase.aspose.com/).  
+- **Satın al** – Bir abonelik tüm üretim özelliklerini açar: [Aspose.Slides Satın Al](https://purchase.aspose.com/buy).
 
-Kütüphane eklendikten sonra, Java sınıfınızda gerekli paketleri içe aktarın.
+Kütüphane eklendikten sonra Java sınıfınızda gerekli paketleri içe aktarın.
 
-## Uygulama Kılavuzu
-Aşağıda iki ana görevi adım adım inceliyoruz: **harfe göre metin animasyonu** ve **Java'da oval şekil ekleme**. Her adım kısa bir açıklama ve kopyalamanız gereken tam kodu içerir.
+## Uygulama rehberi
+Aşağıda iki ana görevi adım adım inceliyoruz: **metni harf‑harf canlandırma** ve **Java'da oval şekil ekleme**. Her adım kısa bir açıklama ve kopyalamanız gereken tam kodu içerir.
 
-**Tanım:** `Presentation` bellekte bir PowerPoint dosyasını temsil eden ana sınıftır.
+**Tanım:** `Presentation` bellek içinde bir PowerPoint dosyasını temsil eden üst‑seviye nesnedir.
 
-### Java'da Harfe Göre Metin Animasyonu – Direkt Cevap
-Yeni bir `Presentation` yükleyin, bir elips ekleyin, bir metin çerçevesi ekleyin, bir “Appear” efekti oluşturun, etki nesnesinde `setDelayBetweenTextParts` ayarlayın ve sonunda dosyayı PPTX olarak kaydedin. Bu uçtan uca akış sadece birkaç API çağrısı gerektirir ve tipik slayt boyutları için bir saniyeden kısa sürer.
+### Java'da metni harf‑harf nasıl canlandırılır?
+Yeni bir `Presentation` oluşturun, bir elips ekleyin, bir metin çerçevesi bağlayın, “Appear” etkisi oluşturun, etki nesnesinde `setDelayBetweenTextParts` ayarlayın ve sonunda dosyayı PPTX olarak kaydedin. Bu uç‑uç akış sadece birkaç API çağrısı gerektirir ve tipik slayt boyutları için bir saniyeden az sürer.
 
-#### Tanım Bağlantısı
-`Presentation`, Aspose.Slides'ın bellekte bir PowerPoint dosyasını temsil eden üst‑seviye nesnesidir.
+#### Tanım bağlantısı
+`Presentation`, Aspose.Slides'ın bellek içindeki PowerPoint dosyasını temsil eden üst‑seviye nesnesidir.
 
-#### 1. Yeni Bir Sunum Oluşturun
-İlk olarak, yeni bir `Presentation` nesnesi oluşturun.
+#### 1. Yeni bir sunum oluşturun
+İlk olarak, yeni bir `Presentation` nesnesi örnekleyin.
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. Metinli Oval Şekil Ekleyin (add oval shape java)
-Sonra, ilk slayta bir elips yerleştirin ve animasyonlandırmak istediğiniz metni ekleyin.
+#### 2. Metinli oval şekil ekleyin (add oval shape java)
+`addAutoShape` yeni bir otomatik şekil (örneğin bir elips) ekler. `ShapeType.Ellipse` bir elips şekli belirtir. Ardından, ilk slayta bir elips yerleştirin ve canlandırmak istediğiniz metni ona atayın.
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. Animasyon Zaman Çizelgesine Erişin
-İlk slaytın zaman çizelgesini alın – animasyon etkisini buraya ekleyeceksiniz.
+#### 3. Animasyon zaman çizelgesine erişin
+İlk slaytın zaman çizelgesini alın – burada animasyon etkisini ekleyeceksiniz.
 ```java
 IAnimationTimeLine timeline = presentation.getSlides().get_Item(0).getTimeline();
 ```
 
-#### 4. Görünüm Efekti Ekleyin
-Bir “Appear” efekti oluşturun ve Aspose.Slides'a metni **harfe göre** animasyonlandırmasını söyleyin.
+#### 4. Görünüm etkisi ekleyin
+`IEffect`, bir slayt nesnesine uygulanan animasyon etkisini temsil eder. “Appear” etkisi oluşturun ve Aspose.Slides'a metni **harf‑harf** canlandırmasını söyleyin.
 ```java
 IEffect effect = timeline.getMainSequence().addEffect(oval, 
     EffectType.Appear, EffectSubtype.None, EffectTriggerType.OnClick);
 effect.setAnimateTextType(AnimateTextType.ByLetter);
 ```
 
-**Tanım:** `setDelayBetweenTextParts` metodu, bir metin animasyonunda ardışık karakterler arasındaki gecikmeyi ayarlar.
+**Tanım:** `setDelayBetweenTextParts` metin animasyonunda ardışık karakterler arasındaki duraklamayı ayarlar.
 
-#### 5. Metin Animasyonu Zamanlamasını Yapılandırın
-Metin parçaları arasındaki gecikmeyi ayarlayarak her karakterin ne kadar hızlı görüneceğini kontrol edin. *(Burada **animasyon zamanlamasını ayarlıyoruz**.)*
+#### 5. Metin animasyonu zamanlamasını yapılandırın
+Her karakterin ne kadar hızlı görüneceğini metin parçaları arasındaki gecikmeyi ayarlayarak kontrol edin.  
+*(Burada **animasyon gecikmesini ayarlıyoruz**.)*
 ```java
 effect.setDelayBetweenTextParts(-1.5f); // Adjust as needed
 ```
 
-#### 6. Sunumu Kaydedin (PPTX olarak kaydet)
-Son olarak, dosyayı PPTX formatında diske yazın.
+#### 6. Sunumu kaydedin (save as pptx)
+`SaveFormat.Pptx`, kaydetme için PPTX dosya formatını gösterir. Son olarak dosyayı PPTX formatında diske yazın.
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/AnimateTextEffect_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
-> **Pro ipucu:** Anında bir kademelendirme için negatif gecikme (gösterildiği gibi) kullanın, ya da animasyonu yavaşlatmak için pozitif bir değer kullanın.
+> **Pro ipucu:** Anında bir kaskad için negatif gecikme (gösterildiği gibi) kullanın, animasyonu yavaşlatmak için pozitif bir değer girin.
 
-### Metinli Şekiller Eklemek – Detaylı Açıklama (add oval shape java)
+### Metinli şekiller ekleme – ayrıntılı yürütme (add oval shape java)
 
-#### Tanım Bağlantısı
+#### Tanım bağlantısı
 `IAutoShape`, bir elips gibi metin çerçevesi içerebilen herhangi bir otomatik şekli temsil eden arayüzdür.
 
-#### 1. Yeni Bir Sunumu Başlatın
+#### 1. Yeni bir sunum başlatın
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. Oval Şekil Ekleyin ve Metnini Ayarlayın
+#### 2. Oval şekil ekleyin ve metnini ayarlayın
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. Oluşan Dosyayı Kaydedin (PPTX olarak kaydet)
+#### 3. Oluşan dosyayı kaydedin (save as pptx)
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/ShapeWithText_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
-## Pratik Uygulamalar
-Metni animasyonlandırmak ve şekil eklemek birçok sunum tipini yükseltebilir:
+## Pratik uygulamalar
+Metni canlandırmak ve şekil eklemek birçok sunum türünü yükseltebilir:
 
-| Senaryo | Nasıl Yardımcı Olur |
+| Senaryo | Nasıl yardımcı olur |
 |----------|----------------------|
-| **Eğitim Slaytları** | Anahtar terimleri tek tek vurgular, öğrencilerin odaklanmasını sağlar. |
-| **İş Teklifleri** | Kritik sayılara veya kilometre taşlarına dikkat çeker. |
-| **Pazarlama Sunumları** | Müşterileri etkileyen dinamik ürün gösterimleri oluşturur. |
+| **Eğitim slaytları** | Anahtar terimleri tek tek vurgular, öğrencilerin odaklanmasını sağlar. |
+| **İş teklifleri** | Kritik sayıların veya kilometre taşlarının dikkatini çeker. |
+| **Pazarlama sunumları** | Müşterileri etkileyen dinamik ürün gösterimleri oluşturur. |
 
-Bu teknikleri veri‑odaklı slayt oluşturma ile birleştirerek, içeriği veritabanlarından veya CSV dosyalarından besleyebilirsiniz.
+Bu teknikleri veri‑tabanlı slayt üretimiyle birleştirerek içerikleri CSV dosyalarından veya veritabanlarından besleyebilirsiniz.
 
-## Performans Hususları
+## Performans hususları
 - **Şekilleri hafif tutun** – aşırı karmaşık geometriyi önleyin.  
-- **Sunumları serbest bırakın** işiniz bittiğinde (ör. `presentation.dispose();`) bellek boşaltmak için.  
-- **Yerleşik optimizasyonu kullanın** – Aspose.Slides `presentation.getSlides().optimizeResources();` ile bellek ayak izini azaltır.
+- **Sunumları serbest bırakın** (ör. `presentation.dispose();`) bellek temizliği için.  
+- **Yerleşik optimizasyonu kullanın** – `presentation.getSlides().optimizeResources();` belleği azaltır.
 
-## Yaygın Sorunlar ve Çözümler
-- **Dosya yolu hataları** – `YOUR_DOCUMENT_DIRECTORY`'nin var olduğundan ve yazılabilir olduğundan emin olun.  
-- **Eksik bağımlılıklar** – Maven/Gradle koordinatlarının JDK sürümünüzle eşleştiğinden emin olun.  
-- **Animasyon görünmüyor** – Etkinin tetikleme tipinin slayt geçiş ayarlarınızla eşleştiğini doğrulayın.
+## Yaygın sorunlar ve çözümler
+- **Dosya yolu hataları** – `YOUR_DOCUMENT_DIRECTORY` var ve yazılabilir olduğundan emin olun.  
+- **Eksik bağımlılıklar** – Maven/Gradle koordinatlarının JDK sürümünüzle eşleştiğini kontrol edin.  
+- **Animasyon görünmüyor** – Etkinin tetikleme tipinin slayt geçiş ayarlarıyla uyumlu olduğundan emin olun.
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: Aspose.Slides for Java nedir?**  
-A: Microsoft Office olmadan geliştiricilerin PowerPoint dosyaları oluşturmasını, düzenlemesini ve render etmesini sağlayan güçlü bir API'dir.
+C: Microsoft Office olmadan PowerPoint dosyalarını oluşturup düzenleyebilen güçlü bir API'dir.
 
-**S: Aspose.Slides kullanarak metni harfe göre nasıl animasyonlandırırım?**  
-A: Metin içeren bir şekle eklenmiş `IEffect` üzerinde `setAnimateTextType(AnimateTextType.ByLetter)` metodunu çağırın, ardından gecikmeyi `setDelayBetweenTextParts` ile ayarlayın.
+**S: Aspose.Slides kullanarak metni harf‑harf nasıl canlandırırım?**  
+C: Şekle eklenen `IEffect` üzerinde `setAnimateTextType(AnimateTextType.ByLetter)` çağırın, ardından gecikmeyi `setDelayBetweenTextParts` ile ayarlayın.
 
-**S: Aspose.Slides'ta animasyon zamanlamasını özelleştirebilir miyim?**  
-A: Evet, her karakter arasındaki pause'ı tanımlamak için `setDelayBetweenTextParts(float)` kullanın; değerler anında kademelendirme için negatif, daha yavaş etkiler için pozitif olabilir.
+**S: Aspose.Slides'te animasyon zamanlamasını özelleştirebilir miyim?**  
+C: Evet, `setDelayBetweenTextParts(float)` ile her karakter arasındaki duraklamayı tanımlayabilirsiniz; negatif değer anında kaskad, pozitif değer daha yavaş bir etki sağlar.
 
 **S: Java'da oval şekil nasıl eklenir?**  
-A: Slaytın şekil koleksiyonunda `addAutoShape(ShapeType.Ellipse, x, y, width, height)` metodunu kullanın, ardından metin çerçevesini ayarlayın.
+C: Slaytın şekil koleksiyonunda `addAutoShape(ShapeType.Ellipse, x, y, width, height)` kullanın, ardından metin çerçevesini ayarlayın.
 
 **S: Üretim kullanımında lisansa ihtiyacım var mı?**  
-A: Ticari dağıtımlar için geçerli bir lisans gerekir; geliştirme ve test için ücretsiz deneme yeterlidir.
+C: Ticari dağıtımlar için geçerli bir lisans zorunludur; geliştirme ve test için ücretsiz deneme yeterlidir.
 
-**S: Dosyayı PPTX olarak nasıl kaydedebilirim?**  
-A: Kod örneklerinde gösterildiği gibi `presentation.save("output.pptx", SaveFormat.Pptx);` metodunu çağırın.
+**S: Dosyayı PPTX olarak nasıl kaydederim?**  
+C: Kod örneklerinde gösterildiği gibi `presentation.save("output.pptx", SaveFormat.Pptx);` çağrısını kullanın.
 
-## Ek Kaynaklar
+## Ek kaynaklar
 - [Aspose.Slides Java Referansı](https://reference.aspose.com/slides/java/)  
 - [Aspose.Slides Sürümleri](https://releases.aspose.com/slides/java/)  
 - [Aspose.Slides Satın Al](https://purchase.aspose.com/buy)  
 - [Ücretsiz Deneme Başlat](https://releases.aspose.com/slides/java/)  
-- [Geçici Lisans Al](https://purchase.aspose.com/)
 
 ---
 
-**Son Güncelleme:** 2026-06-13  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 (JDK 16 sınıflandırıcı)  
+**Son güncelleme:** 2026-10-18  
+**Test edilen sürüm:** Aspose.Slides 25.4 (JDK 16 sınıflandırıcısı)  
 **Yazar:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
 
-## İlgili Öğreticiler
+
+## İlgili öğreticiler
 
 - [Aspose Slides Maven Bağımlılığı – Java ile PowerPoint Animasyonu](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
-- [Aspose.Slides for Java Kullanarak Animasyonlu PowerPoint Kaydet](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
-- [aspose slides maven - Java'da Gelişmiş Slayt Animasyonlarını Öğren](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
-
+- [Aspose.Slides for Java ile Animasyonlu PowerPoint Kaydetme](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
+- [aspose slides maven - Java'da Gelişmiş Slayt Animasyonları](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

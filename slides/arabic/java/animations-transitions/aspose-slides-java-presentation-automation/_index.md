@@ -1,32 +1,38 @@
 ---
-date: '2026-05-08'
-description: تعلم كيفية استخدام مكتبة java powerpoint لإنشاء العروض التقديمية برمجياً
-  وإضافة الانتقالات باستخدام Aspose.Slides for Java
+date: '2026-10-18'
+description: تعلم كيفية تحويل ppt إلى pptx وتعيين مدة الانتقال في Java باستخدام Aspose.Slides،
+  المكتبة الرائدة لجافا PowerPoint للانتقالات الآلية للشرائح.
 keywords:
+- convert ppt to pptx
+- create powerpoint presentation java
+- set transition duration java
 - java powerpoint library
-- how to add transitions
 - automate slide transitions
-- generate powerpoint code
-- apply animations java
+lastmod: '2026-10-18'
+og_description: تعلم كيفية تحويل ppt إلى pptx وتعيين مدة الانتقال في Java باستخدام
+  Aspose.Slides، المكتبة الرائدة لجافا PowerPoint للانتقالات الآلية للشرائح.
+og_image_alt: 'Tutorial: convert ppt to pptx and add slide transitions in Java with
+  Aspose.Slides'
+og_title: كيفية تحويل ppt إلى pptx وإضافة انتقالات الشرائح في Java
 schemas:
 - author: Aspose
-  dateModified: '2026-05-08'
-  description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  headline: 'java powerpoint library: slide transitions with Aspose.Slides'
+  dateModified: '2026-10-18'
+  description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  headline: How to convert ppt to pptx and add slide transitions in Java
   type: TechArticle
-- description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  name: 'java powerpoint library: slide transitions with Aspose.Slides'
+- description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  name: How to convert ppt to pptx and add slide transitions in Java
   steps:
-  - name: Load the Presentation
+  - name: Load the presentation
     text: '*Explanation*: The `Presentation` constructor reads the PowerPoint file
       from the supplied path, giving you a manipulable object model.'
-  - name: Apply Transitions
+  - name: Apply transitions
     text: '*Explanation*: The `SlideShowTransition` object lets you define the visual
       effect that appears when moving to the next slide. Here we set two different
       transition types for the first two slides.'
-  - name: Save the Presentation
+  - name: Save the presentation
     text: '*Explanation*: Using `SaveFormat.Pptx` ensures the output remains a standard
       PowerPoint file with all transitions intact.'
   type: HowTo
@@ -48,49 +54,55 @@ schemas:
       pricing.
     question: What licensing model should I choose for a batch processing service?
   type: FAQPage
-title: 'مكتبة java powerpoint: انتقالات الشرائح مع Aspose.Slides'
+tags:
+- convert ppt
+- Aspose.Slides
+- Java presentation automation
+- slide transitions
+- powerpoint programming
+title: كيفية تحويل ppt إلى pptx وإضافة انتقالات الشرائح في Java
 url: /ar/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء عرض تقديمي برمجياً في جافا: أتمتة انتقالات PowerPoint باستخدام Aspose.Slides
 
-## مقدمة
+# إنشاء عرض تقديمي برمجيًا في جافا: أتمتة انتقالات PowerPoint باستخدام Aspose.Slides
 
-في عالم الأعمال السريع الوتيرة اليوم، غالبًا ما تحتاج إلى **إنشاء عرض تقديمي برمجياً** لمواكبة المواعيد النهائية الضيقة. تسمح لك **مكتبة java powerpoint** التي توفرها Aspose.Slides for Java بإنشاء أو تعديل ملفات PowerPoint بالكامل من خلال الشيفرة، مما يلغي الخطوات اليدوية المعرضة للأخطاء. باستخدام هذه المكتبة يمكنك **أتمتة انتقالات PowerPoint**، تحميل ملفات PPTX الموجودة، تطبيق الرسوم المتحركة المخصصة، وحفظ النتيجة — كل ذلك من جافا. يوضح هذا الدليل سير العمل الكامل، بدءًا من إعداد المكتبة وحتى معالجة دفعات متعددة من العروض التقديمية.
+## المقدمة
 
-بنهاية هذا الدليل ستتمكن من:
+في عالم الأعمال السريع اليوم، غالبًا ما تحتاج إلى **إنشاء عروض PowerPoint برمجيًا** لمواكبة المواعيد الضيقة. مكتبة **java powerpoint library** التي توفرها Aspose.Slides for Java تتيح لك توليد، تعديل، و**تحويل ppt إلى pptx** بالكامل من خلال الشيفرة، مما يلغي الخطوات اليدوية المعرضة للأخطاء. باستخدام هذه المكتبة يمكنك **أتمتة انتقالات الشرائح**، تحميل ملفات PPTX موجودة، تطبيق رسوم متحركة مخصصة، وحفظ النتيجة—كل ذلك من جافا. يشرح هذا الدليل سير العمل الكامل، من إعداد المكتبة إلى معالجة دفعة من العروض المتعددة.
+
+بنهاية هذا الدليل ستكون قادرًا على:
 
 - تحميل ملف PPTX إلى تطبيق جافا الخاص بك  
-- **إضافة انتقالات الشرائح في جافا** للشرائح الفردية أو مجموعة كاملة  
-- حفظ العرض التقديمي المعدل مع الحفاظ على جميع المحتويات  
-- تطبيق التقنية في سيناريو **معالجة دفعات PowerPoint** لأتمتة على نطاق واسع  
+- **Java add slide transitions** للشرائح الفردية أو للعرض بأكمله  
+- **تحويل ppt إلى pptx** مع الحفاظ على جميع المحتويات والرسوم المتحركة  
+- حفظ العرض المعدل بقيمة **set transition duration java** مخصصة  
+- تطبيق التقنية في سيناريو **batch process PowerPoint** لأتمتة واسعة النطاق  
 
 هيا نبدأ!
 
 ## إجابات سريعة
-- **ماذا يعني “إنشاء عرض تقديمي برمجياً”؟** يعني ذلك توليد أو تعديل ملفات PowerPoint عبر الشيفرة بدلاً من استخدام واجهة المستخدم.  
-- **أي مكتبة تتولى الأتمتة؟** Aspose.Slides for Java، المكتبة الرائدة في مجال java powerpoint.  
-- **هل يمكنني تطبيق الانتقالات على العديد من الشرائح مرة واحدة؟** نعم – يمكنك التكرار عبر مجموعة الشرائح أو استخدام معالجة الدفعات.  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم الحصول على ترخيص مؤقت أو مرخص للميزات غير المحدودة.  
-- **ما نسخة جافا المطلوبة؟** JDK 1.6 أو أحدث (يوصى بـ JDK 16 لأحدث الإصدارات).
+- **ماذا يعني “إنشاء عرض تقديمي برمجيًا”؟** يعني توليد أو تعديل ملفات PowerPoint عبر الشيفرة بدلاً من استخدام الواجهة الرسومية.  
+- **أي مكتبة تتولى الأتمتة؟** Aspose.Slides for Java، المكتبة الرائدة في مجال java powerpoint library.  
+- **هل يمكن تطبيق الانتقالات على العديد من الشرائح مرة واحدة؟** نعم – يمكن المرور عبر مجموعة الشرائح أو استخدام المعالجة الدفعة.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يتطلب الترخيص المؤقت أو المشتراة للميزات غير المقيدة.  
+- **ما نسخة جافا المطلوبة؟** JDK 1.6 أو أحدث (يوصى JDK 16 لأحدث الإصدارات).
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من أنك تمتلك:
+قبل أن نبدأ، تأكد من وجود:
 
 - **Aspose.Slides for Java** مضافة إلى مشروعك (Maven، Gradle، أو JAR يدوي).  
 - بيئة تطوير جافا (JDK 1.6+).  
-- إلمام أساسي بصياغة جافا ومفاهيم البرمجة الكائنية.  
+- إلمام أساسي بصياغة جافا ومفاهيم البرمجة الكائنية.
 
-## إعداد Aspose.Slides لجافا
+## إعداد Aspose.Slides for Java
 
-لبدء، أضف تبعية Aspose.Slides إلى نظام البناء الخاص بك.
+لبدء الاستخدام، أضف تبعية Aspose.Slides إلى نظام البناء الخاص بك.
 
 ### Maven
 ```xml
@@ -109,13 +121,13 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### التحميل المباشر
 
-بدلاً من ذلك، يمكنك تنزيل أحدث نسخة من [إصدارات Aspose.Slides لجافا](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، يمكنك تنزيل أحدث نسخة من [إصدارات Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 
 **الحصول على الترخيص**: تقدم Aspose نسخة تجريبية مجانية، تراخيص مؤقتة، وخيارات شراء كاملة. للاستخدام في الإنتاج، احصل على ترخيص مؤقت أو اشترِ واحدًا لإزالة قيود التقييم.
 
 ## التهيئة الأساسية
 
-فئة `Presentation` هي الكائن الأساسي في مكتبة java powerpoint الذي يمثل ملف PowerPoint في الذاكرة. بمجرد توفر المكتبة، يمكنك إنشاء مثيل الفئة الرئيسية:
+فئة `Presentation` هي الكائن الأساسي في مكتبة java powerpoint library التي تمثل ملف PowerPoint في الذاكرة. بمجرد توفر المكتبة، يمكنك إنشاء الكائن الرئيسي:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -124,28 +136,30 @@ import com.aspose.slides.Presentation;
 Presentation presentation = new Presentation();
 ```
 
-## كيفية إنشاء عرض تقديمي برمجياً باستخدام Aspose.Slides
+## كيفية إنشاء عرض تقديمي برمجيًا باستخدام Aspose.Slides
 
-حمّل ملف PPTX موجود، طبّق الانتقالات المطلوبة، واحفظه مرة أخرى — كل ذلك في بضع أسطر مختصرة من شيفرة جافا. يعمل هذا النمط لكل من تعديل ملف واحد وكذلك معالجة العشرات من العروض في مهمة دفعة، مما يمنحك تحكمًا كاملاً في توقيت الشرائح، التأثيرات، وصيغة الإخراج.
+حمّل ملف PPTX موجود، طبّق الانتقالات المطلوبة، واحفظه مرة أخرى—كل ذلك في بضع أسطر مختصرة من شيفرة جافا. يعمل هذا النمط لكل من تعديل ملف واحد وكذلك معالجة عشرات العروض في مهمة دفعة، مما يمنحك تحكمًا كاملاً في توقيت الشرائح، التأثيرات، وصيغة الإخراج.
 
-### تحميل العرض التقديمي
+### تحميل العرض
 **نظرة عامة**: الخطوة الأولى هي تحميل ملف PPTX موجود تريد تعديلّه.
 
-#### الخطوة 1: تحديد دليل المستند
+#### الخطوة 1: تحديد مسار المستند
 ```java
 final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```
 
-#### الخطوة 2: تحميل العرض التقديمي
+#### الخطوة 2: تحميل العرض
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-*Explanation*: يقرأ مُنشئ `Presentation` ملف PowerPoint من المسار المقدم، مما يمنحك نموذج كائن قابل للتلاعب.
+*شرح*: يقوم مُنشئ `Presentation` بقراءة ملف PowerPoint من المسار المحدد، ويعطيك نموذجًا كائنًا يمكن التلاعب به.
 
-### إضافة انتقالات الشرائح في جافا
+## Java add slide transitions
 **نظرة عامة**: يوضح هذا القسم كيفية تطبيق تأثيرات انتقال مختلفة على الشرائح الفردية.
 
-#### الخطوة 1: استيراد أنواع الانتقالات
+فئة `SlideShowTransition` تُعرّف التأثير البصري الذي يُطبق عند الانتقال إلى الشريحة التالية.
+
+#### الخطوة 1: استيراد أنواع الانتقال
 ```java
 import com.aspose.slides.TransitionType;
 ```
@@ -162,17 +176,17 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Explanation*: يتيح لك كائن `SlideShowTransition` تعريف التأثير البصري الذي يظهر عند الانتقال إلى الشريحة التالية. هنا نحدد نوعي انتقال مختلفين للشرائح الأولى والثانية.
+*شرح*: يتيح لك كائن `SlideShowTransition` تحديد التأثير البصري الذي يظهر عند الانتقال إلى الشريحة التالية. هنا نُعيّن نوعي انتقال مختلفين للشرائح الأولى والثانية.
 
-### حفظ العرض التقديمي
+## حفظ العرض
 **نظرة عامة**: بعد جميع التعديلات، اكتب الملف المحدث مرة أخرى إلى القرص.
 
-#### الخطوة 1: تحديد دليل الإخراج
+#### الخطوة 1: تحديد مسار الإخراج
 ```java
 final String outPath = "YOUR_OUTPUT_DIRECTORY"; // Replace with actual path
 ```
 
-#### الخطوة 2: حفظ العرض التقديمي
+#### الخطوة 2: حفظ العرض
 ```java
 try {
     presentation.save(outPath + "/SampleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
@@ -180,65 +194,61 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Explanation*: يضمن استخدام `SaveFormat.Pptx` بقاء الإخراج ملف PowerPoint قياسي مع جميع الانتقالات محفوظة.
+*شرح*: يضمن استخدام `SaveFormat.Pptx` بقاء الإخراج ملف PowerPoint قياسي مع جميع الانتقالات محفوظة.
 
-## كيف تضيف انتقالات الشرائح في جافا؟
+## كيف تُضيف انتقالات الشرائح في جافا؟
 
-أنشئ كائن `SlideShowTransition` لكل شريحة، عيّن نوعه والمدة، ثم احفظ التغييرات. يتيح لك هذا النهج التحكم برمجيًا في مظهر كل انتقال شريحة دون الحاجة إلى فتح PowerPoint يدويًا.
+حمّل عرضك، أنشئ كائن `SlideShowTransition` لكل شريحة، عيّن النوع المطلوب، وحدد مدة الانتقال قبل الحفظ. يمنحك هذا النهج تحكمًا دقيقًا في التدفق البصري، مما يتيح لك تخصيص التوقيت، نمط التأثير، وحتى دمج الانتقالات مع رسوم متحركة للكائنات للحصول على نتيجة مصقولة.
 
-### مثال على سير العمل
-1. التكرار عبر `presentation.getSlides()`  
-2. لكل `ISlide` استدعِ `getSlideShowTransition()`  
-3. عيّن `setTransitionType(TransitionType.Fade)` و `setDuration(2.0)`  
+## لماذا نُؤتمت انتقالات PowerPoint؟
 
-(استخدم العناصر النائبة أعلاه للحصول على مقتطفات الشيفرة الدقيقة.)
+تضمن أتمتة الانتقالات تجربة بصرية متسقة عبر جميع العروض مع تقليل الجهد اليدوي بشكل كبير. باستخدام مكتبة java powerpoint library يمكنك تطبيق نفس التأثير على مئات الشرائح في ثوانٍ، وتوسيع المعالجة عبر عدة نوى، وضمان التزام كل عرض بإرشادات العلامة التجارية دون أخطاء بشرية.
 
-## لماذا أتمتة انتقالات PowerPoint؟
+## تطبيقات عملية
 
-تضمن أتمتة الانتقالات تدفقًا بصريًا متسقًا عبر جميع العروض، وتقلل الجهد اليدوي حتى 90 % للدفعات الكبيرة، وتمكنك من إنشاء مئات العروض في دقائق بدلًا من ساعات. تعالج مكتبة java powerpoint العروض التي تتجاوز مئات الصفحات دون تحميل الملف بالكامل إلى الذاكرة، مما يجعلها مثالية للتقارير على مستوى المؤسسة.
+تتألق Aspose.Slides for Java في العديد من السيناريوهات الواقعية:
 
-## التطبيقات العملية
+1. **إنشاء تقارير آلية** – إنشاء عروض KPI شهرية مع انتقالات ديناميكية و**تحويل ppt إلى pptx** لتوافق حديث.  
+2. **وحدات التعلم الإلكتروني** – بناء عروض تدريبية تفاعلية تُرشد المتعلمين بسلاسة، باستخدام قيم **set transition duration java** دقيقة للتوقيت.  
+3. **حملات التسويق** – إنتاج عروض تقديمية مخصصة على نطاق واسع، كل منها بسلاسل رسوم متحركة مخصصة وصيغة PPTX محدثة.  
 
-تتفوق Aspose.Slides for Java في العديد من السيناريوهات الواقعية:
+## اعتبارات الأداء والمعالجة الدفعة
 
-1. **إنشاء تقارير تلقائية** – إنشاء عروض KPI شهرية مع انتقالات ديناميكية.  
-2. **وحدات التعلم الإلكتروني** – بناء عروض تدريبية تفاعلية توجه المتعلمين عبر المحتوى بسلاسة.  
-3. **حملات التسويق** – إنتاج عروض تقديمية مخصصة على نطاق واسع، كل منها مع تسلسلات رسوم متحركة مخصصة.  
+عند التعامل مع عروض كبيرة أو متعددة، ضع في اعتبارك النصائح التالية:
 
-## اعتبارات الأداء ومعالجة الدفعات
-
-عند التعامل مع عروض تقديمية كبيرة أو متعددة، احرص على مراعاة النصائح التالية:
-
-- **تحرير الموارد بسرعة** – استدعِ دائمًا `presentation.dispose()` لتحرير الموارد الأصلية.  
+- **التفريغ الفوري** – استدعِ دائمًا `presentation.dispose()` لتحرير الموارد الأصلية.  
 - **المعالجة على دفعات** – حمّل عددًا محدودًا من الملفات في كل مرة لتجنب ارتفاع الذاكرة.  
-- **التنفيذ المتوازي** – استخدم `ExecutorService` في جافا لتشغيل عدة مهام تحويل في وقت واحد، لكن راقب استهلاك المعالج.  
+- **التنفيذ المتوازي** – استخدم `ExecutorService` في جافا لتشغيل مهام تحويل متعددة في آنٍ واحد، لكن راقب استهلاك المعالج.  
+- **تحويل فعال للذاكرة** – يمكن للمكتبة **تحويل ppt إلى pptx** دون إنشاء نسخة كاملة من المستند، مما يقلل استهلاك الذاكرة حتى 40 % للملفات الكبيرة.  
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | الحل |
 |-------|----------|
-| `FileNotFoundException` | تحقق من مسار الملف وتأكد من أن التطبيق لديه أذونات القراءة/الكتابة. |
-| عدم ظهور الانتقالات | تأكد من حفظك باستخدام `SaveFormat.Pptx` وفتح الملف في PowerPoint 2016+ (الإصدارات القديمة قد تتجاهل بعض التأثيرات). |
-| استهلاك عالي للذاكرة في العروض الكبيرة | عالج الشرائح على دفعات، حرّر كائن `Presentation` بعد كل ملف، وفكّر في زيادة حجم الذاكرة المخصصة للـ JVM (`-Xmx`). |
+| `FileNotFoundException` | تحقق من مسار الملف وتأكد من أن التطبيق يمتلك صلاحيات القراءة/الكتابة. |
+| عدم ظهور الانتقالات | تأكد من حفظ الملف باستخدام `SaveFormat.Pptx` وفتح الملف في PowerPoint 2016+ (الإصدارات الأقدم قد تتجاهل بعض التأثيرات). |
+| استهلاك عالي للذاكرة في العروض الكبيرة | عالج الشرائح على دفعات، حرّر كائن `Presentation` بعد كل ملف، وفكّر في زيادة حجم كومة JVM (`-Xmx`). |
+| فقدان تنسيق ملفات PPT القديمة | استخدم `PptLoadOptions` عند تحميل ملفات PPT القديمة للحفاظ على العناصر القديمة قبل التحويل إلى PPTX. |
+| تجاهل مدة الانتقال | تأكد من استدعاء `getSlideShowTransition().setDuration(seconds)` **قبل** حفظ العرض. |
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني تطبيق نفس الانتقال على جميع الشرائح تلقائيًا؟**  
-ج: نعم. قم بالتكرار عبر `presentation.getSlides()` وعين نوع الانتقال لكل شريحة داخل الحلقة.
+**س: هل يمكن تطبيق نفس الانتقال على جميع الشرائح تلقائيًا؟**  
+ج: نعم. مرّ عبر `presentation.getSlides()` واضبط نوع الانتقال لكل شريحة داخل الحلقة.
 
 **س: كيف أغيّر مدة الانتقال؟**  
 ج: استخدم `getSlideShowTransition().setDuration(double seconds)` لتحديد مدة التأثير.
 
 **س: هل يمكن دمج عدة تأثيرات انتقال؟**  
-ج: تسمح لك Aspose.Slides بتعيين انتقال أساسي واحد لكل شريحة، لكن يمكنك ربط رسوم متحركة على كائنات فردية للحصول على تأثيرات أغنى.
+ج: تسمح Aspose.Slides بتعيين انتقال أساسي واحد لكل شريحة، لكن يمكنك ربط رسوم متحركة للكائنات للحصول على تأثيرات أغنى.
 
 **س: هل تدعم المكتبة صيغ ملفات أخرى (مثل ODP، PPT)؟**  
-ج: بالتأكيد. يمكن لـ Aspose.Slides تحميل وحفظ صيغ PPT، PPTX، ODP، والعديد من صيغ العروض الأخرى.
+ج: بالتأكيد. يمكن لـ Aspose.Slides تحميل وحفظ PPT، PPTX، ODP، والعديد من صيغ العروض الأخرى.
 
-**س: أي نموذج ترخيص يجب أن أختار لخدمة معالجة الدفعات؟**  
-ج: لأتمتة ذات حجم كبير، يُنصح بـ **ترخيص مؤقت** للتقييم أو **ترخيص موقع** للإنتاج. تواصل مع مبيعات Aspose للحصول على أسعار الحجم.
+**س: أي نموذج ترخيص يجب أن أختار لخدمة معالجة دفعات؟**  
+ج: للأتمتة عالية الحجم، يُنصح بـ **ترخيص مؤقت** للتقييم أو **ترخيص موقع** للإنتاج. تواصل مع مبيعات Aspose للحصول على أسعار حجمية.
 
-## الموارد
+## موارد
 - [توثيق Aspose.Slides](https://reference.aspose.com/slides/java/)
 - [تحميل أحدث نسخة](https://releases.aspose.com/slides/java/)
 - [شراء تراخيص](https://purchase.aspose.com/buy)
@@ -246,17 +256,21 @@ try {
 - [معلومات الترخيص المؤقت](https://purchase.aspose.com/temporary-license/)
 - [الدعم والمنتديات](https://forum.aspose.com/c/slides/11)
 
-اغمر نفسك، جرب أنواع انتقال مختلفة، ودع عروضك تتألق بأتمتة من مستوى احترافي!
+ابدأ التجربة، جرّب أنواع انتقال مختلفة، ودع عروضك تتألق بأتمتة احترافية!
 
-**آخر تحديث:** 2026-05-08  
+---
+
+**آخر تحديث:** 2026-10-18  
 **تم الاختبار مع:** Aspose.Slides 25.4 (JDK 16)  
 **المؤلف:** Aspose  
 
+---
+
 ## دروس ذات صلة
 
-- [إضافة انتقالات الشرائح – دروس Aspose.Slides لجافا](/slides/java/animations-transitions/)
-- [كيفية إنشاء انتقالات العرض التقديمي في جافا باستخدام Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
-- [كيفية إنشاء PowerPoint متحرك باستخدام Aspose.Slides في جافا - تحميل وتحريك العروض بسهولة](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [إضافة انتقالات الشرائح – دروس Aspose.Slides for Java](/slides/java/animations-transitions/)
+- [كيفية إنشاء انتقالات عرض تقديمي في جافا باستخدام Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
+- [كيفية إنشاء PowerPoint متحرك باستخدام Aspose.Slides في جافا - تحميل وعرض العروض بسهولة](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

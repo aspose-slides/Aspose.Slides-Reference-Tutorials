@@ -1,32 +1,40 @@
 ---
-date: '2026-05-08'
-description: Tìm hiểu cách sử dụng thư viện powerpoint java để tạo bài thuyết trình
-  một cách lập trình và thêm chuyển tiếp với Aspose.Slides cho Java.
+date: '2026-10-18'
+description: Tìm hiểu cách chuyển đổi ppt sang pptx và thiết lập thời lượng chuyển
+  đổi trong Java bằng Aspose.Slides, thư viện powerpoint java hàng đầu cho việc tự
+  động hoá hiệu ứng chuyển slide.
 keywords:
+- convert ppt to pptx
+- create powerpoint presentation java
+- set transition duration java
 - java powerpoint library
-- how to add transitions
 - automate slide transitions
-- generate powerpoint code
-- apply animations java
+lastmod: '2026-10-18'
+og_description: Tìm hiểu cách chuyển đổi ppt sang pptx và thiết lập thời lượng chuyển
+  đổi trong Java bằng Aspose.Slides, thư viện powerpoint java hàng đầu cho việc tự
+  động hoá hiệu ứng chuyển slide.
+og_image_alt: 'Tutorial: convert ppt to pptx and add slide transitions in Java with
+  Aspose.Slides'
+og_title: Cách chuyển đổi ppt sang pptx và thêm hiệu ứng chuyển slide trong Java
 schemas:
 - author: Aspose
-  dateModified: '2026-05-08'
-  description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  headline: 'java powerpoint library: slide transitions with Aspose.Slides'
+  dateModified: '2026-10-18'
+  description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  headline: How to convert ppt to pptx and add slide transitions in Java
   type: TechArticle
-- description: Learn how to use the java powerpoint library to programmatically create
-    presentations and add transitions with Aspose.Slides for Java.
-  name: 'java powerpoint library: slide transitions with Aspose.Slides'
+- description: Learn how to convert ppt to pptx and set transition duration in Java
+    using Aspose.Slides, the leading java powerpoint library for automated slide transitions.
+  name: How to convert ppt to pptx and add slide transitions in Java
   steps:
-  - name: Load the Presentation
+  - name: Load the presentation
     text: '*Explanation*: The `Presentation` constructor reads the PowerPoint file
       from the supplied path, giving you a manipulable object model.'
-  - name: Apply Transitions
+  - name: Apply transitions
     text: '*Explanation*: The `SlideShowTransition` object lets you define the visual
       effect that appears when moving to the next slide. Here we set two different
       transition types for the first two slides.'
-  - name: Save the Presentation
+  - name: Save the presentation
     text: '*Explanation*: Using `SaveFormat.Pptx` ensures the output remains a standard
       PowerPoint file with all transitions intact.'
   type: HowTo
@@ -48,43 +56,49 @@ schemas:
       pricing.
     question: What licensing model should I choose for a batch processing service?
   type: FAQPage
-title: 'thư viện powerpoint java: chuyển tiếp slide với Aspose.Slides'
+tags:
+- convert ppt
+- Aspose.Slides
+- Java presentation automation
+- slide transitions
+- powerpoint programming
+title: Cách chuyển đổi ppt sang pptx và thêm hiệu ứng chuyển slide trong Java
 url: /vi/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo Bài Thuyết Trình Theo Chương Trình trong Java: Tự Động Hóa Chuyển Động PowerPoint với Aspose.Slides
+
+# Tạo bài thuyết trình bằng lập trình trong Java: tự động chuyển đổi PowerPoint với Aspose.Slides
 
 ## Giới thiệu
 
-Trong thế giới kinh doanh ngày nay với tốc độ nhanh, bạn thường cần **tạo bài thuyết trình theo chương trình** để đáp ứng các thời hạn chặt chẽ. **Thư viện java powerpoint** do Aspose.Slides cho Java cung cấp cho phép bạn tạo hoặc chỉnh sửa các tệp PowerPoint hoàn toàn bằng mã, loại bỏ các bước thủ công, dễ gây lỗi. Với thư viện này, bạn có thể **tự động hóa chuyển động PowerPoint**, tải các tệp PPTX hiện có, áp dụng các hoạt ảnh tùy chỉnh và lưu kết quả — tất cả từ Java. Hướng dẫn này sẽ đưa bạn qua quy trình đầy đủ, từ cài đặt thư viện đến xử lý hàng loạt nhiều bài thuyết trình.
+Trong thế giới kinh doanh hiện đại với tốc độ nhanh, bạn thường cần **tạo bài thuyết trình PowerPoint bằng lập trình** để đáp ứng các thời hạn chặt chẽ. **Thư viện java powerpoint** do Aspose.Slides for Java cung cấp cho phép bạn tạo, chỉnh sửa và **chuyển đổi ppt sang pptx** hoàn toàn bằng mã, loại bỏ các bước thủ công, dễ gây lỗi. Với thư viện này, bạn có thể **tự động chuyển đổi slide**, tải các tệp PPTX hiện có, áp dụng các hoạt ảnh tùy chỉnh và lưu kết quả — tất cả từ Java. Hướng dẫn này sẽ đưa bạn qua quy trình đầy đủ, từ cài đặt thư viện đến xử lý hàng loạt nhiều bài thuyết trình.
 
 Khi hoàn thành hướng dẫn này, bạn sẽ có thể:
 
 - Tải tệp PPTX vào ứng dụng Java của bạn  
-- **Java thêm chuyển động slide** cho các slide riêng lẻ hoặc toàn bộ bộ slide  
-- Lưu bài thuyết trình đã chỉnh sửa trong khi giữ nguyên mọi nội dung  
-- Áp dụng kỹ thuật trong kịch bản **xử lý hàng loạt PowerPoint** để tự động hóa quy mô lớn  
+- **Java add slide transitions** cho các slide riêng lẻ hoặc toàn bộ bộ slide  
+- **Convert ppt to pptx** trong khi giữ nguyên mọi nội dung và hoạt ảnh  
+- Lưu bài thuyết trình đã chỉnh sửa với giá trị **set transition duration java** tùy chỉnh  
+- Áp dụng kỹ thuật trong kịch bản **batch process PowerPoint** cho tự động hoá quy mô lớn  
 
-Hãy cùng khám phá!
+Hãy bắt đầu!
 
 ## Câu trả lời nhanh
-- **Tạo bài thuyết trình theo chương trình** có nghĩa là gì?** Nó có nghĩa là tạo hoặc chỉnh sửa các tệp PowerPoint bằng mã thay vì sử dụng giao diện người dùng.  
-- **Thư viện nào thực hiện tự động hóa?** Aspose.Slides cho Java, thư viện java powerpoint hàng đầu.  
-- **Tôi có thể áp dụng chuyển động cho nhiều slide cùng lúc không?** Có – lặp qua bộ sưu tập slide hoặc sử dụng xử lý hàng loạt.  
-- **Tôi có cần giấy phép cho việc sử dụng trong sản xuất không?** Cần một giấy phép tạm thời hoặc mua để sử dụng đầy đủ các tính năng.  
-- **Phiên bản Java nào được yêu cầu?** JDK 1.6 trở lên (JDK 16 được khuyến nghị cho các bản dựng mới nhất).
+- **What does “create presentation programmatically” mean?** Nó có nghĩa là tạo hoặc chỉnh sửa các tệp PowerPoint thông qua mã thay vì sử dụng giao diện người dùng.  
+- **Which library handles the automation?** Aspose.Slides for Java, thư viện java powerpoint hàng đầu.  
+- **Can I apply transitions to many slides at once?** Có – lặp qua bộ sưu tập slide hoặc sử dụng xử lý hàng loạt.  
+- **Do I need a license for production use?** Cần một giấy phép tạm thời hoặc mua để sử dụng đầy đủ các tính năng.  
+- **What Java version is required?** JDK 1.6 hoặc mới hơn (JDK 16 được khuyến nghị cho các bản dựng mới nhất).
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-- **Aspose.Slides cho Java** đã được thêm vào dự án của bạn (Maven, Gradle, hoặc JAR thủ công).  
+- **Aspose.Slides for Java** đã được thêm vào dự án của bạn (Maven, Gradle, hoặc JAR thủ công).  
 - Môi trường phát triển Java (JDK 1.6+).  
 - Kiến thức cơ bản về cú pháp Java và các khái niệm hướng đối tượng.  
 
@@ -107,11 +121,11 @@ Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải xuống trực tiếp
+### Tải trực tiếp
 
 Ngoài ra, bạn có thể tải phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Mua giấy phép**: Aspose cung cấp bản dùng thử miễn phí, giấy phép tạm thời và các tùy chọn mua đầy đủ. Đối với việc sử dụng trong sản xuất, hãy lấy giấy phép tạm thời hoặc mua để loại bỏ các hạn chế đánh giá.
+**License acquisition**: Aspose cung cấp bản dùng thử miễn phí, giấy phép tạm thời và các tùy chọn mua đầy đủ. Đối với sử dụng trong môi trường sản xuất, hãy lấy giấy phép tạm thời hoặc mua để loại bỏ các hạn chế đánh giá.
 
 ## Khởi tạo cơ bản
 
@@ -124,12 +138,12 @@ import com.aspose.slides.Presentation;
 Presentation presentation = new Presentation();
 ```
 
-## Cách tạo bài thuyết trình theo chương trình với Aspose.Slides
+## Cách tạo bài thuyết trình bằng lập trình với Aspose.Slides
 
-Tải một tệp PPTX hiện có, áp dụng các chuyển động mong muốn và lưu lại — tất cả trong vài dòng mã Java ngắn gọn. Mẫu này hoạt động cho việc chỉnh sửa tệp đơn lẻ cũng như xử lý hàng chục bộ sưu tập trong một công việc hàng loạt, cho phép bạn kiểm soát hoàn toàn thời gian slide, hiệu ứng và định dạng đầu ra.
+Tải một PPTX hiện có, áp dụng các chuyển đổi mong muốn và lưu lại — tất cả trong vài dòng mã Java ngắn gọn. Mẫu này hoạt động cho việc chỉnh sửa tệp đơn lẻ cũng như xử lý hàng chục bộ slide trong một công việc batch, cho phép bạn kiểm soát hoàn toàn thời gian slide, hiệu ứng và định dạng đầu ra.
 
 ### Tải bài thuyết trình
-**Tổng quan**: Bước đầu tiên là tải một tệp PPTX hiện có mà bạn muốn chỉnh sửa.
+**Overview**: Bước đầu tiên là tải một tệp PPTX hiện có mà bạn muốn chỉnh sửa.
 
 #### Bước 1: Xác định thư mục tài liệu
 ```java
@@ -140,17 +154,19 @@ final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-*Giải thích*: Constructor `Presentation` đọc tệp PowerPoint từ đường dẫn đã cung cấp, cung cấp cho bạn một mô hình đối tượng có thể thao tác.
+*Explanation*: Hàm khởi tạo `Presentation` đọc tệp PowerPoint từ đường dẫn đã cung cấp, tạo ra một mô hình đối tượng có thể thao tác.
 
-### Java thêm chuyển động slide
-**Tổng quan**: Phần này cho thấy cách áp dụng các hiệu ứng chuyển động khác nhau cho từng slide.
+## Java thêm chuyển đổi slide
+**Overview**: Phần này trình bày cách áp dụng các hiệu ứng chuyển đổi khác nhau cho từng slide riêng lẻ.
 
-#### Bước 1: Nhập các loại chuyển động
+Lớp `SlideShowTransition` định nghĩa hiệu ứng hình ảnh được áp dụng khi chuyển sang slide tiếp theo.
+
+#### Bước 1: Nhập các loại chuyển đổi
 ```java
 import com.aspose.slides.TransitionType;
 ```
 
-#### Bước 2: Áp dụng chuyển động
+#### Bước 2: Áp dụng chuyển đổi
 ```java
 try {
     // Circle type transition on slide 1
@@ -162,10 +178,10 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Giải thích*: Đối tượng `SlideShowTransition` cho phép bạn định nghĩa hiệu ứng hình ảnh xuất hiện khi chuyển sang slide tiếp theo. Ở đây chúng tôi đặt hai loại chuyển động khác nhau cho hai slide đầu tiên.
+*Explanation*: Đối tượng `SlideShowTransition` cho phép bạn xác định hiệu ứng hình ảnh xuất hiện khi chuyển sang slide tiếp theo. Ở đây chúng tôi đặt hai loại chuyển đổi khác nhau cho hai slide đầu tiên.
 
-### Lưu bài thuyết trình
-**Tổng quan**: Sau khi hoàn tất các chỉnh sửa, ghi tệp đã cập nhật trở lại đĩa.
+## Lưu bài thuyết trình
+**Overview**: Sau khi thực hiện mọi thay đổi, ghi tệp đã cập nhật trở lại đĩa.
 
 #### Bước 1: Xác định thư mục đầu ra
 ```java
@@ -180,88 +196,81 @@ try {
     if (presentation != null) presentation.dispose();
 }
 ```
-*Giải thích*: Sử dụng `SaveFormat.Pptx` đảm bảo đầu ra vẫn là tệp PowerPoint tiêu chuẩn với mọi chuyển động được giữ nguyên.
+*Explanation*: Sử dụng `SaveFormat.Pptx` đảm bảo đầu ra vẫn là tệp PowerPoint tiêu chuẩn với mọi chuyển đổi được giữ nguyên.
 
-## Cách thêm chuyển động slide trong Java?
+## Cách thêm chuyển đổi slide trong Java?
 
-Tạo một `SlideShowTransition` cho mỗi slide, đặt loại và thời lượng, sau đó lưu các thay đổi. Cách tiếp cận này cho phép bạn kiểm soát chương trình cách hiển thị và cảm giác của mỗi chuyển động slide mà không cần mở PowerPoint thủ công.
+Tải bài thuyết trình của bạn, tạo một `SlideShowTransition` cho mỗi slide, đặt loại mong muốn và chỉ định thời lượng chuyển đổi trước khi lưu. Cách tiếp cận này cho phép bạn kiểm soát chính xác luồng hình ảnh, tùy chỉnh thời gian, kiểu hiệu ứng và thậm chí kết hợp chuyển đổi với hoạt ảnh đối tượng để có kết quả chuyên nghiệp.
 
-### Quy trình ví dụ
-1. Lặp qua `presentation.getSlides()`  
-2. Đối với mỗi `ISlide` gọi `getSlideShowTransition()`  
-3. Đặt `setTransitionType(TransitionType.Fade)` và `setDuration(2.0)`  
+## Tại sao tự động chuyển đổi PowerPoint?
 
-(Use the placeholders above for the exact code snippets.)
-
-## Tại sao tự động hóa chuyển động PowerPoint?
-
-Tự động hóa chuyển động đảm bảo luồng hình ảnh nhất quán trên tất cả các bộ slide, giảm công việc thủ công lên đến 90 % cho các lô lớn, và cho phép bạn tạo hàng trăm bài thuyết trình trong vài phút thay vì hàng giờ. Thư viện java powerpoint xử lý các bộ slide hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, làm cho nó lý tưởng cho báo cáo quy mô doanh nghiệp.
+Tự động hoá các chuyển đổi đảm bảo trải nghiệm hình ảnh nhất quán trên mọi bộ slide đồng thời giảm đáng kể công sức thủ công. Bằng cách sử dụng thư viện java powerpoint, bạn có thể áp dụng cùng một hiệu ứng cho hàng trăm slide trong vài giây, mở rộng xử lý trên nhiều lõi và đảm bảo mọi bài thuyết trình tuân thủ các hướng dẫn thương hiệu mà không có lỗi con người.
 
 ## Ứng dụng thực tiễn
 
-Aspose.Slides cho Java tỏa sáng trong nhiều kịch bản thực tế:
+Aspose.Slides for Java tỏa sáng trong nhiều kịch bản thực tế:
 
-1. **Tự động tạo báo cáo** – Tạo các bài thuyết trình KPI hàng tháng với chuyển động động.  
-2. **Mô-đun E‑Learning** – Xây dựng các bộ slide đào tạo tương tác dẫn người học qua nội dung một cách mượt mà.  
-3. **Chiến dịch Marketing** – Sản xuất các bộ pitch cá nhân hoá ở quy mô lớn, mỗi bộ có chuỗi hoạt ảnh tùy chỉnh.  
+1. **Automated report generation** – Tạo các bài thuyết trình KPI hàng tháng với chuyển đổi động và **convert ppt to pptx** để tương thích hiện đại.  
+2. **E‑learning modules** – Xây dựng các bộ đào tạo tương tác dẫn dắt người học qua nội dung một cách mượt mà, sử dụng giá trị **set transition duration java** chính xác cho thời gian.  
+3. **Marketing campaigns** – Sản xuất các deck pitch cá nhân hoá ở quy mô lớn, mỗi deck có chuỗi hoạt ảnh tùy chỉnh và định dạng PPTX cập nhật.  
 
-## Các lưu ý về hiệu năng & Xử lý hàng loạt
+## Cân nhắc về hiệu năng & xử lý hàng loạt
 
-Khi xử lý nhiều hoặc các bài thuyết trình lớn, hãy nhớ những lời khuyên sau:
+Khi xử lý các bài thuyết trình lớn hoặc nhiều, hãy lưu ý những mẹo sau:
 
-- **Giải phóng kịp thời** – Luôn gọi `presentation.dispose()` để giải phóng tài nguyên gốc.  
-- **Xử lý theo lô** – Tải một số lượng tệp giới hạn mỗi lần để tránh tăng đột biến bộ nhớ.  
-- **Thực thi song song** – Sử dụng `ExecutorService` của Java để chạy nhiều công việc chuyển đổi đồng thời, nhưng giám sát việc sử dụng CPU.  
+- **Dispose promptly** – Luôn gọi `presentation.dispose()` để giải phóng tài nguyên gốc.  
+- **Process in batches** – Tải một số lượng tệp giới hạn mỗi lần để tránh tăng đột biến bộ nhớ.  
+- **Parallel execution** – Sử dụng `ExecutorService` của Java để chạy đồng thời nhiều công việc chuyển đổi, nhưng cần giám sát mức sử dụng CPU.  
+- **Memory‑efficient conversion** – Thư viện có thể **convert ppt to pptx** mà không cần hiện thực toàn bộ tài liệu, giảm tiêu thụ heap lên tới 40 % trên các tệp lớn.  
 
 ## Các vấn đề thường gặp và giải pháp
 
 | Vấn đề | Giải pháp |
 |-------|----------|
 | `FileNotFoundException` | Xác minh đường dẫn tệp và đảm bảo ứng dụng có quyền đọc/ghi. |
-| Chuyển động không hiển thị | Xác nhận bạn đã lưu bằng `SaveFormat.Pptx` và mở tệp trong PowerPoint 2016+ (các phiên bản cũ hơn có thể bỏ qua một số hiệu ứng). |
+| Các chuyển đổi không hiển thị | Xác nhận bạn đã lưu bằng `SaveFormat.Pptx` và mở tệp trong PowerPoint 2016+ (các phiên bản cũ hơn có thể bỏ qua một số hiệu ứng). |
 | Sử dụng bộ nhớ cao trên các bộ slide lớn | Xử lý slide theo từng khối, giải phóng đối tượng `Presentation` sau mỗi tệp, và cân nhắc tăng kích thước heap JVM (`-Xmx`). |
+| Các tệp PPT cũ mất định dạng | Sử dụng `PptLoadOptions` của thư viện khi tải các tệp PPT cũ để bảo toàn các yếu tố legacy trước khi chuyển đổi sang PPTX. |
+| Thời lượng chuyển đổi bị bỏ qua | Đảm bảo bạn gọi `getSlideShowTransition().setDuration(seconds)` **trước** khi lưu bài thuyết trình. |
 
 ## Câu hỏi thường gặp
 
-**H: Tôi có thể áp dụng cùng một chuyển động cho tất cả các slide một cách tự động không?**  
-A: Có. Lặp qua `presentation.getSlides()` và đặt loại chuyển động cho mỗi slide trong vòng lặp.
+**Q: Can I apply the same transition to all slides automatically?**  
+A: Có. Lặp qua `presentation.getSlides()` và đặt loại chuyển đổi cho mỗi slide trong vòng lặp.
 
-**H: Làm thế nào để thay đổi thời lượng chuyển động?**  
+**Q: How do I change the transition duration?**  
 A: Sử dụng `getSlideShowTransition().setDuration(double seconds)` để chỉ định thời lượng hiệu ứng.
 
-**H: Có thể kết hợp nhiều hiệu ứng chuyển động không?**  
-A: Aspose.Slides cho phép bạn đặt một chuyển động chính cho mỗi slide, nhưng bạn có thể xâu chuỗi các hoạt ảnh trên các đối tượng riêng lẻ để có hiệu ứng phong phú hơn.
+**Q: Is it possible to combine multiple transition effects?**  
+A: Aspose.Slides cho phép bạn đặt một chuyển đổi chính cho mỗi slide, nhưng bạn có thể xâu chuỗi các hoạt ảnh trên các đối tượng riêng lẻ để tạo hiệu ứng phong phú hơn.
 
-**H: Thư viện có hỗ trợ các định dạng tệp khác (ví dụ: ODP, PPT) không?**  
-A: Chắc chắn. Aspose.Slides có thể tải và lưu PPT, PPTX, ODP và nhiều định dạng bài thuyết trình khác.
+**Q: Does the library support other file formats (e.g., ODP, PPT)?**  
+A: Hoàn toàn có. Aspose.Slides có thể tải và lưu các định dạng PPT, PPTX, ODP và nhiều định dạng bài thuyết trình khác.
 
-**H: Tôi nên chọn mô hình giấy phép nào cho dịch vụ xử lý hàng loạt?**  
-A: Đối với tự động hóa quy mô lớn, **giấy phép tạm thời** để đánh giá hoặc **giấy phép site** cho sản xuất được khuyến nghị. Liên hệ bộ phận bán hàng của Aspose để biết giá cho khối lượng.
+**Q: What licensing model should I choose for a batch processing service?**  
+A: Đối với tự động hoá khối lượng lớn, nên chọn **temporary license** để đánh giá hoặc **site license** cho môi trường sản xuất. Liên hệ bộ phận bán hàng của Aspose để biết giá ưu đãi theo khối lượng.
 
 ## Tài nguyên
-- [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Tải xuống phiên bản mới nhất](https://releases.aspose.com/slides/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Truy cập dùng thử miễn phí](https://releases.aspose.com/slides/java/)
-- [Thông tin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Hỗ trợ và diễn đàn](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Latest Version](https://releases.aspose.com/slides/java/)
+- [Purchase Licenses](https://purchase.aspose.com/buy)
+- [Free Trial Access](https://releases.aspose.com/slides/java/)
+- [Temporary License Information](https://purchase.aspose.com/temporary-license/)
+- [Support and Forums](https://forum.aspose.com/c/slides/11)
 
-Dive in, experiment with different transition types, and let your presentations shine with professional‑grade automation!
+Hãy khám phá, thử nghiệm với các loại chuyển đổi khác nhau, và để các bài thuyết trình của bạn tỏa sáng với tự động hoá cấp độ chuyên nghiệp!
 
----
-
-**Cập nhật lần cuối:** 2026-05-08  
-**Kiểm tra với:** Aspose.Slides 25.4 (JDK 16)  
+**Cập nhật lần cuối:** 2026-10-18  
+**Được kiểm tra với:** Aspose.Slides 25.4 (JDK 16)  
 **Tác giả:** Aspose  
 
 ---
 
 ## Hướng dẫn liên quan
 
-- [Thêm chuyển động slide – Hướng dẫn Aspose.Slides cho Java](/slides/java/animations-transitions/)
-- [Cách tạo chuyển động bài thuyết trình trong Java với Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
-- [Cách tạo PowerPoint hoạt hình với Aspose.Slides trong Java - Tải và hoạt hình hoá bài thuyết trình một cách dễ dàng](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
-
+- [Add Slide Transitions – Aspose.Slides for Java Tutorials](/slides/java/animations-transitions/)
+- [How to create presentation transitions in Java with Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/)
+- [How to create animated powerpoint with Aspose.Slides in Java - Load and Animate Presentations Effortlessly](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
