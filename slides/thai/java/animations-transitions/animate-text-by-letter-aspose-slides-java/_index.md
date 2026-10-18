@@ -1,20 +1,28 @@
 ---
-date: '2026-06-13'
-description: เรียนรู้วิธีทำแอนิเมชันข้อความตามตัวอักษรใน Java ด้วย Aspose.Slides คู่มือนี้ครอบคลุมการตั้งค่า
-  การเพิ่มรูปวงรี การกำหนดเวลาแอนิเมชัน และการบันทึกเป็น PPTX
+date: '2026-10-18'
+description: เรียนรู้วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java ด้วย Aspose.Slides
+  คู่มือนี้ครอบคลุมการตั้งค่า, การเพิ่ม oval shape java, การตั้งค่า animation delay,
+  และการบันทึกพรีเซนเทชันเป็น pptx
 keywords:
 - how to animate text
-- letter by letter animation
+- animate text by letter
 - add oval shape java
 - maven aspose slides dependency
-- set animation timing java
+- set animation delay
+lastmod: '2026-10-18'
+og_description: เรียนรู้วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java ด้วย Aspose.Slides
+  คู่มือนี้แสดงวิธีการเพิ่ม oval shape java, ตั้งค่า animation delay, และบันทึกพรีเซนเทชันเป็น
+  pptx
+og_image_alt: 'Developer guide: animate text by letter in Java with Aspose.Slides'
+og_title: วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java ด้วย Aspose.Slides
 schemas:
 - author: Aspose
-  dateModified: '2026-06-13'
+  dateModified: '2026-10-18'
   description: Learn how to animate text by letter in Java using Aspose.Slides. This
-    guide covers setup, adding oval shape, set animation timing, and save as PPTX.
-  headline: How to Animate Text by Letter in Java Using Aspose.Slides – A Complete
-    Guide
+    guide covers setup, add oval shape java, set animation delay, and save presentation
+    as pptx.
+  headline: How to animate text by letter in Java using Aspose.Slides – A complete
+    guide
   type: TechArticle
 - questions:
   - answer: It’s a powerful API that lets developers create, edit, and render PowerPoint
@@ -34,58 +42,63 @@ schemas:
       for development and testing.
     question: Do I need a license for production use?
   type: FAQPage
-title: วิธีทำแอนิเมชันข้อความตามตัวอักษรใน Java ด้วย Aspose.Slides – คู่มือฉบับสมบูรณ์
+tags:
+- animate text
+- Aspose.Slides
+- Java presentation automation
+- PPTX animation
+- Java tutorial
+title: วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java ด้วย Aspose.Slides – คู่มือฉบับสมบูรณ์
 url: /th/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # ทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java ด้วย Aspose.Slides
 
-การสร้างงานนำเสนอที่ดึงดูดสายตาเป็นสิ่งสำคัญในสภาพแวดล้อมธุรกิจที่เคลื่อนที่เร็วในปัจจุบัน และ **วิธีทำให้ข้อความเคลื่อนไหว** อย่างมีประสิทธิภาพสามารถทำให้สไลด์ของคุณโดดเด่นได้ ในบทแนะนำนี้คุณจะได้เรียนรู้วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรเพื่อให้แต่ละอักขระปรากฏขึ้นต่อเนื่อง ทำให้การนำเสนอของคุณดูเป็นมืออาชีพและขัดเกลา
+การสร้างการนำเสนอที่ดึงดูดสายตานั้นสำคัญในสภาพแวดล้อมธุรกิจที่เคลื่อนที่อย่างรวดเร็วในวันนี้, และ **วิธีทำให้ข้อความเคลื่อนไหว** อย่างมีประสิทธิภาพสามารถทำให้สไลด์ของคุณโดดเด่นได้ ในบทแนะนำนี้คุณจะได้ค้นพบวิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรเพื่อให้แต่ละอักขระปรากฏต่อเนื่องกัน, ทำให้การนำเสนอของคุณดูเป็นมืออาชีพและขัดเกลา
 
-## คำตอบสั้น ๆ
+## คำตอบอย่างรวดเร็ว
 - **ต้องใช้ไลบรารีอะไร?** Aspose.Slides for Java  
-- **สามารถเพิ่มรูปวงรีใน Java ได้หรือไม่?** ได้ – ใช้เมธอด `addAutoShape`  
-- **จะกำหนดค่าการหน่วงเวลาของแอนิเมชันอย่างไร?** เรียก `setDelayBetweenTextParts` บนวัตถุเอฟเฟกต์  
-- **ต้องมีลิขสิทธิ์สำหรับการใช้งานจริงหรือไม่?** ต้องมีลิขสิทธิ์ถาวร; เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา  
-- **เครื่องมือสร้างที่รองรับคืออะไร?** Maven, Gradle หรือดาวน์โหลด JAR ด้วยตนเอง  
-- **สามารถบันทึกไฟล์เป็น PPTX ได้หรือไม่?** ได้ – เรียก `presentation.save(..., SaveFormat.Pptx)`  
+- **ฉันสามารถเพิ่มรูปวงรีใน Java ได้หรือไม่?** ใช่ – ใช้วิธี `addAutoShape`  
+- **ฉันจะตั้งค่าการหน่วงเวลาการเคลื่อนไหวอย่างไร?** เรียก `setDelayBetweenTextParts` บนวัตถุ effect  
+- **ฉันต้องการใบอนุญาตสำหรับการผลิตหรือไม่?** จำเป็นต้องมีใบอนุญาตถาวร; การทดลองฟรีใช้ได้สำหรับการพัฒนา  
+- **เครื่องมือสร้างใดที่รองรับ?** Maven, Gradle, หรือดาวน์โหลด JAR ด้วยตนเอง  
+- **ฉันสามารถบันทึกไฟล์เป็น PPTX ได้หรือไม่?** ใช่ – เรียก `presentation.save(..., SaveFormat.Pptx)`
 
 ## สิ่งที่คุณจะได้เรียนรู้
-- **วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรในสไลด์ PowerPoint** – แกนหลักของ *วิธีทำให้ข้อความเคลื่อนไหว* ใน Java  
-- **เพิ่มรูปวงรีใน Java** – แทรกรูปวงรีและผูกข้อความกับมัน  
-- **ตั้งค่า Aspose.Slides for Java** ด้วย Maven, Gradle หรือดาวน์โหลดโดยตรง  
-- **กำหนดเวลาการเคลื่อนไหวใน Java** เพื่อควบคุมความเร็วของเอฟเฟกต์ตัวอักษรต่อหนึ่งตัว  
-- **เคล็ดลับประสิทธิภาพ** สำหรับการนำเสนอที่ใช้หน่วยความจำน้อย  
+- **วิธีทำให้ข้อความเคลื่อนไหวตามแต่ละตัวอักษรในสไลด์ PowerPoint** – แกนหลักของ *วิธีทำให้ข้อความเคลื่อนไหว* ใน Java.  
+- **เพิ่มรูปวงรีใน Java** – แทรกรูปวงรีและแนบข้อความเข้าไป.  
+- **ตั้งค่า Aspose.Slides สำหรับ Java** โดยใช้ Maven, Gradle หรือดาวน์โหลดโดยตรง.  
+- **กำหนดเวลาการเคลื่อนไหวใน Java** เพื่อควบคุมความเร็วของเอฟเฟกต์ตามตัวอักษร.  
+- **เคล็ดลับประสิทธิภาพ** สำหรับการนำเสนอที่ใช้หน่วยความจำน้อย
 
 ## ทำไมต้องทำให้ข้อความเคลื่อนไหวตามตัวอักษร?
-การทำให้แต่ละอักขระเคลื่อนไหวช่วยดึงความสนใจของผู้ฟัง, เสริมข้อความสำคัญ, และเพิ่มองค์ประกอบการเล่าเรื่องแบบไดนามิก ไม่ว่าคุณจะสร้างชุดสไลด์การศึกษา, การนำเสนอขาย, หรือการแสดงผลงานการตลาด เทคนิคนี้จะทำให้เนื้อหาของคุณโดดเด่น
+การทำให้แต่ละอักขระเคลื่อนไหวดึงความสนใจของผู้ชม, เสริมสร้างข้อความสำคัญ, และเพิ่มองค์ประกอบการเล่าเรื่องแบบไดนามิก มันสร้างการเปิดเผยแบบเป็นขั้นตอนที่ทำให้ผู้ชมมีส่วนร่วม, เน้นคำสำคัญทีละคำ, และให้ผู้บรรยายควบคุมการไหลของเรื่องราว, ทำให้ข้อมูลที่ซับซ้อนง่ายต่อการเข้าใจ
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
+ก่อนที่เราจะเริ่มลงลึก, โปรดตรวจสอบว่าคุณมี:
 
 ### ไลบรารีที่จำเป็น
-- **Aspose.Slides for Java** – API หลักสำหรับสร้างและจัดการไฟล์ PowerPoint รองรับ **รูปแบบเข้า‑ออกกว่า 50 รูปแบบ** และสามารถประมวลผลการนำเสนอที่มี **สูงสุด 1,000 สไลด์** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ  
-- **Java Development Kit (JDK)** – เวอร์ชัน 16 หรือใหม่กว่า  
+- **Aspose.Slides for Java** – API หลักสำหรับการสร้างและจัดการไฟล์ PowerPoint รองรับ **รูปแบบเข้าและออกกว่า 50 รูปแบบ** และสามารถประมวลผลการนำเสนอที่มี **สูงสุด 1,000 สไลด์** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ  
+- **Java Development Kit (JDK)** – เวอร์ชัน 16 หรือใหม่กว่า
 
 ### การตั้งค่าสภาพแวดล้อม
 - **IDE** – IntelliJ IDEA หรือ Eclipse (ทั้งสองทำงานได้ดี)  
-- **เครื่องมือสร้าง** – แนะนำให้ใช้ Maven หรือ Gradle เพื่อจัดการการพึ่งพา  
+- **Build tools** – Maven หรือ Gradle แนะนำสำหรับการจัดการการพึ่งพา
 
-### ความรู้พื้นฐานที่ต้องมี
-- ทักษะการเขียนโปรแกรม Java เบื้องต้น  
-- ความคุ้นเคยกับการเพิ่ม dependencies ใน Maven/Gradle (เป็นประโยชน์แต่ไม่บังคับ)  
+### ความรู้เบื้องต้นที่จำเป็น
+- ทักษะการเขียนโปรแกรม Java พื้นฐาน  
+- ความคุ้นเคยกับการเพิ่ม dependencies ใน Maven/Gradle (เป็นประโยชน์แต่ไม่จำเป็น)
 
-## การตั้งค่า Aspose.Slides for Java
-คุณสามารถรวม Aspose.Slides เข้ากับโปรเจกต์ของคุณได้สามวิธี เลือกวิธีที่สอดคล้องกับกระบวนการทำงานของคุณ
+## การตั้งค่า Aspose.Slides สำหรับ Java
+คุณสามารถรวม Aspose.Slides เข้ากับโครงการของคุณได้สามวิธี เลือกวิธีที่สอดคล้องกับกระบวนการทำงานของคุณ
 
-### Maven (maven aspose slides dependency)
-เพิ่ม dependency ต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
+### Maven (การพึ่งพา Maven สำหรับ Aspose Slides)
+เพิ่มการพึ่งพาดังต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -95,97 +108,97 @@ weight: 1
 </dependency>
 ```
 
-### Gradle (maven aspose slides dependency)
+### Gradle (การพึ่งพา Maven สำหรับ Aspose Slides)
 ใส่บรรทัดนี้ในไฟล์ `build.gradle` ของคุณ:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### ดาวน์โหลดโดยตรง
-หรือคุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุด](https://releases.aspose.com/slides/java/) โดยตรงจาก Aspose  
+นอกจากนี้คุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุด](https://releases.aspose.com/slides/java/) โดยตรงจาก Aspose
 
-**การจัดการลิขสิทธิ์** – คุณมีตัวเลือกหลายแบบ:
-- **ทดลองฟรี** – ทดลอง 30 วันพร้อมฟีเจอร์ครบชุด  
-- **ลิขสิทธิ์ชั่วคราว** – ขอรับลิขสิทธิ์ประเมินผลระยะยาว  
-- **ซื้อ** – การสมัครสมาชิกจะเปิดใช้งานความสามารถทั้งหมดสำหรับการผลิต  
+**การรับใบอนุญาต** – คุณมีหลายตัวเลือก:
+- **ทดลองใช้ฟรี** – ทดลอง 30 วันพร้อมคุณสมบัติครบชุด ใช้ลิงก์ **เริ่มทดลองใช้ฟรี**: [เริ่มทดลองใช้ฟรี](https://releases.aspose.com/slides/java/)  
+- **ใบอนุญาตชั่วคราว** – ขอใบอนุญาตการประเมินระยะยาวผ่านลิงก์ **รับใบอนุญาตชั่วคราว**: [รับใบอนุญาตชั่วคราว](https://purchase.aspose.com/)  
+- **ซื้อ** – การสมัครสมาชิกจะเปิดใช้งานคุณสมบัติทั้งหมดสำหรับการผลิต: [ซื้อ Aspose.Slides](https://purchase.aspose.com/buy)
 
-เมื่อเพิ่มไลบรารีแล้ว ให้นำเข้าแพ็กเกจที่จำเป็นในคลาส Java ของคุณ  
+เมื่อเพิ่มไลบรารีแล้ว, ให้ import แพคเกจที่จำเป็นในคลาส Java ของคุณ
 
 ## คู่มือการทำงาน
-ต่อไปนี้เป็นขั้นตอนหลักสองส่วน: **ทำให้ข้อความเคลื่อนไหวตามตัวอักษร** และ **เพิ่มรูปวงรีใน Java** แต่ละขั้นตอนจะมีคำอธิบายสั้น ๆ ตามด้วยโค้ดที่คุณต้องคัดลอก
+ด้านล่างเราจะอธิบายขั้นตอนหลักสองอย่าง: **การทำให้ข้อความเคลื่อนไหวตามตัวอักษร** และ **การเพิ่มรูปวงรีใน Java** แต่ละขั้นตอนมีคำอธิบายสั้น ๆ ตามด้วยโค้ดที่คุณต้องคัดลอก
 
-**คำนิยาม:** `Presentation` คือคลาสหลักที่แทนไฟล์ PowerPoint ในหน่วยความจำ
+**คำนิยาม:** `Presentation` คืออ็อบเจ็กต์ระดับบนสุดที่แทนไฟล์ PowerPoint ในหน่วยความจำ
 
-### วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java – คำตอบโดยตรง
-โหลด `Presentation` ใหม่, แทรกรูปวงรี, แนบกรอบข้อความ, สร้างเอฟเฟกต์ “Appear”, ตั้งค่า `setDelayBetweenTextParts` บนวัตถุเอฟเฟกต์, แล้วบันทึกไฟล์เป็น PPTX กระบวนการทั้งหมดใช้เพียงไม่กี่คำสั่ง API และทำงานภายในไม่กี่วินาทีสำหรับสไลด์ขนาดทั่วไป
+### วิธีทำให้ข้อความเคลื่อนไหวตามตัวอักษรใน Java?
+โหลด `Presentation` ใหม่, แทรกรูปวงรี, แนบ text frame, สร้างเอฟเฟกต์ “Appear”, ตั้งค่า `setDelayBetweenTextParts` บนวัตถุ effect, และสุดท้ายบันทึกไฟล์เป็น PPTX กระบวนการครบวงจรนี้ต้องการเพียงไม่กี่การเรียก API และทำงานภายในวินาทีเดียวสำหรับสไลด์ขนาดทั่วไป
 
-#### คำนิยามอ้างอิง
-`Presentation` คืออ็อบเจ็กต์ระดับบนของ Aspose.Slides ที่แทนไฟล์ PowerPoint ในหน่วยความจำ
+#### คำอธิบายการอ้างอิง
+`Presentation` คืออ็อบเจ็กต์ระดับบนสุดของ Aspose.Slides ที่แทนไฟล์ PowerPoint ในหน่วยความจำ
 
-#### 1. สร้าง Presentation ใหม่
-เริ่มต้นโดยสร้างอ็อบเจ็กต์ `Presentation` ใหม่
+#### 1. สร้างการนำเสนอใหม่
+First, instantiate a fresh `Presentation` object.
 ```java
 Presentation presentation = new Presentation();
 ```
 
 #### 2. เพิ่มรูปวงรีพร้อมข้อความ (add oval shape java)
-ต่อไปให้วางรูปวงรีบนสไลด์แรกและใส่ข้อความที่ต้องการให้เคลื่อนไหว
+`addAutoShape` adds a new auto shape (such as an ellipse) to the slide. `ShapeType.Ellipse` specifies an ellipse shape. Next, place an ellipse on the first slide and give it the text you want to animate.
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. เข้าถึงไทม์ไลน์ของแอนิเมชัน
-ดึงไทม์ไลน์ของสไลด์แรก – ที่นี่คุณจะผูกเอฟเฟกต์แอนิเมชัน
+#### 3. เข้าถึงไทม์ไลน์การเคลื่อนไหว
+Retrieve the timeline for the first slide – this is where you’ll attach the animation effect.
 ```java
 IAnimationTimeLine timeline = presentation.getSlides().get_Item(0).getTimeline();
 ```
 
 #### 4. เพิ่มเอฟเฟกต์การปรากฏ
-สร้างเอฟเฟกต์ “Appear” และบอก Aspose.Slides ให้เคลื่อนไหวข้อความ **ตามตัวอักษร**
+`IEffect` represents an animation effect applied to a slide object. Create an “Appear” effect and tell Aspose.Slides to animate the text **ตามตัวอักษร**.
 ```java
 IEffect effect = timeline.getMainSequence().addEffect(oval, 
     EffectType.Appear, EffectSubtype.None, EffectTriggerType.OnClick);
 effect.setAnimateTextType(AnimateTextType.ByLetter);
 ```
 
-**คำนิยาม:** เมธอด `setDelayBetweenTextParts` กำหนดช่วงเวลาหน่วงระหว่างอักขระต่อเนื่องในแอนิเมชันข้อความ
+**คำนิยาม:** วิธี `setDelayBetweenTextParts` กำหนดการหยุดระหว่างตัวอักษรต่อเนื่องในแอนิเมชันข้อความ
 
-#### 5. กำหนดเวลาการเคลื่อนไหวของข้อความ
-ควบคุมความเร็วที่แต่ละอักขระปรากฏโดยตั้งค่าหน่วงเวลาระหว่างส่วนของข้อความ  
-*(นี่คือที่ที่เราตั้งค่า **การกำหนดเวลาการเคลื่อนไหว**)*
+#### 5. ตั้งค่าการกำหนดเวลาการเคลื่อนไหวของข้อความ
+Control how fast each character shows up by setting the delay between text parts.  
+*(This is where we **ตั้งค่าการหน่วงเวลาแอนิเมชัน**.)*
 ```java
 effect.setDelayBetweenTextParts(-1.5f); // Adjust as needed
 ```
 
-#### 6. บันทึก Presentation (save as PPTX)
-สุดท้ายให้เขียนไฟล์ลงดิสก์ในรูปแบบ PPTX
+#### 6. บันทึกการนำเสนอ (บันทึกเป็น pptx)
+`SaveFormat.Pptx` indicates the PPTX file format for saving. Finally, write the file to disk in PPTX format.
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/AnimateTextEffect_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
 ```
 
-> **เคล็ดลับมืออาชีพ:** ใช้ค่าหน่วงเวลาติดลบ (ตามตัวอย่าง) เพื่อให้เกิดการ cascade อย่างทันที, หรือใช้ค่าบวกเพื่อทำให้แอนิเมชันช้าลง
+> **เคล็ดลับมืออาชีพ:** ใช้การหน่วงเวลาติดลบ (ตามที่แสดง) เพื่อให้เกิดการไหลต่อเนื่องทันที, หรือค่าบวกเพื่อทำให้แอนิเมชันช้าลง
 
 ### การเพิ่มรูปทรงพร้อมข้อความ – ขั้นตอนละเอียด (add oval shape java)
 
-#### คำนิยามอ้างอิง
-`IAutoShape` คืออินเทอร์เฟซที่แทนรูปทรงอัตโนมัติใด ๆ เช่น วงรี, ซึ่งสามารถบรรจุกรอบข้อความได้
+#### คำอธิบายการอ้างอิง
+`IAutoShape` is the interface representing any auto‑shape, such as an ellipse, that can contain a text frame.
 
-#### 1. เริ่มต้น Presentation ใหม่
+#### 1. เริ่มต้นการนำเสนอใหม่
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### 2. แทรกรูปวงรีและตั้งค่าข้อความ
+#### 2. แทรกรูปวงรีและตั้งค่าข้อความของมัน
 ```java
 IAutoShape oval = presentation.getSlides().get_Item(0).getShapes().addAutoShape(
     ShapeType.Ellipse, 100, 100, 300, 150);
 oval.getTextFrame().setText("The new animated text");
 ```
 
-#### 3. บันทึกไฟล์ผลลัพธ์ (save as PPTX)
+#### 3. บันทึกไฟล์ที่ได้ (บันทึกเป็น pptx)
 ```java
 String outFilePath = "YOUR_DOCUMENT_DIRECTORY/ShapeWithText_out.pptx";
 presentation.save(outFilePath, SaveFormat.Pptx);
@@ -194,68 +207,65 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 ## การประยุกต์ใช้งานจริง
 การทำให้ข้อความเคลื่อนไหวและการเพิ่มรูปทรงสามารถยกระดับการนำเสนอหลายประเภทได้:
 
-| สถานการณ์ | วิธีที่ช่วย |
+| สถานการณ์ | ประโยชน์ |
 |----------|--------------|
-| **สไลด์การศึกษา** | เน้นคำสำคัญทีละคำ ทำให้นักเรียนมีสมาธิ |
-| **ข้อเสนอธุรกิจ** | ดึงความสนใจไปยังตัวเลขหรือไทม์ไลน์สำคัญ |
-| **ชุดสไลด์การตลาด** | สร้างการแสดงสินค้าที่ไดนามิกเพื่อสร้างความประทับใจให้ลูกค้า |
+| **สไลด์การศึกษา** | เน้นคำสำคัญทีละคำ เพื่อให้นักเรียนมีสมาธิ |
+| **ข้อเสนอธุรกิจ** | ดึงดูดความสนใจไปยังตัวเลขหรือเหตุการณ์สำคัญ |
+| **ชุดสไลด์การตลาด** | สร้างการนำเสนอผลิตภัณฑ์แบบไดนามิกที่ทำให้ลูกค้าประทับใจ |
 
-คุณยังสามารถผสานเทคนิคเหล่านี้กับการสร้างสไลด์จากข้อมูล (data‑driven) โดยดึงเนื้อหาจากฐานข้อมูลหรือไฟล์ CSV ได้อีกด้วย
+คุณยังสามารถผสานเทคนิคเหล่านี้กับการสร้างสไลด์แบบขับเคลื่อนด้วยข้อมูล, ป้อนเนื้อหาจากฐานข้อมูลหรือไฟล์ CSV
 
-## ข้อควรพิจารณาด้านประสิทธิภาพ
+## การพิจารณาประสิทธิภาพ
 - **ทำให้รูปทรงมีน้ำหนักเบา** – หลีกเลี่ยงเรขาคณิตที่ซับซ้อนเกินไป  
-- **ทำลาย Presentation** เมื่อเสร็จ (เช่น `presentation.dispose();`) เพื่อคืนหน่วยความจำ  
-- **ใช้การปรับแต่งในตัว** – Aspose.Slides มีเมธอด `presentation.getSlides().optimizeResources();` เพื่อลดการใช้หน่วยความจำ  
+- **ทำลายการนำเสนอ** เมื่อเสร็จ (เช่น `presentation.dispose();`) เพื่อคืนหน่วยความจำ  
+- **ใช้การปรับแต่งในตัว** – Aspose.Slides มีเมธอด `presentation.getSlides().optimizeResources();` เพื่อลดการใช้หน่วยความจำ
 
-## ปัญหาที่พบบ่อยและวิธีแก้ไข
-- **ข้อผิดพลาดเส้นทางไฟล์** – ตรวจสอบให้แน่ใจว่า `YOUR_DOCUMENT_DIRECTORY` มีอยู่และสามารถเขียนได้  
-- **ขาด dependencies** – ตรวจสอบให้แน่ใจว่า coordinate ของ Maven/Gradle ตรงกับเวอร์ชัน JDK ของคุณ  
-- **แอนิเมชันไม่แสดง** – ยืนยันว่า trigger type ของเอฟเฟกต์ตรงกับการตั้งค่าการเปลี่ยนสไลด์ของคุณ  
+## ปัญหาทั่วไปและวิธีแก้
+- **ข้อผิดพลาดของเส้นทางไฟล์** – ตรวจสอบว่า `YOUR_DOCUMENT_DIRECTORY` มีอยู่และสามารถเขียนได้  
+- **การพึ่งพาที่หายไป** – ตรวจสอบให้แน่ใจว่า coordinate ของ Maven/Gradle ตรงกับเวอร์ชัน JDK ของคุณ  
+- **แอนิเมชันไม่แสดง** – ยืนยันว่าประเภททริกเกอร์ของเอฟเฟกต์ตรงกับการตั้งค่าการเปลี่ยนสไลด์ของคุณ
 
 ## คำถามที่พบบ่อย
 
-**ถาม: Aspose.Slides for Java คืออะไร?**  
-ตอบ: เป็น API ที่ทรงพลังที่ช่วยให้นักพัฒนาสร้าง, แก้ไข, และแปลงไฟล์ PowerPoint ได้โดยไม่ต้องใช้ Microsoft Office  
+**Q: Aspose.Slides for Java คืออะไร?**  
+A: เป็น API ที่ทรงพลังที่ช่วยให้นักพัฒนาสร้าง, แก้ไข, และเรนเดอร์ไฟล์ PowerPoint ได้โดยไม่ต้องใช้ Microsoft Office
 
-**ถาม: จะทำให้ข้อความเคลื่อนไหวตามตัวอักษรด้วย Aspose.Slides อย่างไร?**  
-ตอบ: เรียก `setAnimateTextType(AnimateTextType.ByLetter)` บน `IEffect` ที่แนบกับรูปทรงที่มีข้อความ, แล้วปรับหน่วงเวลาด้วย `setDelayBetweenTextParts`  
+**Q: ฉันจะทำให้ข้อความเคลื่อนไหวตามตัวอักษรโดยใช้ Aspose.Slides อย่างไร?**  
+A: เรียก `setAnimateTextType(AnimateTextType.ByLetter)` บน `IEffect` ที่แนบกับรูปทรงที่มีข้อความ, แล้วปรับค่าหน่วงเวลาด้วย `setDelayBetweenTextParts`
 
-**ถาม: สามารถปรับแต่งเวลาการเคลื่อนไหวใน Aspose.Slides ได้หรือไม่?**  
-ตอบ: ได้, ใช้ `setDelayBetweenTextParts(float)` เพื่อกำหนดช่วงเวลาหน่วงระหว่างแต่ละอักขระ; ค่าติดลบทำให้ cascade ทันที, ค่าบวกทำให้ช้าลง  
+**Q: ฉันสามารถปรับแต่งเวลาการเคลื่อนไหวใน Aspose.Slides ได้หรือไม่?**  
+A: ได้, ใช้ `setDelayBetweenTextParts(float)` เพื่อกำหนดการหยุดระหว่างแต่ละอักขระ; ค่าติดลบทำให้เกิดการไหลต่อเนื่องทันที, ค่าบวกทำให้แอนิเมชันช้าลง
 
-**ถาม: จะเพิ่มรูปวงรีใน Java อย่างไร?**  
-ตอบ: ใช้ `addAutoShape(ShapeType.Ellipse, x, y, width, height)` บนคอลเลกชันรูปทรงของสไลด์, แล้วตั้งค่ากรอบข้อความของมัน  
+**Q: ฉันจะเพิ่มรูปวงรีใน Java อย่างไร?**  
+A: ใช้ `addAutoShape(ShapeType.Ellipse, x, y, width, height)` บนคอลเลกชันรูปทรงของสไลด์, แล้วตั้งค่า text frame ของมัน
 
-**ถาม: ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?**  
-ตอบ: จำเป็นต้องมีลิขสิทธิ์ที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์; เวอร์ชันทดลองฟรีเพียงพอสำหรับการพัฒนาและทดสอบ  
+**Q: ฉันต้องการใบอนุญาตสำหรับการใช้งานในผลิตภัณฑ์หรือไม่?**  
+A: จำเป็นต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์; การทดลองฟรีเพียงพอสำหรับการพัฒนาและทดสอบ
 
-**ถาม: จะบันทึกไฟล์เป็น PPTX อย่างไร?**  
-ตอบ: เรียก `presentation.save("output.pptx", SaveFormat.Pptx);` ตามตัวอย่างในโค้ด  
+**Q: ฉันจะบันทึกไฟล์เป็น PPTX อย่างไร?**  
+A: เรียก `presentation.save("output.pptx", SaveFormat.Pptx);` ตามที่แสดงในตัวอย่างโค้ด
 
 ## แหล่งข้อมูลเพิ่มเติม
-- [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
-- [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)  
-- [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
-- [Start Free Trial](https://releases.aspose.com/slides/java/)  
-- [Get Temporary License](https://purchase.aspose.com/)  
+- [อ้างอิง Aspose.Slides Java](https://reference.aspose.com/slides/java/)  
+- [การปล่อย Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- [ซื้อ Aspose.Slides](https://purchase.aspose.com/buy)  
+- [เริ่มทดลองใช้ฟรี](https://releases.aspose.com/slides/java/)  
 
 ---
 
-**อัปเดตล่าสุด:** 2026-06-13  
-**ทดสอบกับ:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**อัปเดตล่าสุด:** 2026-10-18  
+**ทดสอบด้วย:** Aspose.Slides 25.4 (JDK 16 classifier)  
 **ผู้เขียน:** Aspose
-
-{{< blocks/products/products-backtop-button >}}
 
 ## บทแนะนำที่เกี่ยวข้อง
 
-- [Aspose Slides Maven Dependency – Animate PowerPoint with Java](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
-- [Save PowerPoint with Animation Using Aspose.Slides for Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
-- [aspose slides maven - Master Advanced Slide Animations in Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
-
+- [การพึ่งพา Maven ของ Aspose Slides – ทำให้ PowerPoint เคลื่อนไหวด้วย Java](/slides/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/)
+- [บันทึก PowerPoint พร้อมแอนิเมชันโดยใช้ Aspose.Slides สำหรับ Java](/slides/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/)
+- [aspose slides maven - สร้างแอนิเมชันสไลด์ขั้นสูงใน Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
